@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+
+platform :ios, '10.0'
+
+target 'parknailert' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for parknailert
+  pod 'EstimoteProximitySDK', '~> 1.0'
+
+  target 'parknailert-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'parknailertTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'parknailert-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for parknailert-tvOS
+
+  #target 'parknailert-tvOSTests' do
+   # inherit! :search_paths
+    # Pods for testing
+  #end
+
+end

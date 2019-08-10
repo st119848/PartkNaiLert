@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="L34" size="10.000000 6.666667" />
+    <ImageTarget name="L33" size="10.000000 15.000000" />
+    <ImageTarget name="L32" size="10.000000 15.000000" />
+    <ImageTarget name="L31" size="10.000000 6.666667" />
+    <ImageTarget name="L30" size="10.000000 15.000000" />
+    <ImageTarget name="L29" size="10.000000 15.000000" />
+    <ImageTarget name="L28" size="10.000000 6.666667" />
+    <ImageTarget name="L27" size="10.000000 6.666667" />
+    <ImageTarget name="L25" size="10.000000 6.666667" />
+    <ImageTarget name="L24" size="10.000000 6.666667" />
+    <ImageTarget name="L23" size="10.000000 6.666667" />
+    <ImageTarget name="L22" size="10.000000 15.000000" />
+    <ImageTarget name="L21" size="10.000000 6.666667" />
+    <ImageTarget name="L20" size="10.000000 15.000000" />
+    <ImageTarget name="L19" size="10.000000 14.000000" />
+    <ImageTarget name="L18" size="10.000000 6.678832" />
+    <ImageTarget name="L17" size="10.000000 6.665039" />
+    <ImageTarget name="L16" size="10.000000 6.666667" />
+    <ImageTarget name="L15" size="10.000000 6.666667" />
+    <ImageTarget name="L14" size="10.000000 6.666667" />
+    <ImageTarget name="L13" size="10.000000 13.348314" />
+    <ImageTarget name="L12" size="10.000000 6.666667" />
+    <ImageTarget name="L11" size="10.000000 6.666667" />
+    <ImageTarget name="L10" size="10.000000 6.666667" />
+    <ImageTarget name="L09" size="10.000000 6.666667" />
+    <ImageTarget name="L08" size="10.000000 6.662354" />
+    <ImageTarget name="L07" size="10.000000 15.000000" />
+    <ImageTarget name="L06" size="10.000000 15.000000" />
+    <ImageTarget name="L05" size="10.000000 6.666667" />
+    <ImageTarget name="L04" size="10.000000 6.666667" />
+    <ImageTarget name="L03" size="10.000000 6.666667" />
+    <ImageTarget name="L02" size="10.000000 6.666667" />
+    <ImageTarget name="L01" size="10.000000 6.665039" />
+  </Tracking>
+</QCARConfig>

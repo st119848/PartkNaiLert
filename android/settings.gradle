@@ -1,0 +1,9 @@
+rootProject.name = 'parknailert'
+include ':react-native-gesture-handler'
+project(':react-native-gesture-handler').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-gesture-handler/android')
+include ':@estimote_react-native-proximity'
+project(':@estimote_react-native-proximity').projectDir = new File(rootProject.projectDir, '../node_modules/@estimote/react-native-proximity/android')
+include ':react-native-splash-screen'
+project(':react-native-splash-screen').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-splash-screen/android')
+
+include ':app'
