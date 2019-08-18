@@ -19,7 +19,7 @@ import { settingLanguage } from "../reducers/actions/setting";
     const isSelectLanguage = await AsyncStorage.getItem('selectLanguage')
     console.log("isSelectLanguage: ",isSelectLanguage)
     this.props.settingLanguage(isSelectLanguage)
-    this.props.navigation.navigate(isSelectLanguage ? 'App' : 'Auth')
+    this.props.navigation.navigate('Main')
   }
 
   render() {

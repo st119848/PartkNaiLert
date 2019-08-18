@@ -20,8 +20,7 @@ const th = [
     {
         tag: "Parknailert", 
         name: "No.09", 
-        identifier: "ad4f99b1a301e5f02249cb08af9fbf38", 
-        value: "th",
+        identifier: "ad4f99b1a301e5f02249cb08af9fbf38",
         value: "th", 
         imageTitle: 'http://nailertparkheritagehome.com/cache/widgetkit/gallery/40/home10-9a920b78cb.jpg',
         images: [
@@ -38,8 +37,7 @@ const th = [
     {
         tag: "Parknailert", 
         name: "No.35", 
-        identifier: "3959255cc75444cd3f86dec67cfc4e2f", 
-        value: "th",
+        identifier: "3959255cc75444cd3f86dec67cfc4e2f",
         value: "th", 
         imageTitle: 'http://nailertparkheritagehome.com/cache/widgetkit/gallery/40/home10-9a920b78cb.jpg',
         images: [
@@ -76,8 +74,7 @@ const en = [
     {
         tag: "Parknailert", 
         name: "No.09", 
-        identifier: "ad4f99b1a301e5f02249cb08af9fbf38", 
-        value: "en",
+        identifier: "ad4f99b1a301e5f02249cb08af9fbf38",
         value: "en", 
         imageTitle: 'http://nailertparkheritagehome.com/cache/widgetkit/gallery/40/home10-9a920b78cb.jpg',
         images: [
@@ -94,8 +91,7 @@ const en = [
     {
         tag: "Parknailert", 
         name: "No.35", 
-        identifier: "3959255cc75444cd3f86dec67cfc4e2f", 
-        value: "en",
+        identifier: "3959255cc75444cd3f86dec67cfc4e2f",
         value: "en", 
         imageTitle: 'http://nailertparkheritagehome.com/cache/widgetkit/gallery/40/home10-9a920b78cb.jpg',
         images: [

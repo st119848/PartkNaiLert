@@ -9,7 +9,7 @@ export default class HeadLeft extends React.Component {
            <View style={{ paddingHorizontal: 10 }}>
              <Icon name="md-menu" size={24} />
            </View>
-         </TouchableOpacity>
+      </TouchableOpacity>
     );
   }
 }
