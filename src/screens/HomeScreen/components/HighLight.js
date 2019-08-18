@@ -64,7 +64,7 @@ const ItemImage = props => {
     const {source} = props
     return (
         <View style={styles.itemImageContainer}>
-            <Image style={styles.itemImage} source={{url: source}} />
+            <Image style={styles.itemImage} source={{uri: source}} />
         </View>
     )
 };
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
         width: '32%',
     },
     itemImage: {
-        width: '100%',
+        width: 90,
         height: 90,
     }
 });

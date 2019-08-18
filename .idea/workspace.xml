@@ -6,115 +6,713 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_persistence_db_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_persistence_db_framework_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_persistence_room_runtime_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_persistence_room_rxjava2_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_23_4_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_appcompat_v7_23_4_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_annotations_23_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_v4_23_4_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_vector_drawable_23_4_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/ar_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/garden_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/room_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BannerButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BeaconStatusIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderLogo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Icon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IconButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LangButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LangIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/naivigator/AppNavigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/naivigator/MainNavigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContactUsScreens/ContactUsScreens.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContactUsScreens/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContentDetailScreen/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContentListScreen/components/ARButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ContentListScreen/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/FindUsScreen/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/ARButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/Banner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/BeaconsStatus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/Description.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen/screens/SetLanguageScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen/screens/SetPageScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/IntroductionScreen/IntroductionScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/IntroductionScreen/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ParkNaiLertScreen/ParkNaiLertScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ParkNaiLertScreen/index.js" afterDir="false" />
+    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(app): mock UI all pages">
+      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_proximity_sdk_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_proximity_sdk_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_fbcore_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_fbcore_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_react_react_native_0_60_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_react_react_native_0_60_4_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/parknailert.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/parknailert.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/parknailert/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/javaCompile/taskJars.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/javaCompile/.classAnalysis.bin.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/javaCompile/classAnalysis 2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/workspace-id.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/workspace-id.txt.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/caches/gradle_models.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle___VuforiaWrapper__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle____local_aars____Users_sumetma_in_Documents_Projects_parknailert_android_UnityExport_libs_unity_classes_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_android_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_android_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_android_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_persistence_db_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_persistence_db_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_persistence_db_framework_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_persistence_db_framework_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_persistence_room_common_1_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_persistence_room_runtime_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_persistence_room_runtime_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_persistence_room_rxjava2_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__android_arch_persistence_room_rxjava2_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_room_room_common_2_0_0_rc01_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_room_room_runtime_2_0_0_rc01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_room_room_rxjava2_2_0_0_rc01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_0_rc01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_0_rc01_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_23_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_appcompat_v7_23_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_annotations_23_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_v4_23_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_vector_drawable_23_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_analytics_plugin_0_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_analytics_plugin_0_5_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_cloud_plugin_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_cloud_plugin_1_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_internal_plugins_api_0_22_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_internal_plugins_api_0_22_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_ketchup_0_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_ketchup_0_5_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_proximity_sdk_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_proximity_sdk_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_repository_plugin_0_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_repository_plugin_0_5_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_scanning_plugin_0_22_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_estimote_scanning_plugin_0_22_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_drawee_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_drawee_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_fbcore_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_fbcore_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_fresco_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_fresco_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_base_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_base_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_okhttp3_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_okhttp3_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_nativeimagefilters_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_fresco_nativeimagetranscoder_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_infer_annotation_infer_annotation_0_11_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_react_react_native_0_57_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_react_react_native_0_60_4_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_soloader_soloader_0_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_facebook_soloader_soloader_0_6_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_code_gson_gson_2_7_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_dagger_dagger_2_11_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_jakewharton_retrofit_retrofit2_rxjava2_adapter_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_parse_bolts_bolts_tasks_1_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_3_8_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_11_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_12_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_urlconnection_3_11_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_urlconnection_3_12_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_wojtek_wawerek_skald_kotlin_0_3_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_wojtek_wawerek_skald_logcat_plugin_0_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_wojtek_wawerek_skald_logcat_plugin_0_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_1_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_51_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_2_51_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_51_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jre7_1_2_31_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_webkit_android_jsc_r174650.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/UnityExport.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/generated/not_namespaced_r_class_sources/release/generateReleaseRFile/out/com/unity3d/player/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/generated/source/buildConfig/debug/com/unity3d/player/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/generated/source/buildConfig/release/com/unity3d/player/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/annotation_processor_list/release/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/compile_only_not_namespaced_r_class_jar/release/generateReleaseRFile/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/full_jar/debug/createFullJarDebug/full.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/full_jar/release/createFullJarRelease/full.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/intermediate-jars/debug/jni/armeabi-v7a/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/intermediate-jars/debug/jni/x86/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/intermediate-jars/release/jni/armeabi-v7a/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/intermediate-jars/release/jni/x86/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/parknailert/AR/UnityPlayerActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/unity3d/player/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/parknailert/AR/UnityPlayerActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/unity3d/player/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/jniLibs/debug/armeabi-v7a/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/jniLibs/debug/x86/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/jniLibs/release/armeabi-v7a/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/jniLibs/release/x86/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libmain.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_and_local_jars_jni/debug/armeabi-v7a/libunity.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_and_local_jars_jni/debug/x86/libmain.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_and_local_jars_jni/debug/x86/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_and_local_jars_jni/debug/x86/libunity.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_and_local_jars_jni/release/armeabi-v7a/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_and_local_jars_jni/release/x86/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/D_ParkNaiLert_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/D_ParkNaiLert_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/D_ParkNaiLert_v1_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/D_ParkNaiLert_v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/D_ParkNaiLert_v1_0_set_G.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/D_ParkNaiLert_v1_0_set_G.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/D_ParkNaiLert_v1_0_set_L.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/D_ParkNaiLert_v1_0_set_L.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/VuforiaMars_Images.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/VuforiaMars_Images.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/VuforiaMars_ModelTarget.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/VuforiaMars_ModelTarget.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/VuforiaMars_Object_OT.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/VuforiaMars_Object_OT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/VuforiaMars_VuMark.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/Vuforia/VuforiaMars_VuMark.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/Managed/UnityEngine.Analytics.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/Managed/UnityEngine.CloudWebServicesModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/Managed/UnityEngine.FacebookModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/Managed/UnityEngine.ParticlesLegacyModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/Managed/UnityEngine.StandardEvents.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/Managed/UnityEngine.WebModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/f5581066dc1174344b37b1ea73287306" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split101" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split102" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split103" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split104" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split105" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split48" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split65" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split66" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split67" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split68" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split79" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split81" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split82" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split85" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split88" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split91" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split92" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split94" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split95" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/debug/packageDebugAssets/out/bin/Data/sharedassets0.assets.split99" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/D_ParkNaiLert_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/D_ParkNaiLert_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/D_ParkNaiLert_v1_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/D_ParkNaiLert_v1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/D_ParkNaiLert_v1_0_set_G.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/D_ParkNaiLert_v1_0_set_G.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/D_ParkNaiLert_v1_0_set_L.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/D_ParkNaiLert_v1_0_set_L.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/VuforiaMars_Images.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/VuforiaMars_Images.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/VuforiaMars_ModelTarget.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/VuforiaMars_ModelTarget.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/VuforiaMars_Object_OT.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/VuforiaMars_Object_OT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/VuforiaMars_VuMark.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/Vuforia/VuforiaMars_VuMark.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/Managed/UnityEngine.Analytics.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/Managed/UnityEngine.CloudWebServicesModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/Managed/UnityEngine.FacebookModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/Managed/UnityEngine.ParticlesLegacyModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/Managed/UnityEngine.StandardEvents.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/Managed/UnityEngine.WebModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/f5581066dc1174344b37b1ea73287306" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split101" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split102" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split103" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split104" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split105" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split48" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split65" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split66" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split67" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split68" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split79" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split81" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split82" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split85" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split88" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split91" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split92" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split94" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split95" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_assets/release/packageReleaseAssets/out/bin/Data/sharedassets0.assets.split99" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/library_manifest/release/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/merged_manifests/release/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/packaged-classes/debug/libs/unity-classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/packaged_res/debug/drawable-mdpi-v4/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/packaged_res/release/drawable-mdpi-v4/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/res/compiled/release/drawable-mdpi-v4_app_icon.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/res/merged/release/drawable-mdpi-v4/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi-v7a/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/intermediates/transforms/mergeJniLibs/release/0/lib/x86/libmono.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/UnityExport/build/outputs/aar/UnityExport-debug.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/my-release-key.keystore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/AntDesign.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Entypo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/EvilIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Feather.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome5_Brands.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome5_Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/FontAwesome5_Solid.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Foundation.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/MaterialIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Octicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Roboto.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Roboto_medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/Zocial.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/fonts/rubicon-icon-font.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/parknailert/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/parknailert/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/parknailert/SplashActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable/background_splash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/layout/launch_screen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/keystores/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/keystores/debug.keystore.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/parknailert.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/EstimoteBluetoothScanning" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoEstimoteEncrypted.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoEstimoteLocation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoEstimoteMesh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoEstimoteTelemetry.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoEstimoteTelemetryA.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoEstimoteTelemetryB.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoEstimoteUtilities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoGeneric.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoIBeacon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoIBeaconWithService.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoLTEConnectivity.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoLocationConnectivity.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoMirrorConnectivity.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoNearable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoProximityConnectivity.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSScanInfoUWB.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EBSUniversalScanner.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Headers/EstimoteBluetoothScanning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteBluetoothScanning/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/EstimoteProximitySDK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Headers/EPXCloudCredentials.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Headers/EPXProximityObserver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Headers/EPXProximityObserverConfiguration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Headers/EPXProximityRange.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Headers/EPXProximityZone.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Headers/EPXProximityZoneContext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Headers/EstimoteProximitySDK-Swift.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Headers/EstimoteProximitySDK.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Modules/EstimoteProximitySDK.swiftmodule/arm.swiftdoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Modules/EstimoteProximitySDK.swiftmodule/arm.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Modules/EstimoteProximitySDK.swiftmodule/arm64.swiftdoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Modules/EstimoteProximitySDK.swiftmodule/arm64.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Modules/EstimoteProximitySDK.swiftmodule/armv7.swiftdoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Modules/EstimoteProximitySDK.swiftmodule/armv7.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Modules/EstimoteProximitySDK.swiftmodule/i386.swiftdoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Modules/EstimoteProximitySDK.swiftmodule/i386.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Modules/EstimoteProximitySDK.swiftmodule/x86_64.swiftdoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Modules/EstimoteProximitySDK.swiftmodule/x86_64.swiftmodule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/AnalyticsTrackEventAdapter_Bridge.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXAnalyticsRepository.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXAnalyticsSink.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXAnalyticsTimerFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXAnalyticsTrackEvent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXAnalyticsTrackEventsEntity.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXAnalyticsTrackEventsUploader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXCachedAnalyticsSink.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXEncryptedFramesRelay.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXEncryptedFramesRelayInternal_Bridge.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXGenericErrorFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXPersistentAnalyticsRepository.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXProximityObserverConfiguration+Internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXProximityZoneEngine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXProximityZoneStateChangeObserver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXSQLiteCreator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXSQLiteTableInspector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EPXTimerAnalyticsHeartbeatGenerator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/EstimoteProximitySDKPrivate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/FMDB.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/FMDatabaseAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/FMDatabasePool_EPX.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/FMDatabaseQueue_EPX.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/FMDatabase_EPX.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework/PrivateHeaders/FMResultSet_EPX.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/EstimoteProximitySDK/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Manifest.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/sumetma-in.xcuserdatad/xcschemes/EstimoteBluetoothScanning.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/sumetma-in.xcuserdatad/xcschemes/EstimoteProximitySDK.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/sumetma-in.xcuserdatad/xcschemes/Pods-parknailert-tvOS.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/sumetma-in.xcuserdatad/xcschemes/Pods-parknailert-tvOSTests.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/sumetma-in.xcuserdatad/xcschemes/Pods-parknailert.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/sumetma-in.xcuserdatad/xcschemes/Pods-parknailertTests.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/sumetma-in.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/EstimoteBluetoothScanning/EstimoteBluetoothScanning.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/EstimoteProximitySDK/EstimoteProximitySDK.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert-tvOS/Pods-parknailert-tvOS-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert-tvOS/Pods-parknailert-tvOS-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert-tvOS/Pods-parknailert-tvOS-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert-tvOS/Pods-parknailert-tvOS.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert-tvOS/Pods-parknailert-tvOS.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert-tvOSTests/Pods-parknailert-tvOSTests-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert-tvOSTests/Pods-parknailert-tvOSTests-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert-tvOSTests/Pods-parknailert-tvOSTests-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert-tvOSTests/Pods-parknailert-tvOSTests.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert-tvOSTests/Pods-parknailert-tvOSTests.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert/Pods-parknailert-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert/Pods-parknailert-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert/Pods-parknailert-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert/Pods-parknailert-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert/Pods-parknailert.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailert/Pods-parknailert.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailertTests/Pods-parknailertTests-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailertTests/Pods-parknailertTests-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailertTests/Pods-parknailertTests-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailertTests/Pods-parknailertTests.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-parknailertTests/Pods-parknailertTests.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert-tvOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert-tvOSTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.xcworkspace/xcuserdata/ton.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/xcshareddata/xcschemes/parknailert-tvOS.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/xcshareddata/xcschemes/parknailert.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/xcuserdata/sumetma-in.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/xcuserdata/ton.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcworkspace/xcuserdata/sumetma-in.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcworkspace/xcuserdata/ton.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert/Base.lproj/LaunchScreen.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert/Images.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert/Images.xcassets/SplashIcon.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert/Images.xcassets/SplashIcon.imageset/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert/Images.xcassets/SplashIcon.imageset/icon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert/Images.xcassets/SplashIcon.imageset/icon@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailertTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailertTests/parknailertTests.m" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/headbar/HeadLeft.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/headbar/HeadLeft.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/beacon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/beacon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/naivigator/DrawerNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/naivigator/DrawerNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/SetLanguageScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_screens/SetLanguageScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Signin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_screens/Signin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/contacUS/ContacSreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_screens/contacUS/ContacSreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/findUS/FindUS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_screens/findUS/FindUS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/home/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_screens/home/HomeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/home/OutScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_screens/home/OutScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/home/beacon/BeaconDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_screens/home/beacon/BeaconDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/home/beacon/BeaconList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_screens/home/beacon/BeaconList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/home/beacon/Beacons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_screens/home/beacon/Beacons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/home/highlight/IntroHighlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_screens/home/highlight/IntroHighlight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/home/highlight/MoreHighlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_screens/home/highlight/MoreHighlight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/home/highlight/MuseumHighlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_screens/home/highlight/MuseumHighlight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/introDuction/IntroDuction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_screens/introDuction/IntroDuction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,42 +722,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/screens/SetPageScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="119" column="24" selection-start-line="118" selection-start-column="4" selection-end-line="123" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/ContactUsScreens/ContactUsScreens.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -173,22 +735,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/Banner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="61" column="99" selection-start-line="61" selection-start-column="99" selection-end-line="61" selection-end-column="99" />
+            <state relative-caret-position="345">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -197,15 +747,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/Description.js">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+            <state relative-caret-position="86">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="66" column="56" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="56" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#201#244#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/babel.config.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/metro.config.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -215,30 +814,6 @@
               <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/IntroductionScreen/IntroductionScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ParkNaiLertScreen/ParkNaiLertScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="22" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -259,6 +834,9 @@
       <find>red</find>
       <find>icon</find>
       <find>pagination.</find>
+      <find>react-native-gesture-handler</find>
+      <find>SplashScreen</find>
+      <find>{url</find>
     </findStrings>
     <replaceStrings>
       <replace>white</replace>
@@ -278,10 +856,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/headbar/HeadLeft.js" />
-        <option value="$PROJECT_DIR$/src/components/LangButton.js" />
-        <option value="$PROJECT_DIR$/src/screens2/HomeScreen.js" />
-        <option value="$PROJECT_DIR$/src/screens2/HomeScreen/index.js" />
         <option value="$PROJECT_DIR$/src/screens2/HomeScreen/components/HightLight.js" />
         <option value="$PROJECT_DIR$/src/screens2/HomeScreen/components/Description.js" />
         <option value="$PROJECT_DIR$/src/components/BannerButton.js" />
@@ -329,6 +903,10 @@
         <option value="$PROJECT_DIR$/src/screens/ContactUsScreens/ContactUsScreens.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/Banner.js" />
+        <option value="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" />
+        <option value="$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js" />
       </list>
     </option>
   </component>
@@ -357,74 +935,7 @@
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_screens" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="naivigator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="ContactUsScreens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="ContentDetailScreen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="ContentDetailScreen" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="ContentListScreen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="FindUsScreen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
@@ -440,20 +951,6 @@
               <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="HomeScreen" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="IntroductionScreen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="ParkNaiLertScreen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
@@ -565,18 +1062,26 @@
       <workItem from="1565420415798" duration="3450000" />
       <workItem from="1565438661994" duration="5731000" />
       <workItem from="1565623527100" duration="41838000" />
-      <workItem from="1565965151251" duration="36527000" />
+      <workItem from="1565965151251" duration="42099000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(app): mock UI all pages">
+      <created>1566134031143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566134031143</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87686000" />
+    <option name="totallyTimeSpent" value="93258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21338156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21338156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Captures" order="3" weight="0.25" />
@@ -590,7 +1095,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -657,35 +1162,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(app): mock UI all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(app): mock UI all pages" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/naivigator/AppNavigator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens2/ListScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -717,17 +1198,6 @@
           <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#201#244#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -780,16 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1018,17 +1478,7 @@
     <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/Description.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
-          <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1048,7 +1498,7 @@
     <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
-          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -1077,8 +1527,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/Banner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="61" column="99" selection-start-line="61" selection-start-column="99" selection-end-line="61" selection-end-column="99" />
+        <state relative-caret-position="345">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metro.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#201#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="66" column="56" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

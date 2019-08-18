@@ -1,6 +1,6 @@
 import React from 'react'
 import { ActivityIndicator, AsyncStorage, View } from 'react-native'
-import SplashScreen from 'react-native-splash-screen'
+// import SplashScreen from 'react-native-splash-screen'
 // import BeaconScan from '../../tools/BeaconScan'
 
 import { bindActionCreators } from "redux";
@@ -13,7 +13,7 @@ import { settingLanguage } from "../reducers/actions/setting";
     this._LoadApp()
   }
   componentDidMount(){
-    SplashScreen.hide()
+    // SplashScreen.hide()
   }
   _LoadApp = async () => {
     const isSelectLanguage = await AsyncStorage.getItem('selectLanguage')

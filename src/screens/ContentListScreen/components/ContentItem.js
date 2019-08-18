@@ -11,7 +11,7 @@ const ContentItem = props => {
     const {imageUrl} = props;
     return (
         <View style={styles.container}>
-            <ImageBackground source={{url: imageUrl}} style={styles.imageContainer}>
+            <ImageBackground source={{uri: imageUrl}} style={styles.imageContainer}>
                 <Detail {...props}/>
             </ImageBackground>
         </View>
