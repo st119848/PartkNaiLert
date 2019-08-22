@@ -21,7 +21,6 @@ class ContentListScreen extends Component {
     };
 
     handleItemShowMoreClick = (id) => {
-        console.log('content id', id)
         const {navigation} = this.props;
         navigation.navigate('Detail');
     }
