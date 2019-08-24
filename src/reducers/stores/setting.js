@@ -7,9 +7,9 @@ const initialStste = {
 language : "th",
 beaconActive: false,
 beaconInfo: [],
-}
+};
 
-export default setting = (state = initialStste, action) => {
+export default (state = initialStste, action) => {
   switch (action.type) {
     case SETTING_LANGUAGE:
       return {

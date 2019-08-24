@@ -21,11 +21,11 @@ const Banner = props => {
 export default Banner;
 
 const Header = props => {
-    const {onSetPageClick, onSetLangClick} = props
+    const {language, onSetPageClick, onSetLangClick} = props
     return (
         <View style={styles.headerContainer}>
             <HamburgerButton onPress={onSetPageClick}/>
-            <LangButton onPress={onSetLangClick} />
+            <LangButton lang={language} onPress={onSetLangClick} />
         </View>
     )
 };

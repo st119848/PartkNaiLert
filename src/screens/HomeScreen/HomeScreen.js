@@ -45,6 +45,12 @@ export default class HomeScreen extends Component {
         navigation.navigate(page);
     };
 
+    handleChangeLang = (lang) => {
+        const {settingLanguage} = this.props;
+        settingLanguage(lang);
+        this.handleCloseModal();
+    };
+
     handleIntroClick = () => {
         const {navigation} = this.props;
         navigation.navigate('Intro');
@@ -63,10 +69,12 @@ export default class HomeScreen extends Component {
     };
 
     render() {
+        const {language} = this.props;
         const {isShowSetLang, isShowSetPage} = this.state;
         return (
             <View style={styles.container}>
                 <Banner
+                    language={language}
                     onSetPageClick={this.handleHamburgerClick}
                     onSetLangClick={this.handleLangButtonClick}
                     onIntroClick={this.handleIntroClick}
@@ -81,7 +89,12 @@ export default class HomeScreen extends Component {
                     onClose={this.handleCloseModal}
                     onChangePage={this.handleChangePage}
                 />
-                <SetLanguageScreen visible={isShowSetPage} onClose={this.handleCloseModal} />
+                <SetLanguageScreen
+                    visible={isShowSetPage}
+                    activeLang={language}
+                    onClose={this.handleCloseModal}
+                    onChangeLang={this.handleChangeLang}
+                />
             </View>
         )
     }

@@ -3,7 +3,6 @@ import { ActivityIndicator, AsyncStorage, View } from 'react-native'
 // import SplashScreen from 'react-native-splash-screen'
 // import BeaconScan from '../../tools/BeaconScan'
 
-import { bindActionCreators } from "redux";
 import { connect } from 'react-redux'
 import { settingLanguage } from "../reducers/actions/setting";
 
@@ -16,11 +15,12 @@ import { settingLanguage } from "../reducers/actions/setting";
     // SplashScreen.hide()
   }
   _LoadApp = async () => {
-    const isSelectLanguage = await AsyncStorage.getItem('selectLanguage')
-    console.log("isSelectLanguage: ",isSelectLanguage)
-    this.props.settingLanguage(isSelectLanguage)
-    this.props.navigation.navigate('Main')
-  }
+      const selectedLanguage = await AsyncStorage.getItem('selectedLanguage');
+      if(selectedLanguage && (selectedLanguage !== null)) {
+          this.props.settingLanguage(selectedLanguage)
+      }
+      this.props.navigation.navigate('Main')
+  };
 
   render() {
     return (
@@ -33,9 +33,11 @@ import { settingLanguage } from "../reducers/actions/setting";
 }
 
 
-const mapDispatchToProps = (dispatch) => bindActionCreators({
-  settingLanguage,
-}, dispatch)
+const mapDispatchToProps = (dispatch) => {
+    return {
+        settingLanguage: (lang) => dispatch(settingLanguage(lang))
+    }
+};
 
 const mapStateToProps = (state) => {
   return {

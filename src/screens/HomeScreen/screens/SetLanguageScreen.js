@@ -11,7 +11,7 @@ import Icon from "../../../components/Icon";
 import LangIcon from "../../../components/LangIcon";
 
 const SetLanguageScreen = props => {
-    const {visible, onClose} = props;
+    const {visible, activeLang, onClose, onChangeLang} = props;
     return (
         <Modal animationType="fade"
                transparent
@@ -20,7 +20,7 @@ const SetLanguageScreen = props => {
         >
             <SafeAreaView style={styles.container}>
                 <Header onCloseClick={onClose}/>
-                <PageList />
+                <PageList activeLang={activeLang} onChangeLang={onChangeLang} />
             </SafeAreaView>
         </Modal>
 
@@ -40,7 +40,7 @@ const Header = props => {
     )
 };
 
-const PageList = () => {
+const PageList = ({activeLang, onChangeLang}) => {
     const pageList = [
         {
             lang: 'en',
@@ -61,14 +61,18 @@ const PageList = () => {
     ];
     return (
         <View style={styles.pageListContainer}>
-            {pageList.map((item, index) => (
-                <TouchableOpacity key={index}>
-                    <View style={styles.pageItemContainer} >
-                        <LangIcon lang={item.lang} />
-                        <Text style={styles.pageItemText}>{item.label}</Text>
-                    </View>
-                </TouchableOpacity>
-            ))}
+            {pageList.map((item, index) => {
+                const handleClickItem = () => onChangeLang(item.lang);
+                const isActiveLang = (activeLang === item.lang);
+                return (
+                    <TouchableOpacity key={index} onPress={handleClickItem}>
+                        <View style={styles.pageItemContainer} >
+                            <LangIcon lang={item.lang} />
+                            <Text style={[styles.pageItemText, isActiveLang && styles.pageItemActiveText]}>{item.label}</Text>
+                        </View>
+                    </TouchableOpacity>
+                )
+            })}
         </View>
     );
 };
@@ -108,5 +112,8 @@ const styles = StyleSheet.create({
         letterSpacing: 0.5,
         marginLeft: 10
     },
+    pageItemActiveText: {
+        color: 'rgb(205, 94, 90)'
+    }
 
 });
