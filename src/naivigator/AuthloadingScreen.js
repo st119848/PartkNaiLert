@@ -1,5 +1,6 @@
 import React from 'react'
-import { ActivityIndicator, AsyncStorage, View } from 'react-native'
+import { ActivityIndicator, View } from 'react-native';
+import AsyncStorage from '@react-native-community/async-storage';
 // import SplashScreen from 'react-native-splash-screen'
 // import BeaconScan from '../../tools/BeaconScan'
 
