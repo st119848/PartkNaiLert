@@ -8,10 +8,10 @@ import {
 } from 'react-native';
 
 const ContentItem = props => {
-    const {imageUrl} = props;
+    const {coverImage} = props;
     return (
         <View style={styles.container}>
-            <ImageBackground source={{uri: imageUrl}} style={styles.imageContainer}>
+            <ImageBackground source={{uri: coverImage}} style={styles.imageContainer}>
                 <Detail {...props}/>
             </ImageBackground>
         </View>
@@ -63,6 +63,7 @@ const styles = StyleSheet.create({
     detailContainer: {
         height: 80,
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        paddingVertical: 5,
         marginBottom: 10,
         marginHorizontal: -10,
         position: 'absolute',

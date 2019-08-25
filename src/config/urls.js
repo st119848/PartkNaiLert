@@ -5,7 +5,8 @@ const domain = 'http://nailert-api.topwork.asia/';
 const url =  {
     domain: domain,
     museumContent: {
-        imageSlider: `${apiUrl}get-slide`
+        imageSlider: `${apiUrl}get-slide`,
+        highlightList: `${apiUrl}get-highlight-list`,
     }
 };
 

@@ -5,8 +5,11 @@ import {
     Text,
     TouchableOpacity,
     Image,
-    ScrollView
+    ScrollView,
+    Dimensions,
 } from 'react-native';
+
+const {width} = Dimensions.get('window');
 
 const HighLight = props => {
     return (
@@ -49,7 +52,7 @@ const MoreButton = props => {
 const ItemsList = props => {
     const {imagesHighlight=[]} = props;
     return (
-        <ScrollView horizontal style={styles.itemListContainer}>
+        <ScrollView horizontal contentContainerStyle={{paddingRight: 20}} style={styles.itemListContainer}>
             {imagesHighlight.map((item, index) => item.path && (
                 <ItemImage source={item.path} key={index}/>
             ))}
@@ -101,7 +104,7 @@ const styles = StyleSheet.create({
         paddingBottom: 15,
     },
     itemImageContainer: {
-        width: 120,
+        width: width/3,
         height: 90,
         marginRight: 10,
     },

@@ -1,1 +1,1 @@
-export {default} from './ContentListScreen'
+export {default} from './content_list_container'
