@@ -7,6 +7,9 @@ const url =  {
     museumContent: {
         imageSlider: `${apiUrl}get-slide`,
         highlightList: `${apiUrl}get-highlight-list`,
+    },
+    aboutUs: {
+        intro: `${apiUrl}about-us/show-introduction`
     }
 };
 

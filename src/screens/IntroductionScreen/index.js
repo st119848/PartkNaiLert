@@ -1,1 +1,1 @@
-export {default} from './IntroductionScreen'
+export {default} from './introduction_container'
