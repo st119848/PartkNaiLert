@@ -68,8 +68,13 @@ export default class HomeScreen extends Component {
         })
     };
 
+    componentDidMount() {
+        const {getImageSlidersFromApi} = this.props;
+        getImageSlidersFromApi();
+    }
+
     render() {
-        const {language} = this.props;
+        const {language, imagesHighlight} = this.props;
         const {isShowSetLang, isShowSetPage} = this.state;
         return (
             <View style={styles.container}>
@@ -80,7 +85,7 @@ export default class HomeScreen extends Component {
                     onIntroClick={this.handleIntroClick}
                     onFindClick={this.handleGuidesClick}
                 />
-                <HighLight onMoreItemClick={this.handleMoreItemClick} />
+                <HighLight imagesHighlight={imagesHighlight} onMoreItemClick={this.handleMoreItemClick} />
                 <Description />
                 <BeaconsStatus />
                 <ARButton />

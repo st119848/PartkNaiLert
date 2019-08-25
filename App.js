@@ -1,18 +1,21 @@
 import React, { Component } from "react";
 import { Provider } from 'react-redux'
-import { createStore, applyMiddleware } from 'redux'
+import { createStore, applyMiddleware, compose } from 'redux'
 import rootReducer from './src/reducers/stores'
 import thunk from "redux-thunk";
 import AppNavigator from "./src/naivigator/AppNavigator";
 
-const store = createStore(
-  rootReducer,
-  applyMiddleware(
-    // createLogger(),
-    thunk
-  )
+const composeEnhancers =
+    typeof window === 'object' &&
+    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ?
+        window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({
+        }) : compose;
+
+const enhancer = composeEnhancers(
+    applyMiddleware(thunk),
 );
 
+const store = createStore(rootReducer, enhancer);
 
 export default class App extends Component {
   render() {

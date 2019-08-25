@@ -47,11 +47,11 @@ const PageList = ({activeLang, onChangeLang}) => {
             label: 'English'
         },
         {
-            lang: 'cn',
+            lang: 'zh',
             label: '中文'
         },
         {
-            lang: 'jp',
+            lang: 'ja',
             label: '日本'
         },
         {

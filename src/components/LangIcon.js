@@ -13,9 +13,9 @@ const LangIcon = (props) => {
     const {onPress, lang='en'} = props;
     const iconsMap = {
         th: thIcon,
-        cn: cnIcon,
+        zh: cnIcon,
         en: enIcon,
-        jp: jpIcon
+        ja: jpIcon
     };
     const icon = iconsMap[lang];
     return (

@@ -4,14 +4,15 @@ import {
     View,
     Text,
     TouchableOpacity,
-    Image
+    Image,
+    ScrollView
 } from 'react-native';
 
 const HighLight = props => {
     return (
         <View style={styles.container}>
             <Header {...props} />
-            <ItemsList/>
+            <ItemsList {...props}/>
         </View>
     )
 };
@@ -45,18 +46,14 @@ const MoreButton = props => {
     )
 };
 
-const ItemsList = () => {
-    const mockItemImages = [
-        'http://128.199.204.164:8000/public/images/149a61a1-757a-487b-864e-473cbf9cc29e.jpg',
-        'http://128.199.204.164:8000/public/images/0332f9f6.jpg',
-        'http://128.199.204.164:8000/public/images/63c3b437.jpg'
-    ];
+const ItemsList = props => {
+    const {imagesHighlight=[]} = props;
     return (
-        <View style={styles.itemListContainer}>
-            {mockItemImages.map((item, index) => (
-                <ItemImage source={item} key={index}/>
+        <ScrollView horizontal style={styles.itemListContainer}>
+            {imagesHighlight.map((item, index) => item.path && (
+                <ItemImage source={item.path} key={index}/>
             ))}
-        </View>
+        </ScrollView>
     )
 };
 
@@ -99,15 +96,17 @@ const styles = StyleSheet.create({
         color: 'rgb(125, 105 , 87)',
     },
     itemListContainer: {
+        width: '100%',
         paddingHorizontal: 15,
-        flexDirection: 'row',
-        justifyContent: 'space-between'
+        paddingBottom: 15,
     },
     itemImageContainer: {
-        width: '32%',
+        width: 120,
+        height: 90,
+        marginRight: 10,
     },
     itemImage: {
-        width: 90,
-        height: 90,
+        width: '100%',
+        height: '100%',
     }
 });
