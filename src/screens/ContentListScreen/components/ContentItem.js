@@ -21,11 +21,12 @@ const ContentItem = props => {
 export default ContentItem;
 
 const Detail = props => {
-    const {title, onSeeMoreClick} = props;
+    const {id, title, onSeeMoreClick} = props;
+    const handleSeeMoreClick = () => onSeeMoreClick(id);
     return (
         <View style={styles.detailContainer}>
             <Title title={title} />
-            <ShowMoreButton onPress={onSeeMoreClick} />
+            <ShowMoreButton onPress={handleSeeMoreClick} />
         </View>
     );
 };

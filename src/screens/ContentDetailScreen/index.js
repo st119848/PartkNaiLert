@@ -1,1 +1,1 @@
-export {default} from './ContentDetailScreen'
+export {default} from './content_detail_container'

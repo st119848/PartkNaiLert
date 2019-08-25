@@ -20,8 +20,9 @@ class ContentListScreen extends Component {
         headerTintColor: 'rgb(125, 105 , 87)'
     };
 
-    handleItemShowMoreClick = (id) => {
-        const {navigation} = this.props;
+    handleItemShowMoreClick = async (id) => {
+        const {navigation, setActiveHighlightItem} = this.props;
+        await setActiveHighlightItem(id);
         navigation.navigate('Detail');
     };
 

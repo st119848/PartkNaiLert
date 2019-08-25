@@ -4,7 +4,7 @@ import {
     GETTING_IMAGE_SLIDER_FAILED,
     GETTING_HIGHLIGHT_LIST_START,
     GETTING_HIGHLIGHT_LIST_SUCCESS,
-    GETTING_HIGHLIGHT_LIST_FAILED,
+    GETTING_HIGHLIGHT_LIST_FAILED, SET_ACTIVE_HIGHLIGHT_ITEM,
 } from "../actions/contents";
 
 const initialStste = {
@@ -14,6 +14,7 @@ const initialStste = {
     highlightList: [],
     isGettingHighlightList: false,
     isGettingHighlightListSuccess: false,
+    activeHighlightItem: undefined,
 };
 
 export default (state = initialStste, action) => {
@@ -60,6 +61,12 @@ export default (state = initialStste, action) => {
                 isGettingHighlightList: false,
                 isGettingHighlightListSuccess: false,
             };
+        case SET_ACTIVE_HIGHLIGHT_ITEM: {
+            return {
+                ...state,
+                activeHighlightItem: action.data,
+            }
+        }
         default:
             return state
     }

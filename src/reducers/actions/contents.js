@@ -8,6 +8,7 @@ export const GETTING_IMAGE_SLIDER_FAILED = 'GETTING_IMAGE_SLIDER_FAILED';
 export const GETTING_HIGHLIGHT_LIST_START = 'GETTING_HIGHLIGHT_LIST_START';
 export const GETTING_HIGHLIGHT_LIST_SUCCESS = 'GETTING_HIGHLIGHT_LIST_SUCCESS';
 export const GETTING_HIGHLIGHT_LIST_FAILED = 'GETTING_HIGHLIGHT_LIST_FAILED';
+export const SET_ACTIVE_HIGHLIGHT_ITEM = 'SET_ACTIVE_HIGHLIGHT_ITEM';
 
 export const getImageSlidersFromApi = () => async (dispatch, getState) => {
     try {
@@ -43,4 +44,10 @@ export const getHighlightItemFromApi = () => async (dispatch, getState) => {
         console.log(e.message);
         dispatch({type: GETTING_HIGHLIGHT_LIST_FAILED});
     }
-}
+};
+
+export const setActiveHighlightItem = (itemId) => (dispatch, getState) => {
+    const {highlightList=[]} = getState().contents;
+    const activeHighlightItem = highlightList.find(item => item.id === itemId);
+    dispatch({type: SET_ACTIVE_HIGHLIGHT_ITEM, data: activeHighlightItem});
+};
