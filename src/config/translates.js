@@ -71,6 +71,11 @@ const th = {
             beacons: 'Beacons'
         }
     },
+    list: {
+        button: {
+            showMore : 'Show more'
+        }
+    },
     contact: {
         title: {
             contactInfor: 'CONTACT INFORMATION',
@@ -117,6 +122,11 @@ const zh = {
             beacons: 'Beacons'
         }
     },
+    list: {
+        button: {
+            showMore : 'Show more'
+        }
+    },
     contact: {
         title: {
             contactInfor: 'CONTACT INFORMATION',
@@ -161,6 +171,11 @@ const ja = {
         },
         labels: {
             beacons: 'Beacons'
+        }
+    },
+    list: {
+        button: {
+            showMore : 'Show more'
         }
     },
     contact: {

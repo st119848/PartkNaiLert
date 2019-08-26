@@ -37,7 +37,7 @@ const Title = props => {
     return (
         <Text style={styles.title}>{title}</Text>
     )
-}
+};
 
 const ShowMoreButton = props => {
     const {label, onPress} = props

@@ -39,7 +39,7 @@ class ContentListScreen extends Component {
 
     renderItem = ({item}) => {
         return (
-            <Conten tItem {...item} t={this.t} onSeeMoreClick={this.handleItemShowMoreClick} />
+            <ContentItem {...item} t={this.t} onSeeMoreClick={this.handleItemShowMoreClick} />
         )
     };
 
