@@ -11,6 +11,7 @@ const url =  {
     aboutUs: {
         intro: `${apiUrl}about-us/show-introduction`,
         contact: `${apiUrl}about-us/show-contact`,
+        find: `${apiUrl}about-us/show-contact`,
     }
 };
 

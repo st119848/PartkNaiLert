@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import HeaderLogo from "../../components/HeaderLogo";
 import BeaconStatusIcon from "../../components/BeaconStatusIcon";
+import {translate} from "../../helpers/translates";
 
 const { width } = Dimensions.get('window')
 
@@ -20,13 +21,26 @@ class FindUsScreen extends Component {
         headerBackTitle: null,
         headerTintColor: 'rgb(125, 105 , 87)'
     };
+
+    t = (key, find, replace) => {
+        const {language} = this.props;
+        return translate(language, key, find, replace);
+    };
+
+    componentDidMount() {
+        const {getAboutUsFindFromApi} = this.props;
+        getAboutUsFindFromApi();
+    }
+
     render() {
+        const {findData={}} = this.props;
+        const {mapUrl, address} = findData;
         return (
             <SafeAreaView style={styles.container}>
                 <View style={styles.contentContainer}>
-                    <Map/>
-                    <Address />
-                    <GoButton />
+                    <Map mapUrl={mapUrl} />
+                    <Address address={address} />
+                    <GoButton t={this.t} />
                 </View>
             </SafeAreaView>
         )
@@ -36,14 +50,14 @@ class FindUsScreen extends Component {
 export default FindUsScreen;
 
 const Map = props => {
-    const mapUrl = 'http://128.199.204.164:8000/public/images/ec8fe4bc.jpg';
+    const {mapUrl} = props;
     return (
         <Image style={styles.map} source={{uri: mapUrl}} />
     )
 };
 
 const Address = props => {
-    const address = '4 ซอยสมคิด ถนนเพลินจิต กรุงเทพมหานคร 10330';
+    const {address} = props;
     return (
         <View style={styles.addressContainer}>
             <Text>{address}</Text>
@@ -52,9 +66,11 @@ const Address = props => {
 };
 
 const GoButton = props => {
+    const {t} = props;
+    const goLabel = t('map.labels.go');
     return (
         <TouchableOpacity style={styles.goButtonContainer}>
-            <Text style={styles.goButton}>Go!</Text>
+            <Text style={styles.goButton}>{goLabel}</Text>
         </TouchableOpacity>
     )
 }

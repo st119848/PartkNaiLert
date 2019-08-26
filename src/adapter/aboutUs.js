@@ -18,4 +18,12 @@ export const transferContactData = (data={}) => {
         facebook: facebook.replace('https://www.facebook.com/', ''),
         instagram: instagram.replace('https://www.instagram.com/', ''),
     };
-}
+};
+
+export const transferFindData = (data={}) => {
+    const {address, image} = data;
+    return {
+        address,
+        mapUrl: `${domain}${image}`,
+    };
+};
