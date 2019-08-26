@@ -8,3 +8,14 @@ export const transformIntroData = (data={}) => {
         description: detail,
     }
 };
+
+export const transferContactData = (data={}) => {
+    const {address, detail, email, facebook='', instagram} = data;
+    return {
+        address,
+        detail,
+        email,
+        facebook: facebook.replace('https://www.facebook.com/', ''),
+        instagram: instagram.replace('https://www.instagram.com/', ''),
+    };
+}

@@ -9,7 +9,8 @@ const url =  {
         highlightList: `${apiUrl}get-highlight-list`,
     },
     aboutUs: {
-        intro: `${apiUrl}about-us/show-introduction`
+        intro: `${apiUrl}about-us/show-introduction`,
+        contact: `${apiUrl}about-us/show-contact`,
     }
 };
 

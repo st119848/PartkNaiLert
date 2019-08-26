@@ -1,13 +1,19 @@
 import {
     GETTING_ABOUT_US_INTRO_START,
     GETTING_ABOUT_US_INTRO_SUCCESS,
-    GETTING_ABOUT_US_INTRO_FAILED
+    GETTING_ABOUT_US_INTRO_FAILED,
+    GETTING_ABOUT_US_CONTACT_START,
+    GETTING_ABOUT_US_CONTACT_SUCCESS,
+    GETTING_ABOUT_US_CONTACT_FAILED
 } from "../actions/aboutUs";
 
 const initialStste = {
-    introData : {},
+    introData: {},
     isGettingIntroData: false,
     isGettingIntroDataSuccess: false,
+    contactData: {},
+    isGettingContactData: false,
+    isGettingContactDataSuccess: false,
 };
 
 export default (state = initialStste, action) => {
@@ -32,6 +38,27 @@ export default (state = initialStste, action) => {
                 ...state,
                 isGettingIntroData: false,
                 isGettingIntroDataSuccess: false,
+            };
+        case GETTING_ABOUT_US_CONTACT_START:
+            return {
+                ...state,
+                isGettingContactData: true,
+                isGettingContactDataSuccess: false,
+            };
+
+        case GETTING_ABOUT_US_CONTACT_SUCCESS:
+            return {
+                ...state,
+                isGettingContactData: false,
+                isGettingContactDataSuccess: true,
+                contactData: action.data,
+            };
+
+        case GETTING_ABOUT_US_CONTACT_FAILED:
+            return {
+                ...state,
+                isGettingContactData: false,
+                isGettingContactDataSuccess: false,
             };
         default:
             return state
