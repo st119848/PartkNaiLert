@@ -10,6 +10,7 @@ import BeaconsStatus from "./components/BeaconsStatus";
 import ARButton from "./components/ARButton";
 import SetLanguageScreen from "./screens/SetLanguageScreen";
 import SetPageScreen from "./screens/SetPageScreen";
+import {translate} from "../../helpers/translates";
 
 export default class HomeScreen extends Component {
     static navigationOptions = {
@@ -68,6 +69,11 @@ export default class HomeScreen extends Component {
         })
     };
 
+    t = (key, find, replace) => {
+        const {language} = this.props;
+        return translate(language, key, find, replace);
+    };
+
     componentDidMount() {
         const {getImageSlidersFromApi} = this.props;
         getImageSlidersFromApi();
@@ -80,15 +86,20 @@ export default class HomeScreen extends Component {
             <View style={styles.container}>
                 <Banner
                     language={language}
+                    t={this.t}
                     onSetPageClick={this.handleHamburgerClick}
                     onSetLangClick={this.handleLangButtonClick}
                     onIntroClick={this.handleIntroClick}
                     onFindClick={this.handleGuidesClick}
                 />
-                <HighLight imagesHighlight={imagesHighlight} onMoreItemClick={this.handleMoreItemClick} />
-                <Description />
-                <BeaconsStatus />
-                <ARButton />
+                <HighLight
+                    imagesHighlight={imagesHighlight}
+                    t={this.t}
+                    onMoreItemClick={this.handleMoreItemClick}
+                />
+                <Description t={this.t} />
+                <BeaconsStatus t={this.t} />
+                <ARButton t={this.t} />
                 <SetPageScreen
                     visible={isShowSetLang}
                     onClose={this.handleCloseModal}

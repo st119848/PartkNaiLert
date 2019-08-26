@@ -23,27 +23,29 @@ const HighLight = props => {
 export default HighLight;
 
 const Header = props => {
-    const {onMoreItemClick} = props
+    const {t, onMoreItemClick} = props;
+    const moreLabel = t('home.buttons.more');
+    const title = t('home.title.museumHighlight');
     return (
         <View style={styles.headerContainer}>
-            <Title/>
-            <MoreButton onPress={onMoreItemClick} />
+            <Title title={title}/>
+            <MoreButton label={moreLabel} onPress={onMoreItemClick} />
         </View>
     )
 };
 
-const Title = () => {
+const Title = ({title}) => {
     return (
-        <Text style={styles.title}>Museum Highlight</Text>
+        <Text style={styles.title}>{title}</Text>
     )
 };
 
 const MoreButton = props => {
-    const {onPress} = props;
+    const {label, onPress} = props;
     return (
         <TouchableOpacity style={styles.buttonContainer} onPress={onPress} >
             <Text style={styles.buttonLabel}>
-                More
+                {label}
             </Text>
         </TouchableOpacity>
     )

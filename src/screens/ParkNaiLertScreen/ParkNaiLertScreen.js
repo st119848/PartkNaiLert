@@ -13,6 +13,7 @@ import BeaconStatusIcon from "../../components/BeaconStatusIcon";
 import ARIcon from '../../assets/img/ar_icon.png';
 import BGImage from '../../assets/img/garden_bg.jpg';
 import LogoImage from '../../assets/img/logo.png';
+import {translate} from "../../helpers/translates";
 
 class ParkNaiLertScreen extends Component {
     static navigationOptions = {
@@ -21,10 +22,16 @@ class ParkNaiLertScreen extends Component {
         headerBackTitle: null,
         headerTintColor: 'rgb(125, 105 , 87)'
     };
+
+    t = (key, find, replace) => {
+        const {language} = this.props;
+        return translate(language, key, find, replace);
+    };
+
     render() {
         return (
             <SafeAreaView style={styles.container}>
-                <Content />
+                <Content t={this.t} />
                 <ARButton/>
             </SafeAreaView>
         )
@@ -36,18 +43,22 @@ const Content = props => {
         <ImageBackground source={BGImage} style={styles.contentContainer}>
             <View style={styles.bannerContainer}>
                 <Logo />
-                <Title />
+                <Title {...props} />
             </View>
         </ImageBackground>
     )
 };
 
 const Title = props => {
+    const {t} = props;
+    const nailert = t('parkNaiLert.title.nailert');
+    const heritage = t('parkNaiLert.title.heritage');
+    const location = t('parkNaiLert.title.location');
     return (
         <View style={styles.titleContainer}>
-            <Text style={styles.title}>NAI LERT PARK</Text>
-            <Text style={styles.title}>HERITAGE HOME</Text>
-            <Text style={styles.title}>BANGKOK</Text>
+            <Text style={styles.title}>{nailert}</Text>
+            <Text style={styles.title}>{heritage}</Text>
+            <Text style={styles.title}>{location}</Text>
         </View>
     )
 }

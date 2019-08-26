@@ -8,13 +8,15 @@ import {
 } from 'react-native';
 import Icon from "../../../components/Icon";
 
-const ARButton = () => {
+const ARButton = ({t}) => {
+    const tryLabel = t('home.buttons.try');
+    const cameraLabel = t('home.buttons.camera');
     return (
         <SafeAreaView style={styles.safeContainer}>
             <TouchableOpacity>
                 <View style={styles.container}>
-                    <ARIcon />
-                    <Title />
+                    <ARIcon/>
+                    <Title tryLabel={tryLabel} cameraLabel={cameraLabel}/>
                     <QuestionIcon />
                 </View>
             </TouchableOpacity>
@@ -22,7 +24,7 @@ const ARButton = () => {
     );
 };
 
-const ARIcon = () => {
+const ARIcon = ({}) => {
     return (
         <Icon name="CodeSandbox" style={styles.ARIcon} size={30} />
     );
@@ -34,17 +36,17 @@ const QuestionIcon = () => {
     )
 };
 
-const Title = () => {
+const Title = ({tryLabel, cameraLabel}) => {
     return (
         <View style={styles.titleContainer}>
             <Text style={styles.buttonLabel}>
-                TRY!
+                {tryLabel}
             </Text>
             <Text style={styles.buttonARLabel}>
                 AR
             </Text>
             <Text style={styles.buttonLabel}>
-                CAMERA
+                {cameraLabel}
             </Text>
         </View>
     );

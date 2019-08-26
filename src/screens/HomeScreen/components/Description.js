@@ -5,27 +5,29 @@ import {
     Text
 } from 'react-native';
 
-const Description = () => {
+const Description = ({t}) => {
+    const title = t('home.title.augmentedReality');
+    const description = t('home.description.arDesc');
     return (
         <View style={styles.container}>
-            <Title/>
-            <DescriptionText/>
+            <Title title={title}/>
+            <DescriptionText description={description}/>
         </View>
     )
 };
 
-const Title = () => {
+const Title = ({title}) => {
     return (
         <Text style={styles.title}>
-            Augmented Reality
+            {title}
         </Text>
     )
 };
 
-const DescriptionText = () => {
+const DescriptionText = ({description}) => {
     return (
         <Text style={styles.description}>
-            Our Museum use the AR and Beacons technology to gain your experience. Please enjoy by clicking AR camera below
+            {description}
         </Text>
     )
 };

@@ -12,6 +12,7 @@ const mapDispatchToProps = (dispatch) => {
 
 const mapStateToProps = (state) => {
     return {
+        language: state.setting.language,
         highlightList: state.contents.highlightList,
     }
 };

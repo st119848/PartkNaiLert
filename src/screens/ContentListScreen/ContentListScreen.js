@@ -10,6 +10,7 @@ import ContentItem from "./components/ContentItem";
 import ARButton from "./components/ARButton";
 import BeaconStatusIcon from "../../components/BeaconStatusIcon";
 import HeaderLogo from "../../components/HeaderLogo";
+import {translate} from "../../helpers/translates";
 
 class ContentListScreen extends Component {
 
@@ -26,6 +27,11 @@ class ContentListScreen extends Component {
         navigation.navigate('Detail');
     };
 
+    t = (key, find, replace) => {
+        const {language} = this.props;
+        return translate(language, key, find, replace);
+    };
+
     componentDidMount() {
         const {getHighlightItemFromApi} = this.props;
         getHighlightItemFromApi();
@@ -33,7 +39,7 @@ class ContentListScreen extends Component {
 
     renderItem = ({item}) => {
         return (
-            <ContentItem {...item} onSeeMoreClick={this.handleItemShowMoreClick} />
+            <Conten tItem {...item} t={this.t} onSeeMoreClick={this.handleItemShowMoreClick} />
         )
     };
 

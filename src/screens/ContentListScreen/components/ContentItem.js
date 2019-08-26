@@ -21,12 +21,13 @@ const ContentItem = props => {
 export default ContentItem;
 
 const Detail = props => {
-    const {id, title, onSeeMoreClick} = props;
+    const {t, id, title, onSeeMoreClick} = props;
     const handleSeeMoreClick = () => onSeeMoreClick(id);
+    const showMoreLabels = t('list.button.showMore');
     return (
         <View style={styles.detailContainer}>
             <Title title={title} />
-            <ShowMoreButton onPress={handleSeeMoreClick} />
+            <ShowMoreButton label={showMoreLabels} onPress={handleSeeMoreClick} />
         </View>
     );
 };
@@ -39,10 +40,10 @@ const Title = props => {
 }
 
 const ShowMoreButton = props => {
-    const {onPress} = props
+    const {label, onPress} = props
     return (
         <TouchableOpacity onPress={onPress}>
-            <Text style={styles.showMoreButton}>Show more</Text>
+            <Text style={styles.showMoreButton}>{label}</Text>
         </TouchableOpacity>
     )
 };

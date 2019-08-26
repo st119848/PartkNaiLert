@@ -6,11 +6,12 @@ import LangButton from "../../../components/LangButton";
 import BannerButton from "../../../components/BannerButton";
 
 const Banner = props => {
+    const {t} = props;
     return (
         <ImageBackground source={BGImage} style={styles.BGImage}>
             <SafeAreaView style={styles.contentContainer}>
                 <Header {...props} />
-                <Title/>
+                <Title t={t} />
                 <GroupButton {...props} />
                 <Slope />
             </SafeAreaView>
@@ -43,9 +44,9 @@ const Slope = () => {
     )
 };
 
-const Title = () => {
-    const title = 'NAI LERT HERITAGE HOME';
-    const subTitle = 'BANGKOK';
+const Title = ({t}) => {
+    const title = t('home.title.nailert');
+    const subTitle = t('home.title.location');
     return (
         <View style={styles.titleContainer}>
             <Text style={styles.titleText}>{title}</Text>
@@ -55,11 +56,13 @@ const Title = () => {
 };
 
 const GroupButton = props => {
-    const {onIntroClick, onFindClick} = props;
+    const {t, onIntroClick, onFindClick} = props;
+    const introLabel = t('home.buttons.intro');
+    const guidesLabel = t('home.buttons.guides');
     return (
         <View style={styles.groupButtonContainer}>
-            <BannerButton iconName="info" text="Introduction" onPress={onIntroClick}/>
-            <BannerButton iconName="location-arrow" type="fonta" text="Guides" onPress={onFindClick}/>
+            <BannerButton iconName="info" text={introLabel} onPress={onIntroClick}/>
+            <BannerButton iconName="location-arrow" type="fonta" text={guidesLabel} onPress={onFindClick}/>
         </View>
     )
 };

@@ -6,11 +6,12 @@ import {
 } from 'react-native';
 import Icon from "../../../components/Icon";
 
-const BeaconsStatus = () => {
+const BeaconsStatus = ({t}) => {
+    const title = t('home.labels.beacons');
     return (
         <View style={styles.container}>
             <BeaconIcon />
-            <Title />
+            <Title title={title} />
             <StatusIcon />
         </View>
     )
@@ -24,10 +25,10 @@ const BeaconIcon = () => {
     )
 };
 
-const Title = () => {
+const Title = ({title}) => {
     return (
         <Text style={styles.beaconTitle}>
-            Beacons
+            {title}
         </Text>
     )
 };

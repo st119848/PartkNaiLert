@@ -20,6 +20,11 @@ const en = {
             beacons: 'Beacons'
         }
     },
+    list: {
+        button: {
+            showMore : 'Show more'
+        }
+    },
     contact: {
         title: {
             contactInfor: 'CONTACT INFORMATION',
@@ -32,7 +37,8 @@ const en = {
     },
     parkNaiLert: {
         title: {
-            nailert: 'NAI LERT HERITAGE HOME',
+            nailert: 'NAI LERT',
+            heritage: 'HERITAGE HOME',
             location: 'BANGKOK',
         }
     },
@@ -77,7 +83,8 @@ const th = {
     },
     parkNaiLert: {
         title: {
-            nailert: 'NAI LERT HERITAGE HOME',
+            nailert: 'NAI LERT',
+            heritage: 'HERITAGE HOME',
             location: 'BANGKOK',
         }
     },
@@ -122,7 +129,8 @@ const zh = {
     },
     parkNaiLert: {
         title: {
-            nailert: 'NAI LERT HERITAGE HOME',
+            nailert: 'NAI LERT',
+            heritage: 'HERITAGE HOME',
             location: 'BANGKOK',
         }
     },
@@ -167,7 +175,8 @@ const ja = {
     },
     parkNaiLert: {
         title: {
-            nailert: 'NAI LERT HERITAGE HOME',
+            nailert: 'NAI LERT',
+            heritage: 'HERITAGE HOME',
             location: 'BANGKOK',
         }
     },
