@@ -85,6 +85,7 @@ const styles = StyleSheet.create({
         fontSize: 15,
         alignSelf: 'flex-end',
         marginBottom: 10,
-        marginRight: 20
+        marginRight: 20,
+        paddingVertical: 5,
     }
 });

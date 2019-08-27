@@ -91,6 +91,7 @@ const styles = StyleSheet.create({
         letterSpacing: 0.5,
     },
     buttonContainer: {
+        paddingVertical: 2,
         paddingHorizontal: 15,
         borderWidth: 1,
         borderColor: 'rgb(125, 105 , 87)',
@@ -109,6 +110,7 @@ const styles = StyleSheet.create({
         width: width/3,
         height: 90,
         marginRight: 10,
+        backgroundColor: 'rgb(125, 105 , 87)',
     },
     itemImage: {
         width: '100%',

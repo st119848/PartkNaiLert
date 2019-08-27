@@ -10,12 +10,12 @@ import IconButton from "../../../components/IconButton";
 import Icon from "../../../components/Icon";
 
 const Detail = props => {
-    const {title, description} = props
+    const {isCanPlay, audioStatus, title, description, onPlaySound} = props
     return (
         <View style={styles.container}>
             <Title title={title} />
             <Description description={description}/>
-            <AudioButton />
+            {isCanPlay && <AudioButton audioStatus={audioStatus} onPress={onPlaySound} />}
             <ShareButtons />
         </View>
     )
@@ -47,9 +47,16 @@ const Description = props => {
 };
 
 const AudioButton = props => {
+    const {onPress, audioStatus='pause'} = props;
+    const audioIconMap = {
+        pause: 'controller-play',
+        playing: 'controller-paus',
+        playend: 'cw'
+    };
+    const audioIcon = audioIconMap[audioStatus] || audioIconMap.pause;
     return (
-        <TouchableOpacity style={styles.audioButtonContainer}>
-            <Icon style={styles.audioIcon} name="volume-off" type="fonta" size={35}/>
+        <TouchableOpacity style={styles.audioButtonContainer} onPress={onPress}>
+            <Icon style={styles.audioIcon} name={audioIcon} type="entypo" size={25}/>
         </TouchableOpacity>
     );
 };
@@ -101,13 +108,17 @@ const styles = StyleSheet.create({
         right: 20,
         width: 40,
         height: 40,
+        paddingTop: 2,
+        paddingLeft: 1,
         borderRadius: 20,
         backgroundColor: 'rgb(205, 94, 90)',
         justifyContent: 'center',
         alignItems: 'center'
     },
     audioIcon: {
-        color: 'white'
+        color: 'white',
+        alignItems: 'center',
+        justifyContent: 'center'
     },
     shareButtonsContainer: {
         height: 50,

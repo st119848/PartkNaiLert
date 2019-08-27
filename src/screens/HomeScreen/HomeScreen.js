@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {
     StyleSheet,
     View,
+    StatusBar,
 } from "react-native";
 import Banner from "./components/Banner";
 import HighLight from "./components/HighLight";
@@ -82,8 +83,10 @@ export default class HomeScreen extends Component {
     render() {
         const {language, imagesHighlight} = this.props;
         const {isShowSetLang, isShowSetPage} = this.state;
+        const barStyle = (isShowSetLang || isShowSetPage) ? 'light-content' : 'default';
         return (
             <View style={styles.container}>
+                <StatusBar barStyle={barStyle} />
                 <Banner
                     language={language}
                     t={this.t}
