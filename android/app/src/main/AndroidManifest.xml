@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.parknailert">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.parknailert">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,6 +11,7 @@
       android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
       android:largeHeap="true"
+      android:usesCleartextTraffic="true" tools:targetApi="28"
       android:theme="@style/AppTheme">
       <activity
         android:name=".MainActivity"
