@@ -3,6 +3,7 @@ import {
     StyleSheet,
     View,
     StatusBar,
+    ScrollView
 } from "react-native";
 import Banner from "./components/Banner";
 import HighLight from "./components/HighLight";
@@ -95,13 +96,15 @@ export default class HomeScreen extends Component {
                     onIntroClick={this.handleIntroClick}
                     onFindClick={this.handleGuidesClick}
                 />
-                <HighLight
-                    imagesHighlight={imagesHighlight}
-                    t={this.t}
-                    onMoreItemClick={this.handleMoreItemClick}
-                />
-                <Description t={this.t} />
-                <BeaconsStatus t={this.t} />
+                <ScrollView style={styles.contentContainer}>
+                    <HighLight
+                        imagesHighlight={imagesHighlight}
+                        t={this.t}
+                        onMoreItemClick={this.handleMoreItemClick}
+                    />
+                    <Description t={this.t} />
+                    <BeaconsStatus t={this.t} />
+                </ScrollView>
                 <ARButton t={this.t} />
                 <SetPageScreen
                     visible={isShowSetLang}
@@ -126,4 +129,10 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         position: 'relative',
     },
+    contentContainer: {
+        width: '100%',
+        height: '60%',
+        paddingBottom: 20,
+        // backgroundColor: 'red'
+    }
 });

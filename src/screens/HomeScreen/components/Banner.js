@@ -5,6 +5,8 @@ import IconButton from "../../../components/IconButton";
 import LangButton from "../../../components/LangButton";
 import BannerButton from "../../../components/BannerButton";
 
+const {height} = Dimensions.get('window');
+
 const Banner = props => {
     const {t} = props;
     return (
@@ -75,7 +77,7 @@ const styles = StyleSheet.create({
     },
     BGImage: {
         width: '100%',
-        height: 320,
+        height: (height/100)*40,
         overflow: 'hidden',
         position: 'relative'
     },
