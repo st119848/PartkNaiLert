@@ -35,7 +35,7 @@ export default ImagesSlider;
 const styles = StyleSheet.create({
     container: {
         width: '100%',
-        height: 300,
+        height: '50%',
     },
     wrapper: {
         backgroundColor: 'red'

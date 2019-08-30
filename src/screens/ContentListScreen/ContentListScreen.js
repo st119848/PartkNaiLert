@@ -64,6 +64,7 @@ export default ContentListScreen;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        // paddingTop: '5%'
     },
     flatList: {
         flex: 1

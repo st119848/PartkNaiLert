@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
     },
     itemImageContainer: {
         width: width/3,
-        height: 90,
+        height: (width/3)/4*3,
         marginRight: 10,
         backgroundColor: 'rgb(125, 105 , 87)',
     },

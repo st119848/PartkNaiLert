@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
     container: {
         alignItems: 'center',
         paddingHorizontal: 40,
+        marginVertical: '5%',
     },
     title: {
         color: 'rgb(125, 105 , 87)',
@@ -45,10 +46,10 @@ const styles = StyleSheet.create({
         fontWeight: '500',
         letterSpacing: 0.5,
         marginBottom: 5,
-        marginTop: 30,
     },
     description: {
         fontSize: 12,
-        color: 'dimgrey'
+        color: 'dimgrey',
+        maxWidth: 380
     }
 });

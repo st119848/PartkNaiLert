@@ -4,30 +4,30 @@ import {
     View,
     ImageBackground,
     Text,
-    TouchableOpacity
+    TouchableWithoutFeedback
 } from 'react-native';
 
 const ContentItem = props => {
-    const {coverImage} = props;
+    const {id, coverImage, onSeeMoreClick} = props;
+    const handleSeeMoreClick = () => onSeeMoreClick(id);
     return (
-        <View style={styles.container}>
-            <ImageBackground source={{uri: coverImage}} style={styles.imageContainer}>
-                <Detail {...props}/>
-            </ImageBackground>
-        </View>
+        <TouchableWithoutFeedback onPress={handleSeeMoreClick}>
+            <View style={styles.container}>
+                <ImageBackground source={{uri: coverImage}} style={styles.imageContainer}>
+                    <Detail {...props}/>
+                </ImageBackground>
+            </View>
+        </TouchableWithoutFeedback>
     );
 };
 
 export default ContentItem;
 
 const Detail = props => {
-    const {t, id, title, onSeeMoreClick} = props;
-    const handleSeeMoreClick = () => onSeeMoreClick(id);
-    const showMoreLabels = t('list.button.showMore');
+    const {title} = props;
     return (
         <View style={styles.detailContainer}>
             <Title title={title} />
-            <ShowMoreButton label={showMoreLabels} onPress={handleSeeMoreClick} />
         </View>
     );
 };
@@ -39,31 +39,25 @@ const Title = props => {
     )
 };
 
-const ShowMoreButton = props => {
-    const {label, onPress} = props
-    return (
-        <TouchableOpacity onPress={onPress}>
-            <Text style={styles.showMoreButton}>{label}</Text>
-        </TouchableOpacity>
-    )
-};
-
 const styles = StyleSheet.create({
     container: {
         width: '100%',
-        height: 280,
-        paddingTop: 10,
-        paddingLeft: 10,
-        paddingRight: 10,
+        height: 200,
+        marginTop: 15,
+        paddingHorizontal: '5%',
+        alignItems: 'center'
+
     },
     imageContainer: {
+        maxWidth: 500,
         width: '100%',
         height: '100%',
         justifyContent: 'flex-end',
-        position: 'relative'
+        position: 'relative',
+
     },
     detailContainer: {
-        height: 80,
+        height: 50,
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
         paddingVertical: 5,
         marginBottom: 10,
@@ -72,20 +66,15 @@ const styles = StyleSheet.create({
         left: 0,
         right: 0,
         bottom: 0,
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        alignItems: 'center'
     },
     title: {
+        flex: 1,
+        textAlign: 'center',
         color: 'white',
-        fontSize: 20,
+        fontSize: 18,
         fontWeight: '400',
-        marginLeft: 20
+        // backgroundColor: 'red'
     },
-    showMoreButton: {
-        color: 'white',
-        fontSize: 15,
-        alignSelf: 'flex-end',
-        marginBottom: 10,
-        marginRight: 20,
-        paddingVertical: 5,
-    }
 });

@@ -14,7 +14,7 @@ class ContentDetailScreen extends Component {
         headerTitle: <HeaderLogo />,
         headerRight: <BeaconStatusIcon />,
         headerBackTitle: null,
-        headerTintColor: 'rgb(125, 105 , 87)'
+        headerTintColor: 'rgb(125, 105 , 87)',
     };
 
     state={

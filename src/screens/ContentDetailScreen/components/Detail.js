@@ -37,11 +37,10 @@ const Title = props => {
 const Description = props => {
     const {description} = props
     return (
-        <ScrollView style={styles.descriptionContainer}>
+        <ScrollView style={styles.descriptionContainer} contentContainerStyle={styles.descriptionContentContainer}>
             <Text style={styles.description}>
                 {description}
             </Text>
-
         </ScrollView>
     )
 };
@@ -78,12 +77,13 @@ const styles = StyleSheet.create({
         marginTop: -15,
         backgroundColor: 'white',
         alignItems: 'center',
-        padding: 10,
+        paddingVertical: 15,
         position: 'relative',
     },
     titleContainer: {
         width: '100%',
         paddingBottom: 10,
+        paddingHorizontal: 15,
         borderBottomWidth: 1,
         borderColor: 'lightgray',
     },
@@ -94,13 +94,16 @@ const styles = StyleSheet.create({
     },
     descriptionContainer: {
         flex: 1,
-        paddingVertical: 10,
+        paddingHorizontal: 15,
         borderBottomWidth: 1,
         borderColor: 'lightgray',
     },
     description: {
         fontSize: 15,
         color: 'dimgrey',
+    },
+    descriptionContentContainer: {
+        paddingVertical: 15
     },
     audioButtonContainer: {
         position: 'absolute',

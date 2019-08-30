@@ -96,7 +96,7 @@ export default class HomeScreen extends Component {
                     onIntroClick={this.handleIntroClick}
                     onFindClick={this.handleGuidesClick}
                 />
-                <ScrollView style={styles.contentContainer}>
+                <ScrollView style={styles.scrollContainer} contentContainerStyle={styles.contentContainer}>
                     <HighLight
                         imagesHighlight={imagesHighlight}
                         t={this.t}
@@ -129,10 +129,12 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         position: 'relative',
     },
-    contentContainer: {
+    scrollContainer: {
+        flex: 1,
         width: '100%',
-        height: '60%',
         paddingBottom: 20,
-        // backgroundColor: 'red'
+    },
+    contentContainer: {
+        alignItems: 'center'
     }
 });

@@ -39,7 +39,7 @@ const QuestionIcon = () => {
 const Title = ({tryLabel, cameraLabel}) => {
     return (
         <View style={styles.titleContainer}>
-            <Text style={styles.buttonLabel}>
+            <Text style={[styles.buttonLabel, styles.right]}>
                 {tryLabel}
             </Text>
             <Text style={styles.buttonARLabel}>
@@ -70,7 +70,11 @@ const styles = StyleSheet.create({
         paddingHorizontal: 15,
     },
     buttonLabel: {
-        color: 'white'
+        color: 'white',
+        width: 60,
+    },
+    right: {
+        textAlign: 'right',
     },
     buttonARLabel: {
         width: 30,

@@ -21,7 +21,7 @@ export default BeaconStatusIcon;
 const BeaconIcon = props => {
     return (
         <View style={styles.iconContainer}>
-            <Icon style={styles.icon} name="rss" size={18} type="entypo" />
+            <Icon style={styles.icon} name="rss" size={14} type="entypo" />
         </View>
     )
 };
@@ -44,10 +44,11 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginRight: 10,
         position: 'relative',
+        marginTop: 5
     },
     iconContainer: {
-        width: 28,
-        height: 28,
+        width: 24,
+        height: 24,
         justifyContent: 'center',
         alignItems: 'center',
         borderColor: 'rgb(125, 105 , 87)',
