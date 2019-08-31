@@ -10,7 +10,7 @@ import {
 import Icon from "../../../components/Icon";
 
 const SetPageScreen = props => {
-    const {visible, onClose, onChangePage} = props;
+    const {active, visible, onClose, onChangePage} = props;
     return (
         <Modal animationType="fade"
                transparent
@@ -19,7 +19,7 @@ const SetPageScreen = props => {
         >
             <SafeAreaView style={styles.container}>
                 <Header onCloseClick={onClose}/>
-                <PageList onChangePage={onChangePage} />
+                <PageList active={active} onChangePage={onChangePage} />
             </SafeAreaView>
         </Modal>
     )
@@ -39,8 +39,8 @@ const Header = props => {
 };
 
 const PageList = props => {
-    const {onChangePage} = props;
-    const pageList = [
+    const {active, onChangePage} = props;
+    const homePageList = [
         {
             label: 'Introduction',
             page: 'Intro'
@@ -58,6 +58,26 @@ const PageList = props => {
             page: 'Contact'
         },
     ];
+    const pNLPageList = [
+        {
+            label: 'Home',
+            page: 'Home'
+        },
+        {
+            label: 'Introduction',
+            page: 'Intro'
+        },
+
+        {
+            label: 'Find Us',
+            page: 'Find'
+        },
+        {
+            label: 'Contact Us',
+            page: 'Contact'
+        },
+    ];
+    const pageList = active === 'PNL'? pNLPageList : homePageList;
     return (
         <View style={styles.pageListContainer}>
             {pageList.map((item, index) => {

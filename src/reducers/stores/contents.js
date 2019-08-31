@@ -4,7 +4,11 @@ import {
     GETTING_IMAGE_SLIDER_FAILED,
     GETTING_HIGHLIGHT_LIST_START,
     GETTING_HIGHLIGHT_LIST_SUCCESS,
-    GETTING_HIGHLIGHT_LIST_FAILED, SET_ACTIVE_HIGHLIGHT_ITEM,
+    GETTING_HIGHLIGHT_LIST_FAILED,
+    GETTING_BEACON_LIST_START,
+    GETTING_BEACON_LIST_SUCCESS,
+    GETTING_BEACON_LIST_FAILED,
+    SET_ACTIVE_HIGHLIGHT_ITEM,
 } from "../actions/contents";
 
 const initialStste = {
@@ -15,6 +19,9 @@ const initialStste = {
     isGettingHighlightList: false,
     isGettingHighlightListSuccess: false,
     activeHighlightItem: undefined,
+    beaconList: [],
+    isGettingBeaconList: false,
+    isGettingBeaconListSuccess: false,
 };
 
 export default (state = initialStste, action) => {
@@ -60,6 +67,27 @@ export default (state = initialStste, action) => {
                 ...state,
                 isGettingHighlightList: false,
                 isGettingHighlightListSuccess: false,
+            };
+        case GETTING_BEACON_LIST_START:
+            return {
+                ...state,
+                isGettingBeaconList: true,
+                isGettingBeaconListSuccess: false,
+            };
+
+        case GETTING_BEACON_LIST_SUCCESS:
+            return {
+                ...state,
+                beaconList: action.data,
+                isGettingBeaconList: false,
+                isGettingBeaconListSuccess: true,
+            };
+
+        case GETTING_BEACON_LIST_FAILED:
+            return {
+                ...state,
+                isGettingBeaconList: false,
+                isGettingBeaconListSuccess: false,
             };
         case SET_ACTIVE_HIGHLIGHT_ITEM: {
             return {

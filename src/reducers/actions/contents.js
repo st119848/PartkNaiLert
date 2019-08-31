@@ -9,6 +9,9 @@ export const GETTING_HIGHLIGHT_LIST_START = 'GETTING_HIGHLIGHT_LIST_START';
 export const GETTING_HIGHLIGHT_LIST_SUCCESS = 'GETTING_HIGHLIGHT_LIST_SUCCESS';
 export const GETTING_HIGHLIGHT_LIST_FAILED = 'GETTING_HIGHLIGHT_LIST_FAILED';
 export const SET_ACTIVE_HIGHLIGHT_ITEM = 'SET_ACTIVE_HIGHLIGHT_ITEM';
+export const GETTING_BEACON_LIST_START = 'GETTING_BEACON_LIST_START';
+export const GETTING_BEACON_LIST_SUCCESS = 'GETTING_BEACON_LIST_SUCCESS';
+export const GETTING_BEACON_LIST_FAILED = 'GETTING_BEACON_LIST_FAILED';
 
 export const getImageSlidersFromApi = () => async (dispatch, getState) => {
     try {
@@ -51,3 +54,20 @@ export const setActiveHighlightItem = (itemId) => (dispatch, getState) => {
     const activeHighlightItem = highlightList.find(item => item.id === itemId);
     dispatch({type: SET_ACTIVE_HIGHLIGHT_ITEM, data: activeHighlightItem});
 };
+
+export const getBeaconContentFromApi = () => async (dispatch, getState) => {
+    try {
+        dispatch({type: GETTING_BEACON_LIST_START});
+        const url = URLS.museumContent.beaconContent;
+        const {language} = getState().setting;
+        const postData = {
+            code: language,
+        };
+        const response = await postApiData(url, postData);
+        const {response: beaconList} = response.data;
+        console.log('beacons', beaconList);
+        dispatch({type: GETTING_BEACON_LIST_SUCCESS});
+    } catch (e) {
+        dispatch({type: GETTING_BEACON_LIST_FAILED});
+    }
+}

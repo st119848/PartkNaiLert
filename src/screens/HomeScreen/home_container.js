@@ -1,5 +1,8 @@
 import {settingLanguage} from "../../reducers/actions/setting";
-import {getImageSlidersFromApi} from "../../reducers/actions/contents";
+import {
+    getImageSlidersFromApi,
+    getBeaconContentFromApi
+} from "../../reducers/actions/contents";
 import {connect} from "react-redux";
 import HomeScreen from "./HomeScreen";
 
@@ -7,7 +10,8 @@ import HomeScreen from "./HomeScreen";
 const mapDispatchToProps = (dispatch) => {
     return {
         settingLanguage: (lang) => dispatch(settingLanguage(lang)),
-        getImageSlidersFromApi: () => dispatch(getImageSlidersFromApi())
+        getImageSlidersFromApi: () => dispatch(getImageSlidersFromApi()),
+        getBeaconContentFromApi: () => dispatch(getBeaconContentFromApi()),
     }
 };
 

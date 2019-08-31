@@ -27,14 +27,15 @@ export default class HomeScreen extends Component {
 
     handleHamburgerClick = () => {
         this.setState({
-            isShowSetLang: true,
+            isShowSetPage: true,
         })
     };
 
     handleLangButtonClick = () => {
         this.setState({
-            isShowSetPage: true,
+            isShowSetLang: true,
         })
+
     };
 
     handleMoreItemClick = () => {
@@ -77,8 +78,9 @@ export default class HomeScreen extends Component {
     };
 
     componentDidMount() {
-        const {getImageSlidersFromApi} = this.props;
+        const {getImageSlidersFromApi, getBeaconContentFromApi} = this.props;
         getImageSlidersFromApi();
+        getBeaconContentFromApi();
     }
 
     render() {
@@ -107,12 +109,12 @@ export default class HomeScreen extends Component {
                 </ScrollView>
                 <ARButton t={this.t} />
                 <SetPageScreen
-                    visible={isShowSetLang}
+                    visible={isShowSetPage}
                     onClose={this.handleCloseModal}
                     onChangePage={this.handleChangePage}
                 />
                 <SetLanguageScreen
-                    visible={isShowSetPage}
+                    visible={isShowSetLang}
                     activeLang={language}
                     onClose={this.handleCloseModal}
                     onChangeLang={this.handleChangeLang}

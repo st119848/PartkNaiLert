@@ -14,13 +14,23 @@ import ARIcon from '../../assets/img/ar_icon.png';
 import BGImage from '../../assets/img/garden_bg.jpg';
 import LogoImage from '../../assets/img/logo.png';
 import {translate} from "../../helpers/translates";
+import SetPageScreen from "../HomeScreen/screens/SetPageScreen";
+import HamburgerButton from "../../components/HamburgerButton";
 
 class ParkNaiLertScreen extends Component {
-    static navigationOptions = {
-        headerTitle: <HeaderLogo />,
-        headerRight: <BeaconStatusIcon />,
-        headerBackTitle: null,
-        headerTintColor: 'rgb(125, 105 , 87)'
+    static navigationOptions = ({navigation}) => {
+        const leftOnPress = navigation.getParam('leftOnPress');
+        return {
+            headerTitle: <HeaderLogo />,
+            headerRight: <BeaconStatusIcon />,
+            headerLeft: <HamburgerButton onPress={leftOnPress} />,
+            headerBackTitle: null,
+            headerTintColor: 'rgb(125, 105 , 87)'
+        }
+    };
+
+    state = {
+        isShowSetPage: false,
     };
 
     t = (key, find, replace) => {
@@ -28,11 +38,43 @@ class ParkNaiLertScreen extends Component {
         return translate(language, key, find, replace);
     };
 
+    handleHamburgerClick = () => {
+        this.setState({
+            isShowSetPage: true,
+        })
+    };
+
+    handleChangePage = (page) => {
+        this.handleCloseModal();
+        const {navigation} = this.props;
+        navigation.navigate(page);
+    };
+
+    handleCloseModal = () => {
+        this.setState({
+            isShowSetPage: false,
+        })
+    };
+
+    componentDidMount() {
+        const {navigation} = this.props;
+        navigation.setParams({
+            leftOnPress: this.handleHamburgerClick
+        });
+    }
+
     render() {
+        const {isShowSetPage} = this.state;
         return (
             <SafeAreaView style={styles.container}>
                 <Content t={this.t} />
                 <ARButton/>
+                <SetPageScreen
+                    active="PNL"
+                    visible={isShowSetPage}
+                    onClose={this.handleCloseModal}
+                    onChangePage={this.handleChangePage}
+                />
             </SafeAreaView>
         )
     }
