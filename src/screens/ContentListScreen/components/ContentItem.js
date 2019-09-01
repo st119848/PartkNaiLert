@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
         height: '100%',
         justifyContent: 'flex-end',
         position: 'relative',
-
+        backgroundColor: 'rgb(205, 94, 90)'
     },
     detailContainer: {
         height: 50,

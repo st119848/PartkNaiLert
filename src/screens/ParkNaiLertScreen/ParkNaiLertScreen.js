@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
     },
     contentContainer: {
         flex: 1,
-        backgroundColor: 'red',
+        backgroundColor: 'rgb(205, 94, 90)',
         width: '100%',
         justifyContent: 'center'
     },
