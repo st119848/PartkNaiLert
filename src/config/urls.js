@@ -1,6 +1,6 @@
 
-const apiUrl = 'http://nailert-api.topwork.asia/api/app/';
-const domain = 'http://nailert-api.topwork.asia/';
+const apiUrl = 'http://localhost:8000/api/app/';
+const domain = 'http://localhost:8000/';
 
 const url =  {
     domain: domain,

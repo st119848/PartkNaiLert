@@ -10,13 +10,13 @@ import IconButton from "../../../components/IconButton";
 import Icon from "../../../components/Icon";
 
 const Detail = props => {
-    const {isCanPlay, audioStatus, title, description, onPlaySound} = props
+    const {isCanPlay, audioStatus, title, description, onPlaySound, onFacebookShare, onTwitterShare} = props
     return (
         <View style={styles.container}>
             <Title title={title} />
             <Description description={description}/>
             {isCanPlay && <AudioButton audioStatus={audioStatus} onPress={onPlaySound} />}
-            <ShareButtons />
+            <ShareButtons onFacebookShare={onFacebookShare} onTwitterShare={onTwitterShare}/>
         </View>
     )
 };
@@ -61,10 +61,11 @@ const AudioButton = props => {
 };
 
 const ShareButtons = props => {
+    const {onFacebookShare, onTwitterShare} = props;
     return (
         <View style={styles.shareButtonsContainer}>
-            <IconButton style={styles.twitterIcon} iconName="twitter" size={35}/>
-            <IconButton style={styles.facebookIcon} iconName="facebook-square" size={35}/>
+            <IconButton style={styles.twitterIcon} iconName="twitter" size={35} onPress={onTwitterShare}/>
+            <IconButton style={styles.facebookIcon} iconName="facebook-square" size={35} onPress={onFacebookShare}/>
         </View>
     )
 }

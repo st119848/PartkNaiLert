@@ -3,7 +3,9 @@ import {
     StyleSheet,
     View,
     StatusBar,
-    ScrollView
+    ScrollView,
+    Linking,
+    Platform
 } from "react-native";
 import Banner from "./components/Banner";
 import HighLight from "./components/HighLight";
@@ -81,7 +83,23 @@ export default class HomeScreen extends Component {
         const {getImageSlidersFromApi, getBeaconContentFromApi} = this.props;
         getImageSlidersFromApi();
         getBeaconContentFromApi();
+
+        if (Platform.OS === 'android') {
+            Linking.getInitialURL().then(url => {
+                this.navigate(url);
+            });
+        } else {
+            Linking.addEventListener('url', this.handleOpenURL);
+        }
     }
+
+    componentWillUnmount() { // C
+        Linking.removeEventListener('url', this.handleOpenURL);
+    }
+
+    handleOpenURL = (event) => { // D
+        console.log('event', event)
+    };
 
     render() {
         const {language, imagesHighlight} = this.props;

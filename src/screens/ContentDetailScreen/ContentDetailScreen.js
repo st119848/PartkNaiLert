@@ -8,6 +8,7 @@ import BeaconStatusIcon from "../../components/BeaconStatusIcon";
 import ImagesSlider from "./components/ImagesSlider";
 import Detail from "./components/Detail";
 import Sound from 'react-native-sound';
+import Share from 'react-native-share';
 
 class ContentDetailScreen extends Component {
     static navigationOptions = {
@@ -42,6 +43,33 @@ class ContentDetailScreen extends Component {
         }
     };
 
+    handleFacebookShare = () => {
+        const {activeHighlightItem={}} = this.props;
+        const {coverImage} = activeHighlightItem;
+        const shareOptions = {
+            title: 'Share file',
+            url: 'http://nailert-api.topwork.asia/public/images/b02031c3.jpg',
+            message: 'test',
+            social: Share.Social.FACEBOOK,
+            failOnCancel: false,
+        };
+        Share.shareSingle(shareOptions)
+            .then((res) => { console.log(res) })
+            .catch((err) => { err && console.log(err); });
+    };
+
+    handleTwitterShare = () => {
+        const shareOptions = {
+            title: 'Share file',
+            url: 'http://nailert-api.topwork.asia/public/images/b02031c3.jpg',
+            social: Share.Social.TWITTER,
+            failOnCancel: false,
+        };
+        Share.shareSingle(shareOptions)
+            .then((res) => { console.log(res) })
+            .catch((err) => { err && console.log(err); });
+    };
+
     componentDidMount(){
         const {activeHighlightItem={}} = this.props;
         const {sound} = activeHighlightItem;
@@ -71,6 +99,8 @@ class ContentDetailScreen extends Component {
                     {...activeHighlightItem}
                     isCanPlay={isCanPlay}
                     audioStatus={audioStatus}
+                    onFacebookShare={this.handleFacebookShare}
+                    onTwitterShare={this.handleTwitterShare}
                     onPlaySound={this.handleTogglePlayAudio}
                 />
             </SafeAreaView>

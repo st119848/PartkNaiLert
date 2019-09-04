@@ -40,6 +40,8 @@ target 'parknailert' do
 
   pod 'RNSound', :path => '../node_modules/react-native-sound'
 
+  pod 'RNShare', :path => '../node_modules/react-native-share'
+
   target 'parknailertTests' do
     inherit! :search_paths
     # Pods for testing
@@ -48,12 +50,3 @@ target 'parknailert' do
   use_native_modules!
 end
 
-target 'parknailert-tvOS' do
-  # Pods for parknailert-tvOS
-
-  target 'parknailert-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-end
