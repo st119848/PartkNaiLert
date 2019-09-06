@@ -6,7 +6,7 @@ import { bindActionCreators } from "redux";
 import { connect } from 'react-redux'
 import { settingBeaconActive, settingBeaconInfo } from "../src/reducers/actions/setting";
 
-import beacon from "../src/data/beacon";
+// import beacon from "../src/data/beacon";
 
 const ESTIMOTE_APP_ID = "-proximity-for-multiple-be-dt6";
 const ESTIMOTE_APP_TOKEN = "6b90134a2016d2d71ac1f70f8f3dc406";
@@ -23,19 +23,19 @@ componentWillMount(){
   this.beaconScanZone()
 }
 
-getBeacons = (contexts) => {
-  const dataBeacon = beacon[this.props.language]
-  const beacondatas = []
-  contexts.forEach(dataContexts => {
-    const filterBeacon = dataBeacon.find((beacon)=>{
-      return dataContexts.deviceIdentifier === beacon.identifier
-    })
-    beacondatas.push(filterBeacon)
-  });
-  this.setBeaconInfo(beacondatas)
-  console.log("getBeacons",beacondatas)
-
-}
+// getBeacons = (contexts) => {
+//   const dataBeacon = beacon[this.props.language]
+//   const beacondatas = []
+//   contexts.forEach(dataContexts => {
+//     const filterBeacon = dataBeacon.find((beacon)=>{
+//       return dataContexts.deviceIdentifier === beacon.identifier
+//     })
+//     beacondatas.push(filterBeacon)
+//   });
+//   this.setBeaconInfo(beacondatas)
+//   console.log("getBeacons",beacondatas)
+//
+// }
 
 setBeaconInfo = (beacondatas) =>{
  this.props.settingBeaconInfo(beacondatas)
@@ -60,7 +60,7 @@ beaconScanZone = ()=>{
   };
   zone1.onChangeAction = contexts => {
     console.log("zone1 onChange", contexts);
-    this.getBeacons(contexts)
+    // this.getBeacons(contexts)
   };
   
   const zone2 = new RNEP.ProximityZone(1, "Nong");

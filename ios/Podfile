@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '10.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
 target 'parknailert' do
@@ -41,6 +41,8 @@ target 'parknailert' do
   pod 'RNSound', :path => '../node_modules/react-native-sound'
 
   pod 'RNShare', :path => '../node_modules/react-native-share'
+
+  pod 'estimote-react-native-proximity', :path => '../node_modules/@estimote/react-native-proximity'
 
   target 'parknailertTests' do
     inherit! :search_paths
