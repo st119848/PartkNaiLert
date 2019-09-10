@@ -27,7 +27,7 @@ import { settingLanguage } from "../reducers/actions/setting";
     return (
       <View>
         <ActivityIndicator />
-        <BeaconScan/>
+        {/*<BeaconScan/>*/}
       </View>
     )
   }
@@ -44,7 +44,7 @@ const mapStateToProps = (state) => {
   return {
     language: state.setting.language
   }
-}
+};
 export default connect(mapStateToProps, mapDispatchToProps)(AuthLoadingScreen)
 // export default AuthLoadingScreen
 
