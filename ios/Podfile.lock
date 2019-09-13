@@ -89,7 +89,7 @@ PODS:
     - React-Core (= 0.60.5)
   - RNCAsyncStorage (1.6.1):
     - React
-  - RNGestureHandler (1.4.1):
+  - RNGestureHandler (1.4.0):
     - React
   - RNReanimated (1.2.0):
     - React
@@ -204,7 +204,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
-  estimote-react-native-proximity: d567ac92120a97afcb09d68a10bfdf438c0456d7
+  estimote-react-native-proximity: bba65e276c1a16dcb2c24e7b6214a284c172610e
   EstimoteBluetoothScanning: 8aae20369d7d9008deb8429b9c83c11e948bd7be
   EstimoteProximitySDK: ff97b13e674ebe82ceaf0cd46a29422211c52d85
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
@@ -227,11 +227,11 @@ SPEC CHECKSUMS:
   React-RCTText: b074d89033583d4f2eb5faf7ea2db3a13c7553a2
   React-RCTVibration: 2105b2e0e2b66a6408fc69a46c8a7fb5b2fdade0
   React-RCTWebSocket: cd932a16b7214898b6b7f788c8bddb3637246ac4
-  RNCAsyncStorage: 621bad7a889b5bf1583a52547f2dcd3a4d1ff15e
-  RNGestureHandler: 4cb47a93019c1a201df2644413a0a1569a51c8aa
+  RNCAsyncStorage: 2e2e3feb9bdadc752a026703d8c4065ca912e75a
+  RNGestureHandler: 71871d4792db2a73f70204483d30350ec9384cbd
   RNReanimated: 1b52415c4302f198cb581282a0166690bad62c43
   RNShare: 8b171d4b43c1d886917fdd303bf7a4b87167b05c
-  RNSound: c980916b596cc15c8dcd2f6ecd3b13c4881dbe20
+  RNSound: da030221e6ac7e8290c6b43f2b5f2133a8e225b0
   RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
   yoga: 312528f5bbbba37b4dcea5ef00e8b4033fdd9411
 

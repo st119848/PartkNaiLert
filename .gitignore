@@ -57,8 +57,3 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
-
-#Unity
-/ios/UnityExport/
-/android/UnityExport/
-/ios/Vuforia.framework/

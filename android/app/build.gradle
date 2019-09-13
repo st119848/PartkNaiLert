@@ -197,7 +197,6 @@ android {
 }
 
 dependencies {
-    implementation project(':react-native-unity-view')
     implementation project(':@estimote_react-native-proximity')
     implementation project(':react-native-share')
     implementation project(':react-native-sound')
