@@ -8,8 +8,11 @@ import { settingBeaconActive, settingBeaconInfo } from "../src/reducers/actions/
 
 // import beacon from "../src/data/beacon";
 
-const ESTIMOTE_APP_ID = "-proximity-for-multiple-be-dt6";
-const ESTIMOTE_APP_TOKEN = "6b90134a2016d2d71ac1f70f8f3dc406";
+const ESTIMOTE_APP_ID = "parknailert-3i3";
+const ESTIMOTE_APP_TOKEN = "29ef710bc203085bc2ff59ec29c5bdaa";
+
+// const ESTIMOTE_APP_ID = "-proximity-for-multiple-be-dt6";
+// const ESTIMOTE_APP_TOKEN = "6b90134a2016d2d71ac1f70f8f3dc406";
 
 export class BeaconScan extends Component {
   constructor () {
@@ -63,18 +66,18 @@ beaconScanZone = ()=>{
     // this.getBeacons(contexts)
   };
   
-  const zone2 = new RNEP.ProximityZone(1, "Nong");
-  zone2.onEnterAction = context => {
-    console.log("zone2 onEnter", context);
-  };
-  zone2.onExitAction = context => {
-    console.log("zone2 onExit", context);
-    
-  };
-  zone2.onChangeAction = contexts => {
-    console.log("zone2 onChange", contexts);
-    alert("zone2")
-  };
+  // const zone2 = new RNEP.ProximityZone(1, "Nong");
+  // zone2.onEnterAction = context => {
+  //   console.log("zone2 onEnter", context);
+  // };
+  // zone2.onExitAction = context => {
+  //   console.log("zone2 onExit", context);
+  //
+  // };
+  // zone2.onChangeAction = contexts => {
+  //   console.log("zone2 onChange", contexts);
+  //   alert("zone2")
+  // };
   
   RNEP.locationPermission.request().then(
     permission => {
@@ -99,7 +102,7 @@ beaconScanZone = ()=>{
         };
   
         RNEP.proximityObserver.initialize(credentials, config);
-        RNEP.proximityObserver.startObservingZones([zone1, zone2]);
+        RNEP.proximityObserver.startObservingZones([zone1]);
       }
     },
     error => {
