@@ -10,9 +10,14 @@
 				<string>partnailert</string>
 			</array>
 			<key>CFBundleURLName</key>
-			<string/>
+			<string></string>
 		</dict>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We&apos;ll show you things near you in the app. With &quot;always&quot; access, we&apos;ll
+            also send you notifications when you&apos;re near something interesting.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -57,8 +62,6 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
 	<key>UIAppFonts</key>
 	<array>
 		<string>AntDesign.ttf</string>
