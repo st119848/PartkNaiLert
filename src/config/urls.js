@@ -1,6 +1,9 @@
 
-const apiUrl = 'http://192.168.1.10:8000/api/app/';
-const domain = 'http://192.168.1.10:8000/';
+// const apiUrl = 'http://192.168.1.10:8000/api/app/';
+// const domain = 'http://192.168.1.10:8000/';
+
+const apiUrl = 'http://nailert-api.topwork.asia/api/app/';
+const domain = 'http://nailert-api.topwork.asia/';
 
 const url =  {
     domain: domain,

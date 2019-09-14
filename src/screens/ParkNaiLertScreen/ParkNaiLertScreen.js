@@ -6,7 +6,8 @@ import {
     TouchableOpacity,
     Image,
     View,
-    ImageBackground
+    ImageBackground,
+    StatusBar
 } from 'react-native';
 import HeaderLogo from "../../components/HeaderLogo";
 import BeaconStatusIcon from "../../components/BeaconStatusIcon";
@@ -14,8 +15,9 @@ import ARIcon from '../../assets/img/ar_icon.png';
 import BGImage from '../../assets/img/garden_bg.jpg';
 import LogoImage from '../../assets/img/logo.png';
 import {translate} from "../../helpers/translates";
-import SetPageScreen from "../HomeScreen/screens/SetPageScreen";
+import SetPageModal from "../../components/modals/SetPageModal";
 import HamburgerButton from "../../components/HamburgerButton";
+import ARModal from "../../components/modals/ARModal";
 
 class ParkNaiLertScreen extends Component {
     static navigationOptions = ({navigation}) => {
@@ -31,6 +33,7 @@ class ParkNaiLertScreen extends Component {
 
     state = {
         isShowSetPage: false,
+        isShowArScreen: false,
     };
 
     t = (key, find, replace) => {
@@ -44,6 +47,12 @@ class ParkNaiLertScreen extends Component {
         })
     };
 
+    handleARButtonClick = () => {
+        this.setState({
+            isShowArScreen: true,
+        })
+    };
+
     handleChangePage = (page) => {
         this.handleCloseModal();
         const {navigation} = this.props;
@@ -53,6 +62,7 @@ class ParkNaiLertScreen extends Component {
     handleCloseModal = () => {
         this.setState({
             isShowSetPage: false,
+            isShowArScreen: false,
         })
     };
 
@@ -64,16 +74,23 @@ class ParkNaiLertScreen extends Component {
     }
 
     render() {
-        const {isShowSetPage} = this.state;
+        const {isShowSetPage, isShowArScreen} = this.state;
+        const barStyle = (isShowSetPage || isShowArScreen) ? 'light-content' : 'default';
         return (
             <SafeAreaView style={styles.container}>
+                <StatusBar barStyle={barStyle} />
                 <Content t={this.t} />
-                <ARButton/>
-                <SetPageScreen
+                <ARButton onPress={this.handleARButtonClick}/>
+                <SetPageModal
                     active="PNL"
                     visible={isShowSetPage}
                     onClose={this.handleCloseModal}
                     onChangePage={this.handleChangePage}
+                />
+                <ARModal
+                    scene='ARCarDemo'
+                    visible={isShowArScreen}
+                    onClose={this.handleCloseModal}
                 />
             </SafeAreaView>
         )
@@ -112,8 +129,9 @@ const Logo = props => {
 }
 
 const ARButton = props => {
+    const {onPress} = props;
     return (
-        <TouchableOpacity style={styles.arButtonContainer}>
+        <TouchableOpacity onPress={onPress} style={styles.arButtonContainer}>
             <Image style={styles.arButton} source={ARIcon} />
         </TouchableOpacity>
     );

@@ -8,12 +8,12 @@ import {
 } from 'react-native';
 import Icon from "../../../components/Icon";
 
-const ARButton = ({t}) => {
+const ARButton = ({t, onPress}) => {
     const tryLabel = t('home.buttons.try');
     const cameraLabel = t('home.buttons.camera');
     return (
         <SafeAreaView style={styles.safeContainer}>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={onPress}>
                 <View style={styles.container}>
                     <ARIcon/>
                     <Title tryLabel={tryLabel} cameraLabel={cameraLabel}/>

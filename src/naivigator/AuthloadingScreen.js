@@ -2,7 +2,7 @@ import React from 'react'
 import { ActivityIndicator, View } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 // import SplashScreen from 'react-native-splash-screen'
-import BeaconScan from '../../tools/BeaconScan'
+// import BeaconScan from '../../tools/BeaconScan'
 
 import { connect } from 'react-redux'
 import { settingLanguage } from "../reducers/actions/setting";
@@ -27,7 +27,7 @@ import { settingLanguage } from "../reducers/actions/setting";
     return (
       <View>
         <ActivityIndicator />
-        <BeaconScan/>
+        {/*<BeaconScan/>*/}
       </View>
     )
   }

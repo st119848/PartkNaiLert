@@ -12,9 +12,10 @@ import HighLight from "./components/HighLight";
 import Description from "./components/Description";
 import BeaconsStatus from "./components/BeaconsStatus";
 import ARButton from "./components/ARButton";
-import SetLanguageScreen from "./screens/SetLanguageScreen";
-import SetPageScreen from "./screens/SetPageScreen";
+import SetLanguageModal from "../../components/modals/SetLanguageModal";
+import SetPageModal from "../../components/modals/SetPageModal";
 import {translate} from "../../helpers/translates";
+import ARModal from "../../components/modals/ARModal";
 
 export default class HomeScreen extends Component {
     static navigationOptions = {
@@ -25,6 +26,7 @@ export default class HomeScreen extends Component {
     state = {
         isShowSetLang: false,
         isShowSetPage: false,
+        isShowArScreen: false
     };
 
     handleHamburgerClick = () => {
@@ -38,6 +40,12 @@ export default class HomeScreen extends Component {
             isShowSetLang: true,
         })
 
+    };
+
+    handleARButtonClick = () => {
+        this.setState({
+            isShowArScreen: true,
+        })
     };
 
     handleMoreItemClick = () => {
@@ -71,6 +79,7 @@ export default class HomeScreen extends Component {
         this.setState({
             isShowSetPage: false,
             isShowSetLang: false,
+            isShowArScreen: false,
         })
     };
 
@@ -103,8 +112,8 @@ export default class HomeScreen extends Component {
 
     render() {
         const {language, imagesHighlight} = this.props;
-        const {isShowSetLang, isShowSetPage} = this.state;
-        const barStyle = (isShowSetLang || isShowSetPage) ? 'light-content' : 'default';
+        const {isShowSetLang, isShowSetPage, isShowArScreen} = this.state;
+        const barStyle = (isShowSetLang || isShowSetPage || isShowArScreen) ? 'light-content' : 'default';
         return (
             <View style={styles.container}>
                 <StatusBar barStyle={barStyle} />
@@ -125,17 +134,22 @@ export default class HomeScreen extends Component {
                     <Description t={this.t} />
                     <BeaconsStatus t={this.t} />
                 </ScrollView>
-                <ARButton t={this.t} />
-                <SetPageScreen
+                <ARButton t={this.t} onPress={this.handleARButtonClick} />
+                <SetPageModal
                     visible={isShowSetPage}
                     onClose={this.handleCloseModal}
                     onChangePage={this.handleChangePage}
                 />
-                <SetLanguageScreen
+                <SetLanguageModal
                     visible={isShowSetLang}
                     activeLang={language}
                     onClose={this.handleCloseModal}
                     onChangeLang={this.handleChangeLang}
+                />
+                <ARModal
+                    scene='ARCarDemo'
+                    visible={isShowArScreen}
+                    onClose={this.handleCloseModal}
                 />
             </View>
         )
