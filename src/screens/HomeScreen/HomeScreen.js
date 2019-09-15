@@ -111,7 +111,7 @@ export default class HomeScreen extends Component {
     };
 
     render() {
-        const {language, imagesHighlight} = this.props;
+        const {language, imagesHighlight, isGettingImageSlider} = this.props;
         const {isShowSetLang, isShowSetPage, isShowArScreen} = this.state;
         const barStyle = (isShowSetLang || isShowSetPage || isShowArScreen) ? 'light-content' : 'default';
         return (
@@ -127,6 +127,7 @@ export default class HomeScreen extends Component {
                 />
                 <ScrollView style={styles.scrollContainer} contentContainerStyle={styles.contentContainer}>
                     <HighLight
+                        loading={isGettingImageSlider}
                         imagesHighlight={imagesHighlight}
                         t={this.t}
                         onMoreItemClick={this.handleMoreItemClick}

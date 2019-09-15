@@ -6,50 +6,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="config(app):">
-      <change afterPath="$PROJECT_DIR$/ios/pod_post_install.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/modals/ARModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/drum.mtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/drum.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/garage_1k.hdr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/jar.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/jar.mtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/jar.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/jar.vrx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/khong.vrx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car.mtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Base_Color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Base_Color_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Base_Color_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Base_Color_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Base_Color_yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Metallic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Roughness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/viro_car_marker_demo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ARScreen/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(home, parknailert): integrate AR(demo) function">
+      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/loading/HightLightLoading.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/UnityExport/src/main/assets/bin/Data/04e168a2aec9e4b5dabd39ce427f1926" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/parknailert/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/parknailert/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/parknailert/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/metro.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/urls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/components/ARButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/ARButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/screens/SetLanguageScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modals/SetLanguageModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/screens/SetPageScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modals/SetPageModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/ParkNaiLertScreen/ParkNaiLertScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ParkNaiLertScreen/ParkNaiLertScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unity/parknailert/Library/MonoManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/home_container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/home_container.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,10 +31,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="112" column="14" lean-forward="true" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
+            <state relative-caret-position="291">
+              <caret line="129" column="53" selection-start-line="129" selection-start-column="53" selection-end-line="129" selection-end-column="53" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/stores/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,76 +56,79 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo2.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/modals/ARModal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/home_container.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/actions/contents.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/stores/contents.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/loading/HightLightLoading.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/Description.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/ParkNaiLertScreen/ParkNaiLertScreen.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-viro/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/ARButton.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/metro.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -195,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/screens/ContactUsScreens/ContactUsScreens.js" />
         <option value="$PROJECT_DIR$/src/adapter/aboutUs.js" />
         <option value="$PROJECT_DIR$/src/reducers/stores/aboutUs.js" />
         <option value="$PROJECT_DIR$/src/screens/FindUsScreen/index.js" />
@@ -213,14 +195,11 @@
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/BeaconsStatus.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/Description.js" />
-        <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentListScreen/components/ARButton.js" />
         <option value="$PROJECT_DIR$/src/components/HeaderLogo.js" />
         <option value="$PROJECT_DIR$/src/components/BeaconStatusIcon.js" />
-        <option value="$PROJECT_DIR$/src/reducers/stores/contents.js" />
-        <option value="$PROJECT_DIR$/src/screens/HomeScreen/home_container.js" />
         <option value="$PROJECT_DIR$/src/reducers/actions/contents.js" />
         <option value="$PROJECT_DIR$/src/components/HamburgerButton.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/screens/SetPageScreen.js" />
@@ -244,16 +223,18 @@
         <option value="$PROJECT_DIR$/metro.config.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/screens/ARModalScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/screens/ARModal.js" />
-        <option value="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ParkNaiLertScreen/ParkNaiLertScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen/home_container.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" />
+        <option value="$PROJECT_DIR$/src/reducers/stores/contents.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/loading/HightLightLoading.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="145" />
-    <option name="y" value="37" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="834" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -270,74 +251,26 @@
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="ios" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="AR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="AR" type="462c0819:PsiDirectoryNode" />
-              <item name="ARCarDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="AR" type="462c0819:PsiDirectoryNode" />
-              <item name="ARCarDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="naivigator" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+              <item name="stores" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="ARScreen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="ContactUsScreens" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
@@ -359,12 +292,9 @@
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="ParkNaiLertScreen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeScreen" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="loading" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -642,17 +572,31 @@
       <option name="project" value="LOCAL" />
       <updated>1568386470506</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat(home, parknailert): integrate AR(demo) function">
+      <created>1568462624504</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1568462624504</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat(home, parknailert): integrate AR(demo) function">
+      <created>1568462654511</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1568462654511</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195220000" />
+    <option name="totallyTimeSpent" value="202567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="834" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21338156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43542436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Captures" order="3" weight="0.25" />
@@ -757,39 +701,10 @@
     <MESSAGE value="style(app): set background color for image + set portrait for android" />
     <MESSAGE value="feat(content-detail): set update share component + deep link" />
     <MESSAGE value="Revert &quot;try(iOS): try to add AR to ios&quot;&#10;&#10;This reverts commit 477a0440" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;try(iOS): try to add AR to ios&quot;&#10;&#10;This reverts commit 477a0440" />
+    <MESSAGE value="feat(home, parknailert): integrate AR(demo) function" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(home, parknailert): integrate AR(demo) function" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/Description.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/components/ARButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HeaderLogo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -806,36 +721,6 @@
           <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/stores/contents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/home_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/actions/contents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -881,16 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="112" column="46" selection-start-line="112" selection-start-column="46" selection-end-line="112" selection-end-column="46" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1130,9 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1153,20 +1025,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ParkNaiLertScreen/ParkNaiLertScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/Description.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/actions/contents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/stores/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="112" column="14" lean-forward="true" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
+        <state relative-caret-position="291">
+          <caret line="129" column="53" selection-start-line="129" selection-start-column="53" selection-end-line="129" selection-end-column="53" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ParkNaiLertScreen/ParkNaiLertScreen.js">
+    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/home_container.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="315">
+          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/stores/contents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/loading/HightLightLoading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

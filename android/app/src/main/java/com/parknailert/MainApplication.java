@@ -7,6 +7,7 @@ import com.facebook.react.PackageList;
 import com.facebook.hermes.reactexecutor.HermesExecutorFactory;
 import com.facebook.react.bridge.JavaScriptExecutorFactory;
 import com.facebook.react.ReactApplication;
+import com.horcrux.svg.SvgPackage;
 import com.estimote.react.RNEstimoteProximityPackage;
 import cl.json.RNSharePackage;
 import com.zmxv.RNSound.RNSoundPackage;

@@ -8,14 +8,17 @@ import {
     ScrollView,
     Dimensions,
 } from 'react-native';
+import HighLightLoading from "./loading/HightLightLoading";
 
 const {width} = Dimensions.get('window');
 
 const HighLight = props => {
+    const {loading} = props;
     return (
         <View style={styles.container}>
             <Header {...props} />
-            <ItemsList {...props}/>
+            {loading && <HighLightLoading />}
+            {!loading && <ItemsList {...props}/>}
         </View>
     )
 };

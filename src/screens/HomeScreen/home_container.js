@@ -18,7 +18,8 @@ const mapDispatchToProps = (dispatch) => {
 const mapStateToProps = (state) => {
     return {
         language: state.setting.language,
-        imagesHighlight: state.contents.imagesHighlight
+        imagesHighlight: state.contents.imagesHighlight,
+        isGettingImageSlider: state.contents.isGettingImageSlider
     }
 };
 export default connect(mapStateToProps, mapDispatchToProps)(HomeScreen)

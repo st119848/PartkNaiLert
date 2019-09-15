@@ -100,6 +100,8 @@ PODS:
     - RNSound/Core (= 0.11.0)
   - RNSound/Core (0.11.0):
     - React
+  - RNSVG (9.9.3):
+    - React
   - RNVectorIcons (6.6.0):
     - React
   - ViroKit_static_lib (1.0)
@@ -134,6 +136,7 @@ DEPENDENCIES:
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNShare (from `../node_modules/react-native-share`)
   - RNSound (from `../node_modules/react-native-sound`)
+  - RNSVG (from `../node_modules/react-native-svg`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - ViroKit_static_lib (from `../node_modules/react-viro/ios/dist/ViroRenderer/static_lib`)
   - ViroReact (from `../node_modules/react-viro/ios/`)
@@ -200,6 +203,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-share"
   RNSound:
     :path: "../node_modules/react-native-sound"
+  RNSVG:
+    :path: "../node_modules/react-native-svg"
   RNVectorIcons:
     :path: "../node_modules/react-native-vector-icons"
   ViroKit_static_lib:
@@ -240,11 +245,12 @@ SPEC CHECKSUMS:
   RNReanimated: 1b52415c4302f198cb581282a0166690bad62c43
   RNShare: 8b171d4b43c1d886917fdd303bf7a4b87167b05c
   RNSound: c980916b596cc15c8dcd2f6ecd3b13c4881dbe20
+  RNSVG: 2a15d0d14d171ba610db927190604d1ab223f413
   RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
   ViroKit_static_lib: ae9c112ac4b128f8d4466fc581c7b07a0264754d
   ViroReact: 7ec32276dcd1883662b4587eaedfff67f7fc3625
   yoga: 312528f5bbbba37b4dcea5ef00e8b4033fdd9411
 
-PODFILE CHECKSUM: 8436c591e95516a38271df0a67b2714a25099d03
+PODFILE CHECKSUM: b57fc2f3ae0c609dfb23116ee0310b12ecf80435
 
 COCOAPODS: 1.7.5
