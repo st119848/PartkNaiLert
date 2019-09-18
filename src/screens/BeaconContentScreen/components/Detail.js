@@ -16,7 +16,6 @@ const Detail = props => {
             <Title title={title} />
             <Description description={description}/>
             {isCanPlay && <AudioButton audioStatus={audioStatus} onPress={onPlaySound} />}
-            <ShareButtons onFacebookShare={onFacebookShare} onTwitterShare={onTwitterShare}/>
         </View>
     )
 };
@@ -60,16 +59,6 @@ const AudioButton = props => {
     );
 };
 
-const ShareButtons = props => {
-    const {onFacebookShare, onTwitterShare} = props;
-    return (
-        <View style={styles.shareButtonsContainer}>
-            <IconButton style={styles.twitterIcon} iconName="twitter" size={35} onPress={onTwitterShare}/>
-            <IconButton style={styles.facebookIcon} iconName="facebook-square" size={35} onPress={onFacebookShare}/>
-        </View>
-    )
-}
-
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -96,8 +85,6 @@ const styles = StyleSheet.create({
     descriptionContainer: {
         flex: 1,
         paddingHorizontal: 15,
-        borderBottomWidth: 1,
-        borderColor: 'lightgray',
     },
     description: {
         fontSize: 15,

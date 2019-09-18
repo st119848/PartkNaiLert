@@ -34,33 +34,6 @@ class BeaconContentScreen extends Component {
         }
     };
 
-    handleFacebookShare = () => {
-        const {beaconContent={}} = this.props;
-        const {coverImage} = beaconContent;
-        const shareOptions = {
-            title: 'Share file',
-            url: 'http://nailert-api.topwork.asia/public/images/b02031c3.jpg',
-            message: 'test',
-            social: Share.Social.FACEBOOK,
-            failOnCancel: false,
-        };
-        Share.shareSingle(shareOptions)
-            .then((res) => { console.log(res) })
-            .catch((err) => { err && console.log(err); });
-    };
-
-    handleTwitterShare = () => {
-        const shareOptions = {
-            title: 'Share file',
-            url: 'http://nailert-api.topwork.asia/public/images/b02031c3.jpg',
-            social: Share.Social.TWITTER,
-            failOnCancel: false,
-        };
-        Share.shareSingle(shareOptions)
-            .then((res) => { console.log(res) })
-            .catch((err) => { err && console.log(err); });
-    };
-
     componentDidMount(){
         const {beaconContent={}} = this.props;
         const {sound} = beaconContent;
@@ -83,7 +56,6 @@ class BeaconContentScreen extends Component {
         const {audioStatus, isCanPlay} = this.state;
         const {beaconContent={}} = this.props;
         const {galleryImages=[]} = beaconContent;
-        console.log('beaconContent', beaconContent)
         return (
             <View style={styles.container}>
                 <ImagesSlider images={galleryImages}/>
@@ -91,8 +63,6 @@ class BeaconContentScreen extends Component {
                     {...beaconContent}
                     isCanPlay={isCanPlay}
                     audioStatus={audioStatus}
-                    onFacebookShare={this.handleFacebookShare}
-                    onTwitterShare={this.handleTwitterShare}
                     onPlaySound={this.handleTogglePlayAudio}
                 />
             </View>
