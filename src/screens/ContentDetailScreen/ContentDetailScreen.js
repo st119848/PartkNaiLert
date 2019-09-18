@@ -45,11 +45,11 @@ class ContentDetailScreen extends Component {
 
     handleFacebookShare = () => {
         const {activeHighlightItem={}} = this.props;
-        const {coverImage} = activeHighlightItem;
+        const {title, coverImage} = activeHighlightItem;
         const shareOptions = {
-            title: 'Share file',
-            url: 'http://nailert-api.topwork.asia/public/images/b02031c3.jpg',
-            message: 'test',
+            title: title,
+            url: coverImage,
+            message: title,
             social: Share.Social.FACEBOOK,
             failOnCancel: false,
         };
@@ -59,9 +59,12 @@ class ContentDetailScreen extends Component {
     };
 
     handleTwitterShare = () => {
+        const {activeHighlightItem={}} = this.props;
+        const {title, coverImage} = activeHighlightItem;
         const shareOptions = {
-            title: 'Share file',
-            url: 'http://nailert-api.topwork.asia/public/images/b02031c3.jpg',
+            title: title,
+            url: coverImage,
+            message: title,
             social: Share.Social.TWITTER,
             failOnCancel: false,
         };

@@ -6,10 +6,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(beacon): integrate beacon content in modal + test connect with api">
+    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(beacon): remove share function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/BeaconContentScreen/BeaconContentScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/BeaconContentScreen/BeaconContentScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/BeaconContentScreen/components/Detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/BeaconContentScreen/components/Detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,20 +30,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/components/Detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+            <state relative-caret-position="353">
+              <caret line="94" column="6" lean-forward="true" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="100" column="45" lean-forward="true" selection-start-line="100" selection-start-column="45" selection-end-line="102" selection-end-column="60" />
+            <state relative-caret-position="346">
+              <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -64,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="18" column="93" lean-forward="true" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
+            <state relative-caret-position="240">
+              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -219,10 +218,10 @@
         <option value="$PROJECT_DIR$/src/reducers/stores/contents.js" />
         <option value="$PROJECT_DIR$/src/screens/AsyncScreens/async_container.js" />
         <option value="$PROJECT_DIR$/src/screens/AsyncScreens/AsyncScreens.js" />
-        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js" />
         <option value="$PROJECT_DIR$/src/screens/BeaconContentScreen/BeaconContentScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/BeaconContentScreen/components/Detail.js" />
+        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" />
       </list>
     </option>
   </component>
@@ -471,7 +470,7 @@
       <workItem from="1567696035272" duration="1928000" />
       <workItem from="1568722357235" duration="12632000" />
       <workItem from="1568782315004" duration="754000" />
-      <workItem from="1568808301744" duration="283000" />
+      <workItem from="1568808301744" duration="733000" />
     </task>
     <task id="LOCAL-00001" summary="feat(app): mock UI all pages">
       <created>1566134031143</created>
@@ -662,11 +661,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568774801883</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat(beacon): remove share function">
+      <created>1568808840554</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1568808840554</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218638000" />
+    <option name="totallyTimeSpent" value="219088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -780,7 +786,8 @@
     <MESSAGE value="feat(home, parknailert): integrate AR(demo) function" />
     <MESSAGE value="feat(home): add skeleton to home page" />
     <MESSAGE value="feat(beacon): integrate beacon content in modal + test connect with api" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(beacon): integrate beacon content in modal + test connect with api" />
+    <MESSAGE value="feat(beacon): remove share function" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(beacon): remove share function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -1118,30 +1125,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="100" column="45" lean-forward="true" selection-start-line="100" selection-start-column="45" selection-end-line="102" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="18" column="93" lean-forward="true" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1167,8 +1154,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/components/Detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+        <state relative-caret-position="353">
+          <caret line="94" column="6" lean-forward="true" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
