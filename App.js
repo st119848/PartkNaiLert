@@ -4,6 +4,7 @@ import { createStore, applyMiddleware, compose } from 'redux'
 import rootReducer from './src/reducers/stores'
 import thunk from "redux-thunk";
 import AppNavigator from "./src/naivigator/AppNavigator";
+import AsyncScreens from "./src/screens/AsyncScreens";
 
 const composeEnhancers =
     typeof window === 'object' &&
@@ -22,6 +23,7 @@ export default class App extends Component {
     return (
       <Provider store={store}>
         <AppNavigator/>
+        <AsyncScreens />
       </Provider>
     )
   }

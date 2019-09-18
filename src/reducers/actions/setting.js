@@ -1,4 +1,4 @@
-import AsyncStorage from '@react-native-community/async-storage';
+  import AsyncStorage from '@react-native-community/async-storage';
 
 export const SETTING_LANGUAGE = 'SETTING_LANGUAGE';
 export const SETTING_BEACONACTIVE = 'SETTING_BEACONACTIVE';

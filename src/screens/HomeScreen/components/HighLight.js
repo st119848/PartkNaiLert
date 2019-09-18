@@ -114,6 +114,8 @@ const styles = StyleSheet.create({
         height: (width/3)/4*3,
         marginRight: 10,
         backgroundColor: 'rgb(125, 105 , 87)',
+        borderRadius: 2,
+        overflow: 'hidden'
     },
     itemImage: {
         width: '100%',

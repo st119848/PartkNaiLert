@@ -16,6 +16,7 @@ import SetLanguageModal from "../../components/modals/SetLanguageModal";
 import SetPageModal from "../../components/modals/SetPageModal";
 import {translate} from "../../helpers/translates";
 import ARModal from "../../components/modals/ARModal";
+import ContentDetailModal from "../../components/modals/ContentDetailModal";
 
 export default class HomeScreen extends Component {
     static navigationOptions = {
@@ -89,9 +90,8 @@ export default class HomeScreen extends Component {
     };
 
     componentDidMount() {
-        const {getImageSlidersFromApi, getBeaconContentFromApi} = this.props;
+        const {getImageSlidersFromApi} = this.props;
         getImageSlidersFromApi();
-        getBeaconContentFromApi();
 
         if (Platform.OS === 'android') {
             Linking.getInitialURL().then(url => {
@@ -152,6 +152,7 @@ export default class HomeScreen extends Component {
                     visible={isShowArScreen}
                     onClose={this.handleCloseModal}
                 />
+                {/*<ContentDetailModal visible onClose={this.handleCloseModal}/>*/}
             </View>
         )
     }

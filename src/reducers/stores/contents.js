@@ -9,6 +9,7 @@ import {
     GETTING_BEACON_LIST_SUCCESS,
     GETTING_BEACON_LIST_FAILED,
     SET_ACTIVE_HIGHLIGHT_ITEM,
+    CLOSE_BEACON_CONTENT_MODAL,
 } from "../actions/contents";
 
 const initialStste = {
@@ -20,6 +21,8 @@ const initialStste = {
     isGettingHighlightListSuccess: false,
     activeHighlightItem: undefined,
     beaconList: [],
+    beaconContent: undefined,
+    isShowBeaconContentModal: false,
     isGettingBeaconList: false,
     isGettingBeaconListSuccess: false,
 };
@@ -78,9 +81,11 @@ export default (state = initialStste, action) => {
         case GETTING_BEACON_LIST_SUCCESS:
             return {
                 ...state,
-                beaconList: action.data,
+                beaconList: action.data.beaconList,
+                beaconContent: action.data.beaconContent,
                 isGettingBeaconList: false,
                 isGettingBeaconListSuccess: true,
+                isShowBeaconContentModal: true
             };
 
         case GETTING_BEACON_LIST_FAILED:
@@ -93,6 +98,12 @@ export default (state = initialStste, action) => {
             return {
                 ...state,
                 activeHighlightItem: action.data,
+            }
+        }
+        case CLOSE_BEACON_CONTENT_MODAL: {
+            return {
+                ...state,
+                isShowBeaconContentModal: false,
             }
         }
         default:

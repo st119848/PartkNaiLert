@@ -5,14 +5,12 @@ import * as RNEP from "@estimote/react-native-proximity";
 import { bindActionCreators } from "redux";
 import { connect } from 'react-redux'
 import { settingBeaconActive, settingBeaconInfo } from "../src/reducers/actions/setting";
+import APP_CONFIG from '../src/config/app'
 
 // import beacon from "../src/data/beacon";
 
-const ESTIMOTE_APP_ID = "parknailert-3i3";
-const ESTIMOTE_APP_TOKEN = "29ef710bc203085bc2ff59ec29c5bdaa";
-
-// const ESTIMOTE_APP_ID = "-proximity-for-multiple-be-dt6";
-// const ESTIMOTE_APP_TOKEN = "6b90134a2016d2d71ac1f70f8f3dc406";
+const ESTIMOTE_APP_ID = APP_CONFIG.estimoteAppId;
+const ESTIMOTE_APP_TOKEN = APP_CONFIG.estimoteAppToken;
 
 export class BeaconScan extends Component {
   constructor () {
@@ -44,14 +42,8 @@ setBeaconInfo = (beacondatas) =>{
  this.props.settingBeaconInfo(beacondatas)
 }
 
-
-
-
-
-
 beaconScanZone = ()=>{
-  const zone1 = new RNEP.ProximityZone(1, "Parknailert");
-  console.log(zone1);
+  const zone1 = new RNEP.ProximityZone(1, "P15M");
   zone1.onEnterAction = context => {
     this.props.settingBeaconActive(true)
     console.log("zone1 onEnter", context.deviceIdentifier);
@@ -65,19 +57,21 @@ beaconScanZone = ()=>{
     console.log("zone1 onChange", contexts);
     // this.getBeacons(contexts)
   };
-  
-  // const zone2 = new RNEP.ProximityZone(1, "Nong");
-  // zone2.onEnterAction = context => {
-  //   console.log("zone2 onEnter", context);
-  // };
-  // zone2.onExitAction = context => {
-  //   console.log("zone2 onExit", context);
-  //
-  // };
-  // zone2.onChangeAction = contexts => {
-  //   console.log("zone2 onChange", contexts);
-  //   alert("zone2")
-  // };
+
+  const zone2 = new RNEP.ProximityZone(1, "P05M");
+  zone2.onEnterAction = context => {
+    this.props.settingBeaconActive(true)
+    console.log("zone2 onEnter", context.deviceIdentifier);
+    // alert(context.deviceIdentifier)
+  };
+  zone2.onExitAction = context => {
+    this.props.settingBeaconActive(false)
+    console.log("zone2 onExit", context.deviceIdentifier);
+  };
+  zone2.onChangeAction = contexts => {
+    console.log("zone2 onChange", contexts);
+    // this.getBeacons(contexts)
+  };
   
   RNEP.locationPermission.request().then(
     permission => {
