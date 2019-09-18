@@ -5,11 +5,7 @@ import {
     GETTING_HIGHLIGHT_LIST_START,
     GETTING_HIGHLIGHT_LIST_SUCCESS,
     GETTING_HIGHLIGHT_LIST_FAILED,
-    GETTING_BEACON_LIST_START,
-    GETTING_BEACON_LIST_SUCCESS,
-    GETTING_BEACON_LIST_FAILED,
     SET_ACTIVE_HIGHLIGHT_ITEM,
-    CLOSE_BEACON_CONTENT_MODAL,
 } from "../actions/contents";
 
 const initialStste = {
@@ -20,11 +16,6 @@ const initialStste = {
     isGettingHighlightList: false,
     isGettingHighlightListSuccess: false,
     activeHighlightItem: undefined,
-    beaconList: [],
-    beaconContent: undefined,
-    isShowBeaconContentModal: false,
-    isGettingBeaconList: false,
-    isGettingBeaconListSuccess: false,
 };
 
 export default (state = initialStste, action) => {
@@ -71,39 +62,10 @@ export default (state = initialStste, action) => {
                 isGettingHighlightList: false,
                 isGettingHighlightListSuccess: false,
             };
-        case GETTING_BEACON_LIST_START:
-            return {
-                ...state,
-                isGettingBeaconList: true,
-                isGettingBeaconListSuccess: false,
-            };
-
-        case GETTING_BEACON_LIST_SUCCESS:
-            return {
-                ...state,
-                beaconList: action.data.beaconList,
-                beaconContent: action.data.beaconContent,
-                isGettingBeaconList: false,
-                isGettingBeaconListSuccess: true,
-                isShowBeaconContentModal: true
-            };
-
-        case GETTING_BEACON_LIST_FAILED:
-            return {
-                ...state,
-                isGettingBeaconList: false,
-                isGettingBeaconListSuccess: false,
-            };
         case SET_ACTIVE_HIGHLIGHT_ITEM: {
             return {
                 ...state,
                 activeHighlightItem: action.data,
-            }
-        }
-        case CLOSE_BEACON_CONTENT_MODAL: {
-            return {
-                ...state,
-                isShowBeaconContentModal: false,
             }
         }
         default:

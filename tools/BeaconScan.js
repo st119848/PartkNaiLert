@@ -5,7 +5,7 @@ import * as RNEP from "@estimote/react-native-proximity";
 import {bindActionCreators} from "redux";
 import {connect} from 'react-redux'
 import {settingBeaconActive, settingBeaconInfo} from "../src/reducers/actions/setting";
-import {getBeaconConfig} from "../src/reducers/actions/beacon";
+import {getBeaconConfig} from "../src/reducers/actions/beacons";
 import APP_CONFIG from '../src/config/app'
 
 // import beacon from "../src/data/beacon";

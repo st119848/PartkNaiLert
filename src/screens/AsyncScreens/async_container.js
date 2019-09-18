@@ -1,7 +1,7 @@
 import {
     getBeaconContentFromApi,
     closeBeaconContentModal
-} from "../../reducers/actions/contents";
+} from "../../reducers/actions/beacons";
 import {connect} from "react-redux";
 import AsyncScreens from "./AsyncScreens";
 
@@ -16,7 +16,7 @@ const mapDispatchToProps = (dispatch) => {
 const mapStateToProps = (state) => {
     return {
         language: state.setting.language,
-        isShowBeaconContentModal: state.contents.isShowBeaconContentModal,
+        isShowBeaconContentModal: state.beacons.isShowBeaconContentModal,
     }
 };
 export default connect(mapStateToProps, mapDispatchToProps)(AsyncScreens)

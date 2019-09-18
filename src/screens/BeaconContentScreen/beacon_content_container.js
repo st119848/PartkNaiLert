@@ -8,7 +8,7 @@ const mapDispatchToProps = (dispatch) => {
 
 const mapStateToProps = (state) => {
     return {
-        beaconContent: state.contents.beaconContent,
+        beaconContent: state.beacons.beaconContent,
     }
 };
 export default connect(mapStateToProps, mapDispatchToProps)(BeaconContentScreen)
