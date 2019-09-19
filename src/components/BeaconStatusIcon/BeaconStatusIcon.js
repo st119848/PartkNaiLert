@@ -4,14 +4,15 @@ import {
     View,
     Text
 } from "react-native";
-import Icon from "./Icon";
+import Icon from "../Icon";
 
-const BeaconStatusIcon = () => {
+const BeaconStatusIcon = (props) => {
+    const {isInBeaconArea} = props;
     return (
         <View style={styles.container}>
             <BeaconIcon />
             <Label />
-            <StatusIcon />
+            {isInBeaconArea && <StatusIcon />}
         </View>
     )
 };

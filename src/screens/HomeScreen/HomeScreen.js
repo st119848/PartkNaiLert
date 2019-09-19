@@ -109,7 +109,7 @@ export default class HomeScreen extends Component {
     };
 
     render() {
-        const {language, imagesHighlight, isGettingImageSlider} = this.props;
+        const {language, imagesHighlight, isGettingImageSlider, isInBeaconArea} = this.props;
         const {isShowSetLang, isShowSetPage, isShowArScreen} = this.state;
         const barStyle = (isShowSetLang || isShowSetPage || isShowArScreen) ? 'light-content' : 'default';
         return (
@@ -131,7 +131,7 @@ export default class HomeScreen extends Component {
                         onMoreItemClick={this.handleMoreItemClick}
                     />
                     <Description t={this.t} />
-                    <BeaconsStatus t={this.t} />
+                    <BeaconsStatus t={this.t} isInBeaconZone={isInBeaconArea}/>
                 </ScrollView>
                 <ARButton t={this.t} onPress={this.handleARButtonClick} />
                 <SetPageModal

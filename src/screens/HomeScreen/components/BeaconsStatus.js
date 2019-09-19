@@ -6,13 +6,13 @@ import {
 } from 'react-native';
 import Icon from "../../../components/Icon";
 
-const BeaconsStatus = ({t}) => {
+const BeaconsStatus = ({t, isInBeaconZone}) => {
     const title = t('home.labels.beacons');
     return (
         <View style={styles.container}>
             <BeaconIcon />
             <Title title={title} />
-            <StatusIcon />
+            {isInBeaconZone && <StatusIcon />}
         </View>
     )
 };
