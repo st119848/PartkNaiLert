@@ -1,0 +1,1965 @@
+{
+    "id": 2,
+    "slide_flag": "y",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 5,
+            "museum_id": 2,
+            "language_id": 1,
+            "detail": "สะพานที่ท่านเห็นอยู่นี้ ในอดีตเคยเป็นสะพานที่สามารถยกขึ้น เพื่อให้เรือสามารถแล่นผ่านเข้า-ออกสู่คลองแสนแสบได้ แต่เมื่อเริ่มกิจการรถเมล์จึงได้มีการเสริมความแข็งแรงให้เหมาะสมกับการผ่านเข้า-ออกของรถเมล์ขาว เพื่อเข้าสู่อู่รถเมล์ สัญลักษณ์วงกลมสีแดงที่อยู่บนสะพาน เรียกว่า ตราโลโก้นายเลิศ สื่อความหมายถึงหลักธรรมทางพุทธศาสนาเรื่อง พรหมวิหาร 4 ได้แก่ เมตตา  กรุณา  มุทิตา  และอุเบกขา  ซึ่งเป็นคติธรรมประจำใจของนายเลิศ นายเลิศมีความมุ่งหวังที่จะใช้คติธรรมประจำใจนี้เป็นหลักธรรมในการทำงานและการดำรงชีวิต ให้ผู้คนในบ้านปาร์คนายเลิศ โดยตราโลโก้นี้จะปรากฏอยู่ตามสิ่งของในบ้านปาร์คนายเลิศและสถานที่ที่เกี่ยวข้องกับนายเลิศ เช่น เฟอร์นิเจอร์ เรือ รถเมล์ รวมถึงของที่จัดแสดงอยู่บนบ้านก็มีโลโก้นายเลิศอยู่เช่นกัน อาจกล่าวได้ว่านายเลิศเป็นนักธุรกิจที่มีความเข้าใจถึงการสร้าง Brand ให้เกิดเป็นภาพจำเป็นคนแรกๆ ในเมืองไทย",
+            "title": "สะพานยก",
+            "name": "สะพานยก",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 6,
+            "museum_id": 2,
+            "language_id": 2,
+            "detail": "In the past, this bridge could be raised for boats to enter in and out to Khlong Saen Saep. However, when bus services were introduced, the bridge was reinforced to be more appropriate for the white buses to enter in and out to the bus garage. The red circular symbol on the bridge was the logo of Nai Lert that communicated the Buddhist principles of the 4 Noble Truths: compassion, mercy, kindness, and equanimity. These were the ethics of Nai Lert, who used these ethics as the principles in the work and life of the people in the Nai Lert Park Heritage Home. This logo would appear on anything related to the Nai Lert Park Heritage Home and other places or things connected with Nai Lert; such as, furniture, boats, buses, as well as items exhibited in the house. It could be said that Nai Lert was the first businessman in Thailand who understood about creating a memorable brand.  ",
+            "title": "Drawbridge",
+            "name": "Drawbridge",
+            "soundPath": "public/sounds/c2060ca5.mp3",
+            "soundName": "1. drawbridge.mp3"
+        },
+        {
+            "museum_content_id": 7,
+            "museum_id": 2,
+            "language_id": 3,
+            "detail": "你在这里所看到的桥梁，以前能把它升起为了让小船通得过盛桑运河，后来奈乐特先生开始了小型公交车企业就提高桥梁设计为接受公交车的重量。桥上的红圈标志作为奈乐特公园的徽章，徽章表示佛教上讲的四种崇高包括善良、仁爱、同情和平静，并且奈乐特先生也拿这个四种崇高用在日常生活中。这个徽章会出现在奈乐特家里的各种家具，车，船，以及所有的展览品。也许能说奈乐特先生非常了解怎么宣传自己生意的牌子。",
+            "title": "升降桥",
+            "name": "升降桥",
+            "soundPath": "public/sounds/584a6f50.mp3",
+            "soundName": "C1升降桥.mp3"
+        },
+        {
+            "museum_content_id": 8,
+            "museum_id": 2,
+            "language_id": 4,
+            "detail": "「跳ね橋」と名づけられている通り、この橋はかつてセーンセープ運河を船が通れるよう上げ下ろしのできる可動式のものでした。しかし、ナイラート氏の事業でもあったバス事業が発展し、交通量も増えてきたため、バスが通るのに十分な強度の新しい橋に架け替えられました。橋には赤く丸いナイラート氏の紋章が残されています。これは、氏の理念であった「愛情、思いやり、同情、公正」のシンボルが描かれています。実際、氏はその数々の事業において、また日常生活においてもこれらの理想を実現することを目指した人生を貫きました。この紋章はこの橋の他にもバスや船、さらに家具や調度品の数々にも残されています。もしかしたらナイラート氏は、「ロゴマークを使ったブランドの創出」という事をタイで一番初めに理解していた人だったのかも知れません。 ",
+            "title": "跳ね橋",
+            "name": "跳ね橋",
+            "soundPath": "public/sounds/9b4f5659.mp3",
+            "soundName": "Sequence 1..mp3"
+        }
+    ],
+    "images": [
+        {
+            "imageID": 5,
+            "museum_id": 2,
+            "imagePath": "public/images/149a61a1-757a-487b-864e-473cbf9cc29e.jpg",
+            "imageName": "DSC02499-2.jpg",
+            "type": 1,
+            "active_title": "n"
+        },
+        {
+            "imageID": 6,
+            "museum_id": 2,
+            "imagePath": "public/images/baa8188b-7c82-4014-8ba2-784b7ed8854b.jpg",
+            "imageName": "DSC02493-2.jpg",
+            "type": 1,
+            "active_title": "n"
+        },
+        {
+            "imageID": 10,
+            "museum_id": 2,
+            "imagePath": "public/images/12390137-caa3-480c-a9ac-b655547c9f11.jpg",
+            "imageName": "สะพานยก.jpg",
+            "type": 1,
+            "active_title": "y"
+        }
+    ]
+},
+{
+    "id": 3,
+    "slide_flag": "y",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 9,
+            "museum_id": 3,
+            "language_id": 1,
+            "detail": "คนไทยส่วนใหญ่รู้จักนายเลิศ จากธุรกิจรถเมล์ขาว นายเลิศเป็นผู้ให้กำเนิดธุรกิจขนส่งมวลชนเป็นคนแรกของประเทศไทย  รถเมล์คันนี้เป็นรถ Austin รุ่น K2 เมื่อกิจการรุ่งเรืองมีฐานลูกค้ามากขึ้น จึงขยายเส้นทางเดินรถไปทั่วกรุงเทพ คนทั่วไปจะเรียกว่า รถเมล์ขาว ตามสีของรถที่ทาสีขาวทั้งคัน มีตราประจำรถเป็นตราโลโก้นายเลิศ  ในอดีตรถเมล์ของนายเลิศจะเป็นที่เลื่องชื่อมาก จากบริการที่ประทับใจ เรียบร้อย รวมถึงหน้าตาสะอาดสะอ้านของคนขับก็เป็นที่นิยมชมชอบของผู้คนในสมัยนั้นเช่นกัน นายเลิศเป็นผู้ออกแบบตัวถังรถเมล์ด้วยตนเอง เขียนแบบด้วยชอล์กบนพื้นปูน และให้ช่างไม้ชาวเซี่ยงไฮ้เป็นผู้ต่อ ใช้เครื่องยนต์ที่สั่งซื้อมาจากอังกฤษ นายเลิศมีนโยบายในการเดินรถว่า สุภาพ ซื่อสัตย์ ประหยัด ทันใจ เอากำไรแต่น้อย บริการผู้มีรายได้น้อย",
+            "title": "รถเมล์ขาว",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 10,
+            "museum_id": 3,
+            "language_id": 2,
+            "detail": "Most Thai people know Nai Lert because of the white bus business, as he was the pioneer of the mass transit business of Thailand. This bus was an Austin K2, and when the business prospered, he had a large customer base, so he expanded the routes to cover all of Bangkok. Everyone would call them the white bus as the entire bus was white with the logo of Nai Lert. In the past, Nai Lert’s buses were very well-known from the impressive, prompt service as well as the clean appearance of the driver, which was really admired by the people of that time. Nai Lert was also the designer of the bus. He sketched the model with chalk on a concrete floor and had a carpenter from Shanghai complete it. The bus used an engine that was ordered from the UK. Nai Lert had a policy for operating the buses in which the driver had to be polite, honest, thrifty, punctual, accept a little profit, and provide service to low-income people. ",
+            "title": "White Bus",
+            "name": "",
+            "soundPath": "public/sounds/f3615416.mp3",
+            "soundName": "2. White bus.mp3"
+        },
+        {
+            "museum_content_id": 11,
+            "museum_id": 3,
+            "language_id": 3,
+            "detail": "大部分的泰国人认识奈乐特先生是因为他是泰国的第一位做公交车生意，这辆白色小公共是奥斯丁车K2型，小公车的服务路线覆盖全曼谷。小公共一辆白色，以及有奈乐特的徽章。过去的白色小公共非常有名，众所周知，乘客一坐了这两小公共就会感受到最好的服务，司机善于交际，外表干净利索。发动机是奈乐特先生从英国订购的，另外小公共的车头是奈乐特先生自己设计出来，他先用粉笔画图案在地板上，然后叫上海木工师傅来动手。奈乐特先生宣布了小公共服务政策为礼貌、老实、节约、及时，以及注重服务。",
+            "title": "白色小公共",
+            "name": "",
+            "soundPath": "public/sounds/bfa13f21.mp3",
+            "soundName": "C2白色小公共汽车.mp3"
+        },
+        {
+            "museum_content_id": 12,
+            "museum_id": 3,
+            "language_id": 4,
+            "detail": "ナイラート氏はタイで初めて公共交通サービスとしての路線バス事業を始めました。このバスは、乗務員の身だしなみも清潔でサービスも良いという評判で利用者が増え続け、バンコク中に路線が拡大してゆきました。オースチン社製K2を真っ白に塗装したバスがバンコク市内のあちこちで見られるようになると、そしてタイの人々は「白バス」と愛着を持って呼ぶようになりました。\n後にナイラート氏は自らバスの車体の設計もしています。そして英国製の機械を導入し、上海の職人にバスの車体を作らせました。ナイラート氏のバス事業のモットーは「礼儀正しい、誠実、安い、速い、利益は最小限に、収入の少ない人々にサービスする」というものでした。\n",
+            "title": "白バス",
+            "name": "",
+            "soundPath": "public/sounds/5fb6a57e.mp3",
+            "soundName": "Sequence 2..mp3"
+        }
+    ],
+    "images": [
+        {
+            "imageID": 11,
+            "museum_id": 3,
+            "imagePath": "public/images/0332f9f6.jpg",
+            "imageName": "รถเมล์ขาว.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 12,
+            "museum_id": 3,
+            "imagePath": "public/images/39077dde.jpg",
+            "imageName": "รถเมล์ขาว.jpg",
+            "type": 1,
+            "active_title": "n"
+        },
+        {
+            "imageID": 71,
+            "museum_id": 3,
+            "imagePath": "public/images/9b579dbd.jpg",
+            "imageName": "DSC02506.jpg",
+            "type": 1,
+            "active_title": "n"
+        },
+        {
+            "imageID": 72,
+            "museum_id": 3,
+            "imagePath": "public/images/041f0e77.jpg",
+            "imageName": "DSC02579.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 4,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 13,
+            "museum_id": 4,
+            "language_id": 1,
+            "detail": "เจ้าแม่ทับทิมเป็นสิ่งศักดิ์สิทธิ์ที่ผู้คนที่สัญจรในคลองแสนแสบมักจะเข้ามาเคารพสักการะเป็นจำนวนมาก เจ้าแม่ทับทิมมีความศักดิ์สิทธิ์ในเรื่องการขอบุตร การให้ผลผลิตและความอุดมสมบูรณ์ของพืชพันธ์ธัญญาหาร และความสมหวังในเรื่องความรัก ผู้ที่สมหวังก็จะนำปลัดขิกมาถวาย ศาลเจ้าแม่ทับทิบนี้เปรียบเสมือนศาลคู่บารมีมากับนายเลิศ",
+            "title": "ศาลเจ้าแม่ทับทิม",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 14,
+            "museum_id": 4,
+            "language_id": 2,
+            "detail": "Chao Mae Thapthim is a sacred object that many people around Khlong Saen Saep will come to pay respect. Chao Mae Thapthim is sacred with regards to requesting for a child, the production and abundance of cereal crops, and for love. A person whose wish comes true will come to pay homage to the Chao Mae Thapthim Shrine, which was the majestic shrine of Nai Lert.  ",
+            "title": "Chao Mae Thapthim Shrine ",
+            "name": "",
+            "soundPath": "public/sounds/3696d71a.mp3",
+            "soundName": "3. Chao mae Thapthim Shrine.mp3"
+        },
+        {
+            "museum_content_id": 15,
+            "museum_id": 4,
+            "language_id": 3,
+            "detail": "通过盛桑运河的很多人民就会顺便来膜拜水尾聖娘，以求孩子，物产丰富，爱情成功。要是所愿望的事情成真了，人们就会把男根的性器官石头放在水尾聖娘神龛前面表示崇拜。",
+            "title": "水尾聖娘神龛",
+            "name": "",
+            "soundPath": "public/sounds/b14c0cf7.mp3",
+            "soundName": "C3水尾聖娘神龛.mp3"
+        },
+        {
+            "museum_content_id": 16,
+            "museum_id": 4,
+            "language_id": 4,
+            "detail": "チャオメー・タップティムは、セーンセープ運河を通る多くの人々から信仰されている女性の精霊を祀った廟です。古くから特に恋愛成就、子宝に恵まれる、農家は豊作になるというご利益があると言われています。願い事をする人々は男性器を模ったプラットキックというまじないの道具を寄進することでも知られています。ナイラート一家の成功もずっとこの廟に見守られてきました。",
+            "title": "チャオメー・タップティム聖廟",
+            "name": "",
+            "soundPath": "public/sounds/3c89b703.mp3",
+            "soundName": "Sequence 3..mp3"
+        }
+    ],
+    "images": [
+        {
+            "imageID": 13,
+            "museum_id": 4,
+            "imagePath": "public/images/63c3b437.jpg",
+            "imageName": "ศาลเจ้าแม่ทับทิม.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 14,
+            "museum_id": 4,
+            "imagePath": "public/images/e322da86.jpg",
+            "imageName": "ศาลเจ้าแม่ทับทิม.jpg",
+            "type": 1,
+            "active_title": "n"
+        },
+        {
+            "imageID": 68,
+            "museum_id": 4,
+            "imagePath": "public/images/9b82b351.jpg",
+            "imageName": "DSC02517.jpg",
+            "type": 1,
+            "active_title": "n"
+        },
+        {
+            "imageID": 69,
+            "museum_id": 4,
+            "imagePath": "public/images/c568c4ae.jpg",
+            "imageName": "DSC02521.jpg",
+            "type": 1,
+            "active_title": "n"
+        },
+        {
+            "imageID": 70,
+            "museum_id": 4,
+            "imagePath": "public/images/214e3bc5.jpg",
+            "imageName": "DSC02568.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 5,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 17,
+            "museum_id": 5,
+            "language_id": 1,
+            "detail": "บ้านปาร์คนายเลิศถือเป็น สวนสาธารณะเอกชนแห่งแรกของเมืองไทย ก่อนที่เมืองไทยจะมีคำว่า “สวนสาธารณะ”นั่นคือที่มาของชื่อ ปารค์นายเลิศ ซึ่งเป็นชื่อที่เรียกกันมากว่า 100 ปีแล้ว ที่เปิดให้ผู้คนเข้ามาใช้ประโยชน์ ในอดีตบ้านปาร์คนายเลิศได้เปิดให้มีการจัดกิจกรรมของลูกเสือ และเด็กพิการ เป็นพื้นที่ที่เปิดให้มีกิจกรรมสาธารณกุศลมาอย่างต่อเนื่อง นายเลิศ ถือเป็นชนชั้นนำของเมืองไทยกลุ่มแรกๆ ที่สนับสนุนกิจการลูกเสือไทยในสมัยรัชกาลที่ 6   ",
+            "title": "วงเวียนเล็กต้นมั่งมี",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 18,
+            "museum_id": 5,
+            "language_id": 2,
+            "detail": "The Nai Lert Park Heritage Home was the first private park in Thailand before Thailand used the words “public park”. That was the origin of the name Nai Lert Park that had been used for more than 100 years and was open for the people’s benefit. In the past, the Nai Lert Park Heritage Home was open for organising activities for the Boy Scouts and disabled children. It is an area that is continuously open for charitable activities. Nai Lert was the first leader of Thailand who supported Thai Scouting activities in the reign of King Rama VI.",
+            "title": "Mang Mi Tree Roundabout ",
+            "name": "",
+            "soundPath": "public/sounds/571f5b6f.mp3",
+            "soundName": "4. mang mi tree roundabout (real).mp3"
+        },
+        {
+            "museum_content_id": 19,
+            "museum_id": 5,
+            "language_id": 3,
+            "detail": "奈乐特公园作为泰国最早其的私人公园，当泰国人认识“公园”这个词之前就已经有奈乐特公园，而且将用英文PARK—公园的意思来代替，所以100多年以来直到现在人们都还叫“PARK奈乐特（PARK NAI LERT）”以前这个地方开放给泰国童子军来训练和残疾儿童的各种活动，以及作为公共活动空间。",
+            "title": "奈乐特公园作为泰国最早其的私人公园",
+            "name": "",
+            "soundPath": "public/sounds/a0386d96.mp3",
+            "soundName": "C4奈乐特公园.mp3"
+        },
+        {
+            "museum_content_id": 20,
+            "museum_id": 5,
+            "language_id": 4,
+            "detail": "ナイラート・パークは、実はタイで最初の民間の公園です。今から100年以上前、まだ「公園」というタイ語が無かった時代でしたので「パーク(Park)」と名付けられたのです。ナイラート氏の邸宅の敷地は広く一般の人々に開放されました。特にボーイスカウトや障害者の活動、その他の慈善イベントが数多く開かれていました。ナイラート氏はラマ６世の時代(日本の大正時代頃)に慈善活動に尽力したタイの上流階級の中でもそのさきがけでありました。",
+            "title": "マンミーの木広場",
+            "name": "",
+            "soundPath": "public/sounds/f36315e6.mp3",
+            "soundName": "Sequence 4..mp3"
+        }
+    ],
+    "images": [
+        {
+            "imageID": 15,
+            "museum_id": 5,
+            "imagePath": "public/images/4e2c94f6.jpg",
+            "imageName": "วงเวียนเล็กต้นมั่งมี.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 16,
+            "museum_id": 5,
+            "imagePath": "public/images/70974d05.jpg",
+            "imageName": "วงเวียนเล็กต้นมั่งมี.jpg",
+            "type": 1,
+            "active_title": "n"
+        },
+        {
+            "imageID": 73,
+            "museum_id": 5,
+            "imagePath": "public/images/2548d6f2.jpg",
+            "imageName": "DSC02622-2.jpg",
+            "type": 1,
+            "active_title": "n"
+        },
+        {
+            "imageID": 74,
+            "museum_id": 5,
+            "imagePath": "public/images/de8dfe59.jpg",
+            "imageName": "DSC02628-2.jpg",
+            "type": 1,
+            "active_title": "n"
+        },
+        {
+            "imageID": 75,
+            "museum_id": 5,
+            "imagePath": "public/images/37d39388.jpg",
+            "imageName": "DSC02626-2.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 6,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 21,
+            "museum_id": 6,
+            "language_id": 1,
+            "detail": "บริเวณนี้เคยเป็นหลุมระเบิด ซึ่งเกิดจากการทิ้งระเบิดในสมัยสงครามโลกครั้งที่2 มีความลึกประมาณ 2-3 เมตร ด้วยการมีความคิดสร้างสรรค์ของนายเลิศท่านจึงเปลี่ยนหลุมระเบิดให้กลายเป็นบ่อบัว \nในเบื้องหน้าของท่านคือบ้านปาร์คนายเลิศ บ้านปาร์คนายเลิศ ถูกสร้างขึ้นในรูปแบบสถาปัตยกรรมแบบพื้นถิ่นเขตร้อน ตัวเรือนเป็นไม้สักทองหลังใหญ่ มีเรือนไม้ชั้นเดียวยกใต้ถุนสูง หลังคาทรงปั้นหยา ยกจั่วซ้อน 3 ชั้น ทำให้มีอากาศโปร่งสบายตลอดปี โดยบ้านปาร์คนายเลิศแต่แรกเริ่ม ถูกสร้างจากไม้สักที่เหลือจากธุรกิจอู่ต่อเรือของนายเลิศ โดยการสั่งไม้จำนวนมากมาจากภาคเหนือ \n",
+            "title": "วงเวียนหน้าบ้านบ่อบัว",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 22,
+            "museum_id": 6,
+            "language_id": 2,
+            "detail": "This area used to be a bomb crater, which occurred from a falling bomb during World War 2 and is about 2-3 metres in depth. From the creativity of Nai Lert, he changed the crater into a lotus pond in the front of the Nai Lert Park Heritage Home. The Home was built in the style of tropical architecture. The house is a large building made of golden teak wood and is a single storey building. The hipped roof has complex gables of 3 alternating tiers that provide a free flow of air all-year round. In the beginning, the Nai Lert Park Heritage Home was built from the excess teak wood from Nai Lert’s shipyard business, and he also ordered a lot of wood from the North.",
+            "title": "Lotus Pond Roundabout ",
+            "name": "",
+            "soundPath": "public/sounds/9d9caa1c.mp3",
+            "soundName": "5. Lotus pond roundabout.mp3"
+        },
+        {
+            "museum_content_id": 23,
+            "museum_id": 6,
+            "language_id": 3,
+            "detail": "这个地方以前是炸弹坑，在第二次世界大战时期，曾被投放炸弹，有2-3米深度。后来奈乐特先生把它变成荷花池。\n在你面前是奈乐特家，奈乐特家是热带建筑风格，采用黄金柚木来建造，在房子下面留下空旷的空间，屋顶采用3层山墙设计使得整年能保持房间内的通风。\n",
+            "title": "这个地方以前是炸弹坑",
+            "name": "",
+            "soundPath": "public/sounds/56cec1ef.mp3",
+            "soundName": "C5荷花池.mp3"
+        },
+        {
+            "museum_content_id": 24,
+            "museum_id": 6,
+            "language_id": 4,
+            "detail": "ここは、かつて第二次世界大戦期の防空壕でした。その深さは２～３ｍありましたが、ナイラート氏は後にこの防空壕を蓮池に変える工事を行いました。\n蓮池の前にはナイラート氏の邸宅である「ナイラート・ハウス」が見えます。この邸宅は熱帯の蒸し暑い気候でも一年中快適に暮らせるように、住宅の構造を高床式の平屋建てとし、屋根は三角屋根を３層に重ねて風通しを良くしています。家はナイラート氏の船工場で余ったチーク材を使用しており、その多くはタイの北部地方から運ばれてきたものです。\n",
+            "title": "蓮池広場(ナイラートハウス前)",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 17,
+            "museum_id": 6,
+            "imagePath": "public/images/ca763618.jpg",
+            "imageName": "วงเวียนหน้าบ้านบ่อบัว.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 18,
+            "museum_id": 6,
+            "imagePath": "public/images/b50d5d15.jpg",
+            "imageName": "วงเวียนหน้าบ้านบ่อบัว.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 7,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 25,
+            "museum_id": 7,
+            "language_id": 1,
+            "detail": "บริเวณนี้เคยเป็นหลุมหลบภัยในสมัยสงครามโลกครั้งที่ 2 มีความลึกเกือบ 10 เมตร และในเวลาต่อมาได้ปรับเปลี่ยนให้เป็นบ่อเก็บน้ำของบ้าน",
+            "title": "หลุมหลบภัยข้างเรือน",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 26,
+            "museum_id": 7,
+            "language_id": 2,
+            "detail": "This area used to be a bunker during World War 2 and is 10 metres in depth. Later, it was modified to be a water well. ",
+            "title": "Bunker ",
+            "name": "",
+            "soundPath": "public/sounds/23b2ec4e.mp3",
+            "soundName": "6. bunker.mp3"
+        },
+        {
+            "museum_content_id": 27,
+            "museum_id": 7,
+            "language_id": 3,
+            "detail": ". 在第二次世界大战时期，这个地方是地堡，有10多米深度，后来变成了存水池。",
+            "title": "在第二次世界大战时期",
+            "name": "",
+            "soundPath": "public/sounds/95d73faa.mp3",
+            "soundName": "C6地堡.mp3"
+        },
+        {
+            "museum_content_id": 28,
+            "museum_id": 7,
+            "language_id": 4,
+            "detail": "ここは第二次世界大戦期に防空壕として使われていた所で、その深さは10ｍありました。戦後は、貯水池として利用されています。",
+            "title": "防空壕跡(ナイラートハウス横)",
+            "name": "",
+            "soundPath": "public/sounds/c8de9341.mp3",
+            "soundName": "Sequence 5..mp3"
+        }
+    ],
+    "images": [
+        {
+            "imageID": 19,
+            "museum_id": 7,
+            "imagePath": "public/images/ef43b257.jpg",
+            "imageName": "DSC02534.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 20,
+            "museum_id": 7,
+            "imagePath": "public/images/4fcf9932.jpg",
+            "imageName": "DSC02536.jpg",
+            "type": 1,
+            "active_title": "n"
+        },
+        {
+            "imageID": 21,
+            "museum_id": 7,
+            "imagePath": "public/images/952568d4.jpg",
+            "imageName": "DSC02537.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 8,
+    "slide_flag": "y",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 29,
+            "museum_id": 8,
+            "language_id": 1,
+            "detail": "เรือนไม้สักหลังนี้เรียกว่า เรือนท่านผู้หญิง ในอดีตได้รับความเสียหายจากแรงระเบิดในสงครามโลกครั้งที่ 2 เมื่อปี พ.ศ.2487 จนเรือนพลิกคว่ำทั้งหลัง ไม้ต่อมานายเลิศได้ซ่อมแซมเรือนหลังนี้ก่อนที่ท่านจะเสียชีวิตในปี พ.ศ.2488",
+            "title": "เรือนท่านผู้หญิง ",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 30,
+            "museum_id": 8,
+            "language_id": 2,
+            "detail": "This is a teak wood house that is called the “Ruean Thanphuying” or “Lady’s House”. In the past, it was damaged from bombing during World War 2 when in 1944, the house was turned upside down. Later, Nai Lert restored the house before he passed away in 1945.",
+            "title": "Ruean Thanphuying or Lady’s House ",
+            "name": "",
+            "soundPath": "public/sounds/8ef47132.mp3",
+            "soundName": "7.Lady’s house.mp3"
+        },
+        {
+            "museum_content_id": 31,
+            "museum_id": 8,
+            "language_id": 3,
+            "detail": "这套黄金柚木家叫做“夫人家”，在1944年，第二次世界大战的后果造成损坏，整个房子被毁了。1945年，奈乐特先生在他死亡之前就把这个房子进行装修",
+            "title": "夫人家",
+            "name": "",
+            "soundPath": "public/sounds/956938b1.mp3",
+            "soundName": "C7夫人家.mp3"
+        },
+        {
+            "museum_content_id": 32,
+            "museum_id": 8,
+            "language_id": 4,
+            "detail": "「タン・インの館」と呼ばれるこのチーク材で作られた邸宅は、かつて第二次世界大戦中1944年に空襲の被害に合い、倒壊してしまいました。しかし、ナイラート氏は1945年に亡くなる前に、この邸宅を建て直しています。",
+            "title": "タン・イン(夫人)の館",
+            "name": "",
+            "soundPath": "public/sounds/c0dac0ba.mp3",
+            "soundName": "Sequence 7..mp3"
+        }
+    ],
+    "images": [
+        {
+            "imageID": 22,
+            "museum_id": 8,
+            "imagePath": "public/images/93f3ddab.jpg",
+            "imageName": "เรือนท่านผู้หญิง.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 23,
+            "museum_id": 8,
+            "imagePath": "public/images/4ba9ca59.jpg",
+            "imageName": "เรือนท่านผู้หญิง.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 11,
+    "slide_flag": "y",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 33,
+            "museum_id": 11,
+            "language_id": 1,
+            "detail": "ห้องรับแขกห้องนี้เปรียบเสมือนหอประวัติของบ้านปาร์คนายเลิศ รูปที่ติดตามผนังเล่าถึงเรื่องราวชีวิตของนายเลิศนายเลิศผู้เป็นคนสร้างบ้านปาร์คนายเลิศ   นายเลิศเป็นนักธุรกิจคนแรกๆ ของเมืองไทยที่ประสบความสำเร็จจนมีชื่อเสียงโด่งดัง ท่านเป็นคนแรกๆที่นำนวัตกรรมใหม่ๆ เข้ามาในเมืองไทย และนอกจากนี้ท่านได้ประกอบคุณงามความดีแก่สังคมหลายๆอย่าง จนรัชกาลที่ 6 ได้พระราชทานบรรดาศักดิ์เป็นพระยาภักดีนรเศรษฐ ซึ่งแปลว่า เศรษฐีผู้มีคนรัก         นายเลิศเป็นที่จดจำในฐานะนักธุรกิจ ที่มีความคิดก้าวหน้าล้ำสมัยไม่เหมือนใคร ท่านริเริ่มบุกเบิกธุรกิจใหม่ๆ ที่ไม่มีใครทำมาก่อน ด้วยวัยเพียง 22 ปี นายเลิศก็เป็น นายห้าง ท่านสามารถรวบรวมทุนเปิด \"ห้างนายเลิศ\" ขึ้น เมื่อ พ.ศ. 2437 จำหน่ายจักรเย็บผ้า ซิงเกอร์ เครื่องกระป๋องและสินค้านำเข้าจากต่างประเทศ และเริ่มขยายกิจการมาขาย น้ำโซดา ที่เรียกกันว่า \"น้ำมะเน็ด\" นายเลิศยังเคยเปิดโรงแรม Hotel de la Paix  ซึ่งเป็นโรงแรมแห่งแรกที่ดำเนินธุรกิจโดยคนไทย \nโรงแรมแห่งนี้มีบาร์ ชื่อว่าบาร์นายเลิศ โดยเป็นที่แรกที่ขาย Whiskey on the rock เพราะท่านทำกิจการโรงน้ำแข็งเป็นแห่งแรกในเมืองไทย ชื่อว่า “โรงน้ำแข็งสยาม” (Siam Ice Works) ทำให้นายเลิศได้รับฉายาว่า นายเลิศผู้ปั้นน้ำเป็นตัว \n",
+            "title": "ห้องรับแขกเรือนท่านผู้หญิง",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 34,
+            "museum_id": 11,
+            "language_id": 2,
+            "detail": "This reception room is similar to a History Hall of the Nai Lert Park Heritage Home. The photos on the walls tell about the life of Nai Lert, the builder of this home. He was also the first successful businessman of Thailand and was widely known, as well as the first person to introduce new innovations to Thailand. Besides this, he did many good things for Thai society till King Rama VI bestowed the title Phraya Bhakdi Noraset, which means “beloved millionaire”. Nai Lert was recognised as a businessman who was a progressive thinker unlike anyone else. He was a pioneer of new businesses that no one else had initiated before. In 1894, at the age of 22 years old, Nai Lert was a proprietor who was able to accumulate capital to open the “Nai Lert Store”, which sold Singer sewing machines, canned goods, and international products. He also began to expand his business to sell soda water that was called “Nam Manet”, and also opened the Hotel de la Paix, the first hotel operated by a Thai. The hotel had a bar called the Nai Lert Bar that was the first bar to sell Whiskey on the Rocks because he conducted the first ice works in Thailand called the Siam Ice Works. This made Nai Lert become known as Nai Lert, the ice sculptor.   ",
+            "title": "Ruean Thanphuying Reception Room ",
+            "name": "",
+            "soundPath": "public/sounds/474551a1.mp3",
+            "soundName": "10 Ruean Than chao khun reception room.mp3"
+        },
+        {
+            "museum_content_id": 35,
+            "museum_id": 11,
+            "language_id": 3,
+            "detail": "这个客厅作为奈乐特公园的历史馆，墙上的照片都能讲述奈乐特先生的美好生活背后的故事。\n奈乐特先生是泰国最早的成功企业家，而且经常引进新技术到泰国。此外，他往往都是为社会做了很多好事，甚至当时的泰王拉玛六给他封号称为“帕克地诺拉斯伯爵”（泰语的意思是“深受人民喜爱的富翁”。当奈乐特先生仅22岁就成了商场业主，他开了“奈乐特商场”，一开始主要卖胜家缝纫机、罐头产品、各种进口商品，后来再扩大企业并开始卖柠檬汽水。另外，他曾经开酒店叫“德拉帕斯酒店（Hotel de la Paix）”，作为泰国人自主经营的第一家酒店，酒店里面有个酒吧叫“奈乐特吧”，是第一个酒吧卖岩石上的威士忌。他还开了冰块工厂叫“暹罗冰块工厂”。\n",
+            "title": "夫人家的客厅",
+            "name": "",
+            "soundPath": "public/sounds/4d13db46.mp3",
+            "soundName": "C8夫人家的客厅.mp3"
+        },
+        {
+            "museum_content_id": 36,
+            "museum_id": 11,
+            "language_id": 4,
+            "detail": "タン・インの館の応接間には、一家の主人であったナイラート氏の写真が多く掛けられており、氏に関する様々な歴史が凝縮した部屋となっています。この邸宅を建てたナイラート氏はタイで最初に成功した実業家の一人で、タイに様々な革新的な技術をもたらしました。また、慈善事業に尽力するなど社会的な貢献も大きかったため、時の国王ラマ６世から「プラヤー・パックディーノーラセート(人々から愛される富豪)」という名を与えられたほどです。そのナイラートのビジネスは常に時代の最先端を行っていました。1894年、わずか２２歳の時には百貨店を開店し、シンガーミシンや缶詰など真新しい輸入品を販売、タイで初めてソーダ水も販売しました。また、彼はHotel de la Paixという、タイ初のタイ人によるホテルの経営も始めています。このホテルにはナイラート・バーというバーがあり、オン・ザ・ロックのウィスキーが初めてタイの人々に紹介されました。この氷も、氏が経営したSiam Ice Worksというタイ初の製氷工場で作られたものでした。",
+            "title": "タン・インの館の応接間",
+            "name": "",
+            "soundPath": "public/sounds/b83905e3.mp3",
+            "soundName": "Sequence 8..mp3"
+        }
+    ],
+    "images": [
+        {
+            "imageID": 24,
+            "museum_id": 11,
+            "imagePath": "public/images/3d0fc7d2.jpg",
+            "imageName": "8.ห้องรับแขกเรือนท่านผู้หญิง.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 25,
+            "museum_id": 11,
+            "imagePath": "public/images/49fa7eed.jpg",
+            "imageName": "8.ห้องรับแขกเรือนท่านผู้หญิง.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 12,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 37,
+            "museum_id": 12,
+            "language_id": 1,
+            "detail": " เรือนนี้เป็นไม้สักทองแบบดั้งเดิม โดยสังเกตได้จากสีไม้ที่มีสีเข้มชัดเจน ซึ่งนายเลิศใช้ไม้จากอู่ต่อเรือมาสร้างบ้าน ใช้วิธีการปูพื้นเรือนโดยการใช้สันไม้ขึ้น ซึ่งวิธีนี้ต้องใช้พื้นไม้เป็นจำนวนมาก แต่ก็จะทำพื้นเรือนมีความั่นคง เดินแล้วไม้ไม่ยุบตัว เทคนิคการเรียงพื้นด้วยสันไม้นี้ ยังใช้กับลูกบันไดทั้งหมดของเรือน วิธีการสร้างบ้านแบบนี้ แสดงให้เห็นว่านายเลิศเป็นคนที่ประหยัดแบบมีนวัตกรรม เพราะท่านใช้ทรัพยากรที่มีอยู่ให้เกิดคุณค่าอย่างสูงสุด",
+            "title": "เรือนท่านเจ้าคุณ (ตรงทางเชื่อม)",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 38,
+            "museum_id": 12,
+            "language_id": 2,
+            "detail": "This golden teak wood house is the original that can be clearly observed from the dark colour of the wood. Nai Lert used wood from the shipyard to build the house by using the foundation method of the ridge of the wood to be raised. This method had to use a lot of wood, but it made the surface strong and when walking on it, did not subside. This technique was also used with all the staircases in the house. The method for constructing a house like this shows that Nai Lert was an economical, but innovative person because he could use resources to their maximum value.",
+            "title": "Ruean Than Chao Khun or Than Khun Chao’s House ",
+            "name": "",
+            "soundPath": "public/sounds/d5c6f51e.mp3",
+            "soundName": "9.Ruean than chao khun.mp3"
+        },
+        {
+            "museum_content_id": 39,
+            "museum_id": 12,
+            "language_id": 3,
+            "detail": "这家也是用黄金柚木来建造，木板颜色很深及清晰。奈乐特先生把造船厂的木材来建造房屋和家里楼梯。他将木板的侧面竖着铺，这种方法需要大量的木板，但它会使地面稳定，也能说明了他将用现有的资源实现最大的价值。",
+            "title": "贵族家",
+            "name": "",
+            "soundPath": "public/sounds/a866d449.mp3",
+            "soundName": "C9贵族家.mp3"
+        },
+        {
+            "museum_content_id": 40,
+            "museum_id": 12,
+            "language_id": 4,
+            "detail": "建材であるチーク材の深みのある色からも分かるように、こちらは創建当時からの建物です。この邸宅の建材は船の組み立て工場の廃材を利用していますが、木板を縦に並べて敷き詰めた床や階段が特徴的です。一見すると大量の木材が必要な工法ですが、これによって強度が増し、歩いても床がしなる事がありません。こうした細かい点にもナイラート氏が持ち前のアイディアを駆使し、手持ちの資源を無駄にせずに最大限に活用していた事がうかがえます。",
+            "title": "タン・チャオクン(主人)の館",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 26,
+            "museum_id": 12,
+            "imagePath": "public/images/f064a0fe.jpg",
+            "imageName": "เรือนท่านเจ้าคุณ.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 27,
+            "museum_id": 12,
+            "imagePath": "public/images/e2326bab.jpg",
+            "imageName": "เรือนท่านเจ้าคุณ.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 13,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 41,
+            "museum_id": 13,
+            "language_id": 1,
+            "detail": "เรือนนี้เป็นไม้สักแบบดั้งเดิม โดยสังเกตได้จากสีไม้ที่ชัดเจน มีสีเข้ม ซึ่งเป็นไม้จากการทำอู่ต่อเรือ  ภายในห้องจัดแสดงเครื่องลายคราม เครื่องเงิน ป้านน้ำชา เครื่องลายครามบางชิ้นที่นำเข้ามาจากเมืองจีน ปัจจุบันค่อนข้างหาได้ยากแล้วในเมืองไทย เครื่องลายครามสองใบนี้มีความพิเศษ เพราะเป็นกระเบื้องลายครามที่สั่งทำขึ้นพิเศษในสมัยรัชกาลที่5 จะสังเกตได้ว่ามีตรา จปร. อยู่ และจะเห็นได้ว่านายเลิศยังได้มีการเพ้นท์ โลโก้ตราสัญลักษณ์ของตัวเองไว้ที่ข้างใต้ด้วย",
+            "title": "ห้องรับแขกเรือนท่านเจ้าคุณ",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 42,
+            "museum_id": 13,
+            "language_id": 2,
+            "detail": "This golden teak wood house that is original can be clearly observed from the dark colour of the wood from the shipyard. The interior displays porcelain, silverware, teapots, and porcelain imported from China. At present, they are quite rare to find in Thailand. These 2 pieces of porcelain are also special because they were especially made in the reign of King Rama V the Great. This can be noticed by the initials Cho. Po. Ro., and Nai Lert’s logo can also be seen underneath.",
+            "title": "Ruean Than Chao Khun  Reception Room ",
+            "name": "",
+            "soundPath": "public/sounds/de5cc033.mp3",
+            "soundName": "10 Ruean Than chao khun reception room.mp3"
+        },
+        {
+            "museum_content_id": 43,
+            "museum_id": 13,
+            "language_id": 3,
+            "detail": "客厅里面展示了各种瓷器、银器、茶壶，一些瓷器是从中国买回来，而且目前在泰国可能很难找得到。这两件瓷器比其他特别，因为它是在泰王拉玛五特殊定做，可以看到瓷器上有泰王拉玛五的徽章，况且奈乐特先生还在瓷器下面画了自己的徽章。",
+            "title": "贵族家的客厅",
+            "name": "",
+            "soundPath": "public/sounds/ba944289.mp3",
+            "soundName": "C10贵族家的客厅.mp3"
+        },
+        {
+            "museum_content_id": 44,
+            "museum_id": 13,
+            "language_id": 4,
+            "detail": "このチーク材で作られた歴史ある建物の応接間には陶磁器や銀製品、ティーセットなどの美術品や骨董品が展示されています。特に中国製の陶器などは大変希少価値の高いものです。特に珍しいものは白地に紺色で模様の描かれた中国製の磁器で、これはラマ５世の時代(日本の明治時代)に特注で作られました。ラマ５世の紋章の下にナイラート氏の紋章がペイントされています。",
+            "title": "タン・チャオクンの館の応接間",
+            "name": "",
+            "soundPath": "public/sounds/8a7732dd.mp3",
+            "soundName": "Sequence 10..mp3"
+        }
+    ],
+    "images": [
+        {
+            "imageID": 28,
+            "museum_id": 13,
+            "imagePath": "public/images/070fedea.jpg",
+            "imageName": "ห้องรับแขกเรือนท่านเจ้าคุณ.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 29,
+            "museum_id": 13,
+            "imagePath": "public/images/4866cbb6.jpg",
+            "imageName": "ห้องรับแขกเรือนท่านเจ้าคุณ.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 14,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 45,
+            "museum_id": 14,
+            "language_id": 1,
+            "detail": "ห้องรับประทานอาหารนี้ได้มีโอกาสใช้ต้อนรับบุคคลสำคัญต่างๆ ทั้งพระราชวงศ์ไทยและต่างประเทศ เอกอัครราชทูต คนในคณะรัฐบาล รวมถึงมิตรสหายของครอบครัว ห้องนี้จะถูกใช้มากที่สุดในช่วงของท่านผู้หญิงเลอศักดิ์ เพราะท่านผู้หญิง และคุณพินิจ สมบัติศิริ เป็นบุคคลกว้างขวางในสังคมไทย และระหว่างประเทศ ภายในห้องนี้ตกแต่งแบบผสมผสานระหว่างตะวันตกและตะวันออกเข้าด้วยกัน จะเห็นได้ว่ามีภาพวาดสีน้ำมันซึ่งเป็นภาพวาดของศิลปินแห่งชาติและศิลปินที่มีชื่อเสียง คือ ศาสตราจารย์เกียรติคุณประหยัด พงษ์ดำ และอ.อวบ สาณะเสน บนโต๊ะอาหารจะแสดงถึงวัฒนธรรมการรับประทานอาหารแบบตะวันตกของคนในบ้าน โดยชุดจานชามจะเปลี่ยนแปลงไปตามฤดูกาล",
+            "title": "ห้องรับประทานอาหาร",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 46,
+            "museum_id": 14,
+            "language_id": 2,
+            "detail": "This dining room has had the opportunity to host various important people including the Thai Royal Family and ambassadors, Thai government ministers, as well as family friends. This room was used the most by Thanphuying Lursakdi because she and Khun Pinit Sampatisiri were well-known in Thai society and also internationally. The interior of this room is decorated with a blend of the West and the East. This can be seen from the oil paintings that are the works of a national artist and renowned artist, Professor Emeritus Prayat Pongdam and Achan Uab Sanasen. On the dining table displays the Western culture of eating of people in the home. The set of plates are changed according to the season.",
+            "title": "Dining Room",
+            "name": "",
+            "soundPath": "public/sounds/cdf399db.mp3",
+            "soundName": "11. dining room.mp3"
+        },
+        {
+            "museum_content_id": 47,
+            "museum_id": 14,
+            "language_id": 3,
+            "detail": "这个餐厅曾经有机会接待重要人物，各国大使，政府团，以及家里人的亲朋好友。在乐萨柯女士时代，主餐厅被使用了很多次，因为乐萨柯女士和批泥先生人缘很广，总是有人来访问。这个主餐厅摆设为西方和东方混合型风格，可以看到墙上的世界著名泰国画家（Prayad Pongdam和Uab Sanasen）画的油画。餐桌上显示了家里人的西方饮食文化。此外，餐具风格会随着季节更换。",
+            "title": "主餐厅",
+            "name": "",
+            "soundPath": "public/sounds/6ea4fdbd.mp3",
+            "soundName": "C11主餐厅.mp3"
+        },
+        {
+            "museum_content_id": 48,
+            "museum_id": 14,
+            "language_id": 4,
+            "detail": "このダイニングルームは、ナイラート氏の友人はもちろん、タイや海外の王族や大使、政府高官など多くの貴賓を迎えて食事会の行われてきた場所です。特にナイラート氏の娘であるルーサック夫人とその夫であるピニット氏は社交的であったため、この部屋は常に華やいできました。インテリアはタイと西洋の様式が程よく融合しており、人間国宝のプラヤット・ポンダムや同じく著名な画家のウアップ・サーナセーンなどの油彩画の作品が飾られています。また、当時の一家が西洋式の食器を季節ごとに換えて使っていたテーブルの様子も見ることができます。",
+            "title": "ダイニングルーム",
+            "name": "",
+            "soundPath": "public/sounds/4cb846fd.mp3",
+            "soundName": "Sequence 11..mp3"
+        }
+    ],
+    "images": [
+        {
+            "imageID": 30,
+            "museum_id": 14,
+            "imagePath": "public/images/3fb9460b.jpg",
+            "imageName": "ห้องรับประทานอาหาร.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 31,
+            "museum_id": 14,
+            "imagePath": "public/images/781be9a2.jpg",
+            "imageName": "ห้องรับประทานอาหาร.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 15,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 49,
+            "museum_id": 15,
+            "language_id": 1,
+            "detail": "ในบริเวณนี้จะจัดแสดงของสะสมของคุณพินิจ สมบัติศิริ สามีของท่านผู้หญิงเลอศักดิ์ ท่านเคยดำรงตำแหน่งเป็นอธิบดีกรมศาสนา และรองอธิบดีกรมศิลปากร คุณพินิจชอบเดินทางท่องเที่ยวไปยังประเทศต่างๆ และยังชื่นชอบการถ่ายภาพ ของที่จัดแสดงส่วนใหญ่จะเป็นของที่ระลึกต่างๆจากประเทศที่ท่านไปท่องเที่ยวมา \nนอกจากนี้ท่านยังชอบสะสมเครื่องปั้นดินเผา จะเห็นวิวัฒนาการของเครื่องปั้นดินเผาไทย เช่น บ้านเชียง สังคโลก ศิลาดล สันกำแพง และยังมีอาวุธโบราณหลายประเภท เช่น กริช ดาบโบราณ มีดสั้น และไม้คมแฝก\n",
+            "title": "นอกเรือนโซนของสะสมคุณพินิจ",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 50,
+            "museum_id": 15,
+            "language_id": 2,
+            "detail": "This area will display the collection of Khun Pinit Sampatisiri, the husband of Thanphuying Lursakdi. He used to hold the position as Director of Religious Affairs and Deputy Director General of the Fine Arts Department. Khun Pinit liked to travel to various countries and take photos. Most of the displays are various souvenirs from the countries that he visited.  Besides this, he liked to collect pottery, which the evolution of Thai pottery can be seen; such as, Ban Chiang, Sangkhalok, celadon, San Kamphaeng, as well as numerous ancient weapons like dagger, ancient sword, short knife, and Mai Khom Faek, a kind of Thai wooden club.",
+            "title": "Khun Pinit’s Collection ",
+            "name": "",
+            "soundPath": "public/sounds/70222210.mp3",
+            "soundName": "12. Khun pinits collection.mp3"
+        },
+        {
+            "museum_content_id": 51,
+            "museum_id": 15,
+            "language_id": 3,
+            "detail": "批泥先生（乐萨柯女士的丈夫），曾经当过国家宗教事务主任和副主任国家美术部。批泥先生喜欢去国外旅游和拍照片，所摆设的展览品大部分是他去国外旅游的时候买回来的当地特色纪念品。他还喜欢收藏陶器，从这里可以看到泰国陶器的发展，另外还有各种古代武器，如马来亚的波形刃短剑、古代宝剑、短刀和木武器。",
+            "title": " 批泥先生的收藏品",
+            "name": "",
+            "soundPath": "public/sounds/2aa5c663.mp3",
+            "soundName": "C12批泥先生的收藏品.mp3"
+        },
+        {
+            "museum_content_id": 52,
+            "museum_id": 15,
+            "language_id": 4,
+            "detail": "ここには、ルーサック夫人の夫であるピニット・ソムバットシリ氏のコレクションが展示されています。氏は生前、宗教局局長や芸術局副局長を務めており、世界中を旅行や写真撮影を大変好んでいました。よってコレクションの中には、氏がかつて外遊した諸外国からの手土産が多く見られます。\nその他、氏は陶磁器にも造詣が深く、バーンチアン、サンカローク、セラドン、サンカンペーンなどのタイの有名な焼き物が大切に保存されている他、古い時代の武器などのコレクションもあります。\n",
+            "title": "ピニット・コレクションの展示ゾーン",
+            "name": "",
+            "soundPath": "public/sounds/4fed4172.mp3",
+            "soundName": "Sequence 12..mp3"
+        }
+    ],
+    "images": [
+        {
+            "imageID": 32,
+            "museum_id": 15,
+            "imagePath": "public/images/782316a1.jpg",
+            "imageName": "นอกเรือนโซนของสะสมคุณพินิจ.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 33,
+            "museum_id": 15,
+            "imagePath": "public/images/d62cd085.jpg",
+            "imageName": "นอกเรือนโซนของสะสมคุณพินิจ.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 16,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 53,
+            "museum_id": 16,
+            "language_id": 1,
+            "detail": "ท่านผู้หญิงเลอศักดิ์ สมบัติศิริ บุตรสาวคนเดียวของนายเลิศ ท่านเคยศึกษาที่ประเทศญี่ปุ่น 2 ปี ท่านผู้หญิงเป็นผู้สืบทอดกิจการต่อจากนายเลิศ และได้เป็นรัฐมนตรีกระทรวงคมนาคมหญิงคนแรกของไทย ท่านเป็นผู้ก่อตั้งโรงแรมปาร์คนายเลิศ บ้านปาร์คนายเลิศมีความเปลี่ยนแปลงมากที่สุดในสมัยของท่านผู้หญิงเลอศักดิ์เพราะต้องมีการเปลี่ยนแปลงการใช้งานภายในบ้านตามผู้อยู่อาศัย ซึ่งท่านผู้หญิงมักจะใช้ในการสาธารณกุศล และการรับรองแขกสำคัญๆ รวมถึงใช้เป็นอู่รถเมล์นายเลิศ \nท่านผู้หญิงเป็นผู้ดูแลกิจการของนายเลิศให้เจริญรุ่งเรืองตั้งแต่อายุเพียง 26 ปี มีความเป็น Working  woman และยังมีรสนิยมทางด้านการแต่งกาย จากรูปแบบที่เรียบ แต่หรูหรา จนเป็น สไตล์ของท่านผู้หญิง โดยมีเจ้าสิบเอ็ด กับเอบิเกล สุนัขตัวโปรดของท่านผู้หญิง หมอบอยู่ข้างๆ ในอดีตบ้านปาร์คนายเลิศมีสุนัขอยู่เป็นจำนวนมาก เพราะท่านผู้หญิงเป็นคนที่รักสัตว์ โดยเฉพาะสุนัข ซึ่งได้ส่งมอบความรักสัตว์นี้มายังลูกสาวทั้ง 2 ของท่านเช่นกัน คนในครอบครัวนี้มักจะเลี้ยงสุนัขกันแทบทุกคน \nท่านผู้หญิงมีความชื่นชอบกีฬากอล์ฟ เป็นอย่างมาก จะเห็นได้จากถุงไม้กอล์ฟที่มีชื่อของท่านอยู่ มีถ้วยรางวัลจากการแข่งขันต่างๆ ท่านเคยได้รับถ้วยรางวัลจากการแข่งขัน Queen’s cup ซึ่งเป็นรายการการแข่งขันแรกๆของไทย โดยความชื่นชอบในกีฬากอล์ฟยังส่งต่อมายังลูกสาวทั้งสองคนของท่านด้วย \nท่านผู้หญิงมีความรักต้นไม้และธรรมชาติเหมือนอย่างนายเลิศ ท่านจึงเนรมิตปาร์คนายเลิศจนกลายเป็นสวนสีเขียวร่มรื่นกลางใจเมือง จากความชื่นชอบในพันธุ์ไม้ดอกไม้ของท่านผู้หญิง ท่านจึงเป็นผู้ริเริ่มการจัดงานแสดงดอกไม้ประจำปีมากว่า 40 ปี ตั้งแต่สมัยที่ท่านผู้หญิงยังเป็นผู้ดูแลกิจการของโรงแรมอยู่ \n",
+            "title": "ห้องท่านผู้หญิงเลอศักดิ์",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 54,
+            "museum_id": 16,
+            "language_id": 2,
+            "detail": "Thanphuying Lursakdi Sampatisiri, Nai Lert’s only daughter, studied in Japan for 2 years. She inherited the\nbusiness from Nai Lert and was the first female Minister of Transport as well as the founder of the Hilton International Bangkok at Nai Lert Park. The Nai Lert Heritage Home experienced the most changes during the time of Thanphuying Lursakdi because there had to be changes in the usage of the home’s interior in accordance with the residents. As such, she often used it for public charities, hosting important guests, as well as used Nai Lert’s bus garage. Thanphuying Lursakdi oversaw Nai Lert’s business operations to prosper since she was only 26 years old, so she was a working woman and had a taste for fashion from the simple but elegant style, which was her own. Chao Sip Et and Abigail were her favourite dogs that were always by her side. In the past, the Nai Lert Park Heritage Home had many dogs because Thanphuying Lursakdi loved animals, especially dogs. As such, she also bestowed her love for animals onto her 2 daughters. Almost all members of this family often raised dogs.  \nThanphuying Lursakdi also loved to play golf, which can be seen from the golf bag that has her name on it. \nThere are also trophies from various tournaments, and she once received the Queen’s Cup, which was the \nfirst tournament in Thailand. Her love for golf was bestowed onto her 2 daughters as well. Thanphuying Lursakdi had a love for plants and nature like Nai Lert. She created the Nai Lert Park Heritage Home to be like a shady green garden in the heart of the city. From this love of plants and flowers, she was the organiser of annual floral exhibitions for more than 40 years since the time she was still overseeing the hotel.\n",
+            "title": "Thanphuying Lursakdi’s Room  ",
+            "name": "",
+            "soundPath": "public/sounds/657ba294.mp3",
+            "soundName": "13. Thanphuying lursakdi room.mp3"
+        },
+        {
+            "museum_content_id": 55,
+            "museum_id": 16,
+            "language_id": 3,
+            "detail": "乐萨柯女士是奈乐特先生的唯一女孩，她曾经在日本留学过了两年。她是一位职业妇女，从26岁就开始继承父亲的企业。她是泰国第一个交通部的女部长。她建立了Park Nai Lert酒店。奈乐特公园在乐萨柯女士有了很大的变化，因为她需要改变家里的设施为适合家里人的生活习惯。她常用该房间为公益活动和接待重要客人。\n乐萨柯女士穿衣打扮非常典雅有气质。奈乐特公园里以前养了好多狗，其中有两只一直都在乐萨柯女士的身边并且是她最喜爱的叫“喜儿”和“阿比盖尔”。这家里人包括乐萨柯女士非常爱动物，特别是狗狗。\n乐萨柯女士非常喜欢打高尔夫球，可以看到她的高尔夫袋子，她曾经获得女王杯高尔夫比赛的奖杯，使得后来她的两个女孩也一样喜欢高尔夫球。乐萨柯女士还和他父亲奈乐特先生一样非常爱护花草树木，后来她成为了举办花卉展览的创作人，而且已经连续举办了40多年了。\n",
+            "title": " 乐萨柯女士的房间",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 56,
+            "museum_id": 16,
+            "language_id": 4,
+            "detail": "ナイラート氏の一人娘であるルーサック・ソムバットシリ夫人は、かつて日本に２年間留学し、後にタイで初の女性の運輸大臣となりました。夫人はまたパーク・ナイラート・ホテルの創業者でもあります。このナイラート・パークの諸施設も、夫人が現役で活躍してきた時代に最も大きな変化を迎えました。特に家族の生活の場の他に、社交の場として、また多くの慈善事業の場として、さらに敷地の一部をバスの車庫としても利用しました。\n夫人は若干26歳の頃から父ナイラート氏の事業を手伝い、それらを成功へと導いたタイで最初のワーキング・ウーマンの一人です。またシンプルでありながら華やかで上品なファッションも注目の的となりました。夫人は動物好きとしても有名です。特に犬が大好きで、敷地には多くの犬が暮らしていました。夫人の２人の娘も動物好きで、家族はほぼ全員が犬を飼っているほどです。\nまた、夫人はゴルフ愛好家でもありました。今でも有名なブランドのゴルフバッグが残っていますし、タイ初のトーナメントである女王杯(クイーンズ・カップ)を始めとする様々な大会のトロフィーもあります。夫人のゴルフ好きもまた、２人の娘に受け継がれています。\nそして、夫人はナイラート氏と同様、自然を愛し、植物を栽培する事が好きでした。彼女の植物に関する深い知識や関心が、このようなバンコクの都心にこのように美しい緑地を生み出したと言っても過言ではありません。彼女はまだホテル事業のオーナーであった40年以上前に、タイで初めて毎年恒例の花展覧会を始めました。",
+            "title": "ルーサック夫人の部屋",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 34,
+            "museum_id": 16,
+            "imagePath": "public/images/a3153e18.jpg",
+            "imageName": "ห้องท่านผู้หญิงเลอศักดิ์.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 35,
+            "museum_id": 16,
+            "imagePath": "public/images/84379266.jpg",
+            "imageName": "ห้องท่านผู้หญิงเลอศักดิ์.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 17,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 57,
+            "museum_id": 17,
+            "language_id": 1,
+            "detail": "ห้องบัญชาการงานครัว อีกทั้งเป็นห้องสำหรับนวด  ผู้ใช้งานห้องนี้คือ คุณหญิงสิน ภรรยาของนายเลิศ ใช้ห้องนี้นั่งดูแม่ครัว ที่มีการประกอบอาหารอยู่ด้านล่างเรือน โดยท่านมักจะนั่งริมชานบันไดเพื่อคอยดูแม่ครัวทำอาหาร สมัยก่อนบ้านปาร์คนายเลิศต้องทำอาหารเพื่อเลี้ยงคนจำนวนมาก บริเวณด้านนอกจะมีเรือนแพนายเลิศ ซึ่งในอดีตใช้เป็นมุมพักผ่อนของบ้านเป็นเสมือนท่าน้ำเล็กๆ ให้ทั้งครอบครัวนายเลิศและบริวาร คุณหญิงสินเป็นผู้ที่มีฝีมือทางด้านอาหารมาก คิดค้นเมนูใหม่ๆอยู่เสมอ เช่น ห่อหมกข้าวห่อหมกปลา เพราะน้ำแกงที่ใช้ไม่หมดก็นำมานึ่งกับข้าวใหม่แล้วห่อใบตอง และหมี่น้ำปาร์คนายเลิศ จะนำเส้นหมี่ไปทอดจนกรอบราดด้วยน้ำ 3 รส คือ เปรี้ยว เค็ม หวาน นอกจากนี้ บ้านปาร์คนายเลิศ ไม่ได้มีแค่อาหารไทยเท่านั้น ในสมัยก่อนด้วยความที่นายเลิศค้าขายกับฝรั่ง ทำให้ครัวบ้านปาร์คแห่งนี้มีวัตถุดิบที่นำเข้าจากต่างประเทศ เช่น ชีส แฮม อาหารกระป๋อง เป็นต้น กิตติศัพท์ในเรื่องอาหารการกินที่อร่อยยอดเยี่ยมทำให้บ้านปาร์คนายเลิศแห่งนี้เป็นที่พบปะของบรรดามิตรสหายระดับพระยาของนายเลิศ เครื่องแก้วที่จัดแสดงอยู่เป็นเครื่องแก้วที่ถูกใช้งานจริงมาตั้งแต่สมัยของนายเลิศ และมีจำนวนมากขึ้นในสมัยท่านผู้หญิงเลอศักดิ์ บางชิ้นได้นำเข้ามาจากห้างในต่างประเทศ และไม่สามารถหาใหม่ได้อีกแล้ว ",
+            "title": "ห้องบัญชาการงานครัว",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 58,
+            "museum_id": 17,
+            "language_id": 2,
+            "detail": "This room was also used for massage. The person who used this room was Khunying Sinn, wife of Nai Lert, \nwho would often sit at the base of the stairs and watch the chef cook the food under the house.  In the past, the Nai Lert Park Heritage Home would prepare food for many people. The exterior area had Nai Lert’s houseboat that in the past was used as a relaxation corner of the home like a small pier. Nai Lert’s family and Khunying Sinn’s staff, who were skilled in food preparation would always create new menus; such as, Ho Mok Kao Ho Mok Pla (steamed fish curry) because the leftover coconut milk that was not fully used would be steamed with various new dishes and then wrapped in pandan leaves and Mi Nam Nai Lert Park (rice noodles with soup) in which the noodles would be fried till crispy and covered with 3 flavoured soup: sour, salty, and sweet. Besides this, the Nai Lert Park Heritage Home does not only have Thai food. In the past, as Nai Lert conducted business with foreigners, the kitchen of the house had raw materials from overseas; such as, cheese, ham, canned foods, etc. The fame of the food’s deliciousness made the Nai Lert Park Heritage Home to be a meeting place for Nai Lert’s elite friends. The glassware on display was that used in real events of the lifetime of Nai Lert, as well as a lot that were used in the lifetime of Thanphuying Lursakdi. Some pieces were imported from department stores from overseas and cannot be found now. ",
+            "title": "Kitchen Command Centre",
+            "name": "",
+            "soundPath": "public/sounds/a5673c88.mp3",
+            "soundName": "14. kitchen command centre.mp3"
+        },
+        {
+            "museum_content_id": 59,
+            "museum_id": 17,
+            "language_id": 3,
+            "detail": "欣女士—奈乐特先生的太太，她曾经在这个房间观看女厨师下手做一顿大餐，她厨艺相当精湛，而且经常想出新菜单，如蒸米饭（每次做各种汤类，她会把剩余的汤来蒸米饭，然后用香蕉叶包着），还有奈乐特米汤（她把粉丝入油锅炸制呈金黄色，然后 把三味酱，酸咸甜，浇到炸粉丝上）。由于以前奈乐特先生经常跟外国商人做生意，所以家里也有奶酪、火腿、罐子产品等西餐原料，因此除了泰餐，欣女士还能做多种多样西餐。奈乐特公园的美食非常闻名，奈乐特先生的亲朋好友也经常过来品尝这里的特色美食。所摆放的玻璃制品都是以前被用过，而且在欣女士时代就有更多玻璃制品，一些是国外进口的，并且不能再买到了。",
+            "title": "厨房指挥中心",
+            "name": "",
+            "soundPath": "public/sounds/2bf2361a.mp3",
+            "soundName": "C14厨房指挥中心.mp3"
+        },
+        {
+            "museum_content_id": 60,
+            "museum_id": 17,
+            "language_id": 4,
+            "detail": "「料理長の部屋」と呼ばれるこの建物は、ナイラート氏の妻であったシン夫人が階下の厨房の仕事ぶりを監督した部屋だったと言います。ナイラート家では当時多くの賓客に食事を用意する機会が多かったため、夫人はよく階段に腰掛けて、厨房に指示を出していました。ここには水辺にもう一つ小さな建物がありますが、ここはナイラート氏が小さな船着場のようにして座って涼んでいました。シン夫人の料理の才は大変有名で、様々な新しいメニューを生み出しました。例えば、使い切らなかったカレーを用いてご飯をバナナの葉で包んで蒸した「ホーモック・カーオ」、細麺をカリカリに揚げたものに酸・塩・甘の３つの味のソースをかけた「ミー・ナーム・パーク・ナイラート(ナイラート・パーク特製ソース麺)」など。またタイ料理以外にもナイラート氏が欧米からチーズ、ハム、その他当時珍しかった缶詰製品などを輸入していましたので、一家の厨房には西洋料理の材料も多く揃っていました。よって、ここにはナイラート氏と交友のあった多くの人々が集まっては美味しい食事を楽しんだのです。今日残っている食器類も全てナイラート氏の生前に揃えた物や、娘のルーサック夫人が買い足したもので実際に賓客をおもてなしするために使われてきたものです。これらの多くは外国からの特注品で、今となっては同じ物を探すことはできないものです。",
+            "title": "料理長の部屋",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 36,
+            "museum_id": 17,
+            "imagePath": "public/images/a8ca7561.jpg",
+            "imageName": "ห้องบัญชาการงานครัว.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 37,
+            "museum_id": 17,
+            "imagePath": "public/images/ca46e41e.jpg",
+            "imageName": "ห้องบัญชาการงานครัว.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 18,
+    "slide_flag": "y",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 61,
+            "museum_id": 18,
+            "language_id": 1,
+            "detail": "บริเวณนี้เป็นมุมโปรดของนายเลิศ นายเลิศจะชอบมานั่งอยู่บริเวณนี้เพื่อดูบรรยากาศรอบๆปาร์คจากมุมนี้ เพราะตรงนี้จะสามารถมองปาร์คได้แบบ Panorama view",
+            "title": "ตั่งนายเลิศ",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 62,
+            "museum_id": 18,
+            "language_id": 2,
+            "detail": "This area was the favourite corner of Nai Lert, as he would come to sit here to enjoy the surrounding atmosphere of the Park because from here it is possible to see a panoramic view.",
+            "title": "Nai Lert’s Bench",
+            "name": "",
+            "soundPath": "public/sounds/1fd82ec1.mp3",
+            "soundName": "15.Nai lerts bench.mp3"
+        },
+        {
+            "museum_content_id": 63,
+            "museum_id": 18,
+            "language_id": 3,
+            "detail": "这个地方是奈乐特最喜欢的一个角落，他经常坐在这里休闲放松以及欣赏周围环境，因为这里可以看到奈乐特公园的全景",
+            "title": " 奈乐特的宝座",
+            "name": "",
+            "soundPath": "public/sounds/a05a9d06.mp3",
+            "soundName": "C15奈乐特先生的宝座.mp3"
+        },
+        {
+            "museum_content_id": 64,
+            "museum_id": 18,
+            "language_id": 4,
+            "detail": "園内を見渡すことのできるこの場所はナイラート氏が大変気に入っていました。氏はよくここに腰掛けて風景を眺めながらくつろいだと言われています。",
+            "title": "ナイラート氏の特等席",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 38,
+            "museum_id": 18,
+            "imagePath": "public/images/68b454dd.png",
+            "imageName": "ตั่งนายเลิศ.png",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 39,
+            "museum_id": 18,
+            "imagePath": "public/images/8a9ae29c.png",
+            "imageName": "ตั่งนายเลิศ.png",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 19,
+    "slide_flag": "y",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 65,
+            "museum_id": 19,
+            "language_id": 1,
+            "detail": "เรือนแพนายเลิศหลังนี้ เป็นเรือนแพที่นายเลิศออกแบบเอง โดยออกแบบให้สลักเสาทุกต้นเป็นตราโลโก้ตัวเอง ในอดีตใช้เป็นมุมพักผ่อนของบ้านเป็นเสมือนท่าน้ำเล็กๆ  ทางด้านฝั่งขวาจะเป็นครัวของบ้าน จะมีเตาถ่าน อุปกรณ์ครัวหลากหลายชนิดตั้งอยู่ ใต้หลังคาของศาลา จะมีพื้นที่สำหรับเก็บเครื่องมือเครื่องใช้ในครัว ที่เคยใช้จริงๆในอดีต  ในสมัยก่อนทุกๆเช้าเรือนแพหลังนี้จะมีพระพายเรือมาบิณฑบาต และสมาชิกภายในบ้านก็จะมาตักบาตรบริเวณนี้ด้วย",
+            "title": "เรือนแพนายเลิศศาลานายเลิศ",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 66,
+            "museum_id": 19,
+            "language_id": 2,
+            "detail": "The Nai Lert Houseboat is one that Nai Lert designed himself in which every pole was carved with his logo. In the past, it was used as a relaxation corner of the home like a small pier. On the right-hand side is the kitchen of the home with a charcoal stove and various kitchenware. Under the Sala or pavilion is an area for keeping equipment used in the kitchen that was actually used in the past. Before in the morning, monks would paddle a boat to this houseboat to receive alms, and the people in the house would give alms in this area. ",
+            "title": "Nai Lert’s Houseboat / Sala Nai Lert",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 67,
+            "museum_id": 19,
+            "language_id": 3,
+            "detail": "奈乐特自己设计的船屋，里面的每一个桅杆都有奈乐特的徽章，以前家里人可以在这里放松休息。船屋的右边是主厨房，里面有火炉以及各种厨房用具。亭子的屋顶下有空间能放一些厨房用具进去。以前每一天的早上会有僧侣坐船到这里募化乞食，大家也会到这里把食品用包装带包好，主动放在僧侣的食钵里。",
+            "title": "奈乐特船屋-亭子",
+            "name": "",
+            "soundPath": "public/sounds/843ec3b8.mp3",
+            "soundName": "C16奈乐特船屋-亭子.mp3"
+        },
+        {
+            "museum_content_id": 68,
+            "museum_id": 19,
+            "language_id": 4,
+            "detail": "この水辺の東屋は、ナイラート氏が自ら設計し、全ての柱には氏の紋章が彫りこまれています。邸宅のすぐ横にあり、小さな船着場のような雰囲気のこの東屋で、氏はよく座って涼んでいました。この東屋のすぐ横には厨房があり、この東屋の屋根裏にも数多くの調理器具が収納されていました。かつては、毎朝この東屋まで托鉢僧が船を漕いで来て、ナイラート氏の家族は食事を寄進していました。",
+            "title": "ナイラート氏の水辺の東屋",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 40,
+            "museum_id": 19,
+            "imagePath": "public/images/e35a3819.jpg",
+            "imageName": "เรือนแพนายเลิศศาลานายเลิศ.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 41,
+            "museum_id": 19,
+            "imagePath": "public/images/5314615c.jpg",
+            "imageName": "เรือนแพนายเลิศศาลานายเลิศ.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 20,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 69,
+            "museum_id": 20,
+            "language_id": 1,
+            "detail": "รถเฟียตรุ่น 501 สีขาว จากประเทศอิตาลีคันนี้ เป็นรถยนต์ส่วนตัวของนายเลิศ ที่ใช้ขับจากบ้านปาร์คฯไปดูแลธุรกิจต่างๆแถวถนนเจริญกรุง รถยนต์นี้ใช้คราวที่มีการตัดถนนเพลินจิตในสมัยรัชกาลที่ 6 ถือได้ว่ารถรุ่นนี้เป็นรถคลาสสิกที่ได้รับความนิยมมากรุ่นหนึ่ง และรถคันนี้เป็นรถเฟียตรุ่น501คันแรกในเมืองไทย และปัจจุบันก็เป็นคันสุดท้ายในเมืองไทยเช่นกัน",
+            "title": "รถเฟียต 501",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 70,
+            "museum_id": 20,
+            "language_id": 2,
+            "detail": "This white Fiat 501 from Italy was the personal car of Nai Lert who would drive it from the Nai Lert Park Heritage Home to do business along Charoen Krung Road. This car was used in the time that Ploenchit Road was constructed during the reign of King Rama VI. This car is considered to be classic and was very popular. It was also the first Fiat 501s in Thailand, and at present, it is the last one of its kind in the country as well.  ",
+            "title": "Fiat 501",
+            "name": "",
+            "soundPath": "public/sounds/e3ca98e2.mp3",
+            "soundName": "17. Fiat 501.mp3"
+        },
+        {
+            "museum_content_id": 71,
+            "museum_id": 20,
+            "language_id": 3,
+            "detail": "菲亚特501的白色小型车，是奈乐特先生私用的车，他经常开这辆车从奈乐特家到查仁耕街关照他的生意。菲亚特501是一个经典的车型，而且很受欢迎的，奈乐特先生的菲亚特501车是泰国唯一拥有的车。",
+            "title": "菲亚特501的白色小型车",
+            "name": "",
+            "soundPath": "public/sounds/f3878f89.mp3",
+            "soundName": "C17菲亚特501白色小型车.mp3"
+        },
+        {
+            "museum_content_id": 72,
+            "museum_id": 20,
+            "language_id": 4,
+            "detail": "イタリア製の自動車フィアット501は、ナイラート氏の自家用車として自宅からチャルンクルン通り周辺の事業所に通うのに使われていました。フィアット501は、ラマ６世の時代に自宅前のプルンチット通りが出来上がった頃、タイでも大変人気のある自動車の一つでした。しかし、ここにあるナイラート氏のものは「タイ初のフィアット501、しかも今日タイで最後のフィアット501」なのです。",
+            "title": "フィアット501",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 42,
+            "museum_id": 20,
+            "imagePath": "public/images/ffcbced5.jpg",
+            "imageName": "รถเฟียต501.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 43,
+            "museum_id": 20,
+            "imagePath": "public/images/c7e271be.jpg",
+            "imageName": "รถเฟียต501.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 21,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 73,
+            "museum_id": 21,
+            "language_id": 1,
+            "detail": "นายเลิศ ชอบท่องเที่ยวทางน้ำ โดยท่านชอบแล่นเรือ ไปในที่ต่างๆ กับมิตรสหาย อีกทั้งยังมีความสามารถในการต่อเรือ และออกแบบด้วยตนเอง เรือสองลำนี้เป็น เรือส่วนตัวที่นายเลิศใช้ในอดีตท่านออกแบบเอง ลำใหญ่ชื่อว่าสมันเตา แปลว่า ดีเลิศประเสริฐ ถูกสร้างขึ้นมาจากไม้สัก และสร้างห้องน้ำไว้ภายในเรือ มีทีสำหรับวางฟูกนอน มีตู้สำหรับเก็บเสบียงเวลาเดินทางไกล อีกลำชื่อว่า ฆ์ง (เคาะงอ)  นายเลิศเชื่อว่าเมื่อเขียนคำนี้ไว้บนเรือจะแคล้วคลาดเดินทางปลอดภัย อีกทั้งท่านยังมีความชำนาญในการเดินเรือทั้งในแม่น้ำและทะเล บ่อยครั้งที่รับหน้าที่เป็นกัปตันควบคุมเรือไปได้โดยสวัสดิภาพ ท่านมักจะล่องเรือไปกับมิตรสหายไปยังที่ต่างๆ เช่นหัวหิน สัตหีบ หรือ เชียงใหม่",
+            "title": "เรือนายเลิศ สมันเตาและฆ์ง",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 74,
+            "museum_id": 21,
+            "language_id": 2,
+            "detail": "Nai Lert liked travelling by water in which he would sail to various places with his friends. He also had the ability to build and design boats by himself. These 2 boats were his personal boats that Nai Lert used and designed. The large boat is called Saman Tao that means outstandingly excellent and was built from teak wood. It also had a restroom on board as well as a place to put a mattress for sleeping and a cabinet for storing supplies when travelling far. The other boat is called Khong (Khao Ngo). Nai Lert believed that when he wrote this word on the boat, he would be safe from danger. He also had expertise in sailing on the river and at sea. Many times, he was the captain overseeing the boat with care. He often went sailing with friends to various places; such as, Hua Hin, Sattahip, or Chiang Mai.    ",
+            "title": "Nai Lert’s Boats – Saman Tao and Khong ",
+            "name": "",
+            "soundPath": "public/sounds/5deb44b3.mp3",
+            "soundName": "18. nai lerts boats.mp3"
+        },
+        {
+            "museum_content_id": 75,
+            "museum_id": 21,
+            "language_id": 3,
+            "detail": "奈乐特先生是一位船舶专家，他非常喜欢水上旅游，特别是跟朋友们内河航行到华欣或者清迈。他还会自己设计船型以及造船。这辆船，这两只船也是他以前自己设计的，而且给这两只船起名。一只叫“莎蛮叨”，在泰文里面是出色和优秀的意思，船里面有床垫和储藏柜。另一只叫“科妮”，意思是脱险和平安",
+            "title": "奈乐特船",
+            "name": "",
+            "soundPath": "public/sounds/bc948193.mp3",
+            "soundName": "C16奈乐特船屋-亭子.mp3"
+        },
+        {
+            "museum_content_id": 76,
+            "museum_id": 21,
+            "language_id": 4,
+            "detail": "ナイラート氏は船の旅を好み、友人らと出かけていました。また氏は船の組み立てにも詳しく、自分で船も設計することができました。今日残されている２艘の船は彼自身の設計したもので、実際に自家用船として使われていたものです。大きい方は彼の本名にちなんだチーク材製のサマンタオ号といい、寝室やバスルーム、食事の道具なども備えて遠出のできるものでした。もう一艘はコ・ゴー号といいます。この船の名前となった言葉は縁起が良く、氏は安全な航海ができると信じていました。実際、川や海での航海において氏は船長として自ら舵を取り、友人らを連れてホアヒンや、サッタヒープ、時には川を上ってチェンマイまでも安全に航行していました。",
+            "title": "サマンタオ号とコ・ゴー号(ナイラート氏の船)",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 44,
+            "museum_id": 21,
+            "imagePath": "public/images/cc4b9d2e.jpg",
+            "imageName": "เรือนายเลิศสมันเตาและฆ์ง.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 45,
+            "museum_id": 21,
+            "imagePath": "public/images/249d3db0.jpg",
+            "imageName": "เรือนายเลิศสมันเตาและฆ์ง.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 22,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 77,
+            "museum_id": 22,
+            "language_id": 1,
+            "detail": "ห้องอาหารเลดี้แอล เป็นห้องอาหารตะวันตกสูตรตามต้นตำรับ  ตกแต่งในสไตล์ที่เป็นความชื่นชอบของท่านผู้หญิงเลอศักดิ์ สมบัติศิริ คือ ความชื่นชอบในการจิบชาและชมความสวยงามร่มรื่นสบายตาของต้นไม้สีเขียวที่อยู่ในสวน ",
+            "title": "ห้องอาหารเลดี้แอล",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 78,
+            "museum_id": 22,
+            "language_id": 2,
+            "detail": "This is an original Western-style cuisine restaurant decorated in the style of Thanphuying Lursakdi Sampatisiri’s interest. This interest was in drinking tea and looking at the shaded beauty of the verdant trees in the garden. ",
+            "title": "Lady L",
+            "name": "",
+            "soundPath": "public/sounds/90587f57.mp3",
+            "soundName": "19.Lady L.mp3"
+        },
+        {
+            "museum_content_id": 79,
+            "museum_id": 22,
+            "language_id": 3,
+            "detail": "L女士餐厅是西餐，餐厅装饰按照乐萨柯女士的个人风格和爱好，那就是坐着喝茶，欣赏美丽的绿色花园。",
+            "title": "女士餐厅",
+            "name": "",
+            "soundPath": "public/sounds/7ae6e91a.mp3",
+            "soundName": "C19L女士餐厅.mp3"
+        },
+        {
+            "museum_content_id": 80,
+            "museum_id": 22,
+            "language_id": 4,
+            "detail": "「レディー・Ｌ」はクラシックな西洋料理をお楽しみいただけるレストランです。ルーサック・ソムバットシリ夫人が緑の美しい庭園の中でお茶を飲むことを殊のほか好んでいることにちなんで、緑に囲まれた実に居心地の良いスペースとなっています。",
+            "title": "レディー・Ｌ(レストラン)",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 46,
+            "museum_id": 22,
+            "imagePath": "public/images/7728d296.jpg",
+            "imageName": "ห้องอาหารเลดี้แอล.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 47,
+            "museum_id": 22,
+            "imagePath": "public/images/1af066f3.jpg",
+            "imageName": "ห้องอาหารเลดี้แอล.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 23,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 81,
+            "museum_id": 23,
+            "language_id": 1,
+            "detail": "ห้องอาหารมาเมซอง เป็นภาษาฝรั่งเศสแปลว่า บ้านของฉัน เกิดจากคุณพินิจ สมบัติศิริ ก่อตั้งร้านอาหารขึ้นเพื่อไว้ใช้เป็นที่พบปะพูดคุยกับบรรดามิตรสหายนักชิมอาหาร ในปัจจุบันเป็นห้องอาหารไทย เน้นอาหารไทยปรุงตามสูตรของคุณหญิงสิน ภรรยาอันเป็นที่รักของนายเลิศ ผู้ที่มีพรสวรรค์ในการรังสรรค์อาหารไทยธรรมดาๆให้กลายเป็นตำรับอร่อยเสมอ",
+            "title": "ห้องอาหารมาเมซอง",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 82,
+            "museum_id": 23,
+            "language_id": 2,
+            "detail": "The name Ma Maison comes from French language and translates as ‘my home’. It was established by Mr. Pinit Sampatisiri as a meeting place to talk with all his friends who loved food. Presently, it is a Thai restaurant focusing on Thai food recipes of Khunying Sinn, wife of Nai Lert and talented in creating original Thai food that always tasted delicious.",
+            "title": "Ma Maison",
+            "name": "",
+            "soundPath": "public/sounds/3d072891.mp3",
+            "soundName": "20. ma maison.mp3"
+        },
+        {
+            "museum_content_id": 83,
+            "museum_id": 23,
+            "language_id": 3,
+            "detail": "马迈森（Ma Maison）法文里面是“我的家”的意思。批泥先生建立这个餐厅，最当初主要是为了让他的美食家朋友来集合。目前变成了泰式餐厅，厨师都是按照欣女士（奈乐特的太太）的菜谱来做。她是一位烹饪天才，能把普通的食物变成美味的菜肴。",
+            "title": "马迈森餐厅",
+            "name": "",
+            "soundPath": "public/sounds/53c83f65.mp3",
+            "soundName": "C20马迈森餐厅.mp3"
+        },
+        {
+            "museum_content_id": 84,
+            "museum_id": 23,
+            "language_id": 4,
+            "detail": "フランス語で「私の家」を意味する「マ・メゾン」は、ルーサック・ソムバットシリ夫人の夫であるピニット・ソムバットシリ氏によって作られました。当時は氏の親しい友人を集めて食事会を楽しむための場でしたが、今日ではタイ料理のレストランとして、ナイラート氏最愛の妻(ピニット氏の義理の母にあたる)であるシン夫人の残したレシピをお楽しみいただけます。シン夫人は類まれなる料理の才能の持ち主で、どんなに平凡なタイ料理でも、彼女の工夫一つでそれは美味しい一品に変えてしまうことができたと言われています。",
+            "title": "マ・メゾン(レストラン)",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 48,
+            "museum_id": 23,
+            "imagePath": "public/images/fb7dedea.jpg",
+            "imageName": "ห้องอาหารมาเมซอง.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 49,
+            "museum_id": 23,
+            "imagePath": "public/images/c6332892.jpg",
+            "imageName": "ห้องอาหารมาเมซอง.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 24,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 85,
+            "museum_id": 24,
+            "language_id": 1,
+            "detail": "เรือนไม้ใบ เป็นเรือนที่ท่านผู้หญิงเลอศักดิ์ สมบัติศิริ ใช้เพาะพันธุ์และเลี้ยงกล้วยไม้ อนุบาลต้นไม้ก่อนนำไปปลูก ภายในเรือนไม้ใบเต็มไปด้วยความเขียวขจีร่มรื่น มีสระน้ำเล็กๆอยู่ข้างใน ให้บรรยากาศคล้ายๆกับสวนอังกฤษ ท่านผู้หญิงเลอศักดิ์ สมบัติศิริ เป็นผู้ที่ได้ชื่อว่ามีความรักต้นไม้มากเสมือนกับนายเลิศผู้เป็นบิดา",
+            "title": "เรือนไม้ใบ",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 86,
+            "museum_id": 24,
+            "language_id": 2,
+            "detail": "This greenhouse was where Thanphuying Lursakdi Sampatisiri used to propagate and raise orchids and nursery before planting. The interior is full of shady greenery with a small pool that provides an atmosphere similar to an English garden. Thanphuying Lursakdi Sampatisiri was well-known for her love of plants like Nai Lert, her husband.",
+            "title": "The Greenhouse",
+            "name": "",
+            "soundPath": "public/sounds/de5557b9.mp3",
+            "soundName": "21. The greenhouse.mp3"
+        },
+        {
+            "museum_content_id": 87,
+            "museum_id": 24,
+            "language_id": 3,
+            "detail": "乐萨柯女士在这里种植和养殖兰花。室内长满了绿色植物，里面还有小水池，让人体验到英式花园。乐萨柯女士和他父亲一样非常爱护花草树木。",
+            "title": "兰花家",
+            "name": "",
+            "soundPath": "public/sounds/6e699aa8.mp3",
+            "soundName": "C21兰花家.mp3"
+        },
+        {
+            "museum_content_id": 88,
+            "museum_id": 24,
+            "language_id": 4,
+            "detail": "この小屋はルーサック・ソムバットシリ夫人が蘭の苗を大切に育てるために使っています。内部には小さな池もあり、英国式の庭園のような一面緑にあふれた心地良い空間となっています。夫人は父ナイラート氏同様に植物の愛好家として知られています。",
+            "title": "ルアン・マーイバイ(蘭小屋)",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 50,
+            "museum_id": 24,
+            "imagePath": "public/images/af2a552e.png",
+            "imageName": "เรือนไม้ใบ.png",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 51,
+            "museum_id": 24,
+            "imagePath": "public/images/9ed6a79c.png",
+            "imageName": "เรือนไม้ใบ.png",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 25,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 89,
+            "museum_id": 25,
+            "language_id": 1,
+            "detail": "ต้นก้ามปูหรือจามจุรีต้นนี้นายเลิศเป็นคนปลูกเองตั้งแต่ซื้อที่ดิน ต้นจามจุรีนี้มีลำต้นที่สวยงามตั้งอยู่ริมคลองข้างบ้านปาร์คนายเลิศ ต้นจามจุรี เป็นพันธุ์ไม้ยืนต้นขนาดใหญ่เพื่อให้ร่มเงา ด้วยความที่มีกิ่งก้านสาขามาก ใบขนาดเล็ก ดอกสีชมพู ผลเป็นฝัก เมล็ดแข็ง ผลมีเนื้อสีชมพูรสหวาน นอกจากนี้ยังมีต้นจามจุรีอีกหลายต้นที่นายเลิศปลูกไว้เป็นแนวยาวบริเวณซอยสมคิดยังปรากฎให้เห็นในปัจจุบัน ",
+            "title": "ต้นจามจุรี (บริเวณอาคารภักดี)",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 90,
+            "museum_id": 25,
+            "language_id": 2,
+            "detail": "The Rain Tree was planted by Nai Lert when he bought the land. It has an attractive trunk and is located by the canal next to the Nai Lert Park Heritage Home. The Rain Tree is a large perennial plant for shade, as it has a lot of branches. The tree’s leaves are small, and it has a pink flower with fruit pods and hard seed. The fruit has a sweet pink flesh. Besides this, there are many other Rain Trees that Nai Lert planted as a long row in the area of Soi Som Khit that can still be seen today. ",
+            "title": "Rain Tree (Samanea saman (Jacq.) Merr.) (near the Phakdi Building)",
+            "name": "",
+            "soundPath": "public/sounds/dabf3711.mp3",
+            "soundName": "22. rain tree.mp3"
+        },
+        {
+            "museum_content_id": 91,
+            "museum_id": 25,
+            "language_id": 3,
+            "detail": "位于运河边的这一棵雨树是奈乐特先生买了这片土地时就自己种植，雨树是无刺大乔木，分枝甚低，分枝甚低，有小叶，由上往下逐渐变小，花玫瑰红色，果瓣厚，绿色，肉质，有甜味。此外，目前还有其他的雨树被种植在宋克小胡同。",
+            "title": "雨树 （帕克蒂楼附近）",
+            "name": "",
+            "soundPath": "public/sounds/8f2f23e3.mp3",
+            "soundName": "C22雨树（帕克蒂楼附近）.mp3"
+        },
+        {
+            "museum_content_id": 92,
+            "museum_id": 25,
+            "language_id": 4,
+            "detail": "熱帯アメリカ原産のマメ科の大木であるこの木は、ナイラート氏自身がこの土地を購入した当時に敷地脇の運河の近くに植えたと言われています。この木は枝が多く広く広がるため、日陰樹としても好まれています。ピンク色の美しい花を咲かせ、実はさや状で甘い味がします。この木の他にもラマ１世通りからのびるソーイ・ソムキット沿いにも、ナイラート氏の植えたものが並木になっています。",
+            "title": "アメリカネムノキ(パックディー・ビルディング付近)",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 52,
+            "museum_id": 25,
+            "imagePath": "public/images/bba14b70.jpg",
+            "imageName": "ต้นจามจุรี(บริเวณอาคารภักดี).jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 53,
+            "museum_id": 25,
+            "imagePath": "public/images/a954274f.jpg",
+            "imageName": "ต้นจามจุรี(บริเวณอาคารภักดี).jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 26,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 93,
+            "museum_id": 26,
+            "language_id": 1,
+            "detail": "ต้นไม้นี้ชื่อต้นอโศกน้ำ มีอายุกว่า 100 ปี อโศกน้ำเป็นไม้ยืนต้น เรือนยอดทรงกลมทึบ แผ่กิ่งก้านออกดอกชูช่อเหลืองอร่ามสลับส้ม ดอกอโศกน้ำมีกลิ่นหอมอ่อนๆ ดอกมีรสเปรี้ยว คนไทยในสมัยก่อนนิยมนำไปปรุงอาหารเช่น แกงส้ม หรือ ยำ ในช่วงฤดูหนาว ต้นอโศกน้ำที่บ้านปาร์คนายเลิศแห่งนี้ จะออกดอกสีเหลืองอมส้ม บานสะพรั่งสวยงามเต็มต้น และเป็นจุดนิยมที่คนส่วนใหญ่จะชอบมาถ่ายรูป",
+            "title": "ต้นอโศกน้ำ   ",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 94,
+            "museum_id": 26,
+            "language_id": 2,
+            "detail": "This tree is more than 100 years old and is a perennial plant. It has a dense canopy with branches with bunches of yellow flowers alternating with orange. The flower has a soft fragrance and sour taste. In the past, the Thai people liked to use the flower as an ingredient in food like Kaeng Som (soup) or Yam (salad). In the cool season, the Asoka tree at the Nai Lert Park Heritage Home will produce flowers that bloom beautifully covering the tree. This is a popular spot that most people will come to take photos. ",
+            "title": "Asoka (Saraca asoca)",
+            "name": "",
+            "soundPath": "public/sounds/1cc7895d.mp3",
+            "soundName": "23.Asoka.mp3"
+        },
+        {
+            "museum_content_id": 95,
+            "museum_id": 26,
+            "language_id": 3,
+            "detail": "这里的无忧树已经有100多年历史了，它是多年生植物，为长椭圆形或长椭圆状披针形，无忧树的花是橙黄色至深红色，无忧树的花有酸味，泰国古代人经常把它放在汤类或沙拉。无忧树非常精彩漂亮，来参观奈乐特公园的人们都喜欢在这里拍照。",
+            "title": "无忧树",
+            "name": "",
+            "soundPath": "public/sounds/e3238a76.mp3",
+            "soundName": "C23无忧树.mp3"
+        },
+        {
+            "museum_content_id": 96,
+            "museum_id": 26,
+            "language_id": 4,
+            "detail": "インド原産でブッダもこのアショカ・ツリーの下で生まれたと言われています。花からは芳香が漂い、食すと酸味があるため、昔から酸味を生かしたカレーであるゲーン・ソムやサラダなどにも用いられてきました。ナイラート・パークにあるこの木は樹齢100年以上で、冬にオレンジがかった黄色の美しい花を枝いっぱいに咲かせます。園内でも最も人気の写真スポットとなっています。",
+            "title": "アショカ・ツリー",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 54,
+            "museum_id": 26,
+            "imagePath": "public/images/4ccbd66d.jpg",
+            "imageName": "ต้นอโศกน้ำ.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 55,
+            "museum_id": 26,
+            "imagePath": "public/images/a6d7477f.jpg",
+            "imageName": "ต้นอโศกน้ำ.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 27,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 97,
+            "museum_id": 27,
+            "language_id": 1,
+            "detail": "ต้นหางนกยูงที่อยู่ในปาร์คนายเลิศ มีถิ่นกำเนิดดั้งเดิมในเกาะมาดากัสการ์ ทวีปแอฟริกา หางนกยูงเป็นต้นไม้ที่ปลูกได้ง่าย และทนทานต่อสภาพอากาศแห้งแล้ง มักออกดอกในฤดูฝน สีของดอกดูสวยสดใส ทรงพุ่มก็สวยงาม ต้นหางนกยูงในปาร์คนายเลิศ มีทั้งต้นที่มีดอกสีเหลืองและสีแดง มีการตกแต่งกิ่ง ก้าน ใบ ให้มีรูปทรงตามธรรมชาติอย่างสวยงาม กระรอกที่อาศัยอยู่ในปาร์คนายเลิศ มักจะชอบออกมากินเมล็ดพันธุ์ของต้นหางนกยูง ทำให้การขยายพันธุ์มีความยากลำบาก",
+            "title": "ต้นหางนกยูง ",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 98,
+            "museum_id": 27,
+            "language_id": 2,
+            "detail": "This tree is located in the garden of the Nai Lert Park Heritage Home and is originally from Madagascar. The Royal Poinciana is a tree that is easy to grow and can endure heat. It produces attractive bouquets of flowers in the rainy season.  The tree in the Nai Lert Park Heritage Home has both yellow and red flowers.  The decoration of the branches, stalks, and leaves have a beautifully natural shape. Squirrels that inhabit the Nai Lert Park Heritage Home will come to eat the seeds of the Royal Poinciana that has made it difficult for the species to propagate. ",
+            "title": "Royal Poinciana (Delonix regia (Bojer) Raf.)",
+            "name": "",
+            "soundPath": "public/sounds/052f7b75.mp3",
+            "soundName": "24. Royal poinciana.mp3"
+        },
+        {
+            "museum_content_id": 99,
+            "museum_id": 27,
+            "language_id": 3,
+            "detail": "奈乐特公园的金凤花产原地是非洲马达加斯加岛，这种植物很容易打理，属于雨季的开花的植物，它的外形非常像一只翩翩起舞的蝴蝶,色泽也很艳丽。奈乐特公园的金凤花有橙红色和黄色的，经常有松树出来吃了金凤花种子，使得比较困难繁殖。",
+            "title": "金凤树",
+            "name": "",
+            "soundPath": "public/sounds/09e90f79.mp3",
+            "soundName": "A24泰国班清村的陶器.mp3"
+        },
+        {
+            "museum_content_id": 100,
+            "museum_id": 27,
+            "language_id": 4,
+            "detail": "マダガスカル島原産の乾燥に強く育てやすい樹木で、雨季に鮮やかな花を咲かせます。ナイラート・パークには赤い花を咲かせるものと黄色い花を咲かせる二種類の木があり、自然のままの美しい枝の広がりを見ることができます。園内に住むリスたちはこの木の実を好んで食べに集まって来るため、種からこの木を増やすことは容易ではありません。",
+            "title": "鳳凰木(ホウオウボク)",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 56,
+            "museum_id": 27,
+            "imagePath": "public/images/57699185.jpg",
+            "imageName": "ต้นหางนกยูง.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 57,
+            "museum_id": 27,
+            "imagePath": "public/images/37baf4de.jpg",
+            "imageName": "ต้นหางนกยูง.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 28,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 101,
+            "museum_id": 28,
+            "language_id": 1,
+            "detail": "ต้นสาเกเป็นไม้ยืนต้น ไม้ผลัดใบ สาเกเป็นพืชเขตร้อน  แตกกิ่งก้านสาขาเป็นทรงพุ่มกว้าง มีความสูงของลำต้นประมาณ 15-20 เมตร มีเปลือกลำต้นเป็นสีน้ำตาลเข้ม  ลักษณะของใบเป็นแฉกเว้าลึกจนเกือบถึงเส้นกลางใบ ออกเป็นใบเดี่ยว แผ่นใบหนามีสีเขียวเข้มเป็นมันสวยงาม \nเรือนกระจกถูกออกแบบให้หลบหลีกและเปลี่ยนแปลงรูปร่างของโครงสร้างไปตามต้นไม้ที่มีอยู่เดิมเพื่อหลีกเลี่ยงการตัดต้นไม้ เราจึงสร้างเรือนกระ\n",
+            "title": "ต้นสาเก (บริเวณเรือนกระจก)",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 102,
+            "museum_id": 28,
+            "language_id": 2,
+            "detail": "This tree is a perennial plant that does not shed its leaves, as it is a tropical plant. The branches are bushy, and it is about 15-20 metres tall with dark brown bark. The characteristics of the leaves are a deep concave till near the centre of the leaf and appear as a single, thick dark green leaf that is attractive. The structure of the Glasshouse has been designed in accordance with the tree that stands in its original position, so to prevent any cutting of the tree. ",
+            "title": "Breadfruit Tree (Artocarpus altilis) (near the Glasshouse)",
+            "name": "",
+            "soundPath": "public/sounds/fe1a722e.mp3",
+            "soundName": "25. Breadfruit tree.mp3"
+        },
+        {
+            "museum_content_id": 103,
+            "museum_id": 28,
+            "language_id": 3,
+            "detail": "面包果树是热带著名植物之一，树高15-20米，枝条粗大，树皮灰褐色，叶片大，深裂，革质，表面深绿色，有光泽，背面浅绿色。玻璃屋被打造建设适合现有的面包果树为了避免砍伐面包果树木。",
+            "title": "面包果树（玻璃屋附近",
+            "name": "",
+            "soundPath": "public/sounds/25bfa4ad.mp3",
+            "soundName": "C25面包果树（玻璃屋附近）.mp3"
+        },
+        {
+            "museum_content_id": 104,
+            "museum_id": 28,
+            "language_id": 4,
+            "detail": "英語で「ブレッド・フルーツ」と呼ばれるクワ科のパンノキは、高さ15～20ｍで丸く広く枝の広がる熱帯の常緑樹です。木の表面は焦げ茶色で、光沢のある美しい深緑の大きな葉は掌状でよく茂るため、熱帯地方では日陰樹として好まれています。グラスハウスは、元からあったこの美しい木を切り倒すことなく、木の形に合わせて後から設計されたものです。",
+            "title": "パンノキ(グラスハウス付近)",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 58,
+            "museum_id": 28,
+            "imagePath": "public/images/d05536bd.jpg",
+            "imageName": "ต้นสาเก(บริเวณเรือนกระจก).jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 59,
+            "museum_id": 28,
+            "imagePath": "public/images/cf1549fc.jpg",
+            "imageName": "ต้นสาเก(บริเวณเรือนกระจก).jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 29,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 105,
+            "museum_id": 29,
+            "language_id": 1,
+            "detail": "\"ต้นรวงผึ้ง\" ถือว่าเป็นพรรณไม้อันทรงคุณค่าและมีเกียรติชนิดหนึ่ง ที่ถูกยกให้เป็นพรรณไม้ประจำ สมเด็จพระเจ้าอยู่หัวมหาวชิราลงกรณ บดินทรเทพยวรางกูร รัชกาลที่ 10 เนื่องจากดอกรวงผึ้งมีสีเหลืองซึ่งตรงกับสีประจำวันจันทร์ วันพระบรมราชสมภพของพระองค์ อีกทั้งต้นรวงผึ้งจะผลิดอกออกใบในช่วงวันพระบรมราชสมภพพอดี คือช่วงเดือนกรกฎาคม  มีดอกสีเหลืองเข้ม กลิ่นหอมตลอดทั้งวัน มีช่อดอกดกที่เกิดตามซอกใบเป็นช่อสั้น นิยมนำมาปลูกเป็นไม้ประดับ ดอกสวยงามออกเต็มต้น มีกลิ่นหอมอ่อนๆ ให้ร่มเงา ปลูกเลี้ยงง่าย ทนแล้ง และนำดอกมาทำบุหงา ดอกของต้นรวงผึ้ง มีกลิ่นหอมคล้ายน้ำผึ้ง",
+            "title": "ต้นรวงผึ้ง ",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 106,
+            "museum_id": 29,
+            "language_id": 2,
+            "detail": "This is one of the most valuable and distinguished species, which was granted to be the plant of King Rama X. This was because the Yellow Star has a yellow star that is the colour for Monday, the King’s day of birth. Also, the Yellow Star will bloom during the King’s birthday in July of every year. The flower is dark yellow in colour with a fragrant scent all day long. There are abundant small bouquets in various corners, which are popularly used as ornamental plants. This beautiful flower covers the tree with a sweet aroma like honey that provides shade. It is easy to grow, can endure heat and water.  The flowers are also used to make potpourri.",
+            "title": "Yellow Star (Schoutenia glomerata King subsp. peregrina (Craib) Roekm.)",
+            "name": "",
+            "soundPath": "public/sounds/87f99468.mp3",
+            "soundName": "26. Yellow star.mp3"
+        },
+        {
+            "museum_content_id": 107,
+            "museum_id": 29,
+            "language_id": 3,
+            "detail": "黄色星星花非常珍贵，并代表泰王拉玛十世玛哈·哇集拉隆功。花的颜色是黄的，加上泰王拉玛十世的生日是星期天有黄色来代表，另外花开的时间是七月，泰王拉玛十世的生日正好也是七月的。人们经常拿这种花来装饰家，因为黄色星星花比较容易养活，以及它整天都发散像蜂蜜的香味。",
+            "title": "黄色星星花",
+            "name": "",
+            "soundPath": "public/sounds/3d66b93e.mp3",
+            "soundName": "C26黄色星星花.mp3"
+        },
+        {
+            "museum_content_id": 108,
+            "museum_id": 29,
+            "language_id": 4,
+            "detail": "英語で「イエロー・スター」とも呼ばれるルアンプンは、現在のラマ10世ワチラロンコーン国王を象徴する樹木とされており、タイで大変大切にされています。タイでは伝統的に人の生まれた曜日にちなんだ色がありますが、陛下のお誕生日は月曜日で黄色。このイエロー・スターはちょうど７月の国王誕生日の季節に黄色い花が満開となるのです。小さな花が重なり合って木いっぱいに咲き誇る様子は大変美しく、またこの花からは優しいハチミツのような甘い香りがする事でも知られており、乾燥させポプリとしても使われています。",
+            "title": "ルアンプン(イエロー・スター)の木",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 60,
+            "museum_id": 29,
+            "imagePath": "public/images/fae89ffb.jpg",
+            "imageName": "ต้นรวงผึ้ง.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 61,
+            "museum_id": 29,
+            "imagePath": "public/images/5d4355fb.jpg",
+            "imageName": "ต้นรวงผึ้ง.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 30,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 109,
+            "museum_id": 30,
+            "language_id": 1,
+            "detail": "ในปาร์คนายเลิศแห่งนี้ มีถนนเล็กๆ ที่ตั้งอยู่ข้างเรือนไม้ใบของท่านผู้หญิงเลอศักดิ์ สมบัติศิริ ระหว่างทางเดินนั้นมีต้นจำปี และต้นจำปา ขนาบทั้งสองข้างทางเดินเป็นระยะ แนวต้นจำปีอยู่ด้านขวา แนวจำปาอยู่ด้านซ้าย และมักจะส่งกลิ่นหอมอยู่ตลอด",
+            "title": "ถนนจำปี จำปา",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 110,
+            "museum_id": 30,
+            "language_id": 2,
+            "detail": "In the Nai Lert Park Heritage Home, there is a small road that is located next to Thanphuying Lursakdi Sampatisiri’s house. Along both sides of the route, there are White Chempaka (Magnolia × alba) and Orange Champak (Magnolia champaca (L.) Baill. ex Pierre) trees. The White Chempaka trees are on the right-hand side and the Orange Champak trees are on the left-hand side, and will always emit a fragrant smell.",
+            "title": "White Chempaka and Orange Champak Road ",
+            "name": "",
+            "soundPath": "public/sounds/efc8f93e.mp3",
+            "soundName": "27. White chempaka and orange champak road.mp3"
+        },
+        {
+            "museum_content_id": 111,
+            "museum_id": 30,
+            "language_id": 3,
+            "detail": "奈乐特公园还有小街在乐萨柯女士兰花家的旁边，小街两边都是玉兰花，右边是白玉兰，左边，一直发散香味。",
+            "title": "玉兰花街",
+            "name": "",
+            "soundPath": "public/sounds/c7bcbf91.mp3",
+            "soundName": "C27玉兰花街.mp3"
+        },
+        {
+            "museum_content_id": 112,
+            "museum_id": 30,
+            "language_id": 4,
+            "detail": "ナイラート・パークの中にはたくさんの歩道が張り巡らされていますが、ナイラートの一人娘として後を継いだルーサック・ソムバットシリ夫人が蘭の苗を育てている小屋(ルアン・マーイバイ)の横を通る小道は「チャンピー・チャンパーの道」と呼ばれています。これは木の名前で、道の片側にはチャンピーの木(マグノリア)が、もう一方にはチャンパーの木(プルメリア)の木が植えられており、花の咲く季節に散策すると芳香に包まれて幸せな気分になります。",
+            "title": "チャンピー・チャンパーの道",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 62,
+            "museum_id": 30,
+            "imagePath": "public/images/2f1e5734.jpg",
+            "imageName": "ถนนจำปี จำปา.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 63,
+            "museum_id": 30,
+            "imagePath": "public/images/4e0f6970.jpg",
+            "imageName": "ถนนจำปี จำปา.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 31,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 113,
+            "museum_id": 31,
+            "language_id": 1,
+            "detail": " The Glass House เรือนกระจก Multi-Function ขนาดใหญ่ที่ตั้งอยู่ใจกลางสวนของปาร์คนายเลิศ เรือนกระจกหลังนี้แวดล้อมไปด้วยพรรณไม้นานาพันธุ์ ให้บรรยากาศร่มรื่น โปร่งสบาย โดยตัวอาคารจะอยู่ภายใต้ร่มเงาของต้นสาเกที่มีอายุมากกว่า 100 ปี ภายในเรือนกระจกประดับด้วยเฟิร์นระย้า เรือนกระจกหลังนี้สามารถจัดงานเลี้ยงได้หลากหลายรูปแบบ และรองรับแขกได้มากถึง 350 คน พร้อมระบบเสียงทั้งภายในและภายนอกอาคาร ",
+            "title": "The Glass House เรือนกระจก ",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 114,
+            "museum_id": 31,
+            "language_id": 2,
+            "detail": "This is a large multi-functional glasshouse located in the centre of the garden of the Nai Lert Park Heritage Home. This glasshouse is surrounded by various species of plants that provides a shady airy atmosphere. The building is under the shade of a more than 100-year-old breadfruit tree. The interior of the glasshouse is decorated with Lycopodium phlegmaria ferns. This glasshouse can be a venue for various types of events and can hold up to 350 people with an audio system both inside and outside the building.",
+            "title": "The Glasshouse",
+            "name": "",
+            "soundPath": "public/sounds/ee6e3903.mp3",
+            "soundName": "28.The glasshouse.mp3"
+        },
+        {
+            "museum_content_id": 115,
+            "museum_id": 31,
+            "language_id": 3,
+            "detail": "这个地方位于奈乐特公园的最中间， 它是一个很大的多功能玻璃屋，屋子在一百多年的面包果树的阴影下，包围着各种各样美丽的植物，让人感觉的舒服，屋子内摆设了羊齿类植物。玻璃屋能举行各种活动、晚会或小型婚礼，屋子最多可以容纳350人。此外，屋子还安装了整体音响系统。",
+            "title": "玻璃屋",
+            "name": "",
+            "soundPath": "public/sounds/82048a6a.mp3",
+            "soundName": "C28玻璃屋.mp3"
+        },
+        {
+            "museum_content_id": 116,
+            "museum_id": 31,
+            "language_id": 4,
+            "detail": "グラス・ハウス(The Glass House)は、ナイラート・パークの中央に位置する大型の多目的スペースです。このグラス・ハウスは様々の種類の植物に囲まれた気持ちの良いガラス張りの温室のような建物で、樹齢100年を超えるパンの木(ブレッドフルーツと呼ばれるクワ科の大木)の木陰に涼し気に佇んでいます。また室内は熱帯の瑞々しいシダ植物などで飾られています。この施設の最大収容人数は約350名、室内外に音響・照明施設も完備しており、様々なスタイルのイベントでご利用いただけます。",
+            "title": "グラス・ハウス",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 64,
+            "museum_id": 31,
+            "imagePath": "public/images/2396bb23.jpg",
+            "imageName": "The Glass House เรือนกระจก.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 65,
+            "museum_id": 31,
+            "imagePath": "public/images/4d879c01.jpg",
+            "imageName": "The Glass House เรือนกระจก.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+},
+{
+    "id": 32,
+    "slide_flag": "n",
+    "highlight_flag": "y",
+    "value": [
+        {
+            "museum_content_id": 117,
+            "museum_id": 32,
+            "language_id": 1,
+            "detail": "ห้องทานอาหารส่วนตัวสุดพิเศษ โครงสร้างได้แรงบันดาลใจมาจาก อิกลู (Igloo) หรือบ้านน้ำแข็งของชาวเอสกิโม โดยสามารถมองเห็นบรรยากาศที่ร่มรื่นและสบายตาแวดล้อมด้วยพรรณไม้น้อยใหญ่ ผ่านเรือนกระจกรอบทิศทาง \nอิกลู เป็นโดมใสสไตล์โมเดิร์น จุแขกได้มากสุด 4 คน ความพิเศษของอิกลูอันนี้ คือสามารถเคลื่อนย้ายไปได้ตามมุมต่างๆของปาร์คนายเลิศ ลูกค้าสามารถเลือกชมวิวของสวนตามมุมต่าง ในบรรยากาศส่วนตัวที่เลือกเอง ไม่ต้องจำเจอยู่กับ Private Room รูปแบบเดิมๆ\n",
+            "title": "อิกลู",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        },
+        {
+            "museum_content_id": 118,
+            "museum_id": 32,
+            "language_id": 2,
+            "detail": "This is a special private dining room in which the structure was inspired from an igloo, or an Eskimo’s house made from ice. Guests can see the shady atmosphere and comfortable environment of large and small plants in the glasshouses around the igloo. This is a modern style dome that has a capacity for 4 people. The highlight of this igloo is the capability to be moved to various corners of the Nai Lert Park Heritage Home.  Guests can to choose to see a view of the garden from various corners in a private atmosphere of their choice without having to stay in the same private room.",
+            "title": "Igloo",
+            "name": "",
+            "soundPath": "public/sounds/527973ab.mp3",
+            "soundName": "29.Igloo.mp3"
+        },
+        {
+            "museum_content_id": 119,
+            "museum_id": 32,
+            "language_id": 3,
+            "detail": "这里是一个非常有特色的一个私人餐厅，餐厅的建筑风格来自爱斯基摩冰屋。从餐厅里面通过玻璃墙就能看到周围的各种各样漂亮的花草树木。\n冰屋餐厅的建筑是现代风格，最多能坐四个人。它的独特之处在于能搬到奈乐特公园内的每一个角落，所以客人可以在不同的角度欣赏不同的环境。\n",
+            "title": "爱斯基摩冰屋",
+            "name": "",
+            "soundPath": "public/sounds/65574992.mp3",
+            "soundName": "C29爱斯基摩冰屋.mp3"
+        },
+        {
+            "museum_content_id": 120,
+            "museum_id": 32,
+            "language_id": 4,
+            "detail": "「イグルー」と呼ばれる北極圏に暮らすイヌイットのスノーハウスから発想を得た特別なプライベートダイニングルームです。モダンなデザインのガラスのドーム状の構造で、中からは庭園内の木々を眺めることができます。キャパシティは４人までですが、特筆すべきは園内のどこにでも移設可能であるという点です。既存のプライベートルームに退屈することなく、貴方のお好みの景色を選んでその場所にイグルーを設置してお楽しみいただけます。",
+            "title": "イグルー",
+            "name": "",
+            "soundPath": "",
+            "soundName": ""
+        }
+    ],
+    "images": [
+        {
+            "imageID": 66,
+            "museum_id": 32,
+            "imagePath": "public/images/b02031c3.jpg",
+            "imageName": "อิกลู.jpg",
+            "type": 1,
+            "active_title": "y"
+        },
+        {
+            "imageID": 67,
+            "museum_id": 32,
+            "imagePath": "public/images/acf384c0.jpg",
+            "imageName": "อิกลู.jpg",
+            "type": 1,
+            "active_title": "n"
+        }
+    ]
+}
