@@ -6,15 +6,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(beacons): get config from api and register zones">
-      <change beforePath="$PROJECT_DIR$/src/adapter/beacon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/beacon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/contents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/actions/beacon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/actions/beacon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/actions/contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/actions/contents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/stores/beacon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/stores/beacon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/stores/contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/stores/contents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/AsyncScreens/async_container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/AsyncScreens/async_container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/BeaconContentScreen/beacon_content_container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/BeaconContentScreen/beacon_content_container.js" afterDir="false" />
+    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="refactor(beacons): move split get beacon list to beacon store">
+      <change afterPath="$PROJECT_DIR$/tools/BeaconScan/beacon_scan_container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/BeaconScan/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/actions/beacons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/actions/beacons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/stores/beacons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/stores/beacons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/AsyncScreens/AsyncScreens.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/AsyncScreens/AsyncScreens.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/BeaconScan.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,19 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/actions/contents.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/BeaconContentScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+            <state relative-caret-position="422">
+              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -45,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/actions/beacon.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="60" column="36" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="36" />
+            <state relative-caret-position="357">
+              <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -57,24 +47,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/beacon_content_container.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="60">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/BeaconStatusIcon.js">
+        <entry file="file://$PROJECT_DIR$/tools/BeaconScan/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret column="46" selection-start-column="46" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/BeaconScan/beacon_scan_container.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,23 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/AsyncScreens/async_container.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/modals/ContentDetailModal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -107,19 +92,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/AsyncScreens/AsyncScreens.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="120">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/stores/beacon.js">
+        <entry file="file://$PROJECT_DIR$/src/reducers/stores/beacons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+            <state relative-caret-position="311">
+              <caret line="78" column="40" lean-forward="true" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
               <folding>
-                <element signature="e#0#201#0" expanded="true" />
+                <element signature="e#0#267#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/actions/beacons.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="38" column="53" lean-forward="true" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,6 +163,8 @@
       <find>beaconContent</find>
       <find>CLOSE_BEACON_CONTENT_MODAL</find>
       <find>lodash</find>
+      <find>settingBeaconActive</find>
+      <find>getBeaconConfig</find>
     </findStrings>
     <replaceStrings>
       <replace>white</replace>
@@ -182,11 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" />
-        <option value="$PROJECT_DIR$/src/screens/ContentListScreen/components/ARButton.js" />
-        <option value="$PROJECT_DIR$/src/components/HeaderLogo.js" />
-        <option value="$PROJECT_DIR$/src/components/BeaconStatusIcon.js" />
-        <option value="$PROJECT_DIR$/src/components/HamburgerButton.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/screens/SetPageScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js" />
         <option value="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
@@ -207,7 +204,6 @@
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/loading/HightLightLoading.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" />
         <option value="$PROJECT_DIR$/src/config/app.js" />
-        <option value="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" />
         <option value="$PROJECT_DIR$/src/naivigator/MainNavigator.js" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/src/screens/AsyncScreens/index.js" />
@@ -217,22 +213,28 @@
         <option value="$PROJECT_DIR$/src/screens/BeaconContentScreen/index.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/content_detail_container.js" />
         <option value="$PROJECT_DIR$/src/components/modals/ContentDetailModal.js" />
-        <option value="$PROJECT_DIR$/src/screens/AsyncScreens/AsyncScreens.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js" />
         <option value="$PROJECT_DIR$/src/screens/BeaconContentScreen/BeaconContentScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/BeaconContentScreen/components/Detail.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" />
-        <option value="$PROJECT_DIR$/src/reducers/stores/index.js" />
         <option value="$PROJECT_DIR$/src/config/urls.js" />
-        <option value="$PROJECT_DIR$/tools/BeaconScan.js" />
         <option value="$PROJECT_DIR$/src/adapter/contents.js" />
         <option value="$PROJECT_DIR$/src/adapter/beacon.js" />
         <option value="$PROJECT_DIR$/src/reducers/actions/contents.js" />
         <option value="$PROJECT_DIR$/src/reducers/actions/beacon.js" />
-        <option value="$PROJECT_DIR$/src/screens/AsyncScreens/async_container.js" />
         <option value="$PROJECT_DIR$/src/reducers/stores/beacon.js" />
         <option value="$PROJECT_DIR$/src/reducers/stores/contents.js" />
+        <option value="$PROJECT_DIR$/src/reducers/stores/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/AsyncScreens/async_container.js" />
         <option value="$PROJECT_DIR$/src/screens/BeaconContentScreen/beacon_content_container.js" />
+        <option value="$PROJECT_DIR$/src/screens/AsyncScreens/AsyncScreens.js" />
+        <option value="$PROJECT_DIR$/src/reducers/stores/beacons.js" />
+        <option value="$PROJECT_DIR$/src/reducers/actions/beacons.js" />
+        <option value="$PROJECT_DIR$/tools/BeaconScan.js" />
+        <option value="$PROJECT_DIR$/tools/BeaconScan/index.js" />
+        <option value="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" />
+        <option value="$PROJECT_DIR$/tools/BeaconScan/beacon_scan_container.js" />
+        <option value="$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js" />
       </list>
     </option>
   </component>
@@ -271,13 +273,6 @@
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="modals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
@@ -325,6 +320,17 @@
               <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="BeaconContentScreen" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="BeaconScan" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -343,19 +349,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tools/BeaconScan" />
+      <recent name="$PROJECT_DIR$/src/components/modals" />
+      <recent name="$PROJECT_DIR$/src/screens/HomeScreen/screens" />
+      <recent name="$PROJECT_DIR$/src/screens/HomeScreen/components" />
+      <recent name="$PROJECT_DIR$/src/screens/FindUsScreen" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/screens/BeaconContentScreen" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/data/AR" />
       <recent name="$PROJECT_DIR$/src/screens/ParkNaiLertScreen" />
       <recent name="$PROJECT_DIR$/src/reducers/stores" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/modals" />
-      <recent name="$PROJECT_DIR$/src/screens/HomeScreen/screens" />
-      <recent name="$PROJECT_DIR$/src/screens/HomeScreen/components" />
-      <recent name="$PROJECT_DIR$/src/screens/FindUsScreen" />
-      <recent name="$PROJECT_DIR$/src/assets/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -440,7 +446,8 @@
       <workItem from="1567696035272" duration="1928000" />
       <workItem from="1568722357235" duration="12632000" />
       <workItem from="1568782315004" duration="754000" />
-      <workItem from="1568808301744" duration="6586000" />
+      <workItem from="1568808301744" duration="6902000" />
+      <workItem from="1568895673785" duration="3220000" />
     </task>
     <task id="LOCAL-00001" summary="feat(app): mock UI all pages">
       <created>1566134031143</created>
@@ -652,11 +659,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568828094694</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="refactor(beacons): move split get beacon list to beacon store">
+      <created>1568828667235</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1568828667235</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224941000" />
+    <option name="totallyTimeSpent" value="228477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -746,7 +760,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix(homescreen): fix cannot open detail screen after click see more" />
     <MESSAGE value="feat(app): integrate change language with local storage" />
     <MESSAGE value="feat(app): change AsyncStorage dependency" />
     <MESSAGE value="feat(home-screen): integrate image slider with api" />
@@ -771,22 +784,10 @@
     <MESSAGE value="feat(beacon): remove share function" />
     <MESSAGE value="feat(content-detail): add message for share function" />
     <MESSAGE value="feat(beacons): get config from api and register zones" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(beacons): get config from api and register zones" />
+    <MESSAGE value="refactor(beacons): move split get beacon list to beacon store" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(beacons): move split get beacon list to beacon store" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/viro_car_marker_demo.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="38" column="80" lean-forward="true" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
-          <folding>
-            <element signature="e#15#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/babel.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1025,27 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/stores/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#205#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config/urls.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1060,16 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/BeaconScan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="64" column="14" lean-forward="true" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/adapter/contents.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1081,23 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/actions/contents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/actions/beacon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="60" column="36" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1120,29 +1073,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/AsyncScreens/AsyncScreens.js">
+    <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/beacon_content_container.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/AsyncScreens/async_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        <state relative-caret-position="180">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
           <folding>
-            <element signature="e#0#107#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/stores/beacon.js">
+    <entry file="file://$PROJECT_DIR$/src/reducers/actions/contents.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        <state relative-caret-position="60">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/stores/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
-            <element signature="e#0#201#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1156,20 +1109,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/BeaconContentScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="422">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/beacon_content_container.js">
+    <entry file="file://$PROJECT_DIR$/src/screens/AsyncScreens/AsyncScreens.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="120">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/stores/beacons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="78" column="40" lean-forward="true" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/AsyncScreens/async_container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/BeaconScan/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/actions/beacons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="38" column="53" lean-forward="true" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/BeaconScan/beacon_scan_container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

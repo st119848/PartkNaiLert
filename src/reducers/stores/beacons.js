@@ -6,6 +6,8 @@ import {
     GETTING_BEACON_LIST_FAILED,
     GETTING_BEACON_LIST_START,
     GETTING_BEACON_LIST_SUCCESS,
+    SET_ENTER_BEACON_ZONE,
+    SET_EXIT_BEACON_ZONE
 } from "../actions/beacons";
 
 const initialStste = {
@@ -17,6 +19,8 @@ const initialStste = {
     isShowBeaconContentModal: false,
     isGettingBeaconList: false,
     isGettingBeaconListSuccess: false,
+    isInBeaconArea: false,
+    activeZone: undefined,
 };
 
 export default (state = initialStste, action) => {
@@ -66,6 +70,20 @@ export default (state = initialStste, action) => {
             return {
                 ...state,
                 isShowBeaconContentModal: false,
+            }
+        }
+        case SET_ENTER_BEACON_ZONE: {
+            return  {
+                ...state,
+                isInBeaconArea: true,
+                activeZone: action.data,
+            }
+        }
+        case SET_EXIT_BEACON_ZONE: {
+            return  {
+                ...state,
+                isInBeaconArea: false,
+                activeZone: undefined,
             }
         }
         default:
