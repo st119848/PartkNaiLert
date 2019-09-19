@@ -1,20 +1,31 @@
 import React, {Component, Fragment} from 'react';
-import ContentDetailModal from "../../components/modals/ContentDetailModal";
+import ContentDetailModal from "./components/ContentDetailModal";
+import ARModal from "../../components/modals/ARModal";
 
 class AsyncScreens extends Component {
 
-    handleCloseModal = () => {
+    handleCloseBeaconModal = () => {
         const {closeBeaconContentModal} = this.props;
         closeBeaconContentModal()
     };
 
+    handleCloseARModal = () => {
+        const {closeARModal} = this.props;
+        closeARModal()
+    };
+
     render() {
-        const {isShowBeaconContentModal} = this.props;
+        const {isShowBeaconContentModal, isShowARModal} = this.props;
         return (
             <Fragment>
                 <ContentDetailModal
                     visible={isShowBeaconContentModal}
-                    onClose={this.handleCloseModal}
+                    onClose={this.handleCloseBeaconModal}
+                />
+                <ARModal
+                    scene='ARCarDemo'
+                    visible={isShowARModal}
+                    onClose={this.handleCloseARModal}
                 />
             </Fragment>
         )

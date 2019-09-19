@@ -48,9 +48,8 @@ class ParkNaiLertScreen extends Component {
     };
 
     handleARButtonClick = () => {
-        this.setState({
-            isShowArScreen: true,
-        })
+        const {showARModal} = this.props;
+        showARModal();
     };
 
     handleChangePage = (page) => {
@@ -86,11 +85,6 @@ class ParkNaiLertScreen extends Component {
                     visible={isShowSetPage}
                     onClose={this.handleCloseModal}
                     onChangePage={this.handleChangePage}
-                />
-                <ARModal
-                    scene='ARCarDemo'
-                    visible={isShowArScreen}
-                    onClose={this.handleCloseModal}
                 />
             </SafeAreaView>
         )

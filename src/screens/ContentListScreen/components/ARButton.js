@@ -7,10 +7,11 @@ import {
     TouchableOpacity
 } from 'react-native';
 
-const ARButton = () => {
+const ARButton = (props) => {
+    const {onPress} = props;
     return (
         <SafeAreaView style={styles.safeContainer}>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={onPress}>
                 <View style={styles.container}>
                     <Title />
                 </View>

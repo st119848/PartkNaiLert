@@ -16,7 +16,7 @@ import SetLanguageModal from "../../components/modals/SetLanguageModal";
 import SetPageModal from "../../components/modals/SetPageModal";
 import {translate} from "../../helpers/translates";
 import ARModal from "../../components/modals/ARModal";
-import ContentDetailModal from "../../components/modals/ContentDetailModal";
+import ContentDetailModal from "../AsyncScreens/components/ContentDetailModal";
 
 export default class HomeScreen extends Component {
     static navigationOptions = {
@@ -44,9 +44,8 @@ export default class HomeScreen extends Component {
     };
 
     handleARButtonClick = () => {
-        this.setState({
-            isShowArScreen: true,
-        })
+        const {showARModal} = this.props;
+        showARModal();
     };
 
     handleMoreItemClick = () => {
@@ -80,7 +79,6 @@ export default class HomeScreen extends Component {
         this.setState({
             isShowSetPage: false,
             isShowSetLang: false,
-            isShowArScreen: false,
         })
     };
 
@@ -147,12 +145,6 @@ export default class HomeScreen extends Component {
                     onClose={this.handleCloseModal}
                     onChangeLang={this.handleChangeLang}
                 />
-                <ARModal
-                    scene='ARCarDemo'
-                    visible={isShowArScreen}
-                    onClose={this.handleCloseModal}
-                />
-                {/*<ContentDetailModal visible onClose={this.handleCloseModal}/>*/}
             </View>
         )
     }

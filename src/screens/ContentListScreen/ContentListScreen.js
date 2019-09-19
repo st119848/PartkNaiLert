@@ -21,6 +21,11 @@ class ContentListScreen extends Component {
         headerTintColor: 'rgb(125, 105 , 87)'
     };
 
+    handleARButtonClick = () => {
+        const {showARModal} = this.props;
+        showARModal();
+    };
+
     handleItemShowMoreClick = async (id) => {
         const {navigation, setActiveHighlightItem} = this.props;
         await setActiveHighlightItem(id);
@@ -53,7 +58,7 @@ class ContentListScreen extends Component {
                     renderItem={this.renderItem}
                     contentContainerStyle={styles.flatContent}
                 />
-                <ARButton/>
+                <ARButton onPress={this.handleARButtonClick}/>
             </View>
         )
     }

@@ -9,7 +9,6 @@ const ESTIMOTE_APP_TOKEN = APP_CONFIG.estimoteAppToken;
 class BeaconScan extends Component {
 
     async componentDidMount() {
-        console.log('test');
         const {getBeaconConfig} = this.props;
         const beaconsConfig = await getBeaconConfig();
         if(beaconsConfig) {

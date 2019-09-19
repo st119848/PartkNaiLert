@@ -7,8 +7,8 @@ import {
     View,
     Text
 } from "react-native";
-import Icon from "../Icon";
-import BeaconContentScreen from "../../screens/BeaconContentScreen";
+import Icon from "../../../components/Icon";
+import BeaconContentScreen from "../../BeaconContentScreen";
 
 const ContentDetailModal = props => {
     const {visible, onClose} = props;
