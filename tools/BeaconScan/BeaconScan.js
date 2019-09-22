@@ -38,7 +38,7 @@ class BeaconScan extends Component {
 
         RNEP.locationPermission.request().then(
             permission => {
-
+                console.log(`location permission: ${permission}`);
                 if (permission !== RNEP.locationPermission.DENIED) {
                     const credentials = new RNEP.CloudCredentials(
                         ESTIMOTE_APP_ID,

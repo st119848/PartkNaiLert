@@ -6,34 +6,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(beacon): integrate beacon status">
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Chair.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/NLdata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Pen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Test1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Test2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo.jpg" afterDir="false" />
+    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(AR): update AR Code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/parknailert/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/parknailert/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/drum.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/drum.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/drum.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/drum.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/garage_1k.hdr" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/garage_1k.hdr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/jar.FBX" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar.FBX" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/jar.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/jar.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/jar.vrx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar.vrx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/khong.vrx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/khong.vrx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Base_Color.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car_main_Base_Color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Base_Color_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Base_Color_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Base_Color_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Base_Color_yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Metallic.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car_main_Metallic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/tesla/object_car_main_Roughness.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car_main_Roughness.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/viro_car_marker_demo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,68 +27,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/BeaconStatusIcon/BeaconStatusIcon.js">
+        <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/BeaconStatusIcon/index.js">
+        <entry file="file://$PROJECT_DIR$/android/gradlew">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="40" selection-start-column="40" selection-end-column="40" />
+            <state relative-caret-position="286">
+              <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Chair.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/node_modules/react-native/react.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-639">
+              <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo2.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/NLdata.json">
+        <entry file="file://$PROJECT_DIR$/android/local.properties">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Pen.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/android/parknailert.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/@react-native-community/cli-platform-android/build/commands/runAndroid/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="105" column="25" lean-forward="true" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+            <state relative-caret-position="418">
+              <caret line="169" column="43" selection-start-line="169" selection-start-column="43" selection-end-line="169" selection-end-column="43" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Test1.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Test2.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -119,7 +92,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>@estimote/react-native-proximity</find>
       <find>red</find>
       <find>icon</find>
       <find>pagination.</find>
@@ -139,6 +111,17 @@
       <find>lodash</find>
       <find>settingBeaconActive</find>
       <find>getBeaconConfig</find>
+      <find>src_data_ar_arcardemo_res_3d_jar</find>
+      <find>doFirst</find>
+      <find>react-native</find>
+      <find>object_car.mtl</find>
+      <find>object_car.obj</find>
+      <find>dofirst</find>
+      <find>src_data_ar_arcardemo_res_3d_jar.mtl</find>
+      <find>src_data_ar_arcardemo_res_3d_jar.obj</find>
+      <find>package.json</find>
+      <find>bundleInDevDebug</find>
+      <find>-x</find>
     </findStrings>
     <replaceStrings>
       <replace>white</replace>
@@ -158,13 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ios/Podfile" />
-        <option value="$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js" />
-        <option value="$PROJECT_DIR$/rn-cli.config.js" />
-        <option value="$PROJECT_DIR$/metro.config.js" />
-        <option value="$PROJECT_DIR$/src/screens/HomeScreen/screens/ARModalScreen.js" />
-        <option value="$PROJECT_DIR$/src/screens/HomeScreen/screens/ARModal.js" />
-        <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/loading/HightLightLoading.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" />
         <option value="$PROJECT_DIR$/src/config/app.js" />
         <option value="$PROJECT_DIR$/src/naivigator/MainNavigator.js" />
@@ -192,7 +168,6 @@
         <option value="$PROJECT_DIR$/tools/BeaconScan/index.js" />
         <option value="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" />
         <option value="$PROJECT_DIR$/tools/BeaconScan/beacon_scan_container.js" />
-        <option value="$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js" />
         <option value="$PROJECT_DIR$/src/reducers/stores/setting.js" />
         <option value="$PROJECT_DIR$/src/reducers/actions/setting.js" />
         <option value="$PROJECT_DIR$/src/screens/AsyncScreens/AsyncScreens.js" />
@@ -209,6 +184,14 @@
         <option value="$PROJECT_DIR$/src/components/BeaconStatusIcon/index.js" />
         <option value="$PROJECT_DIR$/src/components/BeaconStatusIcon/beacon_status_container.js" />
         <option value="$PROJECT_DIR$/src/components/BeaconStatusIcon/BeaconStatusIcon.js" />
+        <option value="$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js" />
+        <option value="$PROJECT_DIR$/android/app/src/main/java/com/parknailert/MainApplication.java" />
+        <option value="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car.obj" />
+        <option value="$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js" />
+        <option value="$PROJECT_DIR$/node_modules/react-viro/bin/files/javascript/App.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" />
+        <option value="$PROJECT_DIR$/node_modules/react-native/react.gradle" />
+        <option value="$PROJECT_DIR$/android/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -223,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,7 +216,42 @@
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-native" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="BeaconStatusIcon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
@@ -270,27 +287,27 @@
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="AR" type="462c0819:PsiDirectoryNode" />
-              <item name="ARCarDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="3D" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="ARScreen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="BeaconScan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="ParkNaiLertScreen" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -404,7 +421,9 @@
       <workItem from="1568782315004" duration="754000" />
       <workItem from="1568808301744" duration="6902000" />
       <workItem from="1568895673785" duration="6184000" />
-      <workItem from="1568905345879" duration="1294000" />
+      <workItem from="1568905345879" duration="7756000" />
+      <workItem from="1568945357718" duration="1286000" />
+      <workItem from="1569060174621" duration="16403000" />
     </task>
     <task id="LOCAL-00001" summary="feat(app): mock UI all pages">
       <created>1566134031143</created>
@@ -644,17 +663,38 @@
       <option name="project" value="LOCAL" />
       <updated>1568905678292</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="feat(AR): update AR Code">
+      <created>1568906875931</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1568906875931</updated>
+    </task>
+    <task id="LOCAL-00036" summary="config(build): set for build ipa">
+      <created>1568947110597</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1568947110597</updated>
+    </task>
+    <task id="LOCAL-00037" summary="config(android): config beacon in android">
+      <created>1568947140664</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1568947140664</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232735000" />
+    <option name="totallyTimeSpent" value="256886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21338156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2435202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Captures" order="3" weight="0.25" />
@@ -738,9 +778,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(content-list-screen): integrate content list with api" />
-    <MESSAGE value="feat(content-detail-screen): integrate content detail with api" />
-    <MESSAGE value="feat(intro-screen): integrate intro screen with api" />
     <MESSAGE value="feat(contact-screen): integrate contact screen with api" />
     <MESSAGE value="feat(find-us-screen): integrate find us screen with api" />
     <MESSAGE value="feat(app): integrate lang with translates config" />
@@ -763,393 +800,81 @@
     <MESSAGE value="feat(beacons): integrate content for beacon" />
     <MESSAGE value="refactor(AR): move ARModal to async screens" />
     <MESSAGE value="feat(beacon): integrate beacon status" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(beacon): integrate beacon status" />
+    <MESSAGE value="feat(AR): update AR Code" />
+    <MESSAGE value="config(build): set for build ipa" />
+    <MESSAGE value="config(android): config beacon in android" />
+    <option name="LAST_COMMIT_MESSAGE" value="config(android): config beacon in android" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/index.js">
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/raw/src_data_ar_arcardemo_res_3d_jar.obj" />
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/raw/src_data_ar_arcardemo_res_nldata.json" />
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/raw/app.json" />
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_antdesign.json" />
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_entypo.json" />
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome.json" />
+    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car_mtl.mtl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/naivigator/AppNavigator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/naivigator/MainNavigator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
+    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car_mtl.mtl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/content_detail_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/AsyncScreens/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/components/Detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="94" column="6" lean-forward="true" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/urls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/networking.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/contents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/beacon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/beacon_content_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/actions/contents.js">
+    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car.obj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/stores/contents.js">
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="330">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/BeaconContentScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/BeaconScan/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/BeaconScan/beacon_scan_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/stores/setting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/AsyncScreens/components/ContentDetailModal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/AsyncScreens/AsyncScreens.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/AsyncScreens/async_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/actions/setting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ParkNaiLertScreen/pnl_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ParkNaiLertScreen/ParkNaiLertScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="52" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/content_list_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/components/ARButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/actions/beacons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="38" column="53" lean-forward="true" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/BeaconsStatus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/stores/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/stores/beacons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/home_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BeaconStatusIcon/beacon_status_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#3#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BeaconStatusIcon/BeaconStatusIcon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BeaconStatusIcon/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Chair.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/NLdata.json">
+    <entry file="file://$PROJECT_DIR$/android/app/build/generated/res/react/release/raw/src_data_ar_arcardemo_res_3d_jar.mtl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Test2.jpg">
+    <entry file="file://$PROJECT_DIR$/android/app/build/generated/res/react/release/raw/src_data_ar_arcardemo_res_3d_jar.obj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/ar_icon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Test1.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/bg.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Pen.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/garden_bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metro.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-viro/bin/files/javascript/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo2.png">
@@ -1157,8 +882,130 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="105" column="25" lean-forward="true" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+        <state relative-caret-position="15">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#15#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-hdpi/node_modules_reactnavigationstack_lib_module_views_assets_backicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigationstack_lib_module_views_assets_backicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigationstack_lib_module_views_assets_backiconmask.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/node_modules_reactviro_components_resources_viro_blank.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/node_modules_reactviro_components_resources_viro_spinner_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/node_modules_reactviro_components_resources_viro_spinner_1a.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/src_assets_img_ar_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/src_assets_img_language_en.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/src_assets_img_garden_bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/src_assets_img_language_thailand.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/src_assets_img_room_bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/src_assets_img_logoname.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/src_assets_img_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/src_assets_img_language_japan.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build/generated/res/resValues/gvr/release/values/generated.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build/generated/assets/react/gvr/release/index.android.bundle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3966" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build/generated/res/react/gvr/release/raw/app.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build/generated/res/react/gvr/release/raw/src_data_ar_arcardemo_res_3d_jar.obj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build/generated/res/react/gvr/release/raw/src_data_ar_arcardemo_res_3d_jar.mtl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@react-native-community/cli-platform-android/build/commands/runAndroid/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="169" column="43" selection-start-line="169" selection-start-column="43" selection-end-line="169" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/react.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-639">
+          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/app.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/parknailert.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
         </state>
       </provider>
     </entry>

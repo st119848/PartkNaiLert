@@ -121,6 +121,8 @@ def enableHermes = project.ext.react.get("enableHermes", false);
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion "28.0.3"
+    flavorDimensions "platform"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -133,6 +135,21 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+    }
+    productFlavors {
+        ar {
+            resValue 'string', 'app_name', 'parknailert-ar'
+            buildConfigField 'String', 'VR_PLATFORM', '"GVR"' //default to GVR
+        }
+        gvr {
+            resValue 'string', 'app_name', 'parknailert-gvr'
+            buildConfigField 'String', 'VR_PLATFORM', '"GVR"'
+        }
+        ovr {
+            resValue 'string', 'app_name', 'parknailert-ovr'
+            applicationIdSuffix '.ovr'
+            buildConfigField 'String', 'VR_PLATFORM', '"OVR_MOBILE"'
+        }
     }
     splits {
         abi {
@@ -208,6 +225,19 @@ dependencies {
     implementation project(':react-native-splash-screen')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules
+
+    implementation project(':gvr_common')
+    implementation project(':arcore_client')
+    implementation project(path: ':react_viro')
+    implementation project(path: ':viro_renderer')
+    implementation 'com.google.android.exoplayer:exoplayer:2.7.1'
+    implementation 'com.google.protobuf.nano:protobuf-javanano:3.0.0-alpha-7'
+    implementation 'com.amazonaws:aws-android-sdk-core:2.7.7'
+    implementation 'com.amazonaws:aws-android-sdk-ddb:2.7.7'
+    implementation 'com.amazonaws:aws-android-sdk-ddb-mapper:2.7.7'
+    implementation 'com.amazonaws:aws-android-sdk-cognito:2.7.7'
+    implementation 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.7.7'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
 
     if (enableHermes) {
       def hermesPath = "../../node_modules/hermesvm/android/";

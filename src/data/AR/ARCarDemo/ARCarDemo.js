@@ -114,11 +114,11 @@ ViroARTrackingTargets.createTargets({
     orientation: "Left",
     physicalWidth: 0.165 // real world width in meters
   },
-  logo: {
-    source: require('./res/logo2.png'),
-    orientation: "Left",
-    physicalWidth: 0.165 // real world width in meters
-  }
+  // logo: {
+  //   source: require('./res/logo2.png'),
+  //   orientation: "Left",
+  //   physicalWidth: 0.165 // real world width in meters
+  // }
 });
 
 ViroAnimations.registerAnimations({

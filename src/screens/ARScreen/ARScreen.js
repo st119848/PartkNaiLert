@@ -19,6 +19,7 @@ const ARScreen = props => {
         <ViroARSceneNavigator
             initialScene={initialScene}
             apiKey={apiKey}
+            autofocus
         />
     );
 };
