@@ -16,6 +16,8 @@ const mapStateToProps = (state) => {
     return {
         language: state.setting.language,
         highlightList: state.contents.highlightList,
+        isGettingHighlightList: state.contents.isGettingHighlightList,
+        isGettingHighlightListSuccess: state.contents.isGettingHighlightListSuccess,
     }
 };
 export default connect(mapStateToProps, mapDispatchToProps)(ContentListScreen)

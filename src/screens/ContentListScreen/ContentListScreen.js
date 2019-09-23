@@ -11,6 +11,7 @@ import ARButton from "./components/ARButton";
 import BeaconStatusIcon from "../../components/BeaconStatusIcon";
 import HeaderLogo from "../../components/HeaderLogo";
 import {translate} from "../../helpers/translates";
+import ContentListLoading from "./components/loading/ContentListLoading";
 
 class ContentListScreen extends Component {
 
@@ -49,15 +50,16 @@ class ContentListScreen extends Component {
     };
 
     render() {
-        const {highlightList} = this.props;
+        const {highlightList, isGettingHighlightList, isGettingHighlightListSuccess} = this.props;
         return (
             <View style={styles.container}>
-                <FlatList
+                {isGettingHighlightList && <ContentListLoading/>}
+                {isGettingHighlightListSuccess && <FlatList
                     style={styles.flatList}
                     data={highlightList}
                     renderItem={this.renderItem}
                     contentContainerStyle={styles.flatContent}
-                />
+                />}
                 <ARButton t={this.t} onPress={this.handleARButtonClick}/>
             </View>
         )
