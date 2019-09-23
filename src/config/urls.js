@@ -10,6 +10,7 @@ const url =  {
     museumContent: {
         imageSlider: `${apiUrl}get-slide`,
         highlightList: `${apiUrl}get-highlight-list`,
+        highlightItem: `${apiUrl}get-content-by-id`,
         beaconContent: `${apiUrl}beacon/get-beacon-and-content`,
     },
     aboutUs: {

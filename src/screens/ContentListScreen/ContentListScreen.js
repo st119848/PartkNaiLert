@@ -39,8 +39,8 @@ class ContentListScreen extends Component {
     };
 
     componentDidMount() {
-        const {getHighlightItemFromApi} = this.props;
-        getHighlightItemFromApi();
+        const {getHighlightListFromApi} = this.props;
+        getHighlightListFromApi();
     }
 
     renderItem = ({item}) => {

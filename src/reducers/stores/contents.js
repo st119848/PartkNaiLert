@@ -6,6 +6,9 @@ import {
     GETTING_HIGHLIGHT_LIST_SUCCESS,
     GETTING_HIGHLIGHT_LIST_FAILED,
     SET_ACTIVE_HIGHLIGHT_ITEM,
+    GETTING_HIGHLIGHT_ITEM_START,
+    GETTING_HIGHLIGHT_ITEM_SUCCESS,
+    GETTING_HIGHLIGHT_ITEM_FAILED,
 } from "../actions/contents";
 
 const initialStste = {
@@ -16,6 +19,8 @@ const initialStste = {
     isGettingHighlightList: false,
     isGettingHighlightListSuccess: false,
     activeHighlightItem: undefined,
+    isGettingHighlightItem: false,
+    isGettingHighlightItemSuccess: false,
 };
 
 export default (state = initialStste, action) => {
@@ -68,6 +73,27 @@ export default (state = initialStste, action) => {
                 activeHighlightItem: action.data,
             }
         }
+        case GETTING_HIGHLIGHT_ITEM_START:
+            return {
+                ...state,
+                isGettingHighlightItem: true,
+                isGettingHighlightItemSuccess: false,
+            };
+
+        case GETTING_HIGHLIGHT_ITEM_SUCCESS:
+            return {
+                ...state,
+                isGettingHighlightItem: false,
+                isGettingHighlightItemSuccess: true,
+                activeHighlightItem: action.data,
+            };
+
+        case GETTING_HIGHLIGHT_ITEM_FAILED:
+            return {
+                ...state,
+                isGettingHighlightItem: false,
+                isGettingHighlightItemSuccess: false,
+            };
         default:
             return state
     }

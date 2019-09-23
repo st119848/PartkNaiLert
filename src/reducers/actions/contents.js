@@ -12,6 +12,9 @@ export const GETTING_HIGHLIGHT_LIST_START = 'GETTING_HIGHLIGHT_LIST_START';
 export const GETTING_HIGHLIGHT_LIST_SUCCESS = 'GETTING_HIGHLIGHT_LIST_SUCCESS';
 export const GETTING_HIGHLIGHT_LIST_FAILED = 'GETTING_HIGHLIGHT_LIST_FAILED';
 export const SET_ACTIVE_HIGHLIGHT_ITEM = 'SET_ACTIVE_HIGHLIGHT_ITEM';
+export const GETTING_HIGHLIGHT_ITEM_START = 'GETTING_HIGHLIGHT_ITEM_START';
+export const GETTING_HIGHLIGHT_ITEM_SUCCESS = 'GETTING_HIGHLIGHT_ITEM_SUCCESS';
+export const GETTING_HIGHLIGHT_ITEM_FAILED = 'GETTING_HIGHLIGHT_ITEM_FAILED';
 
 export const getImageSlidersFromApi = () => async (dispatch, getState) => {
     try {
@@ -31,7 +34,7 @@ export const getImageSlidersFromApi = () => async (dispatch, getState) => {
     }
 };
 
-export const getHighlightItemFromApi = () => async (dispatch, getState) => {
+export const getHighlightListFromApi = () => async (dispatch, getState) => {
     try {
         dispatch({type: GETTING_HIGHLIGHT_LIST_START});
         const url = URLS.museumContent.highlightList;
@@ -49,8 +52,34 @@ export const getHighlightItemFromApi = () => async (dispatch, getState) => {
     }
 };
 
+export const getHighlightItemFromApi = (itemId) => async (dispatch, getState) => {
+    try {
+        dispatch({type: GETTING_HIGHLIGHT_ITEM_START});
+        const url = URLS.museumContent.highlightItem;
+        const {language} = getState().setting;
+        const postData = {
+            code: language,
+            id: itemId
+        };
+        const response = await postApiData(url, postData);
+        const {response: highlightItem} = response.data;
+        const data = transformHighlightList(highlightItem);
+        dispatch({type: GETTING_HIGHLIGHT_ITEM_SUCCESS, data});
+    } catch (e) {
+        console.log(e.message);
+        dispatch({type: GETTING_HIGHLIGHT_ITEM_FAILED});
+    }
+};
+
+
+
 export const setActiveHighlightItem = (itemId) => (dispatch, getState) => {
     const {highlightList=[]} = getState().contents;
     const activeHighlightItem = highlightList.find(item => item.id === itemId);
-    dispatch({type: SET_ACTIVE_HIGHLIGHT_ITEM, data: activeHighlightItem});
+    if(activeHighlightItem) {
+        dispatch({type: SET_ACTIVE_HIGHLIGHT_ITEM, data: activeHighlightItem});
+    } else {
+        // getHighlightItemFromApi(itemId)
+    }
+
 };

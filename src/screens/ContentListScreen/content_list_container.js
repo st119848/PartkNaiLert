@@ -1,4 +1,4 @@
-import {getHighlightItemFromApi, setActiveHighlightItem} from "../../reducers/actions/contents";
+import {getHighlightListFromApi, setActiveHighlightItem} from "../../reducers/actions/contents";
 import {connect} from "react-redux";
 import ContentListScreen from "./ContentListScreen";
 import {showARModal} from "../../reducers/actions/setting";
@@ -6,7 +6,7 @@ import {showARModal} from "../../reducers/actions/setting";
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        getHighlightItemFromApi: () => dispatch(getHighlightItemFromApi()),
+        getHighlightListFromApi: () => dispatch(getHighlightListFromApi()),
         setActiveHighlightItem: (itemID) => dispatch(setActiveHighlightItem(itemID)),
         showARModal: () => dispatch(showARModal()),
     }
