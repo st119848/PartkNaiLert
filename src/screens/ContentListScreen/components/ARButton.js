@@ -8,29 +8,31 @@ import {
 } from 'react-native';
 
 const ARButton = (props) => {
-    const {onPress} = props;
+    const {t, onPress} = props;
+    const tryLabel = t('home.buttons.try');
+    const cameraLabel = t('home.buttons.camera');
     return (
         <SafeAreaView style={styles.safeContainer}>
             <TouchableOpacity onPress={onPress}>
                 <View style={styles.container}>
-                    <Title />
+                    <Title tryLabel={tryLabel} cameraLabel={cameraLabel} />
                 </View>
             </TouchableOpacity>
         </SafeAreaView>
     );
 };
 
-const Title = () => {
+const Title = ({tryLabel, cameraLabel}) => {
     return (
         <View style={styles.titleContainer}>
             <Text style={[styles.buttonLabel, styles.right]}>
-                TRY!
+                {tryLabel}
             </Text>
             <Text style={styles.buttonARLabel}>
                 AR
             </Text>
             <Text style={styles.buttonLabel}>
-                CAMERA
+                {cameraLabel}
             </Text>
         </View>
     );

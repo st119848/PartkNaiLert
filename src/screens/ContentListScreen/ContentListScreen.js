@@ -58,7 +58,7 @@ class ContentListScreen extends Component {
                     renderItem={this.renderItem}
                     contentContainerStyle={styles.flatContent}
                 />
-                <ARButton onPress={this.handleARButtonClick}/>
+                <ARButton t={this.t} onPress={this.handleARButtonClick}/>
             </View>
         )
     }

@@ -17,7 +17,6 @@ import LogoImage from '../../assets/img/logo.png';
 import {translate} from "../../helpers/translates";
 import SetPageModal from "../../components/modals/SetPageModal";
 import HamburgerButton from "../../components/HamburgerButton";
-import ARModal from "../../components/modals/ARModal";
 
 class ParkNaiLertScreen extends Component {
     static navigationOptions = ({navigation}) => {
@@ -81,6 +80,7 @@ class ParkNaiLertScreen extends Component {
                 <Content t={this.t} />
                 <ARButton onPress={this.handleARButtonClick}/>
                 <SetPageModal
+                    t={this.t}
                     active="PNL"
                     visible={isShowSetPage}
                     onClose={this.handleCloseModal}

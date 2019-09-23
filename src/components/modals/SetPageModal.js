@@ -10,7 +10,7 @@ import {
 import Icon from "../Icon";
 
 const SetPageModal = props => {
-    const {active, visible, onClose, onChangePage} = props;
+    const {t, active, visible, onClose, onChangePage} = props;
     return (
         <Modal animationType="fade"
                transparent
@@ -19,7 +19,7 @@ const SetPageModal = props => {
         >
             <SafeAreaView style={styles.container}>
                 <Header onCloseClick={onClose}/>
-                <PageList active={active} onChangePage={onChangePage} />
+                <PageList t={t} active={active} onChangePage={onChangePage} />
             </SafeAreaView>
         </Modal>
     )
@@ -39,41 +39,41 @@ const Header = props => {
 };
 
 const PageList = props => {
-    const {active, onChangePage} = props;
+    const {t, active, onChangePage} = props;
     const homePageList = [
         {
-            label: 'Introduction',
+            label: t('menus.intro'),
             page: 'Intro'
         },
         {
-            label: 'Park Nai Lert',
+            label: t('menus.pnl'),
             page: 'PNL'
         },
         {
-            label: 'Find Us',
+            label: t('menus.findUs'),
             page: 'Find'
         },
         {
-            label: 'Contact Us',
+            label: t('menus.contactUs'),
             page: 'Contact'
         },
     ];
     const pNLPageList = [
         {
-            label: 'Home',
+            label: t('menus.home'),
             page: 'Home'
         },
         {
-            label: 'Introduction',
+            label: t('menus.intro'),
             page: 'Intro'
         },
 
         {
-            label: 'Find Us',
+            label: t('menus.findUs'),
             page: 'Find'
         },
         {
-            label: 'Contact Us',
+            label: t('menus.contactUs'),
             page: 'Contact'
         },
     ];

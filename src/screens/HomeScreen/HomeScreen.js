@@ -135,6 +135,7 @@ export default class HomeScreen extends Component {
                 </ScrollView>
                 <ARButton t={this.t} onPress={this.handleARButtonClick} />
                 <SetPageModal
+                    t={this.t}
                     visible={isShowSetPage}
                     onClose={this.handleCloseModal}
                     onChangePage={this.handleChangePage}

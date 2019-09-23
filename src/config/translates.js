@@ -1,4 +1,11 @@
 const en = {
+    menus: {
+        intro: 'Introduction',
+        pnl: 'Park Nai Lert',
+        findUs: 'Find Us',
+        contactUs: 'Contact Us',
+        home: 'Home'
+    },
     home: {
         buttons: {
             intro: 'Introduction',
@@ -28,7 +35,7 @@ const en = {
     contact: {
         title: {
             contactInfor: 'CONTACT INFORMATION',
-            serviceTime: 'SERVICE TIME'
+            serviceTime: 'GUIDED TOUR'
         },
         labels: {
             phone: 'Phone : :phone',
@@ -50,6 +57,13 @@ const en = {
 };
 
 const th = {
+    menus: {
+        intro: 'Introduction',
+        pnl: 'Park Nai Lert',
+        findUs: 'Find Us',
+        contactUs: 'Contact Us',
+        home: 'Home'
+    },
     home: {
         buttons: {
             intro: 'Introduction',
@@ -79,7 +93,7 @@ const th = {
     contact: {
         title: {
             contactInfor: 'CONTACT INFORMATION',
-            serviceTime: 'SERVICE TIME'
+            serviceTime: 'GUIDED TOUR'
         },
         labels: {
             phone: 'Phone : :phone',
@@ -101,19 +115,26 @@ const th = {
 };
 
 const zh = {
+    menus: {
+        intro: '简介',
+        pnl: '奈乐特公园',
+        findUs: '地址',
+        contactUs: '联系我们',
+        home: 'Home'
+    },
     home: {
         buttons: {
-            intro: 'Introduction',
+            intro: '简介',
             guides: 'Guides',
-            more: 'More',
-            try: 'TRY!',
-            camera: 'CAMERA'
+            more: '更多',
+            try: '试',
+            camera: '用'
         },
         title: {
-            nailert: 'NAI LERT HERITAGE HOME',
-            location: 'BANGKOK',
-            museumHighlight: 'Museum Highlight',
-            augmentedReality: 'Augmented Reality',
+            nailert: '奈乐特公园 遗产之家',
+            location: '曼谷',
+            museumHighlight: '博物馆的亮点',
+            augmentedReality: '扩增实境',
         },
         description: {
             arDesc: 'Our Museum use the AR and Beacons technology to gain your experience. Please enjoy by clicking AR camera below'
@@ -124,24 +145,24 @@ const zh = {
     },
     list: {
         button: {
-            showMore : 'Show more'
+            showMore : '阅读更多'
         }
     },
     contact: {
         title: {
-            contactInfor: 'CONTACT INFORMATION',
-            serviceTime: 'SERVICE TIME'
+            contactInfor: '联系我们',
+            serviceTime: '导游服务时间'
         },
         labels: {
-            phone: 'Phone : :phone',
-            email: 'E-mail: :email'
+            phone: '电话 : :phone',
+            email: '邮箱: :email'
         }
     },
     parkNaiLert: {
         title: {
-            nailert: 'NAI LERT',
-            heritage: 'HERITAGE HOME',
-            location: 'BANGKOK',
+            nailert: '奈乐特公园',
+            heritage: '遗产之家',
+            location: '曼谷',
         }
     },
     map: {
@@ -152,19 +173,26 @@ const zh = {
 };
 
 const ja = {
+    menus: {
+        intro: 'イントロダクション',
+        pnl: 'ナイラートパーク',
+        findUs: 'ロケーション',
+        contactUs: 'ご連絡先',
+        home: 'Home'
+    },
     home: {
         buttons: {
-            intro: 'Introduction',
+            intro: 'イントロダクション',
             guides: 'Guides',
-            more: 'More',
-            try: 'TRY!',
-            camera: 'CAMERA'
+            more: 'その他',
+            try: '試す!',
+            camera: 'カメラを'
         },
         title: {
-            nailert: 'NAI LERT HERITAGE HOME',
-            location: 'BANGKOK',
-            museumHighlight: 'Museum Highlight',
-            augmentedReality: 'Augmented Reality',
+            nailert: 'ナイラートパーク・ヘリテージホーム',
+            location: 'バンコク',
+            museumHighlight: '博物館のハイライト',
+            augmentedReality: 'ＡＲ(拡張現実)',
         },
         description: {
             arDesc: 'Our Museum use the AR and Beacons technology to gain your experience. Please enjoy by clicking AR camera below'
@@ -175,24 +203,24 @@ const ja = {
     },
     list: {
         button: {
-            showMore : 'Show more'
+            showMore : 'もっと読む'
         }
     },
     contact: {
         title: {
-            contactInfor: 'CONTACT INFORMATION',
-            serviceTime: 'SERVICE TIME'
+            contactInfor: 'ご連絡先',
+            serviceTime: '館内ツアーは'
         },
         labels: {
-            phone: 'Phone : :phone',
-            email: 'E-mail: :email'
+            phone: '電話 : :phone',
+            email: 'Ｅメール: :email'
         }
     },
     parkNaiLert: {
         title: {
-            nailert: 'NAI LERT',
-            heritage: 'HERITAGE HOME',
-            location: 'BANGKOK',
+            nailert: 'ナイラートパーク',
+            heritage: 'ヘリテージホーム',
+            location: 'バンコク',
         }
     },
     map: {
