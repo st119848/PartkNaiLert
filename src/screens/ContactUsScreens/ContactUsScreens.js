@@ -44,39 +44,48 @@ export default ContactUsScreens;
 const ContactInformation = props => {
     const {t, address, email, facebook, instagram} = props;
     const title = t('contact.title.contactInfor');
-    const phone = t('contact.labels.phone', ':phone', '+66(0)2 2530123');
-    const emailTranslated = t('contact.labels.email', ':email', email);
     return (
         <View style={styles.contactContainer}>
-            <Text style={styles.contactTitle}>{title}</Text>
+            <Title title={title} />
             <View style={styles.detailContainer}>
-                <Text style={styles.contactDetail}>{address}</Text>
-                <Text style={styles.contactDetail}>{phone}</Text>
-                <Text style={styles.contactDetail}>{emailTranslated}</Text>
-                <SocialDetail iconName="facebook-square" text={facebook} />
-                <SocialDetail iconName="instagram" text={instagram} />
+                <ContactItem iconName="contacts" text={address} />
+                <ContactItem iconName="phone" text='+66(0)2 2530123' />
+                <ContactItem iconName="mail" text={email} />
+                <ContactItem iconName="facebook-square" text={facebook} />
+                <ContactItem last iconName="instagram" text={instagram} />
             </View>
         </View>
     )
 };
 
-const SocialDetail = props => {
-    const {iconName, text} = props;
+const Title = props => {
+    const {title, right} = props;
     return (
-        <View style={styles.socialDetailContainer}>
-            <Icon style={styles.facebookIcon} name={iconName} size={30}/>
-            <Text style={styles.contactDetail}>{text}</Text>
+        <View style={[styles.titleContainer, right && styles.rightTitleContainer]}>
+            <Text style={[styles.title, right && styles.rightTitle]}>{title}</Text>
         </View>
     )
-}
+};
+
+const ContactItem = props => {
+    const {iconName, text, last} = props;
+    return (
+        <View style={styles.contactItemContainer}>
+            <Icon style={styles.facebookIcon} name={iconName} size={25}/>
+            <View style={[styles.contactDetailContainer, last && styles.contactDetailContainerLast]}>
+                <Text style={styles.contactDetail}>{text}</Text>
+            </View>
+        </View>
+    )
+};
 
 const TimeInformation = props => {
     const {t, detail} = props
     const title = t('contact.title.serviceTime');
     return (
         <View style={styles.timeContainer}>
-            <Text style={styles.timeTitle}>{title}</Text>
-            <View style={styles.detailContainer}>
+            <Title title={title} right />
+            <View style={styles.timeDetailContainer}>
                 <Text style={styles.timeDetail}>{detail}</Text>
             </View>
         </View>
@@ -91,47 +100,92 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgb(242, 218, 217)'
     },
     contactContainer: {
-        padding: 20,
         backgroundColor: 'white',
         width: '90%',
         marginTop: 20,
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.23,
+        shadowRadius: 2.62,
     },
     timeContainer: {
         alignSelf: 'flex-end',
-        padding: 20,
-        backgroundColor: 'rgb(192, 157, 147)',
+        backgroundColor: 'white',
         width: '90%',
         marginTop: 20,
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.23,
+        shadowRadius: 2.62,
     },
-    contactTitle: {
-        fontSize: 20,
-        fontWeight: '600',
-        marginBottom: 5,
-    },
-    detailContainer: {
+    titleContainer: {
+        height: 45,
+        justifyContent: 'center',
+        backgroundColor: 'rgba(125, 105 , 87, 0.4)',
+        marginRight: -15,
+        marginTop: 15,
         paddingLeft: 10,
     },
-    socialDetailContainer: {
+    rightTitleContainer: {
+        marginRight: 0,
+        marginLeft: -15,
+        paddingLeft: 25,
+        backgroundColor: 'rgba(205, 94, 90, 0.4)',
+    },
+    title: {
+        color: 'rgb(105,85,68)',
+        fontSize: 16,
+        fontWeight: '600',
+        letterSpacing: 0.5,
+    },
+    rightTitle: {
+        color: 'rgb(205, 94, 90)',
+    },
+    detailContainer: {
+        paddingHorizontal: 15,
+    },
+    contactItemContainer: {
         flexDirection: 'row',
-        alignItems: 'center'
+        alignItems: 'center',
+    },
+    contactDetailContainerLast: {
+        borderBottomWidth: 0,
+    },
+    contactDetailContainer: {
+        borderBottomWidth: 1,
+        borderColor: 'lavender',
+        flex: 1,
+        height: 50,
+        justifyContent: 'center'
     },
     contactDetail: {
-        color: 'dimgrey'
+        color: 'dimgrey',
     },
     facebookIcon: {
-        color: 'rgb(74, 90, 143)',
-        marginRight: 5,
+        color: 'rgb(125, 105 , 87)',
+        marginRight: 10,
     },
     igIcon: {
         color: 'rgb(74, 90, 143)',
         marginRight: 5,
     },
     timeTitle: {
-        fontSize: 20,
-        fontWeight: '600',
-        marginBottom: 5,
+        color: 'rgb(205, 94, 90)',
+        fontSize: 18,
+        fontWeight: '500',
+        letterSpacing: 0.5,
+    },
+    timeDetailContainer: {
+        padding: 15
     },
     timeDetail: {
+        color: 'dimgrey'
     }
 
 });

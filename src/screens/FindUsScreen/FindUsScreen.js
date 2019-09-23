@@ -35,24 +35,37 @@ class FindUsScreen extends Component {
     render() {
         const {findData={}} = this.props;
         const {mapUrl, address} = findData;
+        const title = this.t('menus.findUs');
         return (
-            <SafeAreaView style={styles.container}>
+            <View style={styles.container}>
                 <View style={styles.contentContainer}>
+                    <Title title={title.toUpperCase()} />
                     <Map mapUrl={mapUrl} />
                     <Address address={address} />
-                    <GoButton t={this.t} />
                 </View>
-            </SafeAreaView>
+                <GoButton t={this.t} />
+            </View>
         )
     }
 }
 
 export default FindUsScreen;
 
+const Title = props => {
+    const {title} = props;
+    return (
+        <View style={styles.titleContainer}>
+            <Text style={styles.title}>{title}</Text>
+        </View>
+    )
+};
+
 const Map = props => {
     const {mapUrl} = props;
     return (
-        <Image style={styles.map} source={{uri: mapUrl}} />
+        <View style={styles.mapContainer}>
+            <Image style={styles.map} source={{uri: mapUrl}} />
+        </View>
     )
 };
 
@@ -60,7 +73,7 @@ const Address = props => {
     const {address} = props;
     return (
         <View style={styles.addressContainer}>
-            <Text>{address}</Text>
+            <Text style={styles.address}>{address}</Text>
         </View>
     );
 };
@@ -80,36 +93,71 @@ const GoButton = props => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        backgroundColor: 'rgb(242, 218, 217)',
+        alignItems: 'center',
+        padding: 15,
     },
     contentContainer: {
-        padding: 10,
-        alignItems: 'center'
+        width: '100%',
+        alignItems: 'center',
+        backgroundColor: 'white',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.23,
+        shadowRadius: 2.62,
+        paddingTop: 65,
+        position: 'relative',
+    },
+    titleContainer: {
+        height: 45,
+        justifyContent: 'center',
+        backgroundColor: 'rgba(125, 105 , 87, 0.4)',
+        marginRight: -10,
+        marginLeft: -10,
+        top: 10,
+        left: 0,
+        right: 0,
+        paddingLeft: 25,
+        position: 'absolute',
+    },
+    title: {
+        color: 'rgb(105,85,68)',
+        fontSize: 16,
+        fontWeight: '600',
+        letterSpacing: 0.5,
+
     },
     map: {
-        height: width-20,
-        width: width-20
+        width: '100%',
+        height: width-50,
+    },
+    mapContainer: {
+        width: '100%',
+        paddingHorizontal: 10,
     },
     addressContainer: {
         width: '100%',
         height: 50,
         justifyContent: 'center',
-        borderColor: 'lightgray',
-        borderBottomWidth: 1,
+        paddingHorizontal: 10
     },
     address: {
-        color: 'lightgray'
+        color: 'dimgrey',
     },
     goButtonContainer: {
-        height: 40,
-        width: 80,
-        borderRadius: 20,
+        height: 45,
+        width: '100%',
+        borderRadius: 5,
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: 'rgb(195, 82, 76)',
         marginVertical: 15,
     },
     goButton: {
-        fontSize: 20,
+        fontSize: 18,
         fontWeight: '600',
         color: 'white'
     }
