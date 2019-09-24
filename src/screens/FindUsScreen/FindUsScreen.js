@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import {
     StyleSheet,
-    SafeAreaView,
     View,
     Text,
     Image,
     Dimensions,
-    TouchableOpacity
+    TouchableOpacity,
+    Linking,
+    Platform
 } from 'react-native';
 import HeaderLogo from "../../components/HeaderLogo";
 import BeaconStatusIcon from "../../components/BeaconStatusIcon";
@@ -27,6 +28,17 @@ class FindUsScreen extends Component {
         return translate(language, key, find, replace);
     };
 
+    handleClickMap = () => {
+        const scheme = Platform.select({ ios: 'maps:0,0?q=', android: 'geo:0,0?q=' });
+        const latLng = `${13.745513},${100.54606}`;
+        const label = 'Nai Lert Park';
+        const url = Platform.select({
+            ios: `${scheme}${label}@${latLng}`,
+            android: `${scheme}${latLng}(${label})`
+        });
+        Linking.openURL(url);
+    };
+
     componentDidMount() {
         const {getAboutUsFindFromApi} = this.props;
         getAboutUsFindFromApi();
@@ -43,7 +55,7 @@ class FindUsScreen extends Component {
                     <Map mapUrl={mapUrl} />
                     <Address address={address} />
                 </View>
-                <GoButton t={this.t} />
+                <GoButton onPress={this.handleClickMap} t={this.t} />
             </View>
         )
     }
@@ -79,10 +91,10 @@ const Address = props => {
 };
 
 const GoButton = props => {
-    const {t} = props;
+    const {t, onPress} = props;
     const goLabel = t('map.labels.go');
     return (
-        <TouchableOpacity style={styles.goButtonContainer}>
+        <TouchableOpacity onPress={onPress} style={styles.goButtonContainer}>
             <Text style={styles.goButton}>{goLabel}</Text>
         </TouchableOpacity>
     )
