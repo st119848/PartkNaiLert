@@ -1,6 +1,7 @@
 import {settingLanguage} from "../../reducers/actions/setting";
 import {
-    getImageSlidersFromApi,
+    getHighlightListFromApi,
+    getImageSlidersFromApi, setActiveHighlightItem,
 } from "../../reducers/actions/contents";
 import {
     showARModal
@@ -14,6 +15,8 @@ const mapDispatchToProps = (dispatch) => {
         settingLanguage: (lang) => dispatch(settingLanguage(lang)),
         getImageSlidersFromApi: () => dispatch(getImageSlidersFromApi()),
         showARModal: () => dispatch(showARModal()),
+        getHighlightListFromApi: () => dispatch(getHighlightListFromApi()),
+        setActiveHighlightItem: (itemID) => dispatch(setActiveHighlightItem(itemID)),
     }
 };
 

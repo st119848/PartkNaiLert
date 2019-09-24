@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
     titleContainer: {
         height: 45,
         justifyContent: 'center',
-        backgroundColor: 'rgba(125, 105 , 87, 0.4)',
+        backgroundColor: 'rgb(125, 105 , 87)',
         marginRight: -10,
         marginLeft: -10,
         top: 10,
@@ -136,7 +136,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
     },
     title: {
-        color: 'rgb(105,85,68)',
+        color: 'white',
         fontSize: 16,
         fontWeight: '600',
         letterSpacing: 0.5,

@@ -9,6 +9,7 @@ import ImagesSlider from "./components/ImagesSlider";
 import Detail from "./components/Detail";
 import Sound from 'react-native-sound';
 import Share from 'react-native-share';
+import {dynamicEventLink} from './../../helpers/firebase'
 
 class ContentDetailScreen extends Component {
     static navigationOptions = {
@@ -43,12 +44,13 @@ class ContentDetailScreen extends Component {
         }
     };
 
-    handleFacebookShare = () => {
+    handleFacebookShare = async () => {
         const {activeHighlightItem={}} = this.props;
-        const {title, coverImage} = activeHighlightItem;
+        const {id, title, coverImage, description} = activeHighlightItem;
+        const shareLink = await dynamicEventLink(id, title, coverImage, description);
         const shareOptions = {
             title: title,
-            url: coverImage,
+            url: shareLink,
             message: title,
             social: Share.Social.FACEBOOK,
             failOnCancel: false,

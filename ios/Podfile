@@ -49,6 +49,9 @@ target 'parknailert' do
 
   pod 'RNSVG', :path => '../node_modules/react-native-svg'
 
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+  pod 'Firebase/DynamicLinks'
+
   target 'parknailertTests' do
     inherit! :search_paths
     # Pods for testing

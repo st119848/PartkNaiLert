@@ -17,6 +17,8 @@ import SetPageModal from "../../components/modals/SetPageModal";
 import {translate} from "../../helpers/translates";
 import ARModal from "../../components/modals/ARModal";
 import ContentDetailModal from "../AsyncScreens/components/ContentDetailModal";
+import firebase from 'react-native-firebase'
+import {getParamsFromUrl} from '../../helpers/url'
 
 export default class HomeScreen extends Component {
     static navigationOptions = {
@@ -91,21 +93,44 @@ export default class HomeScreen extends Component {
         const {getImageSlidersFromApi} = this.props;
         getImageSlidersFromApi();
 
-        if (Platform.OS === 'android') {
-            Linking.getInitialURL().then(url => {
-                this.navigate(url);
+        firebase.links()
+            .getInitialLink()
+            .then((url) => {
+                if (url) {
+                    console.log('url');
+                    // app opened from a url
+                    this.goToDetailPage(url);
+                } else {
+                    console.log('test1');
+                    if (Platform.OS === 'android') {
+                        Linking.getInitialURL().then(url => {
+                            console.log('url', url)
+                            this.goToDetailPage(url);
+                        });
+                    } else {
+                        Linking.addEventListener('url', this.handleOpenURL);
+                    }
+                }
             });
-        } else {
-            Linking.addEventListener('url', this.handleOpenURL);
-        }
     }
 
     componentWillUnmount() { // C
         Linking.removeEventListener('url', this.handleOpenURL);
     }
 
-    handleOpenURL = (event) => { // D
-        console.log('event', event)
+    handleOpenURL = async (event) => {
+        this.goToDetailPage(event.url);
+    };
+
+    goToDetailPage = async (url) => {
+        const resUrl = await fetch(url).then(res => res.url);
+        const params = getParamsFromUrl(resUrl);
+        const {id} = params;
+        const {navigation, setActiveHighlightItem, getHighlightListFromApi} = this.props;
+        await getHighlightListFromApi();
+        const itemId = parseInt(id);
+        await setActiveHighlightItem(itemId);
+        navigation.navigate('Detail');
     };
 
     render() {
