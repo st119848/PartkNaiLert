@@ -8,20 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(contact-detail-ios): integrate share function with dynamic link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/parknailert/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/parknailert/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/string.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/string.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/parknailert/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar_mtl.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="495">
+              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -547,7 +535,7 @@
       <workItem from="1568945357718" duration="1286000" />
       <workItem from="1569060174621" duration="31585000" />
       <workItem from="1569232673857" duration="16512000" />
-      <workItem from="1569309379949" duration="16304000" />
+      <workItem from="1569309379949" duration="16527000" />
     </task>
     <task id="LOCAL-00001" summary="feat(app): mock UI all pages">
       <created>1566134031143</created>
@@ -871,11 +859,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569342350636</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="config(android): config firebase dynamic links + fix build AR">
+      <created>1569597592752</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1569597592752</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304884000" />
+    <option name="totallyTimeSpent" value="305107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -965,7 +960,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(park-nai-lert-screen): add set page screen" />
     <MESSAGE value="style(app): set background color for image + set portrait for android" />
     <MESSAGE value="feat(content-detail): set update share component + deep link" />
     <MESSAGE value="Revert &quot;try(iOS): try to add AR to ios&quot;&#10;&#10;This reverts commit 477a0440" />
@@ -990,7 +984,8 @@
     <MESSAGE value="feat(contact, find): update UI" />
     <MESSAGE value="feat(find): redirect to map app" />
     <MESSAGE value="feat(contact-detail-ios): integrate share function with dynamic link" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(contact-detail-ios): integrate share function with dynamic link" />
+    <MESSAGE value="config(android): config firebase dynamic links + fix build AR" />
+    <option name="LAST_COMMIT_MESSAGE" value="config(android): config firebase dynamic links + fix build AR" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/components/loading/ContentListLoading.js">
@@ -1380,8 +1375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="495">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
         </state>
       </provider>
     </entry>
