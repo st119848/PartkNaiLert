@@ -1,6 +1,6 @@
 # CAD Exchanger 3.6.0 (cadexchanger.com)
 # Object Count: 6
-mtllib jar.mtl
+mtllib jar_mtl.mtl
 g Cylinder01
 v 28.632866 0.019374 0.113533
 v 29.366762 0.183826 0.013450

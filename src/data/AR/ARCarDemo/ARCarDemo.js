@@ -43,7 +43,7 @@ const ARCarDemo = createReactClass({
           <Viro3DObject
             scale={[0, 0, 0]}
             source={require('./res/3D/jar.obj')}
-            resources={[require('./res/3D/jar.mtl'),
+            resources={[require('./res/3D/jar_mtl.mtl'),
             ]}
             type="OBJ"
             materials={this.state.texture}
