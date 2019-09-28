@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "514007557521",
+    "firebase_url": "https://parknailert-79671.firebaseio.com",
+    "project_id": "parknailert-79671",
+    "storage_bucket": "parknailert-79671.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514007557521:android:eca01f31814728a8ed2630",
+        "android_client_info": {
+          "package_name": "com.parknailert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514007557521-bnbbmb58odksvdinj15mj6uiq4qir90j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMULFMkCb-Tzt1bZN2P6GMeqYt4b4OT9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514007557521-bnbbmb58odksvdinj15mj6uiq4qir90j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "514007557521-2t5lpq30akam1q8g8rluqdarh8b8ktl1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.parknailert.parknailert",
+                "app_store_id": "1480738499"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

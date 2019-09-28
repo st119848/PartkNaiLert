@@ -28,6 +28,10 @@
             <category android:name="android.intent.category.LAUNCHER" />
             <category android:name="com.google.intent.category.CARDBOARD" />
             <category android:name="com.google.intent.category.DAYDREAM" />
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="link" android:host="parknailert" />
             <data android:host="parknailertapp.page.link" android:scheme="http"/>
             <data android:host="parknailertapp.page.link" android:scheme="https"/>
         </intent-filter>

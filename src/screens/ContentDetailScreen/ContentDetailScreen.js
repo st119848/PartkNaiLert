@@ -62,7 +62,7 @@ class ContentDetailScreen extends Component {
 
     handleTwitterShare = async () => {
         const {activeHighlightItem={}} = this.props;
-        const {title, coverImage} = activeHighlightItem;
+        const {id, title, coverImage, description} = activeHighlightItem;
         const shareLink = await dynamicEventLink(id, title, coverImage, description);
         const shareOptions = {
             title: title,

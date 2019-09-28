@@ -6,7 +6,6 @@ import {
 import ImagesSlider from "./components/ImagesSlider";
 import Detail from "./components/Detail";
 import Sound from 'react-native-sound';
-import Share from 'react-native-share';
 
 class BeaconContentScreen extends Component {
     state={

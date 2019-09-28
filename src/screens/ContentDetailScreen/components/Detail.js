@@ -68,7 +68,7 @@ const ShareButtons = props => {
             <IconButton style={styles.facebookIcon} iconName="facebook-square" size={35} onPress={onFacebookShare}/>
         </View>
     )
-}
+};
 
 const styles = StyleSheet.create({
     container: {
@@ -78,7 +78,6 @@ const styles = StyleSheet.create({
         marginTop: -15,
         backgroundColor: 'white',
         alignItems: 'center',
-        paddingVertical: 15,
         position: 'relative',
     },
     titleContainer: {
@@ -129,7 +128,7 @@ const styles = StyleSheet.create({
         width: '100%',
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
     },
     facebookIcon: {
         color: 'rgb(74, 90, 143)'

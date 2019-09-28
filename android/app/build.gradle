@@ -138,15 +138,15 @@ android {
     }
     productFlavors {
         ar {
-            resValue 'string', 'app_name', 'parknailert-ar'
+            resValue 'string', 'app_name', 'parknailert'
             buildConfigField 'String', 'VR_PLATFORM', '"GVR"' //default to GVR
         }
         gvr {
-            resValue 'string', 'app_name', 'parknailert-gvr'
+            resValue 'string', 'app_name', 'parknailert'
             buildConfigField 'String', 'VR_PLATFORM', '"GVR"'
         }
         ovr {
-            resValue 'string', 'app_name', 'parknailert-ovr'
+            resValue 'string', 'app_name', 'parknailert'
             applicationIdSuffix '.ovr'
             buildConfigField 'String', 'VR_PLATFORM', '"OVR_MOBILE"'
         }
@@ -240,6 +240,13 @@ dependencies {
     implementation 'com.amazonaws:aws-android-sdk-cognito:2.7.7'
     implementation 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.7.7'
 
+    implementation project(':react-native-firebase')
+
+    // Firebase dependencies
+    implementation "com.google.android.gms:play-services-base:17.1.0"
+    implementation "com.google.firebase:firebase-core:17.2.0"
+    implementation "com.google.firebase:firebase-invites:17.0.0"
+
     if (enableHermes) {
       def hermesPath = "../../node_modules/hermesvm/android/";
       debugImplementation files(hermesPath + "hermes-debug.aar")
@@ -257,3 +264,4 @@ task copyDownloadableDepsToLibs(type: Copy) {
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+apply plugin: 'com.google.gms.google-services'
