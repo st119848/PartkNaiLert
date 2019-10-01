@@ -138,15 +138,15 @@ android {
     }
     productFlavors {
         ar {
-            resValue 'string', 'app_name', 'parknailert'
+            resValue 'string', 'app_name', 'parknailert-ar'
             buildConfigField 'String', 'VR_PLATFORM', '"GVR"' //default to GVR
         }
         gvr {
-            resValue 'string', 'app_name', 'parknailert'
+            resValue 'string', 'app_name', 'parknailert-gvr'
             buildConfigField 'String', 'VR_PLATFORM', '"GVR"'
         }
         ovr {
-            resValue 'string', 'app_name', 'parknailert'
+            resValue 'string', 'app_name', 'parknailert-ovr'
             applicationIdSuffix '.ovr'
             buildConfigField 'String', 'VR_PLATFORM', '"OVR_MOBILE"'
         }
@@ -167,12 +167,12 @@ android {
             keyPassword 'android'
         }
         release {
-            if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
-                storeFile file(MYAPP_RELEASE_STORE_FILE)
-                storePassword MYAPP_RELEASE_STORE_PASSWORD
-                keyAlias MYAPP_RELEASE_KEY_ALIAS
-                keyPassword MYAPP_RELEASE_KEY_PASSWORD
-            }
+//            if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
+                storeFile file('my-upload-key.keystore')
+                storePassword 'ooaakk'
+                keyAlias 'my-key-alias'
+                keyPassword 'ooaakk'
+//            }
         }
     }
     buildTypes {
@@ -183,7 +183,7 @@ android {
         release {
             // Caution! In production, you need to generate your own keystore file.
             // see https://facebook.github.io/react-native/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }

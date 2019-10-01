@@ -6,88 +6,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(android): install firebase dynamic link">
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo copy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/12.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/13.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/14.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/15.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/16.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/171.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/172.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/18.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/19.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/20.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/21.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/22.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/23.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/24.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/25.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/26.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/27.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/28.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/29.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/30.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/31.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/321.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/322.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/33.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/34.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/35.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/36.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/37.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/38.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/39.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/40.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/41.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/42.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/43.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/441.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/442.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/451.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/452.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/46.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/47.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/49.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/50.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/51.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/ARData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Test3.jpg" afterDir="false" />
+    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(android): add new ar version lib">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/drum.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/drum.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/drum.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/drum.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/garage_1k.hdr" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/garage_1k.hdr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar_obj.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar.vrx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar.vrx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar_mtl.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/khong.vrx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/khong.vrx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car_main_Base_Color.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car_main_Base_Color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car_main_Metallic.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car_main_Metallic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car_main_Roughness.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car_main_Roughness.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Chair.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Chair.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/NLdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/NLdata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Pen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Pen.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Test1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Test1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Test2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Test2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,31 +21,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/8.jpeg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/5.jpeg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/15.jpeg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/34.jpeg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/171.jpeg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Chair.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
@@ -132,16 +30,57 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/1.jpeg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="188" column="38" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
+            <state relative-caret-position="420">
+              <caret line="185" column="9" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="146" selection-start-line="21" selection-end-line="21" selection-end-column="146" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/local.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -213,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tools/BeaconScan.js" />
         <option value="$PROJECT_DIR$/tools/BeaconScan/index.js" />
         <option value="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" />
         <option value="$PROJECT_DIR$/tools/BeaconScan/beacon_scan_container.js" />
@@ -229,7 +167,6 @@
         <option value="$PROJECT_DIR$/android/app/src/main/java/com/parknailert/MainApplication.java" />
         <option value="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car.obj" />
         <option value="$PROJECT_DIR$/node_modules/react-viro/bin/files/javascript/App.js" />
-        <option value="$PROJECT_DIR$/android/app/build.gradle" />
         <option value="$PROJECT_DIR$/src/config/menu.js" />
         <option value="$PROJECT_DIR$/src/components/modals/SetPageModal.js" />
         <option value="$PROJECT_DIR$/src/screens/ParkNaiLertScreen/ParkNaiLertScreen.js" />
@@ -264,6 +201,8 @@
         <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" />
         <option value="$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js" />
+        <option value="$PROJECT_DIR$/android/gradle.properties" />
+        <option value="$PROJECT_DIR$/android/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -287,6 +226,11 @@
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,70 +262,6 @@
               <item name="AR" type="462c0819:PsiDirectoryNode" />
               <item name="ARCarDemo" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="AR" type="462c0819:PsiDirectoryNode" />
-              <item name="ARCarDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="3D" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="ARScreen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="AsyncScreens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="ContentDetailScreen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="ContentListScreen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeScreen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="ParkNaiLertScreen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
@@ -407,18 +287,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/data/AR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/app" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/app" />
       <recent name="$PROJECT_DIR$/src/data/AR" />
       <recent name="$PROJECT_DIR$/ios" />
       <recent name="$PROJECT_DIR$/src/screens/ContactUsScreens" />
       <recent name="$PROJECT_DIR$/src/screens/BeaconContentScreen" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ios/parknailert" />
@@ -517,14 +397,7 @@
       <workItem from="1569060174621" duration="31585000" />
       <workItem from="1569232673857" duration="16512000" />
       <workItem from="1569309379949" duration="26504000" />
-      <workItem from="1569850458062" duration="1874000" />
-    </task>
-    <task id="LOCAL-00001" summary="feat(app): mock UI all pages">
-      <created>1566134031143</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1566134031143</updated>
+      <workItem from="1569850458062" duration="7654000" />
     </task>
     <task id="LOCAL-00002" summary="fix(app): fix run on ios and android">
       <created>1566146221840</created>
@@ -862,17 +735,24 @@
       <option name="project" value="LOCAL" />
       <updated>1569687118080</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="feat(android): add new ar version lib">
+      <created>1569852563441</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1569852563442</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316958000" />
+    <option name="totallyTimeSpent" value="322738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29716697" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29716697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Captures" order="3" weight="0.25" />
@@ -886,7 +766,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40408164" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40408164" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -956,7 +836,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Revert &quot;try(iOS): try to add AR to ios&quot;&#10;&#10;This reverts commit 477a0440" />
     <MESSAGE value="feat(home, parknailert): integrate AR(demo) function" />
     <MESSAGE value="feat(home): add skeleton to home page" />
     <MESSAGE value="feat(beacon): integrate beacon content in modal + test connect with api" />
@@ -981,30 +860,10 @@
     <MESSAGE value="config(android): config firebase dynamic links + fix build AR" />
     <MESSAGE value="config(ios): change build number" />
     <MESSAGE value="feat(android): install firebase dynamic link" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(android): install firebase dynamic link" />
+    <MESSAGE value="feat(android): add new ar version lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(android): add new ar version lib" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/adapter/contents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/beacon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-native-firebase/dist/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="2131" column="8" selection-start-line="2131" selection-start-column="8" selection-end-line="2131" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/ContactUsScreens/ContactUsScreens.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1080,11 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/app/src/main/res/values/string.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1094,13 +948,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar_mtl.mtl">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1268,18 +1115,49 @@
     <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/47.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/1.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/Pen.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js">
+    <entry file="file://$PROJECT_DIR$/android/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="188" column="38" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
+        <state relative-caret-position="315">
+          <caret line="21" column="146" selection-start-line="21" selection-end-line="21" selection-end-column="146" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="185" column="9" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/ARCarDemo/res/1.jpeg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
