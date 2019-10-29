@@ -10,6 +10,7 @@ import AsyncStorage from '@react-native-community/async-storage';
 import BeaconScan from '../../tools/BeaconScan'
 import logo from './../assets/img/logo.png'
 import logoName from './../assets/img/logoName.png'
+import icon from './../assets/img/icon.png'
 
 import { connect } from 'react-redux'
 import { settingLanguage } from "../reducers/actions/setting";
@@ -30,8 +31,8 @@ import { settingLanguage } from "../reducers/actions/setting";
   render() {
     return (
       <View style={styles.container}>
-          <Image source={logo} style={styles.logo}/>
-          <Image source={logoName} style={styles.logoName}/>
+          <Image source={icon} style={styles.logo}/>
+          {/*<Image source={logoName} style={styles.logoName}/>*/}
           <ActivityIndicator />
           <BeaconScan/>
       </View>
@@ -61,17 +62,12 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'rgb(242, 218, 217)',
+        backgroundColor: 'white',
     },
     logo: {
         resizeMode: 'contain',
-        width: width/100*40,
-        height: width/100*30,
+        width: width/100*50,
+        height: width/100*50,
     },
-    logoName: {
-        resizeMode: 'contain',
-        width: width/100*60,
-        height: width/100*20,
-    }
 });
 
