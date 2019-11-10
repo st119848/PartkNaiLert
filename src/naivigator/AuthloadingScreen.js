@@ -1,19 +1,20 @@
 import React from 'react'
 import {
     ActivityIndicator,
-    View,
+    Text,
     Image,
+    View,
+    ImageBackground,
     StyleSheet,
     Dimensions,
 } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import BeaconScan from '../../tools/BeaconScan'
-import logo from './../assets/img/logo.png'
-import logoName from './../assets/img/logoName.png'
-import icon from './../assets/img/icon.png'
+import icon from './../assets/img/logo.png'
 
 import { connect } from 'react-redux'
 import { settingLanguage } from "../reducers/actions/setting";
+import BG from "../assets/img/bg_main.png";
 
  class AuthLoadingScreen extends React.Component {
   constructor() {
@@ -21,24 +22,41 @@ import { settingLanguage } from "../reducers/actions/setting";
     this._LoadApp()
   }
   _LoadApp = async () => {
+      /*const selectedLanguage = await AsyncStorage.getItem('selectedLanguage');
+      if(selectedLanguage && (selectedLanguage !== null)) {
+          this.props.settingLanguage(selectedLanguage)
+          this.props.navigation.navigate('Main')
+      } else {
+          this.props.navigation.navigate('Init')
+      }*/
       const selectedLanguage = await AsyncStorage.getItem('selectedLanguage');
       if(selectedLanguage && (selectedLanguage !== null)) {
           this.props.settingLanguage(selectedLanguage)
       }
-      // this.props.navigation.navigate('Main')
+      this.props.navigation.navigate('Init')
   };
 
   render() {
     return (
-      <View style={styles.container}>
-          <Image source={icon} style={styles.logo}/>
-          {/*<Image source={logoName} style={styles.logoName}/>*/}
-          <ActivityIndicator />
-          <BeaconScan/>
-      </View>
+        <ImageBackground source={BG} style={styles.container}>
+            <View style={styles.logoContainer}>
+                <View style={styles.logoInnerContainer}>
+                    <Image source={icon} style={styles.logo}/>
+                    <Title />
+                    <ActivityIndicator />
+                </View>
+            </View>
+            <BeaconScan/>
+        </ImageBackground>
     )
   }
 }
+
+const Title = props => {
+     return (
+         <Text style={styles.title}>PARK OF NAI LERT</Text>
+     )
+};
 
 
 const mapDispatchToProps = (dispatch) => {
@@ -64,10 +82,28 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: 'white',
     },
+    logoContainer: {
+        backgroundColor: 'rgba(114, 84, 0, 0.4)',
+        paddingVertical: 15,
+        width: '100%',
+    },
+    logoInnerContainer: {
+        backgroundColor: 'rgba(114, 84, 0, 0.9)',
+        width: '100%',
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingVertical: 15,
+    },
     logo: {
         resizeMode: 'contain',
-        width: width/100*50,
-        height: width/100*50,
+        width: 120,
+        height: 80,
     },
+    title: {
+        color: 'white',
+        fontSize: 22,
+        textAlign: 'center',
+        marginVertical: 10,
+    }
 });
 

@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import Icon from "../Icon";
 import LangIcon from "../LangIcon";
+import LangListSetting from "../LangListSetting";
 
 const SetLanguageModal = props => {
     const {visible, activeLang, onClose, onChangeLang} = props;
@@ -20,7 +21,10 @@ const SetLanguageModal = props => {
         >
             <SafeAreaView style={styles.container}>
                 <Header onCloseClick={onClose}/>
-                <PageList activeLang={activeLang} onChangeLang={onChangeLang} />
+                <LangListSetting
+                    activeLang={activeLang}
+                    onChangeLang={onChangeLang}
+                />
             </SafeAreaView>
         </Modal>
 
@@ -82,8 +86,7 @@ const PageList = ({activeLang, onChangeLang}) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'black',
-        opacity: 0.9,
+        backgroundColor: 'rgba(0, 0, 0, 0.9)',
     },
     headerContainer: {
         width: '100%',
