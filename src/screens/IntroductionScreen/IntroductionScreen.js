@@ -5,17 +5,24 @@ import {
     View,
     Text,
     ScrollView,
+    ImageBackground,
     Image,
 } from 'react-native'
-import HeaderLogo from "../../components/HeaderLogo";
-import BeaconStatusIcon from "../../components/BeaconStatusIcon";
+import LangSettingButton from "../../components/header/LangSettingButton";
+import BG from "../../assets/img/bg_main.png";
 
 class IntroductionScreen extends Component {
-    static navigationOptions = {
-        headerTitle: <HeaderLogo />,
-        headerRight: <BeaconStatusIcon />,
-        headerBackTitle: null,
-        headerTintColor: 'rgb(125, 105 , 87)'
+
+    static navigationOptions = ({ navigation }) => {
+        return {
+            headerRight: <LangSettingButton />,
+            headerBackTitle: null,
+            headerTintColor: 'white',
+            headerTransparent: true,
+            headerStyle: {
+                backgroundColor: 'rgba(70, 41, 0, 0.8)',
+            },
+        };
     };
 
     componentDidMount() {
@@ -26,12 +33,13 @@ class IntroductionScreen extends Component {
     render() {
         const {introData} = this.props;
         return (
-            <SafeAreaView style={styles.container}>
-                <ScrollView style={styles.scrollContainer}>
-                    <Indicator />
-                    <Content {...introData} />
-                </ScrollView>
-            </SafeAreaView>
+            <ImageBackground source={BG} style={styles.outercontainer}>
+                <SafeAreaView style={styles.container}>
+                    <ScrollView style={styles.scrollContainer}>
+                        <Content {...introData} />
+                    </ScrollView>
+                </SafeAreaView>
+            </ImageBackground>
         )
     }
 }
@@ -70,27 +78,23 @@ const Description = props => {
 export default IntroductionScreen;
 
 const styles = StyleSheet.create({
+    outercontainer: {
+        flex: 1,
+    },
     container: {
         flex: 1,
-        backgroundColor: 'rgb(242, 218, 217)'
     },
     scrollContainer: {
         flex: 1,
-    },
-    indicator: {
-        flex: 1,
-        height: 10,
-        backgroundColor: 'rgb(125, 105 , 87)',
-        marginHorizontal: 20,
-        marginTop: 20,
+        marginTop: 59,
     },
     contentContainer: {
         padding: 10,
         paddingTop: 20,
-        marginHorizontal: 10,
-        backgroundColor: 'white',
+        marginHorizontal: 15,
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        borderRadius: 5,
         minHeight: '100%',
-        borderRadius: 2,
         overflow: 'hidden'
     },
     imageContainer: {

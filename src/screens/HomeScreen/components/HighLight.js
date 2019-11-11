@@ -96,7 +96,6 @@ const styles = StyleSheet.create({
     },
     headerContainer: {
         width: '100%',
-        // paddingVertical: 10,
         paddingHorizontal: 15,
         flexDirection: 'row',
         justifyContent: 'center',

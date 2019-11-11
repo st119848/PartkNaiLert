@@ -46,10 +46,6 @@ const PageList = props => {
             page: 'Intro'
         },
         {
-            label: t('menus.pnl'),
-            page: 'PNL'
-        },
-        {
             label: t('menus.findUs'),
             page: 'Find'
         },
