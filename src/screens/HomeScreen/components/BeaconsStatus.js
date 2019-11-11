@@ -2,18 +2,24 @@ import React from 'react';
 import {
     StyleSheet,
     View,
-    Text
+    Text,
+    Image,
+    ImageBackground
 } from 'react-native';
 import Icon from "../../../components/Icon";
+import beaconBG from '../../../assets/img/beacon_icon_bg.png'
+import beaconIcon from '../../../assets/img/beacon_icon.png'
 
 const BeaconsStatus = ({t, isInBeaconZone}) => {
     const title = t('home.labels.beacons');
     return (
-        <View style={styles.container}>
-            <BeaconIcon />
-            <Title title={title} />
+        <ImageBackground source={beaconBG} style={styles.container} imageStyle={styles.imageContainer}>
+            <View style={styles.innerContainer}>
+                <BeaconIcon />
+                <Title title={title} />
+            </View>
             {isInBeaconZone && <StatusIcon />}
-        </View>
+        </ImageBackground>
     )
 };
 
@@ -21,7 +27,7 @@ export default BeaconsStatus;
 
 const BeaconIcon = () => {
     return (
-        <Icon style={styles.beaconIcon} type="entypo" name="rainbow" size={25} />
+        <Image source={beaconIcon} style={styles.beaconIcon}/>
     )
 };
 
@@ -35,42 +41,50 @@ const Title = ({title}) => {
 
 const StatusIcon = () => {
     return (
-        <Icon style={styles.statusIcon} name="checkcircleo" size={18} />
+        <Icon style={styles.statusIcon} name="check" size={18} />
     )
 };
 
 const styles = StyleSheet.create({
     container: {
-        marginBottom: 20,
-        height: 50,
-        width: 300,
-        marginHorizontal: '10%',
+        marginTop: 10,
+        height: 70,
+        width: '100%',
         flexDirection: 'row',
         alignItems: 'center',
-        paddingHorizontal: 10,
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 2,
-        },
-        shadowOpacity: 0.23,
-        shadowRadius: 2.62,
-        elevation: 4,
+        justifyContent: 'space-between',
         position: 'relative',
-        borderRadius: 4,
-        borderColor: '#000',
-        backgroundColor: 'white'
+        borderRadius: 5,
+        borderWidth: 6,
+        borderColor: 'rgba(255, 255, 255, 0.8)',
+    },
+    innerContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginLeft: 10
+    },
+    imageContainer: {
+        height: '100%',
+        width: '100%',
     },
     beaconIcon: {
-        color: 'rgb(125, 105 , 87)',
         paddingHorizontal: 10,
+        height: 50,
+        width: 50,
     },
     beaconTitle: {
-        color: 'rgb(125, 105 , 87)',
+        marginRight: 10,
+        color: 'white',
+        fontSize: 22,
+        fontWeight: '600'
     },
     statusIcon: {
         position: 'absolute',
         right: 15,
-        color: 'green'
+        color: 'green',
+        padding: 2,
+        borderRadius: 5,
+        borderWidth: 4,
+        borderColor: 'rgba(255, 255, 255, 0.8)',
     }
 });

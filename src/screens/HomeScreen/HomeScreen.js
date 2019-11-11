@@ -3,46 +3,42 @@ import {
     StyleSheet,
     View,
     StatusBar,
-    ScrollView,
+    Image,
     Linking,
-    Platform
+    SafeAreaView,
+    Platform,
+    Dimensions,
+    ImageBackground
 } from "react-native";
-import Banner from "./components/Banner";
 import HighLight from "./components/HighLight";
 import Description from "./components/Description";
 import BeaconsStatus from "./components/BeaconsStatus";
 import ARButton from "./components/ARButton";
-import SetLanguageModal from "../../components/modals/SetLanguageModal";
-import SetPageModal from "../../components/modals/SetPageModal";
 import {translate} from "../../helpers/translates";
-import ARModal from "../../components/modals/ARModal";
-import ContentDetailModal from "../AsyncScreens/components/ContentDetailModal";
 import firebase from 'react-native-firebase'
 import {getParamsFromUrl} from '../../helpers/url'
+import LangSettingButton from "../../components/header/LangSettingButton";
+import PageSettingButton from "../../components/header/PageSettingButton";
+import BG from "../../assets/img/bg_main.png";
+import logoName from "../../assets/img/logoName.png";
 
 export default class HomeScreen extends Component {
-    static navigationOptions = {
-        header: null,
-        headerTitle: null
+
+    static navigationOptions = ({ navigation }) => {
+        return {
+            headerLeft: <PageSettingButton navigation={navigation}/>,
+            headerRight: <LangSettingButton />,
+            headerBackTitle: null,
+            headerTintColor: 'rgb(125, 105 , 87)',
+            headerTransparent: true,
+            headerStyle: {
+                backgroundColor: 'rgba(70, 41, 0, 0.8)',
+            },
+        };
     };
 
     state = {
-        isShowSetLang: false,
-        isShowSetPage: false,
         isShowArScreen: false
-    };
-
-    handleHamburgerClick = () => {
-        this.setState({
-            isShowSetPage: true,
-        })
-    };
-
-    handleLangButtonClick = () => {
-        this.setState({
-            isShowSetLang: true,
-        })
-
     };
 
     handleARButtonClick = () => {
@@ -55,18 +51,6 @@ export default class HomeScreen extends Component {
         navigation.navigate('List');
     };
 
-    handleChangePage = (page) => {
-        this.handleCloseModal();
-        const {navigation} = this.props;
-        navigation.navigate(page);
-    };
-
-    handleChangeLang = (lang) => {
-        const {settingLanguage} = this.props;
-        settingLanguage(lang);
-        this.handleCloseModal();
-    };
-
     handleIntroClick = () => {
         const {navigation} = this.props;
         navigation.navigate('Intro');
@@ -75,13 +59,6 @@ export default class HomeScreen extends Component {
     handleGuidesClick = () => {
         const {navigation} = this.props;
         navigation.navigate('Find');
-    };
-
-    handleCloseModal = () => {
-        this.setState({
-            isShowSetPage: false,
-            isShowSetLang: false,
-        })
     };
 
     t = (key, find, replace) => {
@@ -134,61 +111,75 @@ export default class HomeScreen extends Component {
     };
 
     render() {
-        const {language, imagesHighlight, isGettingImageSlider, isInBeaconArea} = this.props;
-        const {isShowSetLang, isShowSetPage, isShowArScreen} = this.state;
-        const barStyle = (isShowSetLang || isShowSetPage || isShowArScreen) ? 'light-content' : 'default';
+        const {imagesHighlight, isGettingImageSlider, isInBeaconArea} = this.props;
+        const {isShowArScreen} = this.state;
+        const barStyle = isShowArScreen ? 'light-content' : 'default';
         return (
-            <View style={styles.container}>
+            <ImageBackground source={BG} style={styles.container}>
                 <StatusBar barStyle={barStyle} />
-                <Banner
-                    language={language}
-                    t={this.t}
-                    onSetPageClick={this.handleHamburgerClick}
-                    onSetLangClick={this.handleLangButtonClick}
-                    onIntroClick={this.handleIntroClick}
-                    onFindClick={this.handleGuidesClick}
-                />
-                <ScrollView style={styles.scrollContainer} contentContainerStyle={styles.contentContainer}>
-                    <HighLight
-                        loading={isGettingImageSlider}
-                        imagesHighlight={imagesHighlight}
-                        t={this.t}
-                        onMoreItemClick={this.handleMoreItemClick}
-                    />
-                    <Description t={this.t} />
-                    <BeaconsStatus t={this.t} isInBeaconZone={isInBeaconArea}/>
-                </ScrollView>
-                <ARButton t={this.t} onPress={this.handleARButtonClick} />
-                <SetPageModal
-                    t={this.t}
-                    visible={isShowSetPage}
-                    onClose={this.handleCloseModal}
-                    onChangePage={this.handleChangePage}
-                />
-                <SetLanguageModal
-                    visible={isShowSetLang}
-                    activeLang={language}
-                    onClose={this.handleCloseModal}
-                    onChangeLang={this.handleChangeLang}
-                />
-            </View>
+                <SafeAreaView style={styles.innerContainer}>
+                    <LogoBar />
+                    <View style={styles.contentContainer}>
+                        <View style={styles.contentInnerContainer}>
+                            <HighLight
+                                loading={isGettingImageSlider}
+                                imagesHighlight={imagesHighlight}
+                                t={this.t}
+                                onMoreItemClick={this.handleMoreItemClick}
+                            />
+                            <BeaconsStatus t={this.t} isInBeaconZone={isInBeaconArea}/>
+                            <ARButton t={this.t} onPress={this.handleARButtonClick} />
+                        </View>
+                    </View>
+                </SafeAreaView>
+            </ImageBackground>
         )
     }
 }
 
+const LogoBar = props => {
+    return (
+        <View style={styles.logoBarContainer}>
+            <Image style={styles.logoBar} source={logoName} />
+        </View>
+    )
+};
+
+
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'white',
-        alignItems: 'center',
-        position: 'relative',
+        justifyContent: 'flex-end'
     },
-    scrollContainer: {
+    innerContainer: {
         flex: 1,
-        width: '100%',
-        paddingBottom: 20,
+        position: 'relative',
+        alignItems: 'center',
+        justifyContent: 'space-between'
     },
     contentContainer: {
-        alignItems: 'center'
+        width: '100%',
+        padding: 15,
+        height: '55%'
+    },
+    contentInnerContainer: {
+        padding: 10,
+        borderRadius: 5,
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        flex: 1,
+    },
+    logoBarContainer: {
+        marginTop: 44,
+        width: '100%',
+        height: 60,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        paddingHorizontal: 50,
+    },
+    logoBar: {
+        width: '100%',
+        resizeMode: 'contain',
     }
 });

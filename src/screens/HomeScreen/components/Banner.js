@@ -10,51 +10,21 @@ const {height} = Dimensions.get('window');
 const Banner = props => {
     const {t} = props;
     return (
-        <ImageBackground source={BGImage} style={styles.BGImage}>
-            <SafeAreaView style={styles.contentContainer}>
-                <Header {...props} />
-                <Title t={t} />
+        <View style={styles.BGImage}>
+            <View style={styles.contentContainer}>
                 <GroupButton {...props} />
                 <Slope />
-            </SafeAreaView>
-        </ImageBackground>
+            </View>
+        </View>
     )
 };
 
 export default Banner;
 
-const Header = props => {
-    const {language, onSetPageClick, onSetLangClick} = props
-    return (
-        <View style={styles.headerContainer}>
-            <HamburgerButton onPress={onSetPageClick}/>
-            <LangButton lang={language} onPress={onSetLangClick} />
-        </View>
-    )
-};
-
-const HamburgerButton = props => {
-    const {onPress} = props;
-    return (
-        <IconButton onPress={onPress} iconName="menu" type="entypo" style={styles.icon} />
-    )
-};
-
 const Slope = () => {
     return (
         <View style={styles.slopeContainer}/>
     )
-};
-
-const Title = ({t}) => {
-    const title = t('home.title.nailert');
-    const subTitle = t('home.title.location');
-    return (
-        <View style={styles.titleContainer}>
-            <Text style={styles.titleText}>{title}</Text>
-            <Text style={styles.subTitleText}>{subTitle}</Text>
-        </View>
-    );
 };
 
 const GroupButton = props => {

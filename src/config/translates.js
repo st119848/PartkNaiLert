@@ -10,7 +10,7 @@ const en = {
         buttons: {
             intro: 'Introduction',
             guides: 'Guides',
-            more: 'More',
+            more: 'View More',
             try: 'TRY!',
             camera: 'CAMERA'
         },
@@ -24,7 +24,7 @@ const en = {
             arDesc: 'Our Museum use the AR and Beacons technology to gain your experience. Please enjoy by clicking AR camera below'
         },
         labels: {
-            beacons: 'Beacons'
+            beacons: 'Beacons Status'
         }
     },
     list: {
@@ -68,7 +68,7 @@ const th = {
         buttons: {
             intro: 'Introduction',
             guides: 'Guides',
-            more: 'More',
+            more: 'View More',
             try: 'TRY!',
             camera: 'CAMERA'
         },
@@ -82,7 +82,7 @@ const th = {
             arDesc: 'Our Museum use the AR and Beacons technology to gain your experience. Please enjoy by clicking AR camera below'
         },
         labels: {
-            beacons: 'Beacons'
+            beacons: 'Beacons Status'
         }
     },
     list: {

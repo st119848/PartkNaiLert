@@ -9,6 +9,7 @@ import {
     Dimensions,
 } from 'react-native';
 import HighLightLoading from "./loading/HightLightLoading";
+import Icon from './../../../components/Icon'
 
 const {width} = Dimensions.get('window');
 
@@ -19,6 +20,7 @@ const HighLight = props => {
             <Header {...props} />
             {loading && <HighLightLoading />}
             {!loading && <ItemsList {...props}/>}
+            <Footer {...props} />
         </View>
     )
 };
@@ -26,12 +28,20 @@ const HighLight = props => {
 export default HighLight;
 
 const Header = props => {
-    const {t, onMoreItemClick} = props;
-    const moreLabel = t('home.buttons.more');
+    const {t} = props;
     const title = t('home.title.museumHighlight');
     return (
         <View style={styles.headerContainer}>
             <Title title={title}/>
+        </View>
+    )
+};
+
+const Footer = props => {
+    const {t, onMoreItemClick} = props;
+    const moreLabel = t('home.buttons.more');
+    return (
+        <View style={styles.footerContainer}>
             <MoreButton label={moreLabel} onPress={onMoreItemClick} />
         </View>
     )
@@ -50,6 +60,7 @@ const MoreButton = props => {
             <Text style={styles.buttonLabel}>
                 {label}
             </Text>
+            <Icon name="right" style={styles.buttonIcon}/>
         </TouchableOpacity>
     )
 };
@@ -76,33 +87,51 @@ const ItemImage = props => {
 
 const styles = StyleSheet.create({
     container: {
+        flex: 1,
         width: '100%',
+        borderRadius: 5,
+        padding: 10,
+        justifyContent: 'space-between',
+        backgroundColor: '#FFF5C9'
     },
     headerContainer: {
         width: '100%',
-        height: 50,
-        paddingVertical: 10,
+        // paddingVertical: 10,
         paddingHorizontal: 15,
         flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'baseline'
+        justifyContent: 'center',
+        alignItems: 'baseline',
+        marginBottom: 5,
+    },
+    footerContainer: {
+        width: '100%',
+        alignItems: 'flex-end',
+        marginTop: 10,
     },
     title: {
-        color: 'rgb(125, 105 , 87)',
-        fontSize: 18,
+        color: '#645227',
+        fontSize: 22,
         fontWeight: '500',
         letterSpacing: 0.5,
+        textAlign: 'center'
     },
     buttonContainer: {
-        paddingVertical: 2,
-        paddingHorizontal: 15,
-        borderWidth: 1,
-        borderColor: 'rgb(125, 105 , 87)',
-        borderRadius: 10,
-        justifyContent: 'center'
+        paddingVertical: 5,
+        paddingHorizontal: 10,
+        borderRadius: 5,
+        justifyContent: 'center',
+        backgroundColor: '#645227',
+        flexDirection: 'row',
+        alignItems: 'center'
     },
     buttonLabel: {
-        color: 'rgb(125, 105 , 87)',
+        color: '#FFF5C9',
+        fontSize: 18,
+    },
+    buttonIcon: {
+        color: '#FFF5C9',
+        fontSize: 18,
+        marginLeft: 5
     },
     itemListContainer: {
         width: '100%',

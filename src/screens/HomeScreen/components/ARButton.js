@@ -4,96 +4,75 @@ import {
     View,
     SafeAreaView,
     Text,
-    TouchableOpacity
+    TouchableOpacity,
+    ImageBackground, Image,
 } from 'react-native';
 import Icon from "../../../components/Icon";
+import ARBG from '../../../assets/img/ar_icon_bg.png'
+import arIcon from "../../../assets/img/ar_icon.png";
 
 const ARButton = ({t, onPress}) => {
     const tryLabel = t('home.buttons.try');
     const cameraLabel = t('home.buttons.camera');
     return (
-        <SafeAreaView style={styles.safeContainer}>
-            <TouchableOpacity onPress={onPress}>
-                <View style={styles.container}>
-                    <ARIcon/>
-                    <Title tryLabel={tryLabel} cameraLabel={cameraLabel}/>
-                    <QuestionIcon />
-                </View>
-            </TouchableOpacity>
-        </SafeAreaView>
+        <TouchableOpacity onPress={onPress}>
+            <ImageBackground source={ARBG} style={styles.container} imageStyle={styles.imageContainer}>
+                <ARIcon/>
+                <Title tryLabel={tryLabel} cameraLabel={cameraLabel}/>
+            </ImageBackground>
+        </TouchableOpacity>
     );
 };
 
 const ARIcon = ({}) => {
     return (
-        <Icon name="CodeSandbox" style={styles.ARIcon} size={30} />
+        <Image source={arIcon} style={styles.arIcon}/>
     );
 };
 
-const QuestionIcon = () => {
+const Title = () => {
     return (
-        <Icon name="questioncircleo" style={styles.questionIcon} size={25} />
-    )
-};
-
-const Title = ({tryLabel, cameraLabel}) => {
-    return (
-        <View style={styles.titleContainer}>
-            <Text style={[styles.buttonLabel, styles.right]}>
-                {tryLabel}
-            </Text>
-            <Text style={styles.buttonARLabel}>
-                AR
-            </Text>
-            <Text style={styles.buttonLabel}>
-                {cameraLabel}
-            </Text>
-        </View>
+        <Text style={styles.buttonARLabel}>
+            AR
+        </Text>
     );
 };
 
 export default ARButton;
 
 const styles = StyleSheet.create({
-    safeContainer: {
-        width: '100%',
-        position: 'absolute',
-        bottom: 0,
-        backgroundColor: 'rgb(195, 82, 76)'
-    },
     container: {
+        marginTop: 10,
+        height: 70,
         width: '100%',
-        height: 50,
-        justifyContent: 'space-between',
-        alignItems: 'center',
         flexDirection: 'row',
-        paddingHorizontal: 15,
+        alignItems: 'center',
+        justifyContent: 'center',
+        position: 'relative',
+        borderRadius: 5,
+        borderWidth: 6,
+        borderColor: 'rgba(255, 255, 255, 0.8)'
     },
-    buttonLabel: {
-        color: 'white',
-        width: 60,
+    imageContainer: {
+        height: '100%'
     },
     right: {
         textAlign: 'right',
     },
     buttonARLabel: {
-        width: 30,
-        height: 30,
-        borderRadius: 15,
-        backgroundColor: 'white',
         justifyContent: 'center',
         alignItems: 'center',
-        color: 'rgb(195, 82, 76)',
+        color: 'white',
         textAlign: 'center',
-        marginHorizontal: 10,
+        fontSize: 22,
+        fontWeight: '600',
         padding: 5,
-        opacity: 0.8
     },
-    ARIcon: {
-        color: 'white'
-    },
-    questionIcon: {
-        color: 'white'
+    arIcon: {
+        paddingHorizontal: 10,
+        height: 40,
+        width: 65,
+        marginRight: 20,
     },
     titleContainer: {
         flexDirection: 'row',
