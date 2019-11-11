@@ -22,6 +22,7 @@ class IntroductionScreen extends Component {
             headerStyle: {
                 backgroundColor: 'rgba(70, 41, 0, 0.8)',
             },
+            headerTitle: 'Introduction'
         };
     };
 

@@ -10,13 +10,12 @@ import IconButton from "../../../components/IconButton";
 import Icon from "../../../components/Icon";
 
 const Detail = props => {
-    const {isCanPlay, audioStatus, title, description, onPlaySound, onFacebookShare, onTwitterShare} = props
+    const {title, description} = props
     return (
         <View style={styles.container}>
             <Title title={title} />
             <Description description={description}/>
-            {isCanPlay && <AudioButton audioStatus={audioStatus} onPress={onPlaySound} />}
-            <ShareButtons onFacebookShare={onFacebookShare} onTwitterShare={onTwitterShare}/>
+            <BottomTools {...props}/>
         </View>
     )
 };
@@ -55,17 +54,17 @@ const AudioButton = props => {
     const audioIcon = audioIconMap[audioStatus] || audioIconMap.pause;
     return (
         <TouchableOpacity style={styles.audioButtonContainer} onPress={onPress}>
-            <Icon style={styles.audioIcon} name={audioIcon} type="entypo" size={25}/>
+            <Text style={styles.playLabel}>Play</Text>
         </TouchableOpacity>
     );
 };
 
-const ShareButtons = props => {
-    const {onFacebookShare, onTwitterShare} = props;
+const BottomTools = props => {
+    const {isCanPlay, audioStatus, onPlaySound} = props
     return (
-        <View style={styles.shareButtonsContainer}>
-            <IconButton style={styles.twitterIcon} iconName="twitter" size={35} onPress={onTwitterShare}/>
-            <IconButton style={styles.facebookIcon} iconName="facebook-square" size={35} onPress={onFacebookShare}/>
+        <View style={styles.bottomToolsContainer}>
+            <Text style={styles.playTitle}>Sound Available</Text>
+            {isCanPlay && <AudioButton audioStatus={audioStatus} onPress={onPlaySound} />}
         </View>
     )
 };
@@ -73,30 +72,32 @@ const ShareButtons = props => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        borderTopLeftRadius: 15,
-        borderTopRightRadius: 15,
-        marginTop: -15,
-        backgroundColor: 'white',
+        borderTopLeftRadius: 0,
+        borderTopRightRadius: 0,
         alignItems: 'center',
         position: 'relative',
+        borderRadius: 5,
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        padding: 10,
+        paddingBottom: 0,
     },
     titleContainer: {
         width: '100%',
         paddingBottom: 10,
         paddingHorizontal: 15,
         borderBottomWidth: 1,
-        borderColor: 'lightgray',
+        borderColor: '#6e4f06',
     },
     title: {
         fontSize: 22,
-        color: 'rgb(205, 94, 90)',
+        color: '#4D3606',
         fontWeight: '600'
     },
     descriptionContainer: {
         flex: 1,
         paddingHorizontal: 15,
         borderBottomWidth: 1,
-        borderColor: 'lightgray',
+        borderColor: '#6e4f06',
     },
     description: {
         fontSize: 15,
@@ -106,29 +107,26 @@ const styles = StyleSheet.create({
         paddingVertical: 15
     },
     audioButtonContainer: {
-        position: 'absolute',
-        bottom: 80,
-        right: 20,
-        width: 40,
-        height: 40,
-        paddingTop: 2,
-        paddingLeft: 1,
-        borderRadius: 20,
-        backgroundColor: 'rgb(205, 94, 90)',
+        paddingHorizontal: 10,
+        paddingVertical: 5,
+        backgroundColor: '#4D3606',
         justifyContent: 'center',
-        alignItems: 'center'
-    },
-    audioIcon: {
-        color: 'white',
         alignItems: 'center',
-        justifyContent: 'center'
+        borderRadius: 4
     },
-    shareButtonsContainer: {
+    playLabel: {
+        color: 'white',
+    },
+    playTitle: {
+        color: '#4D3606',
+        marginRight: 10,
+    },
+    bottomToolsContainer: {
         height: 50,
         width: '100%',
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'flex-end',
     },
     facebookIcon: {
         color: 'rgb(74, 90, 143)'

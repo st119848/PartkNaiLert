@@ -113,10 +113,9 @@ export default class HomeScreen extends Component {
     render() {
         const {imagesHighlight, isGettingImageSlider, isInBeaconArea} = this.props;
         const {isShowArScreen} = this.state;
-        const barStyle = isShowArScreen ? 'light-content' : 'default';
         return (
             <ImageBackground source={BG} style={styles.container}>
-                <StatusBar barStyle={barStyle} />
+                <StatusBar barStyle="light-content" />
                 <SafeAreaView style={styles.innerContainer}>
                     <LogoBar />
                     <View style={styles.contentContainer}>

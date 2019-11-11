@@ -6,12 +6,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(main-screen): update ui">
+    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(detail-screen): update ui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modals/SetPageModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modals/SetPageModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/IntroductionScreen/IntroductionScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/IntroductionScreen/IntroductionScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,22 +37,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="157" column="29" lean-forward="true" selection-start-line="157" selection-start-column="29" selection-end-line="157" selection-end-column="29" />
+            <state relative-caret-position="214">
+              <caret line="119" column="31" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/ARButton.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="100" column="33" lean-forward="true" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
+            <state relative-caret-position="213">
+              <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="133" selection-end-column="6" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -70,41 +59,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/app.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/translates.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/urls.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/modals/SetPageModal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/IntroductionScreen/IntroductionScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+            <state relative-caret-position="360">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="39" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -113,8 +71,66 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="115" column="28" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -129,9 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>src_data_ar_arcardemo_res_3d_jar</find>
-      <find>react-native</find>
-      <find>object_car.mtl</find>
       <find>object_car.obj</find>
       <find>dofirst</find>
       <find>src_data_ar_arcardemo_res_3d_jar.mtl</find>
@@ -157,8 +170,11 @@
       <find>buttonARLabel</find>
       <find>arIcon</find>
       <find>beacons:</find>
+      <find>container</find>
       <find>scrollContainer</find>
       <find>isShowArScreen</find>
+      <find>detailContainer</find>
+      <find>red</find>
     </findStrings>
     <replaceStrings>
       <replace>white</replace>
@@ -179,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/object_car.obj" />
-        <option value="$PROJECT_DIR$/node_modules/react-viro/bin/files/javascript/App.js" />
         <option value="$PROJECT_DIR$/src/config/menu.js" />
         <option value="$PROJECT_DIR$/src/screens/ParkNaiLertScreen/ParkNaiLertScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentListScreen/components/ARButton.js" />
@@ -192,7 +206,6 @@
         <option value="$PROJECT_DIR$/src/screens/AsyncScreens/async_container.js" />
         <option value="$PROJECT_DIR$/src/screens/AsyncScreens/components/ContentDetailModal.js" />
         <option value="$PROJECT_DIR$/src/config/urls.js" />
-        <option value="$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js" />
         <option value="$PROJECT_DIR$/src/reducers/stores/contents.js" />
         <option value="$PROJECT_DIR$/src/reducers/actions/contents.js" />
         <option value="$PROJECT_DIR$/src/helpers/dynamicLinks.js" />
@@ -208,12 +221,10 @@
         <option value="$PROJECT_DIR$/src/data/AR/ARCarDemo/res/3D/jar.obj" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/screens/BeaconContentScreen/BeaconContentScreen.js" />
-        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" />
         <option value="$PROJECT_DIR$/src/data/AR/ARCarDemo/ARCarDemo.js" />
         <option value="$PROJECT_DIR$/android/gradle.properties" />
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
-        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js" />
         <option value="$PROJECT_DIR$/src/naivigator/AppNavigator.js" />
         <option value="$PROJECT_DIR$/src/naivigator/InitialScreen.js" />
         <option value="$PROJECT_DIR$/src/components/modals/SetLanguageModal.js" />
@@ -223,13 +234,18 @@
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/Banner.js" />
         <option value="$PROJECT_DIR$/src/naivigator/MainNavigator.js" />
         <option value="$PROJECT_DIR$/src/config/translates.js" />
-        <option value="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/BeaconsStatus.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/ARButton.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" />
         <option value="$PROJECT_DIR$/src/components/modals/SetPageModal.js" />
         <option value="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/IntroductionScreen/IntroductionScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js" />
+        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" />
+        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js" />
       </list>
     </option>
   </component>
@@ -284,6 +300,28 @@
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="ContentDetailScreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="ContentListScreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="ContentListScreen" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
@@ -439,35 +477,7 @@
       <workItem from="1572779060476" duration="1925000" />
       <workItem from="1573221968332" duration="503000" />
       <workItem from="1573369043904" duration="1181000" />
-      <workItem from="1573376734740" duration="26390000" />
-    </task>
-    <task id="LOCAL-00008" summary="feat(content-detail-screen): integrate content detail with api">
-      <created>1566744956353</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1566744956353</updated>
-    </task>
-    <task id="LOCAL-00009" summary="feat(intro-screen): integrate intro screen with api">
-      <created>1566753129401</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1566753129401</updated>
-    </task>
-    <task id="LOCAL-00010" summary="feat(contact-screen): integrate contact screen with api">
-      <created>1566832374345</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1566832374345</updated>
-    </task>
-    <task id="LOCAL-00011" summary="feat(contact-screen): integrate contact screen with api">
-      <created>1566832430093</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1566832430093</updated>
+      <workItem from="1573376734740" duration="32693000" />
     </task>
     <task id="LOCAL-00012" summary="feat(find-us-screen): integrate find us screen with api">
       <created>1566833697316</created>
@@ -784,17 +794,45 @@
       <option name="project" value="LOCAL" />
       <updated>1573489480159</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="feat(intro-screen): update ui">
+      <created>1573492508071</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1573492508071</updated>
+    </task>
+    <task id="LOCAL-00058" summary="feat(list-screen): update ui">
+      <created>1573497356059</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1573497356059</updated>
+    </task>
+    <task id="LOCAL-00059" summary="feat(list-screen): update ui">
+      <created>1573497549607</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1573497549608</updated>
+    </task>
+    <task id="LOCAL-00060" summary="feat(detail-screen): update ui">
+      <created>1573499217571</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1573499217571</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362775000" />
+    <option name="totallyTimeSpent" value="369078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24472573" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24472573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Captures" order="3" weight="0.25" />
@@ -809,7 +847,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29897958" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29897958" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -879,9 +917,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="refactor(beacons): move split get beacon list to beacon store" />
-    <MESSAGE value="feat(beacons): integrate content for beacon" />
-    <MESSAGE value="refactor(AR): move ARModal to async screens" />
     <MESSAGE value="feat(beacon): integrate beacon status" />
     <MESSAGE value="feat(AR): update AR Code" />
     <MESSAGE value="config(build): set for build ipa" />
@@ -904,33 +939,12 @@
     <MESSAGE value="feat(ios): add icons" />
     <MESSAGE value="feat(loading, language setting): add language setting + loading page" />
     <MESSAGE value="feat(main-screen): update ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(main-screen): update ui" />
+    <MESSAGE value="feat(intro-screen): update ui" />
+    <MESSAGE value="feat(list-screen): update ui" />
+    <MESSAGE value="feat(detail-screen): update ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(detail-screen): update ui" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="146" selection-start-line="21" selection-end-line="21" selection-end-column="146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/local.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -991,13 +1005,6 @@
     <entry file="file://$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1007,13 +1014,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/img/bg.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/img/language/thailand.png">
       <provider selected="true" editor-type-id="images" />
@@ -1210,16 +1210,6 @@
     <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="157" column="29" lean-forward="true" selection-start-line="157" selection-start-column="29" selection-end-line="157" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-527">
@@ -1232,8 +1222,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="100" column="33" lean-forward="true" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
+        <state relative-caret-position="213">
+          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="133" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1242,11 +1232,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/IntroductionScreen/IntroductionScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        <state relative-caret-position="360">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="39" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="119" column="31" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="115" column="28" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
         </state>
       </provider>
     </entry>

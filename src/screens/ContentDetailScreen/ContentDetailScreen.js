@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import {
     StyleSheet,
-    SafeAreaView
+    View,
+    SafeAreaView,
+    ImageBackground
 } from 'react-native'
 import HeaderLogo from "../../components/HeaderLogo";
 import BeaconStatusIcon from "../../components/BeaconStatusIcon";
@@ -10,13 +12,21 @@ import Detail from "./components/Detail";
 import Sound from 'react-native-sound';
 import Share from 'react-native-share';
 import {dynamicEventLink} from './../../helpers/firebase'
+import LangSettingButton from "../../components/header/LangSettingButton";
+import BG from "../../assets/img/bg_main.png";
 
 class ContentDetailScreen extends Component {
-    static navigationOptions = {
-        headerTitle: <HeaderLogo />,
-        headerRight: <BeaconStatusIcon />,
-        headerBackTitle: null,
-        headerTintColor: 'rgb(125, 105 , 87)',
+    static navigationOptions = ({ navigation }) => {
+        return {
+            headerRight: <LangSettingButton />,
+            headerBackTitle: null,
+            headerTintColor: 'white',
+            headerTransparent: true,
+            headerStyle: {
+                backgroundColor: 'rgba(70, 41, 0, 0.8)',
+            },
+            headerTitle: 'Highlight'
+        };
     };
 
     state={
@@ -99,17 +109,21 @@ class ContentDetailScreen extends Component {
         const {activeHighlightItem={}} = this.props;
         const {galleryImages=[]} = activeHighlightItem;
         return (
-            <SafeAreaView style={styles.container}>
-                <ImagesSlider images={galleryImages}/>
-                <Detail
-                    {...activeHighlightItem}
-                    isCanPlay={isCanPlay}
-                    audioStatus={audioStatus}
-                    onFacebookShare={this.handleFacebookShare}
-                    onTwitterShare={this.handleTwitterShare}
-                    onPlaySound={this.handleTogglePlayAudio}
-                />
-            </SafeAreaView>
+            <ImageBackground source={BG} style={styles.outtercontainer}>
+                <SafeAreaView style={styles.container}>
+                    <View style={styles.innerContainer}>
+                        <ImagesSlider images={galleryImages}/>
+                        <Detail
+                            {...activeHighlightItem}
+                            isCanPlay={isCanPlay}
+                            audioStatus={audioStatus}
+                            onFacebookShare={this.handleFacebookShare}
+                            onTwitterShare={this.handleTwitterShare}
+                            onPlaySound={this.handleTogglePlayAudio}
+                        />
+                    </View>
+                </SafeAreaView>
+            </ImageBackground>
         )
     }
 }
@@ -117,7 +131,16 @@ class ContentDetailScreen extends Component {
 export default ContentDetailScreen;
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1
+    outtercontainer: {
+        flex: 1,
     },
+    container: {
+        flex: 1,
+
+    },
+    innerContainer: {
+        flex: 1,
+        marginTop: 44,
+        padding: 15,
+    }
 });

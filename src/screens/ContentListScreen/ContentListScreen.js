@@ -4,22 +4,27 @@ import {
     SafeAreaView,
     FlatList,
     View,
-    Text
+    Text, ImageBackground
 } from "react-native";
 import ContentItem from "./components/ContentItem";
-import ARButton from "./components/ARButton";
-import BeaconStatusIcon from "../../components/BeaconStatusIcon";
-import HeaderLogo from "../../components/HeaderLogo";
 import {translate} from "../../helpers/translates";
 import ContentListLoading from "./components/loading/ContentListLoading";
+import LangSettingButton from "../../components/header/LangSettingButton";
+import BG from "../../assets/img/bg_main.png";
 
 class ContentListScreen extends Component {
 
-    static navigationOptions = {
-        headerTitle: <HeaderLogo />,
-        headerRight: <BeaconStatusIcon />,
-        headerBackTitle: null,
-        headerTintColor: 'rgb(125, 105 , 87)'
+    static navigationOptions = ({ navigation }) => {
+        return {
+            headerRight: <LangSettingButton />,
+            headerBackTitle: null,
+            headerTintColor: 'white',
+            headerTransparent: true,
+            headerStyle: {
+                backgroundColor: 'rgba(70, 41, 0, 0.8)',
+            },
+            headerTitle: 'Highlight'
+        };
     };
 
     handleARButtonClick = () => {
@@ -52,16 +57,18 @@ class ContentListScreen extends Component {
     render() {
         const {highlightList, isGettingHighlightList, isGettingHighlightListSuccess} = this.props;
         return (
-            <View style={styles.container}>
-                {isGettingHighlightList && <ContentListLoading/>}
-                {isGettingHighlightListSuccess && <FlatList
-                    style={styles.flatList}
-                    data={highlightList}
-                    renderItem={this.renderItem}
-                    contentContainerStyle={styles.flatContent}
-                />}
-                <ARButton t={this.t} onPress={this.handleARButtonClick}/>
-            </View>
+            <ImageBackground source={BG} style={styles.outtercontainer}>
+                <SafeAreaView style={styles.container}>
+                    {isGettingHighlightList && <ContentListLoading/>}
+                    {isGettingHighlightListSuccess && <FlatList
+                        style={styles.flatList}
+                        data={highlightList}
+                        renderItem={this.renderItem}
+                        contentContainerStyle={styles.flatContent}
+                    />}
+                </SafeAreaView>
+            </ImageBackground>
+
         )
     }
 }
@@ -69,12 +76,17 @@ class ContentListScreen extends Component {
 export default ContentListScreen;
 
 const styles = StyleSheet.create({
+    outtercontainer: {
+        flex: 1,
+    },
     container: {
         flex: 1,
         // paddingTop: '5%'
     },
     flatList: {
-        flex: 1
+        flex: 1,
+        marginTop: 44,
+        paddingHorizontal: 15
     },
     flatContent: {
         paddingBottom: 10,
