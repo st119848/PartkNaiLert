@@ -97,6 +97,7 @@ const styles = StyleSheet.create({
         flex: 1,
         paddingHorizontal: 15,
         borderBottomWidth: 1,
+        width: '100%',
         borderColor: '#6e4f06',
     },
     description: {

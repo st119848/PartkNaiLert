@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {
     StyleSheet,
-    SafeAreaView,
     FlatList,
     View,
     Text, ImageBackground
@@ -11,6 +10,7 @@ import {translate} from "../../helpers/translates";
 import ContentListLoading from "./components/loading/ContentListLoading";
 import LangSettingButton from "../../components/header/LangSettingButton";
 import BG from "../../assets/img/bg_main.png";
+import {SafeAreaView} from 'react-navigation'
 
 class ContentListScreen extends Component {
 
@@ -58,7 +58,7 @@ class ContentListScreen extends Component {
         const {highlightList, isGettingHighlightList, isGettingHighlightListSuccess} = this.props;
         return (
             <ImageBackground source={BG} style={styles.outtercontainer}>
-                <SafeAreaView style={styles.container}>
+                <SafeAreaView style={styles.container} forceInset={{ bottom: 'never'}}>
                     {isGettingHighlightList && <ContentListLoading/>}
                     {isGettingHighlightListSuccess && <FlatList
                         style={styles.flatList}
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     },
     container: {
         flex: 1,
-        // paddingTop: '5%'
+        marginBottom: 0,
     },
     flatList: {
         flex: 1,

@@ -3,19 +3,23 @@ import {
     StyleSheet,
     SafeAreaView,
     View,
-    Text,
+    Text, ImageBackground,
 } from 'react-native';
-import HeaderLogo from "../../components/HeaderLogo";
-import BeaconStatusIcon from "../../components/BeaconStatusIcon";
 import Icon from "../../components/Icon";
 import {translate} from "../../helpers/translates";
+import LangSettingButton from "../../components/header/LangSettingButton";
+import BG from "../../assets/img/bg_main.png";
 
 class ContactUsScreens extends Component {
     static navigationOptions = {
-        headerTitle: <HeaderLogo />,
-        headerRight: <BeaconStatusIcon />,
+        headerRight: <LangSettingButton />,
         headerBackTitle: null,
-        headerTintColor: 'rgb(125, 105 , 87)'
+        headerTintColor: 'white',
+        headerTransparent: true,
+        headerStyle: {
+            backgroundColor: 'rgba(70, 41, 0, 0.8)',
+        },
+        headerTitle: 'Contact Us',
     };
 
     t = (key, find, replace) => {
@@ -31,10 +35,12 @@ class ContactUsScreens extends Component {
     render() {
         const {contactData} = this.props;
         return (
-            <SafeAreaView style={styles.container}>
-                <ContactInformation {...contactData} t={this.t} />
-                <TimeInformation {...contactData} t={this.t}/>
-            </SafeAreaView>
+            <ImageBackground source={BG} style={styles.outtercontainer}>
+                <SafeAreaView style={styles.container}>
+                    <ContactInformation {...contactData} t={this.t} />
+                    <TimeInformation {...contactData} t={this.t}/>
+                </SafeAreaView>
+            </ImageBackground>
         )
     }
 }
@@ -95,48 +101,46 @@ const TimeInformation = props => {
 
 
 const styles = StyleSheet.create({
+    outtercontainer: {
+        flex: 1,
+    },
     container: {
         flex: 1,
-        backgroundColor: 'rgb(242, 218, 217)'
     },
     contactContainer: {
-        backgroundColor: 'white',
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
         width: '90%',
-        marginTop: 20,
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 2,
-        },
-        shadowOpacity: 0.23,
-        shadowRadius: 2.62,
+        marginTop: 64,
+        borderTopRightRadius: 5,
+        borderBottomRightRadius: 5,
     },
     timeContainer: {
         alignSelf: 'flex-end',
-        backgroundColor: 'white',
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        borderTopLeftRadius: 5,
+        borderBottomLeftRadius: 5,
         width: '90%',
         marginTop: 20,
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 2,
-        },
-        shadowOpacity: 0.23,
-        shadowRadius: 2.62,
     },
     titleContainer: {
         height: 45,
         justifyContent: 'center',
-        backgroundColor: 'rgb(125, 105 , 87)',
-        marginRight: -15,
-        marginTop: 15,
+        backgroundColor: '#655327',
+        marginTop: 10,
+        marginRight: 10,
         paddingLeft: 10,
+        borderTopRightRadius: 4,
+        borderBottomRightRadius: 4,
     },
     rightTitleContainer: {
         marginRight: 0,
-        marginLeft: -15,
+        marginLeft: 10,
         paddingLeft: 25,
-        backgroundColor: 'rgb(205, 94, 90)',
+        backgroundColor: '#655327',
+        borderTopLeftRadius: 4,
+        borderBottomLeftRadius: 4,
+        borderTopRightRadius: 0,
+        borderBottomRightRadius: 0,
     },
     title: {
         color: 'white',
@@ -168,7 +172,7 @@ const styles = StyleSheet.create({
         color: 'dimgrey',
     },
     facebookIcon: {
-        color: 'rgb(125, 105 , 87)',
+        color: '#655327',
         marginRight: 10,
     },
     igIcon: {

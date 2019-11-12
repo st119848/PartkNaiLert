@@ -7,20 +7,28 @@ import {
     Dimensions,
     TouchableOpacity,
     Linking,
-    Platform
+    Platform,
+    SafeAreaView,
+    ImageBackground
 } from 'react-native';
-import HeaderLogo from "../../components/HeaderLogo";
-import BeaconStatusIcon from "../../components/BeaconStatusIcon";
 import {translate} from "../../helpers/translates";
+import LangSettingButton from "../../components/header/LangSettingButton";
+import BG from "../../assets/img/bg_main.png";
 
 const { width } = Dimensions.get('window')
 
 class FindUsScreen extends Component {
-    static navigationOptions = {
-        headerTitle: <HeaderLogo />,
-        headerRight: <BeaconStatusIcon />,
-        headerBackTitle: null,
-        headerTintColor: 'rgb(125, 105 , 87)'
+    static navigationOptions = ({ navigation }) => {
+        return {
+            headerRight: <LangSettingButton />,
+            headerBackTitle: null,
+            headerTintColor: 'white',
+            headerTransparent: true,
+            headerStyle: {
+                backgroundColor: 'rgba(70, 41, 0, 0.8)',
+            },
+            headerTitle: 'Find Us'
+        };
     };
 
     t = (key, find, replace) => {
@@ -46,31 +54,21 @@ class FindUsScreen extends Component {
 
     render() {
         const {findData={}} = this.props;
-        const {mapUrl, address} = findData;
-        const title = this.t('menus.findUs');
+        const {mapUrl} = findData;
         return (
-            <View style={styles.container}>
-                <View style={styles.contentContainer}>
-                    <Title title={title.toUpperCase()} />
-                    <Map mapUrl={mapUrl} />
-                    <Address address={address} />
-                </View>
-                <GoButton onPress={this.handleClickMap} t={this.t} />
-            </View>
+            <ImageBackground source={BG} style={styles.outtercontainer}>
+                <SafeAreaView style={styles.container}>
+                    <View style={styles.contentContainer}>
+                        <Map mapUrl={mapUrl} />
+                    </View>
+                    <GoButton onPress={this.handleClickMap} t={this.t} />
+                </SafeAreaView>
+            </ImageBackground>
         )
     }
 }
 
 export default FindUsScreen;
-
-const Title = props => {
-    const {title} = props;
-    return (
-        <View style={styles.titleContainer}>
-            <Text style={styles.title}>{title}</Text>
-        </View>
-    )
-};
 
 const Map = props => {
     const {mapUrl} = props;
@@ -79,15 +77,6 @@ const Map = props => {
             <Image style={styles.map} source={{uri: mapUrl}} />
         </View>
     )
-};
-
-const Address = props => {
-    const {address} = props;
-    return (
-        <View style={styles.addressContainer}>
-            <Text style={styles.address}>{address}</Text>
-        </View>
-    );
 };
 
 const GoButton = props => {
@@ -103,32 +92,28 @@ const GoButton = props => {
 
 
 const styles = StyleSheet.create({
+    outtercontainer: {
+        flex: 1,
+    },
     container: {
         flex: 1,
-        backgroundColor: 'rgb(242, 218, 217)',
         alignItems: 'center',
         padding: 15,
     },
     contentContainer: {
-        width: '100%',
+        marginTop: 59,
+        marginHorizontal: 15,
+        alignSelf: 'stretch',
         alignItems: 'center',
-        backgroundColor: 'white',
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 2,
-        },
-        shadowOpacity: 0.23,
-        shadowRadius: 2.62,
-        paddingTop: 65,
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        borderRadius: 5,
         position: 'relative',
+        height: '50%'
     },
     titleContainer: {
         height: 45,
         justifyContent: 'center',
         backgroundColor: 'rgb(125, 105 , 87)',
-        marginRight: -10,
-        marginLeft: -10,
         top: 10,
         left: 0,
         right: 0,
@@ -144,11 +129,12 @@ const styles = StyleSheet.create({
     },
     map: {
         width: '100%',
-        height: width-50,
+        height: '100%',
     },
     mapContainer: {
         width: '100%',
-        paddingHorizontal: 10,
+        height: '100%',
+        padding: 10,
     },
     addressContainer: {
         width: '100%',
@@ -161,11 +147,12 @@ const styles = StyleSheet.create({
     },
     goButtonContainer: {
         height: 45,
-        width: '100%',
+        marginHorizontal: 15,
+        alignSelf: 'stretch',
         borderRadius: 5,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'rgb(195, 82, 76)',
+        backgroundColor: '#655327',
         marginVertical: 15,
     },
     goButton: {

@@ -51,7 +51,7 @@ const en = {
     },
     map: {
         labels: {
-            go: 'GO!',
+            go: 'Start Navigating',
         }
     }
 };
@@ -109,7 +109,7 @@ const th = {
     },
     map: {
         labels: {
-            go: 'GO!',
+            go: 'Start Navigating',
         }
     }
 };
@@ -167,7 +167,7 @@ const zh = {
     },
     map: {
         labels: {
-            go: 'GO!',
+            go: 'Start Navigating',
         }
     }
 };
@@ -225,7 +225,7 @@ const ja = {
     },
     map: {
         labels: {
-            go: 'GO!',
+            go: 'Start Navigating',
         }
     }
 };
