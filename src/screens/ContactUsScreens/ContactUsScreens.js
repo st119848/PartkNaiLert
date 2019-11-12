@@ -9,6 +9,7 @@ import Icon from "../../components/Icon";
 import {translate} from "../../helpers/translates";
 import LangSettingButton from "../../components/header/LangSettingButton";
 import BG from "../../assets/img/bg_main.png";
+import HeaderTitle from "../../components/header/HeaderTitle";
 
 class ContactUsScreens extends Component {
     static navigationOptions = {
@@ -19,7 +20,7 @@ class ContactUsScreens extends Component {
         headerStyle: {
             backgroundColor: 'rgba(70, 41, 0, 0.8)',
         },
-        headerTitle: 'Contact Us',
+        headerTitle: <HeaderTitle title='Contact Us' />,
     };
 
     t = (key, find, replace) => {

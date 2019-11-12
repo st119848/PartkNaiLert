@@ -13,6 +13,7 @@ import {
 } from 'react-native';
 import {translate} from "../../helpers/translates";
 import LangSettingButton from "../../components/header/LangSettingButton";
+import HeaderTitle from "../../components/header/HeaderTitle";
 import BG from "../../assets/img/bg_main.png";
 
 const { width } = Dimensions.get('window')
@@ -27,7 +28,7 @@ class FindUsScreen extends Component {
             headerStyle: {
                 backgroundColor: 'rgba(70, 41, 0, 0.8)',
             },
-            headerTitle: 'Find Us'
+            headerTitle: <HeaderTitle title='Find Us' />,
         };
     };
 

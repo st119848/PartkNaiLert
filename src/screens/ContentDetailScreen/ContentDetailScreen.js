@@ -5,8 +5,7 @@ import {
     SafeAreaView,
     ImageBackground
 } from 'react-native'
-import HeaderLogo from "../../components/HeaderLogo";
-import BeaconStatusIcon from "../../components/BeaconStatusIcon";
+import HeaderTitle from "../../components/header/HeaderTitle";
 import ImagesSlider from "./components/ImagesSlider";
 import Detail from "./components/Detail";
 import Sound from 'react-native-sound';
@@ -25,7 +24,7 @@ class ContentDetailScreen extends Component {
             headerStyle: {
                 backgroundColor: 'rgba(70, 41, 0, 0.8)',
             },
-            headerTitle: 'Highlight'
+            headerTitle: <HeaderTitle title='Highlight' />,
         };
     };
 

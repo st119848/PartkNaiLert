@@ -9,6 +9,7 @@ import {
     Image,
 } from 'react-native'
 import LangSettingButton from "../../components/header/LangSettingButton";
+import HeaderTitle from "../../components/header/HeaderTitle";
 import BG from "../../assets/img/bg_main.png";
 
 class IntroductionScreen extends Component {
@@ -22,7 +23,7 @@ class IntroductionScreen extends Component {
             headerStyle: {
                 backgroundColor: 'rgba(70, 41, 0, 0.8)',
             },
-            headerTitle: 'Introduction'
+            headerTitle: <HeaderTitle title='Introduction' />,
         };
     };
 

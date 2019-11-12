@@ -9,6 +9,7 @@ import ContentItem from "./components/ContentItem";
 import {translate} from "../../helpers/translates";
 import ContentListLoading from "./components/loading/ContentListLoading";
 import LangSettingButton from "../../components/header/LangSettingButton";
+import HeaderTitle from "../../components/header/HeaderTitle";
 import BG from "../../assets/img/bg_main.png";
 import {SafeAreaView} from 'react-navigation'
 
@@ -23,7 +24,7 @@ class ContentListScreen extends Component {
             headerStyle: {
                 backgroundColor: 'rgba(70, 41, 0, 0.8)',
             },
-            headerTitle: 'Highlight'
+            headerTitle: <HeaderTitle title='Highlight' />,
         };
     };
 
