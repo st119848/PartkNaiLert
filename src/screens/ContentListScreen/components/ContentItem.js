@@ -12,7 +12,7 @@ const ContentItem = props => {
     const {id, coverImage, onSeeMoreClick} = props;
     const handleSeeMoreClick = () => onSeeMoreClick(id);
     return (
-        <TouchableWithoutFeedback onPress={handleSeeMoreClick}>
+        <TouchableWithoutFeedback onPress={handleSeeMoreClick} style={styles.outterContainer}>
             <View style={styles.container}>
                 <Image source={{uri: coverImage}} style={styles.imageContainer}/>
                 <Detail {...props} onPress={handleSeeMoreClick}/>
@@ -60,8 +60,12 @@ const MoreButton = props => {
 };
 
 const styles = StyleSheet.create({
-    container: {
+    outterContainer: {
         width: '100%',
+        paddingHorizontal: 15,
+    },
+    container: {
+        maxWidth: 500,
         height: 315,
         marginTop: 15,
         alignItems: 'center',
@@ -70,7 +74,6 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgba(255, 255, 255, 0.8)',
     },
     imageContainer: {
-        maxWidth: 500,
         width: '100%',
         height: 200,
         justifyContent: 'flex-end',

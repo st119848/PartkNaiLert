@@ -160,10 +160,12 @@ const styles = StyleSheet.create({
     contentContainer: {
         width: '100%',
         padding: 15,
-        height: '55%'
+        height: '55%',
+        maxWidth: 500,
     },
     contentInnerContainer: {
-        padding: 10,
+        paddingHorizontal: 10,
+        paddingVertical: 5,
         borderRadius: 5,
         backgroundColor: 'rgba(255, 255, 255, 0.8)',
         flex: 1,
@@ -175,10 +177,11 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: 'rgba(255, 255, 255, 0.8)',
-        paddingHorizontal: 50,
+        paddingVertical: 10,
+        flexDirection: 'row',
     },
     logoBar: {
-        width: '100%',
+        height: '100%',
         resizeMode: 'contain',
     }
 });

@@ -47,8 +47,8 @@ const StatusIcon = () => {
 
 const styles = StyleSheet.create({
     container: {
-        marginTop: 10,
-        height: 70,
+        marginVertical: 5,
+        flex: 1,
         width: '100%',
         flexDirection: 'row',
         alignItems: 'center',

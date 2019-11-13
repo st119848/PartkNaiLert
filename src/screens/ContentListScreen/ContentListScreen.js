@@ -82,13 +82,18 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         marginBottom: 0,
+        alignItems: 'center',
     },
     flatList: {
-        flex: 1,
         marginTop: 44,
-        paddingHorizontal: 15
+        paddingHorizontal: 15,
+        alignSelf: 'stretch',
+
     },
     flatContent: {
         paddingBottom: 10,
+        paddingHorizontal: 15,
+        alignItems: 'center',
+        alignSelf: 'stretch',
     }
 });

@@ -15,7 +15,7 @@ const ARButton = ({t, onPress}) => {
     const tryLabel = t('home.buttons.try');
     const cameraLabel = t('home.buttons.camera');
     return (
-        <TouchableOpacity onPress={onPress}>
+        <TouchableOpacity onPress={onPress} style={styles.outterContainer}>
             <ImageBackground source={ARBG} style={styles.container} imageStyle={styles.imageContainer}>
                 <ARIcon/>
                 <Title tryLabel={tryLabel} cameraLabel={cameraLabel}/>
@@ -41,9 +41,13 @@ const Title = () => {
 export default ARButton;
 
 const styles = StyleSheet.create({
+    outterContainer: {
+        marginVertical: 5,
+        flex: 1,
+        width: '100%',
+    },
     container: {
-        marginTop: 10,
-        height: 70,
+        height: '100%',
         width: '100%',
         flexDirection: 'row',
         alignItems: 'center',

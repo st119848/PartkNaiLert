@@ -34,6 +34,7 @@
 		DA1437BF233A08DD00426DCA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA1437BE233A08DD00426DCA /* GoogleService-Info.plist */; };
 		DAF33726230ED8DD004E6620 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF33725230ED8DD004E6620 /* libRNGestureHandler.a */; };
 		E2CFBD00CBE54416B6727333 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 922C5D5A44CA4B01B981F2AF /* FontAwesome5_Solid.ttf */; };
+		789F755A13FB43FAAC74BF4D /* drboran.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45BA8B07CD69476495FEF0E4 /* drboran.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		DFCF6047A9574091BF677CA6 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		45BA8B07CD69476495FEF0E4 /* drboran.ttf */ = {isa = PBXFileReference; name = "drboran.ttf"; path = "../src/assets/fonts/drboran.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				C453A298D3A640C997643BEA /* Zocial.ttf */,
 				275555AB11034BF3A17951A3 /* PTMonoRegular.ttf */,
 				CF53E06B7544425AA0897958 /* PTMonoBold.ttf */,
+				45BA8B07CD69476495FEF0E4 /* drboran.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				AF0BFF732FE94FC68B4FB9C8 /* Zocial.ttf in Resources */,
 				667A644163C54122B021487E /* PTMonoRegular.ttf in Resources */,
 				6266EEF13B3140CEB8506C43 /* PTMonoBold.ttf in Resources */,
+				789F755A13FB43FAAC74BF4D /* drboran.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

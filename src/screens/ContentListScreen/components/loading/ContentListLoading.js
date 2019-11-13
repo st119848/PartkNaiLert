@@ -11,9 +11,9 @@ const {width} = Dimensions.get('window');
 
 const ContentListLoading = props => {
     const screenWidth = width > 500 ? 500 : width;
-    const paddingHorizontal = screenWidth/100*5;
+    const paddingHorizontal = 15;
     const itemWidth = screenWidth - (paddingHorizontal*2);
-    const itemHeight  = 200;
+    const itemHeight  = 315;
     const marginTop  = 15;
     const marginBottom = 15;
     const containerHeight = (itemHeight + 15) * 5;
@@ -23,7 +23,7 @@ const ContentListLoading = props => {
                 { [...Array(5)].map((_,key) => {
                     const y = marginTop + (itemHeight*key) + (marginBottom * key);
                     return (
-                        <Rect x={paddingHorizontal} key={key} y={y} width={itemWidth} height={itemHeight} />
+                        <Rect x={paddingHorizontal} rx="5" ry="5" key={key} y={y} width={itemWidth} height={itemHeight} />
                     )
                 })}
             </SvgAnimatedLinearGradient>
@@ -36,5 +36,6 @@ export default ContentListLoading;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        marginTop: 44,
     }
 });

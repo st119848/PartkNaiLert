@@ -117,10 +117,12 @@ const styles = StyleSheet.create({
         marginVertical: 10,
         overflow: 'hidden',
         borderRadius: 10,
+        opacity: 0.8
     },
     langIconContainerActive: {
         borderWidth: 5,
         borderColor: '#ddd',
+        opacity: 1
     },
     langIcon: {
         width: 100,

@@ -6,25 +6,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(header): update header title">
-      <change afterPath="$PROJECT_DIR$/react-native.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/PTMonoBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/PTMonoRegular.ttf" afterDir="false" />
+    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(lang-setting): set font family">
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/drboran.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/parknailert/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderTitle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modals/SetPageModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modals/SetPageModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/ContactUsScreens/ContactUsScreens.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContactUsScreens/ContactUsScreens.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LangListSetting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LangListSetting.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContentListScreen/components/loading/ContentListLoading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentListScreen/components/loading/ContentListLoading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/components/ARButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/ARButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/components/BeaconsStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/BeaconsStatus.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/IntroductionScreen/IntroductionScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/IntroductionScreen/IntroductionScreen.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+            <state relative-caret-position="502">
+              <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="30" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -47,10 +41,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/IntroductionScreen/IntroductionScreen.js">
+        <entry file="file://$PROJECT_DIR$/src/components/LangListSetting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="30" />
+            <state relative-caret-position="436">
+              <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="27" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -59,70 +65,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="162" column="8" lean-forward="true" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ContactUsScreens/ContactUsScreens.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="195" column="8" selection-start-line="195" selection-start-column="8" selection-end-line="195" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/modals/SetLanguageModal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/modals/SetPageModal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="120" column="30" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="122" column="25" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/BeaconsStatus.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="30" />
+            <state relative-caret-position="211">
+              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -133,8 +79,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/ARButton.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="30" />
+            <state relative-caret-position="430">
+              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -145,10 +103,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="60" column="86" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="86" />
+            <state relative-caret-position="505">
+              <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="30" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/components/loading/ContentListLoading.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,8 +176,8 @@
       <find>red</find>
       <find>go:</find>
       <find>“</find>
-      <find>buttonIcon</find>
       <find>scrollContainer</find>
+      <find>buttonIcon</find>
     </findStrings>
     <replaceStrings>
       <replace>white</replace>
@@ -219,7 +201,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/screens/ContentListScreen/components/ARButton.js" />
         <option value="$PROJECT_DIR$/node_modules/react-native/react.gradle" />
-        <option value="$PROJECT_DIR$/src/screens/ContentListScreen/components/loading/ContentListLoading.js" />
         <option value="$PROJECT_DIR$/src/screens/BeaconContentScreen/components/loading/ContentLoading.js" />
         <option value="$PROJECT_DIR$/src/screens/BeaconContentScreen/components/loading/ContentDetailLoading.js" />
         <option value="$PROJECT_DIR$/src/screens/BeaconContentScreen/beacon_content_container.js" />
@@ -245,29 +226,30 @@
         <option value="$PROJECT_DIR$/src/naivigator/AppNavigator.js" />
         <option value="$PROJECT_DIR$/src/naivigator/InitialScreen.js" />
         <option value="$PROJECT_DIR$/src/components/modals/SetLanguageModal.js" />
-        <option value="$PROJECT_DIR$/src/components/LangListSetting.js" />
         <option value="$PROJECT_DIR$/src/components/header/LangSettingButton.js" />
         <option value="$PROJECT_DIR$/src/components/header/PageSettingButton.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/Banner.js" />
         <option value="$PROJECT_DIR$/src/naivigator/MainNavigator.js" />
-        <option value="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" />
         <option value="$PROJECT_DIR$/src/config/translates.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" />
         <option value="$PROJECT_DIR$/react-native.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/ARButton.js" />
         <option value="$PROJECT_DIR$/src/components/header/HeaderTitle.js" />
-        <option value="$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js" />
-        <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js" />
-        <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/BeaconsStatus.js" />
-        <option value="$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ContactUsScreens/ContactUsScreens.js" />
         <option value="$PROJECT_DIR$/src/components/modals/SetPageModal.js" />
         <option value="$PROJECT_DIR$/src/screens/IntroductionScreen/IntroductionScreen.js" />
         <option value="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/ContentListScreen/components/loading/ContentListLoading.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/BeaconsStatus.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/ARButton.js" />
+        <option value="$PROJECT_DIR$/src/components/LangListSetting.js" />
+        <option value="$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js" />
       </list>
     </option>
   </component>
@@ -541,21 +523,7 @@
       <workItem from="1572779060476" duration="1925000" />
       <workItem from="1573221968332" duration="503000" />
       <workItem from="1573369043904" duration="1181000" />
-      <workItem from="1573376734740" duration="46898000" />
-    </task>
-    <task id="LOCAL-00016" summary="feat(content-detail): integration audio player + update style">
-      <created>1566920111742</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1566920111742</updated>
-    </task>
-    <task id="LOCAL-00017" summary="feat(home-screen): update style">
-      <created>1566921283716</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1566921283716</updated>
+      <workItem from="1573376734740" duration="51499000" />
     </task>
     <task id="LOCAL-00018" summary="fix(build): fix build android">
       <created>1566924424109</created>
@@ -886,17 +854,31 @@
       <option name="project" value="LOCAL" />
       <updated>1573575539878</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="feat(app): set font family">
+      <created>1573657627254</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1573657627255</updated>
+    </task>
+    <task id="LOCAL-00066" summary="feat(lang-setting): set font family">
+      <created>1573660601390</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1573660601390</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="383283000" />
+    <option name="totallyTimeSpent" value="387884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24472573" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24472573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Captures" order="3" weight="0.25" />
@@ -911,7 +893,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29897958" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29897958" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -981,8 +963,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="config(android): config beacon in android" />
-    <MESSAGE value="config(AR): set update AR for android still not work" />
     <MESSAGE value="feact(translate): add translate for japanese + chinese" />
     <MESSAGE value="config(android): add config for builds" />
     <MESSAGE value="feat(ContentList): add content list loader" />
@@ -1006,15 +986,11 @@
     <MESSAGE value="merge(app): merge conflict" />
     <MESSAGE value="feat(contact, find): update ui" />
     <MESSAGE value="feat(header): update header title" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(header): update header title" />
+    <MESSAGE value="feat(app): set font family" />
+    <MESSAGE value="feat(lang-setting): set font family" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(lang-setting): set font family" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/icon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1046,16 +1022,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/img/logo.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LangListSetting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="105" column="16" lean-forward="true" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LangButton.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1168,16 +1134,6 @@
     <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="119" column="31" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1258,50 +1214,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="122" column="25" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/ARButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/BeaconsStatus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="60" column="86" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1345,16 +1261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="122" column="25" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/IntroductionScreen/IntroductionScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
@@ -1367,10 +1273,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+        <state relative-caret-position="502">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="30" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/components/loading/ContentListLoading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/BeaconsStatus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/ARButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LangListSetting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/fonts/drboran.ttf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentListScreen/components/ContentItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

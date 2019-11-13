@@ -87,12 +87,13 @@ const ItemImage = props => {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
         width: '100%',
         borderRadius: 5,
         padding: 10,
         justifyContent: 'space-between',
-        backgroundColor: '#FFF5C9'
+        backgroundColor: '#FFF5C9',
+        flex: 2,
+        marginVertical: 5,
     },
     headerContainer: {
         width: '100%',
