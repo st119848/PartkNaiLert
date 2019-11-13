@@ -22,13 +22,13 @@ import BG from "../assets/img/bg_main.png";
     this._LoadApp()
   }
   _LoadApp = async () => {
-      const selectedLanguage = await AsyncStorage.getItem('selectedLanguage');
-      if(selectedLanguage && (selectedLanguage !== null)) {
-          this.props.settingLanguage(selectedLanguage)
-          this.props.navigation.navigate('Main')
-      } else {
-          this.props.navigation.navigate('Init')
-      }
+      // const selectedLanguage = await AsyncStorage.getItem('selectedLanguage');
+      // if(selectedLanguage && (selectedLanguage !== null)) {
+      //     this.props.settingLanguage(selectedLanguage)
+      //     this.props.navigation.navigate('Main')
+      // } else {
+      //     this.props.navigation.navigate('Init')
+      // }
   };
 
   render() {
@@ -66,9 +66,6 @@ const mapStateToProps = (state) => {
   }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(AuthLoadingScreen)
-// export default AuthLoadingScreen
-
-const {width} = Dimensions.get('window');
 
 const styles = StyleSheet.create({
     container: {
@@ -96,9 +93,10 @@ const styles = StyleSheet.create({
     },
     title: {
         color: 'white',
-        fontSize: 22,
+        fontSize: 25,
         textAlign: 'center',
         marginVertical: 10,
+        fontFamily: 'PT Mono',
     }
 });
 

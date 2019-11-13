@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import {
     StyleSheet,
     FlatList,
-    View,
-    Text, ImageBackground
+    ImageBackground
 } from "react-native";
 import ContentItem from "./components/ContentItem";
 import {translate} from "../../helpers/translates";

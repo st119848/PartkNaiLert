@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import {
     StyleSheet,
-    SafeAreaView,
     View,
     Text,
     ScrollView,
@@ -11,6 +10,7 @@ import {
 import LangSettingButton from "../../components/header/LangSettingButton";
 import HeaderTitle from "../../components/header/HeaderTitle";
 import BG from "../../assets/img/bg_main.png";
+import {SafeAreaView} from 'react-navigation'
 
 class IntroductionScreen extends Component {
 
@@ -36,7 +36,7 @@ class IntroductionScreen extends Component {
         const {introData} = this.props;
         return (
             <ImageBackground source={BG} style={styles.outercontainer}>
-                <SafeAreaView style={styles.container}>
+                <SafeAreaView style={styles.container} forceInset={{ bottom: 'never'}}>
                     <ScrollView style={styles.scrollContainer}>
                         <Content {...introData} />
                     </ScrollView>
@@ -46,12 +46,6 @@ class IntroductionScreen extends Component {
     }
 }
 
-const Indicator = props => {
-    return (
-        <View style={styles.indicator}/>
-    )
-};
-
 const Content = props => {
     const {imageUrl, description} = props;return (
         <View style={styles.contentContainer}>
@@ -59,7 +53,7 @@ const Content = props => {
             <Description description={description} />
         </View>
     )
-}
+};
 
 const CoverImage = props => {
     const {image} = props;
@@ -109,7 +103,7 @@ const styles = StyleSheet.create({
     },
     description: {
         padding: 10,
-        fontSize: 15,
-        color: 'dimgrey',
+        color: '#645227',
+        fontFamily: 'PT Mono',
     }
 });

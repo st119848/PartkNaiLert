@@ -148,6 +148,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: '600',
         letterSpacing: 0.5,
+        fontFamily: 'PT Mono',
     },
     rightTitle: {
         color: 'white',
@@ -170,7 +171,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     contactDetail: {
-        color: 'dimgrey',
+        color: '#655327',
+        fontFamily: 'PT Mono',
     },
     facebookIcon: {
         color: '#655327',
@@ -187,10 +189,11 @@ const styles = StyleSheet.create({
         letterSpacing: 0.5,
     },
     timeDetailContainer: {
-        padding: 15
+        padding: 15,
     },
     timeDetail: {
-        color: 'dimgrey'
+        color: '#655327',
+        fontFamily: 'PT Mono',
     }
 
 });

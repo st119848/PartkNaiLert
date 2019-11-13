@@ -117,7 +117,8 @@ const styles = StyleSheet.create({
     pageItemText: {
         color: 'white',
         fontSize: 20,
-        letterSpacing: 0.5
+        letterSpacing: 0.5,
+        fontFamily: 'PT Mono',
     },
 
 });

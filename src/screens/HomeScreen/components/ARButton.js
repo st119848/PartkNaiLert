@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
         color: 'white',
         textAlign: 'center',
         fontSize: 22,
+        fontFamily: 'PT Mono',
         fontWeight: '600',
         padding: 5,
     },

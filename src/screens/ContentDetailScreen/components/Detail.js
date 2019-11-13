@@ -91,7 +91,8 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 22,
         color: '#4D3606',
-        fontWeight: '600'
+        fontWeight: '400',
+        fontFamily: 'PT Mono',
     },
     descriptionContainer: {
         flex: 1,
@@ -101,8 +102,8 @@ const styles = StyleSheet.create({
         borderColor: '#6e4f06',
     },
     description: {
-        fontSize: 15,
-        color: 'dimgrey',
+        color: '#4D3606',
+        fontFamily: 'PT Mono',
     },
     descriptionContentContainer: {
         paddingVertical: 15
@@ -117,10 +118,15 @@ const styles = StyleSheet.create({
     },
     playLabel: {
         color: 'white',
+        fontFamily: 'PT Mono',
+        fontSize: 16,
+        fontWeight: '500',
     },
     playTitle: {
         color: '#4D3606',
         marginRight: 10,
+        fontFamily: 'PT Mono',
+        fontSize: 16,
     },
     bottomToolsContainer: {
         height: 50,

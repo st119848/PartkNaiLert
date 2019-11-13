@@ -110,9 +110,10 @@ const styles = StyleSheet.create({
     title: {
         color: '#645227',
         fontSize: 22,
-        fontWeight: '500',
+        fontWeight: '400',
         letterSpacing: 0.5,
-        textAlign: 'center'
+        textAlign: 'center',
+        fontFamily: 'PT Mono',
     },
     buttonContainer: {
         paddingVertical: 5,
@@ -126,6 +127,8 @@ const styles = StyleSheet.create({
     buttonLabel: {
         color: '#FFF5C9',
         fontSize: 18,
+        fontFamily: 'PT Mono',
+        fontWeight: '500',
     },
     buttonIcon: {
         color: '#FFF5C9',

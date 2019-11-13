@@ -158,7 +158,8 @@ const styles = StyleSheet.create({
     },
     goButton: {
         fontSize: 18,
-        fontWeight: '600',
-        color: 'white'
+        fontWeight: '500',
+        color: 'white',
+        fontFamily: 'PT Mono',
     }
 });

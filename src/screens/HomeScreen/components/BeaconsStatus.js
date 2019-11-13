@@ -76,7 +76,11 @@ const styles = StyleSheet.create({
         marginRight: 10,
         color: 'white',
         fontSize: 22,
-        fontWeight: '600'
+        fontWeight: '600',
+        fontFamily: 'PT Mono',
+        textShadowColor: 'rgba(0, 0, 0, 0.5)',
+        textShadowOffset: {width: -1, height: 1},
+        textShadowRadius: 10
     },
     statusIcon: {
         position: 'absolute',

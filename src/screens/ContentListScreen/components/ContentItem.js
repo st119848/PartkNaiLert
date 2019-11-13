@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
         color: '#4D3606',
         fontSize: 22,
         fontWeight: '400',
-        // backgroundColor: 'red'
+        fontFamily: 'PT Mono',
     },
     description: {
         color: '#4D3606',
@@ -98,7 +98,8 @@ const styles = StyleSheet.create({
         flexShrink: 1,
         flexBasis: '100%',
         height: '100%',
-        marginRight: 5
+        marginRight: 5,
+        fontFamily: 'PT Mono',
     },
     buttonContainer: {
         paddingVertical: 5,
