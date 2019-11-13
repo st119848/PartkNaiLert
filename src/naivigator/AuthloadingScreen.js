@@ -22,13 +22,13 @@ import BG from "../assets/img/bg_main.png";
     this._LoadApp()
   }
   _LoadApp = async () => {
-      // const selectedLanguage = await AsyncStorage.getItem('selectedLanguage');
-      // if(selectedLanguage && (selectedLanguage !== null)) {
-      //     this.props.settingLanguage(selectedLanguage)
-      //     this.props.navigation.navigate('Main')
-      // } else {
-      //     this.props.navigation.navigate('Init')
-      // }
+      const selectedLanguage = await AsyncStorage.getItem('selectedLanguage');
+      if(selectedLanguage && (selectedLanguage !== null)) {
+          this.props.settingLanguage(selectedLanguage)
+          this.props.navigation.navigate('Main')
+      } else {
+          this.props.navigation.navigate('Init')
+      }
   };
 
   render() {

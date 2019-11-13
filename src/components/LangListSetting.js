@@ -106,7 +106,8 @@ const styles = StyleSheet.create({
     titleText: {
         color: 'white',
         fontSize: 18,
-        textAlign: 'center'
+        textAlign: 'center',
+        fontFamily: 'PT Mono',
     },
     langListContainer: {
         marginVertical: '15%',
