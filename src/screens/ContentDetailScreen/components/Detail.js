@@ -10,12 +10,12 @@ import IconButton from "../../../components/IconButton";
 import Icon from "../../../components/Icon";
 
 const Detail = props => {
-    const {title, description} = props
+    const {title, description, isCanPlay} = props
     return (
         <View style={styles.container}>
             <Title title={title} />
             <Description description={description}/>
-            <BottomTools {...props}/>
+            {isCanPlay && <BottomTools {...props}/>}
         </View>
     )
 };
@@ -46,25 +46,25 @@ const Description = props => {
 
 const AudioButton = props => {
     const {onPress, audioStatus='pause'} = props;
-    const audioIconMap = {
-        pause: 'controller-play',
-        playing: 'controller-paus',
-        playend: 'cw'
+    const audioLabels = {
+        pause: 'Play',
+        playing: 'Pause',
+        playend: 'Play'
     };
-    const audioIcon = audioIconMap[audioStatus] || audioIconMap.pause;
+    const audioLabel = audioLabels[audioStatus] || audioLabels.pause;
     return (
         <TouchableOpacity style={styles.audioButtonContainer} onPress={onPress}>
-            <Text style={styles.playLabel}>Play</Text>
+            <Text style={styles.playLabel}>{audioLabel}</Text>
         </TouchableOpacity>
     );
 };
 
 const BottomTools = props => {
-    const {isCanPlay, audioStatus, onPlaySound} = props
+    const {audioStatus, onPlaySound} = props
     return (
         <View style={styles.bottomToolsContainer}>
             <Text style={styles.playTitle}>Sound Available</Text>
-            {isCanPlay && <AudioButton audioStatus={audioStatus} onPress={onPlaySound} />}
+            <AudioButton audioStatus={audioStatus} onPress={onPlaySound} />
         </View>
     )
 };

@@ -3,7 +3,8 @@ import {
     StyleSheet,
     View,
     SafeAreaView,
-    ImageBackground
+    ImageBackground,
+    Platform
 } from 'react-native'
 import HeaderTitle from "../../components/header/HeaderTitle";
 import ImagesSlider from "./components/ImagesSlider";
@@ -139,7 +140,7 @@ const styles = StyleSheet.create({
     },
     innerContainer: {
         flex: 1,
-        marginTop: 44,
+        marginTop: Platform.OS === 'ios'? 44 : 54,
         padding: 15,
     }
 });

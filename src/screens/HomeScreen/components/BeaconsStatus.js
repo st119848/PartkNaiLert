@@ -13,13 +13,15 @@ import beaconIcon from '../../../assets/img/beacon_icon.png'
 const BeaconsStatus = ({t, isInBeaconZone}) => {
     const title = t('home.labels.beacons');
     return (
-        <ImageBackground source={beaconBG} style={styles.container} imageStyle={styles.imageContainer}>
-            <View style={styles.innerContainer}>
-                <BeaconIcon />
-                <Title title={title} />
-            </View>
-            {isInBeaconZone && <StatusIcon />}
-        </ImageBackground>
+        <View style={styles.outterContainer}>
+            <ImageBackground source={beaconBG} style={styles.container} imageStyle={styles.imageContainer}>
+                <View style={styles.innerContainer}>
+                    <BeaconIcon />
+                    <Title title={title} />
+                </View>
+                {isInBeaconZone && <StatusIcon />}
+            </ImageBackground>
+        </View>
     )
 };
 
@@ -46,9 +48,13 @@ const StatusIcon = () => {
 };
 
 const styles = StyleSheet.create({
-    container: {
+    outterContainer: {
         marginVertical: 5,
         flex: 1,
+        width: '100%',
+    },
+    container: {
+        height: '100%',
         width: '100%',
         flexDirection: 'row',
         alignItems: 'center',

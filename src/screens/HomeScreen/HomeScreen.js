@@ -5,13 +5,11 @@ import {
     StatusBar,
     Image,
     Linking,
-    SafeAreaView,
+    // SafeAreaView,
     Platform,
-    Dimensions,
     ImageBackground
 } from "react-native";
 import HighLight from "./components/HighLight";
-import Description from "./components/Description";
 import BeaconsStatus from "./components/BeaconsStatus";
 import ARButton from "./components/ARButton";
 import {translate} from "../../helpers/translates";
@@ -21,6 +19,7 @@ import LangSettingButton from "../../components/header/LangSettingButton";
 import PageSettingButton from "../../components/header/PageSettingButton";
 import BG from "../../assets/img/bg_main.png";
 import logoName from "../../assets/img/logoName.png";
+import {SafeAreaView} from 'react-navigation'
 
 export default class HomeScreen extends Component {
 
@@ -126,8 +125,7 @@ export default class HomeScreen extends Component {
                                 t={this.t}
                                 onMoreItemClick={this.handleMoreItemClick}
                             />
-                            <BeaconsStatus t={this.t} isInBeaconZone={isInBeaconArea}/>
-                            <ARButton t={this.t} onPress={this.handleARButtonClick} />
+                            <ButtonsGroup t={this.t} isInBeaconArea={isInBeaconArea} onArPress={this.handleARButtonClick} />
                         </View>
                     </View>
                 </SafeAreaView>
@@ -140,6 +138,16 @@ const LogoBar = props => {
     return (
         <View style={styles.logoBarContainer}>
             <Image style={styles.logoBar} source={logoName} />
+        </View>
+    )
+};
+
+const ButtonsGroup = props => {
+    const {isInBeaconArea, onArPress, t} = props;
+    return (
+        <View style={styles.buttonGroupContainer}>
+            <BeaconsStatus t={t} isInBeaconZone={isInBeaconArea}/>
+            <ARButton t={t} onPress={onArPress} />
         </View>
     )
 };
@@ -171,7 +179,7 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     logoBarContainer: {
-        marginTop: 44,
+        marginTop: Platform.OS === 'ios'? 44 : 54,
         width: '100%',
         height: 60,
         justifyContent: 'center',
@@ -183,5 +191,8 @@ const styles = StyleSheet.create({
     logoBar: {
         height: '100%',
         resizeMode: 'contain',
+    },
+    buttonGroupContainer: {
+        flex: 1,
     }
 });

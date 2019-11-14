@@ -92,7 +92,6 @@ const styles = StyleSheet.create({
         padding: 10,
         justifyContent: 'space-between',
         backgroundColor: '#FFF5C9',
-        flex: 2,
         marginVertical: 5,
     },
     headerContainer: {
@@ -106,12 +105,11 @@ const styles = StyleSheet.create({
     footerContainer: {
         width: '100%',
         alignItems: 'flex-end',
-        marginTop: 10,
     },
     title: {
         color: '#645227',
         fontSize: 22,
-        fontWeight: '400',
+        // fontWeight: '400',
         letterSpacing: 0.5,
         textAlign: 'center',
         fontFamily: 'PT Mono',
@@ -138,12 +136,11 @@ const styles = StyleSheet.create({
     },
     itemListContainer: {
         width: '100%',
-        paddingHorizontal: 15,
-        paddingBottom: 15,
+        paddingBottom: 10,
     },
     itemImageContainer: {
-        width: width/3,
-        height: (width/3)/4*3,
+        width: (width-70)/3,
+        height: ((width-70)/3)/4*3,
         marginRight: 10,
         backgroundColor: 'rgb(125, 105 , 87)',
         borderRadius: 2,

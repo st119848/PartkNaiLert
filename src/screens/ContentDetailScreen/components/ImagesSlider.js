@@ -13,6 +13,7 @@ class ImagesSlider extends Component {
             <View style={styles.container}>
                 <Swiper
                     style={styles.wrapper}
+                    containerStyle={styles.itemContainer}
                     autoplay
                     loop
                     autoplayTimeout={5}
@@ -44,6 +45,9 @@ const styles = StyleSheet.create({
     },
     wrapper: {
         backgroundColor: '#4D3606',
+    },
+    itemContainer: {
+        overflow: 'hidden',
     },
     slide: {
         flex: 1,

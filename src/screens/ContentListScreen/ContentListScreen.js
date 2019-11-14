@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import {
     StyleSheet,
     FlatList,
-    ImageBackground
+    ImageBackground,
+    Platform
 } from "react-native";
 import ContentItem from "./components/ContentItem";
 import {translate} from "../../helpers/translates";
@@ -10,7 +11,7 @@ import ContentListLoading from "./components/loading/ContentListLoading";
 import LangSettingButton from "../../components/header/LangSettingButton";
 import HeaderTitle from "../../components/header/HeaderTitle";
 import BG from "../../assets/img/bg_main.png";
-import {SafeAreaView} from 'react-navigation'
+import { getStatusBarHeight } from 'react-native-status-bar-height';
 
 class ContentListScreen extends Component {
 
@@ -46,6 +47,8 @@ class ContentListScreen extends Component {
     componentDidMount() {
         const {getHighlightListFromApi} = this.props;
         getHighlightListFromApi();
+
+        console.log('test', getStatusBarHeight());
     }
 
     renderItem = ({item}) => {
@@ -57,8 +60,7 @@ class ContentListScreen extends Component {
     render() {
         const {highlightList, isGettingHighlightList, isGettingHighlightListSuccess} = this.props;
         return (
-            <ImageBackground source={BG} style={styles.outtercontainer}>
-                <SafeAreaView style={styles.container} forceInset={{ bottom: 'never'}}>
+            <ImageBackground source={BG} style={styles.container}>
                     {isGettingHighlightList && <ContentListLoading/>}
                     {isGettingHighlightListSuccess && <FlatList
                         style={styles.flatList}
@@ -66,7 +68,6 @@ class ContentListScreen extends Component {
                         renderItem={this.renderItem}
                         contentContainerStyle={styles.flatContent}
                     />}
-                </SafeAreaView>
             </ImageBackground>
 
         )
@@ -75,25 +76,22 @@ class ContentListScreen extends Component {
 
 export default ContentListScreen;
 
+const marginTop = Platform.OS === 'ios'? getStatusBarHeight() + 44: 54;
+
 const styles = StyleSheet.create({
     outtercontainer: {
         flex: 1,
     },
     container: {
         flex: 1,
-        marginBottom: 0,
         alignItems: 'center',
     },
     flatList: {
-        marginTop: 44,
-        paddingHorizontal: 15,
-        alignSelf: 'stretch',
-
+        flex: 1,
     },
     flatContent: {
-        paddingBottom: 10,
         paddingHorizontal: 15,
         alignItems: 'center',
-        alignSelf: 'stretch',
+        paddingVertical: marginTop,
     }
 });

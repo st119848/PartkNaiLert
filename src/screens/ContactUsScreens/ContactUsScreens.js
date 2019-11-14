@@ -3,7 +3,9 @@ import {
     StyleSheet,
     SafeAreaView,
     View,
-    Text, ImageBackground,
+    Platform,
+    Text,
+    ImageBackground,
 } from 'react-native';
 import Icon from "../../components/Icon";
 import {translate} from "../../helpers/translates";
@@ -111,7 +113,7 @@ const styles = StyleSheet.create({
     contactContainer: {
         backgroundColor: 'rgba(255, 255, 255, 0.8)',
         width: '90%',
-        marginTop: 64,
+        marginTop: Platform.OS === 'ios'? 64 : 74,
         borderTopRightRadius: 5,
         borderBottomRightRadius: 5,
     },

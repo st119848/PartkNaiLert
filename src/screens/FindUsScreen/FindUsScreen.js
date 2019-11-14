@@ -99,10 +99,9 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        padding: 15,
     },
     contentContainer: {
-        marginTop: 59,
+        marginTop: Platform.OS === 'ios'? 59 : 69,
         marginHorizontal: 15,
         alignSelf: 'stretch',
         alignItems: 'center',

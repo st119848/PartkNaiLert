@@ -2,10 +2,11 @@ import React from 'react';
 import SvgAnimatedLinearGradient from 'react-native-svg-animated-linear-gradient'
 import {Rect} from 'react-native-svg'
 import {
-    Dimensions,
+    Dimensions, Platform,
     ScrollView,
     StyleSheet
 } from "react-native";
+import {getStatusBarHeight} from "react-native-status-bar-height";
 
 const {width} = Dimensions.get('window');
 
@@ -33,9 +34,11 @@ const ContentListLoading = props => {
 
 export default ContentListLoading;
 
+const marginTop = Platform.OS === 'ios'? getStatusBarHeight() + 44: 54;
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginTop: 44,
+        marginTop: marginTop,
     }
 });

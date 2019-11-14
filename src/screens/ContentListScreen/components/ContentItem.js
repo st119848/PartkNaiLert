@@ -4,7 +4,9 @@ import {
     View,
     Image,
     Text,
-    TouchableWithoutFeedback, TouchableOpacity
+    TouchableWithoutFeedback,
+    TouchableOpacity,
+    Dimensions,
 } from 'react-native';
 import Icon from "../../../components/Icon";
 
@@ -12,7 +14,7 @@ const ContentItem = props => {
     const {id, coverImage, onSeeMoreClick} = props;
     const handleSeeMoreClick = () => onSeeMoreClick(id);
     return (
-        <TouchableWithoutFeedback onPress={handleSeeMoreClick} style={styles.outterContainer}>
+        <TouchableWithoutFeedback onPress={handleSeeMoreClick}>
             <View style={styles.container}>
                 <Image source={{uri: coverImage}} style={styles.imageContainer}/>
                 <Detail {...props} onPress={handleSeeMoreClick}/>
@@ -59,14 +61,13 @@ const MoreButton = props => {
     )
 };
 
+const {width} = Dimensions.get('window');
+
+const itemWidth = (width-30);
+
 const styles = StyleSheet.create({
-    outterContainer: {
-        width: '100%',
-        paddingHorizontal: 15,
-    },
     container: {
-        maxWidth: 500,
-        height: 315,
+        width: itemWidth > 500 ? 500 : itemWidth,
         marginTop: 15,
         alignItems: 'center',
         padding: 10,
@@ -74,7 +75,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgba(255, 255, 255, 0.8)',
     },
     imageContainer: {
-        width: '100%',
+        alignSelf: 'stretch',
         height: 200,
         justifyContent: 'flex-end',
         backgroundColor: '#4D3606',
@@ -82,11 +83,9 @@ const styles = StyleSheet.create({
     },
     detailContainer: {
         width: '100%',
-        marginTop: 2,
-        marginBottom: 10,
+        marginTop: 10,
         justifyContent: 'space-between',
         alignItems: 'center',
-        paddingVertical: 10,
     },
     title: {
         textAlign: 'center',
