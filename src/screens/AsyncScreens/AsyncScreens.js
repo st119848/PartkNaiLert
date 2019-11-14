@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import ContentDetailModal from "./components/ContentDetailModal";
-// import ARModal from "../../components/modals/ARModal";
+import ARModal from "../../components/modals/ARModal";
 
 class AsyncScreens extends Component {
 
@@ -22,11 +22,11 @@ class AsyncScreens extends Component {
                     visible={isShowBeaconContentModal}
                     onClose={this.handleCloseBeaconModal}
                 />
-                {/*<ARModal*/}
-                {/*    scene='ARCarDemo'*/}
-                {/*    visible={isShowARModal}*/}
-                {/*    onClose={this.handleCloseARModal}*/}
-                {/*/>*/}
+                <ARModal
+                    scene='ARCarDemo'
+                    visible={isShowARModal}
+                    onClose={this.handleCloseARModal}
+                />
             </Fragment>
         )
     }
