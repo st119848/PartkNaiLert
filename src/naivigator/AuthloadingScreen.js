@@ -6,7 +6,7 @@ import {
     View,
     ImageBackground,
     StyleSheet,
-    Dimensions,
+    Platform,
 } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import BeaconScan from '../../tools/BeaconScan'
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
         fontSize: 25,
         textAlign: 'center',
         marginVertical: 10,
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     }
 });
 

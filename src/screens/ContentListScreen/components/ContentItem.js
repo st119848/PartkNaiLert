@@ -7,6 +7,7 @@ import {
     TouchableWithoutFeedback,
     TouchableOpacity,
     Dimensions,
+    Platform
 } from 'react-native';
 import Icon from "../../../components/Icon";
 
@@ -92,7 +93,7 @@ const styles = StyleSheet.create({
         color: '#4D3606',
         fontSize: 22,
         fontWeight: '400',
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     },
     description: {
         color: '#4D3606',
@@ -101,7 +102,7 @@ const styles = StyleSheet.create({
         flexBasis: '100%',
         height: '100%',
         marginRight: 5,
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     },
     buttonContainer: {
         paddingVertical: 5,

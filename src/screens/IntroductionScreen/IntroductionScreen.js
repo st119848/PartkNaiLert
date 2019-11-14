@@ -105,6 +105,6 @@ const styles = StyleSheet.create({
     description: {
         padding: 10,
         color: '#645227',
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     }
 });

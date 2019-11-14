@@ -9,7 +9,7 @@ import {
     Linking,
     Platform,
     SafeAreaView,
-    ImageBackground
+    ImageBackground,
 } from 'react-native';
 import {translate} from "../../helpers/translates";
 import LangSettingButton from "../../components/header/LangSettingButton";
@@ -159,6 +159,6 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: '500',
         color: 'white',
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     }
 });

@@ -5,7 +5,7 @@ import {
 } from "../actions/setting";
 
 const initialStste = {
-    language: "th",
+    language: undefined,
     beaconActive: false,
     beaconInfo: [],
     isShowARModal: false,

@@ -6,6 +6,7 @@ import {
     Text,
     TouchableOpacity,
     Modal,
+    Platform,
 } from 'react-native';
 import Icon from "../Icon";
 
@@ -118,7 +119,7 @@ const styles = StyleSheet.create({
         color: 'white',
         fontSize: 20,
         letterSpacing: 0.5,
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     },
 
 });

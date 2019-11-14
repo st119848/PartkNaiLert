@@ -5,7 +5,9 @@ import {
     SafeAreaView,
     Text,
     TouchableOpacity,
-    ImageBackground, Image,
+    ImageBackground,
+    Image,
+    Platform,
 } from 'react-native';
 import Icon from "../../../components/Icon";
 import ARBG from '../../../assets/img/ar_icon_bg.png'
@@ -69,7 +71,7 @@ const styles = StyleSheet.create({
         color: 'white',
         textAlign: 'center',
         fontSize: 22,
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_bold',
         fontWeight: '600',
         padding: 5,
     },

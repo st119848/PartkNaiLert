@@ -4,7 +4,8 @@ import {
     Text, TouchableOpacity,
     View,
     Image,
-    StyleSheet
+    StyleSheet,
+    Platform
 } from "react-native";
 import thIcon from "../assets/img/language/thailand.png";
 import cnIcon from "../assets/img/language/china.png";
@@ -107,7 +108,7 @@ const styles = StyleSheet.create({
         color: 'white',
         fontSize: 18,
         textAlign: 'center',
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     },
     langListContainer: {
         marginVertical: '15%',

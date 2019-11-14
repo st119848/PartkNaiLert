@@ -2,7 +2,8 @@ import React from 'react';
 import {
     StyleSheet,
     Text,
-    View
+    View,
+    Platform
 } from 'react-native';
 
 const HeaderTitle = props => {
@@ -25,6 +26,6 @@ const styles = StyleSheet.create({
     title: {
         color: 'white',
         fontSize: 20,
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     }
 });

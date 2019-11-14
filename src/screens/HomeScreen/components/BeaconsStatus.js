@@ -4,7 +4,8 @@ import {
     View,
     Text,
     Image,
-    ImageBackground
+    ImageBackground,
+    Platform
 } from 'react-native';
 import Icon from "../../../components/Icon";
 import beaconBG from '../../../assets/img/beacon_icon_bg.png'
@@ -83,7 +84,7 @@ const styles = StyleSheet.create({
         color: 'white',
         fontSize: 22,
         fontWeight: '600',
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_bold',
         textShadowColor: 'rgba(0, 0, 0, 0.5)',
         textShadowOffset: {width: -1, height: 1},
         textShadowRadius: 10

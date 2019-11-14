@@ -4,7 +4,8 @@ import {
     View,
     Text,
     ScrollView,
-    TouchableOpacity
+    TouchableOpacity,
+    Platform
 } from 'react-native'
 import IconButton from "../../../components/IconButton";
 import Icon from "../../../components/Icon";
@@ -92,7 +93,7 @@ const styles = StyleSheet.create({
         fontSize: 22,
         color: '#4D3606',
         fontWeight: '400',
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular'
     },
     descriptionContainer: {
         flex: 1,
@@ -103,7 +104,7 @@ const styles = StyleSheet.create({
     },
     description: {
         color: '#4D3606',
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     },
     descriptionContentContainer: {
         paddingVertical: 15
@@ -118,14 +119,14 @@ const styles = StyleSheet.create({
     },
     playLabel: {
         color: 'white',
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_bold',
         fontSize: 16,
         fontWeight: '500',
     },
     playTitle: {
         color: '#4D3606',
         marginRight: 10,
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
         fontSize: 16,
     },
     bottomToolsContainer: {

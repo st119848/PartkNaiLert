@@ -7,6 +7,7 @@ import {
     Image,
     ScrollView,
     Dimensions,
+    Platform,
 } from 'react-native';
 import HighLightLoading from "./loading/HightLightLoading";
 import Icon from './../../../components/Icon'
@@ -109,10 +110,10 @@ const styles = StyleSheet.create({
     title: {
         color: '#645227',
         fontSize: 22,
-        // fontWeight: '400',
+        fontWeight: '400',
         letterSpacing: 0.5,
         textAlign: 'center',
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     },
     buttonContainer: {
         paddingVertical: 5,
@@ -126,7 +127,7 @@ const styles = StyleSheet.create({
     buttonLabel: {
         color: '#FFF5C9',
         fontSize: 18,
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_bold',
         fontWeight: '500',
     },
     buttonIcon: {

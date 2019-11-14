@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: '600',
         letterSpacing: 0.5,
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     },
     rightTitle: {
         color: 'white',
@@ -174,7 +174,7 @@ const styles = StyleSheet.create({
     },
     contactDetail: {
         color: '#655327',
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     },
     facebookIcon: {
         color: '#655327',
@@ -195,7 +195,7 @@ const styles = StyleSheet.create({
     },
     timeDetail: {
         color: '#655327',
-        fontFamily: 'PT Mono',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     }
 
 });

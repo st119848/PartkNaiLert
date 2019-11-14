@@ -20,6 +20,7 @@
 		6266EEF13B3140CEB8506C43 /* PTMonoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF53E06B7544425AA0897958 /* PTMonoBold.ttf */; };
 		635B629F8D454F519581B847 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59F35833625347D59511720A /* SimpleLineIcons.ttf */; };
 		667A644163C54122B021487E /* PTMonoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 275555AB11034BF3A17951A3 /* PTMonoRegular.ttf */; };
+		789F755A13FB43FAAC74BF4D /* drboran.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45BA8B07CD69476495FEF0E4 /* drboran.ttf */; };
 		7CF03EE0B84F46FDBD8E33B4 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7B86FB7D2044151B71B9595 /* FontAwesome5_Brands.ttf */; };
 		81B1A8CCA19E4CD8BD1F5337 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6855DE328C434E74A59AFB76 /* EvilIcons.ttf */; };
 		82DB005455EF4361A7004F97 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17B8014FFE694A3897964F63 /* Feather.ttf */; };
@@ -34,7 +35,8 @@
 		DA1437BF233A08DD00426DCA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA1437BE233A08DD00426DCA /* GoogleService-Info.plist */; };
 		DAF33726230ED8DD004E6620 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF33725230ED8DD004E6620 /* libRNGestureHandler.a */; };
 		E2CFBD00CBE54416B6727333 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 922C5D5A44CA4B01B981F2AF /* FontAwesome5_Solid.ttf */; };
-		789F755A13FB43FAAC74BF4D /* drboran.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45BA8B07CD69476495FEF0E4 /* drboran.ttf */; };
+		48A5216219F04031A82789C8 /* ptmono_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 231D747CE2F847C7B2127E7A /* ptmono_bold.ttf */; };
+		C2DC1D2602F14517BE3EC6E1 /* ptmono_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 918CA3055FCB4E1E86B25975 /* ptmono_regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,7 @@
 		275555AB11034BF3A17951A3 /* PTMonoRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PTMonoRegular.ttf; path = ../src/assets/fonts/PTMonoRegular.ttf; sourceTree = "<group>"; };
 		2D167F0395BF37249442761D /* Pods-parknailert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parknailert.debug.xcconfig"; path = "Target Support Files/Pods-parknailert/Pods-parknailert.debug.xcconfig"; sourceTree = "<group>"; };
 		34110DE9893E47C3A0C168B1 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		45BA8B07CD69476495FEF0E4 /* drboran.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = drboran.ttf; path = ../src/assets/fonts/drboran.ttf; sourceTree = "<group>"; };
 		53D6213C795D447DBC47B355 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		59F35833625347D59511720A /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		6855DE328C434E74A59AFB76 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
@@ -106,7 +109,8 @@
 		DFCF6047A9574091BF677CA6 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		45BA8B07CD69476495FEF0E4 /* drboran.ttf */ = {isa = PBXFileReference; name = "drboran.ttf"; path = "../src/assets/fonts/drboran.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		231D747CE2F847C7B2127E7A /* ptmono_bold.ttf */ = {isa = PBXFileReference; name = "ptmono_bold.ttf"; path = "../src/assets/fonts/ptmono_bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		918CA3055FCB4E1E86B25975 /* ptmono_regular.ttf */ = {isa = PBXFileReference; name = "ptmono_regular.ttf"; path = "../src/assets/fonts/ptmono_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +206,8 @@
 				275555AB11034BF3A17951A3 /* PTMonoRegular.ttf */,
 				CF53E06B7544425AA0897958 /* PTMonoBold.ttf */,
 				45BA8B07CD69476495FEF0E4 /* drboran.ttf */,
+				231D747CE2F847C7B2127E7A /* ptmono_bold.ttf */,
+				918CA3055FCB4E1E86B25975 /* ptmono_regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -413,6 +419,8 @@
 				667A644163C54122B021487E /* PTMonoRegular.ttf in Resources */,
 				6266EEF13B3140CEB8506C43 /* PTMonoBold.ttf in Resources */,
 				789F755A13FB43FAAC74BF4D /* drboran.ttf in Resources */,
+				48A5216219F04031A82789C8 /* ptmono_bold.ttf in Resources */,
+				C2DC1D2602F14517BE3EC6E1 /* ptmono_regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
