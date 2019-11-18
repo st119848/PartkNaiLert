@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         height: '50%',
     },
     wrapper: {
-        backgroundColor: 'red'
+        backgroundColor: '#4D3606',
     },
     slide: {
         flex: 1,
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     },
     image: {
         flex: 1,
-        backgroundColor: 'rgb(205, 94, 90)'
+        backgroundColor: '#4D3606',
     },
     dot: {
         backgroundColor: 'white',
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
         marginBottom: 3
     },
     activeDot: {
-        backgroundColor: 'rgb(205, 94, 90)',
+        backgroundColor: '#4D3606',
         width: 10,
         height: 10,
         borderRadius: 5,

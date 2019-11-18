@@ -79,8 +79,8 @@ const styles = StyleSheet.create({
     beaconIcon: {
         paddingHorizontal: 10,
         width: 50,
-        height: '60%',
-        // resizeMode: 'contain',
+        height: '80%',
+        resizeMode: 'contain',
     },
     beaconTitle: {
         marginRight: 10,

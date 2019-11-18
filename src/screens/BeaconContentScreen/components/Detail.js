@@ -4,13 +4,13 @@ import {
     View,
     Text,
     ScrollView,
-    TouchableOpacity
+    TouchableOpacity,
+    Platform
 } from 'react-native'
-import IconButton from "../../../components/IconButton";
 import Icon from "../../../components/Icon";
 
 const Detail = props => {
-    const {isCanPlay, audioStatus, title, description, onPlaySound, onFacebookShare, onTwitterShare} = props
+    const {isCanPlay, audioStatus, title, description, onPlaySound} = props
     return (
         <View style={styles.container}>
             <Title title={title} />
@@ -62,33 +62,32 @@ const AudioButton = props => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        borderTopLeftRadius: 15,
-        borderTopRightRadius: 15,
+        borderTopLeftRadius: 5,
+        borderTopRightRadius: 5,
         marginTop: -15,
         backgroundColor: 'white',
         alignItems: 'center',
-        paddingVertical: 15,
+        padding: 15,
         position: 'relative',
     },
     titleContainer: {
         width: '100%',
         paddingBottom: 10,
-        paddingHorizontal: 15,
         borderBottomWidth: 1,
-        borderColor: 'lightgray',
+        borderColor: '#6e4f06',
     },
     title: {
         fontSize: 22,
-        color: 'rgb(205, 94, 90)',
-        fontWeight: '600'
+        color: '#4D3606',
+        fontWeight: '400',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular'
     },
     descriptionContainer: {
         flex: 1,
-        paddingHorizontal: 15,
     },
     description: {
-        fontSize: 15,
-        color: 'dimgrey',
+        color: '#4D3606',
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
     },
     descriptionContentContainer: {
         paddingVertical: 15
