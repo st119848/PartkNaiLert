@@ -94,6 +94,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         backgroundColor: '#FFF5C9',
         marginVertical: 5,
+        overflow: 'hidden',
     },
     headerContainer: {
         width: '100%',
@@ -102,7 +103,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'baseline',
         marginBottom: 5,
-        overflow: 'hidden',
     },
     footerContainer: {
         width: '100%',

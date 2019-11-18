@@ -67,12 +67,13 @@ const styles = StyleSheet.create({
         marginTop: -15,
         backgroundColor: 'white',
         alignItems: 'center',
-        padding: 15,
+        padding: 10,
         position: 'relative',
     },
     titleContainer: {
         width: '100%',
         paddingBottom: 10,
+        paddingHorizontal: 15,
         borderBottomWidth: 1,
         borderColor: '#6e4f06',
     },
@@ -84,6 +85,7 @@ const styles = StyleSheet.create({
     },
     descriptionContainer: {
         flex: 1,
+        paddingHorizontal: 15,
     },
     description: {
         color: '#4D3606',

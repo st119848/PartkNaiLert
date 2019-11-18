@@ -32,7 +32,7 @@ const ItemLoader= () => {
     const itemWidth = screenWidth - (paddingHorizontal*2);
     const containerHeight = 300;
     return (
-        <SvgAnimatedLinearGradient width={screenWidth} height={containerHeight} duration={200}>
+        <SvgAnimatedLinearGradient width={screenWidth} height={containerHeight} duration={800}>
             <Image x={paddingHorizontal} width={itemWidth} />
             <Title x={paddingHorizontal} width={itemWidth} />
             <Description x={paddingHorizontal} width={itemWidth} />

@@ -25,7 +25,7 @@ class ContentDetailLoading extends React.Component {
         const containerWidth = width - (paddingHorizontal*2);
         return (
             <View style={styles.container} onLayout={this.findDimensions}>
-                <SvgAnimatedLinearGradient width={containerWidth} height={containerHeight} duration={500}>
+                <SvgAnimatedLinearGradient width={containerWidth} height={containerHeight} duration={800}>
                     { containerHeight && <Content width={containerWidth} containerHeight={containerHeight}/>}
                 </SvgAnimatedLinearGradient>
             </View>

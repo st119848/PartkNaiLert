@@ -25,7 +25,8 @@ const styles = StyleSheet.create({
     },
     title: {
         color: 'white',
-        fontSize: 20,
-        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
+        fontSize: 18,
+        fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_bold',
+        fontWeight: '600',
     }
 });
