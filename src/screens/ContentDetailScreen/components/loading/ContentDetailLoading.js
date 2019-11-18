@@ -2,53 +2,68 @@ import React from 'react';
 import SvgAnimatedLinearGradient from 'react-native-svg-animated-linear-gradient'
 import {Rect} from 'react-native-svg'
 import {
-    Dimensions, ScrollView,
+    Dimensions, Platform, ScrollView,
     StyleSheet, View
 } from "react-native";
 
-const {width, height} = Dimensions.get('window');
+const {width} = Dimensions.get('window');
 
-const ContentDetailLoading = props => {
-    return (
-        <SvgAnimatedLinearGradient width={width} height={height}>
-            <View style={styles.container}>
-                <ImageLoader />
-                <DetailLoader />
+class ContentDetailLoading extends React.Component {
+
+    state = {
+        containerHeight: undefined,
+    };
+
+    findDimensions = (event) => {
+        const {height} = event.nativeEvent.layout;
+        this.setState({containerHeight: height})
+    };
+
+    render() {
+        const {containerHeight} = this.state;
+        const paddingHorizontal = 25;
+        const containerWidth = width - (paddingHorizontal*2);
+        return (
+            <View style={styles.container} onLayout={this.findDimensions}>
+                <SvgAnimatedLinearGradient width={containerWidth} height={containerHeight} duration={500}>
+                    { containerHeight && <Content width={containerWidth} containerHeight={containerHeight}/>}
+                </SvgAnimatedLinearGradient>
             </View>
-        </SvgAnimatedLinearGradient>
+        )
+    }
+}
+
+const Content = ({width, containerHeight}) => {
+    const imageContainerHeight= ((containerHeight)/2) - 20;
+    return (
+        <React.Fragment>
+            <Image width={width} containerHeight={containerHeight}/>
+            <Title width={width} imageContainerHeight={imageContainerHeight}/>
+            <Description width={width} containerHeight={containerHeight} imageContainerHeight={imageContainerHeight} />
+        </React.Fragment>
     )
 };
 
-const ImageLoader = props => {
-    const containerHeight= height/2;
+const Image = ({width, containerHeight}) => {
+    const imageContainerHeight= ((containerHeight)/2) - 20;
     return (
-        <Rect width={width} height={containerHeight} />
+        <Rect x={0} y={0} width={width} height={imageContainerHeight} />
     )
 };
 
-const DetailLoader = props => {
+const Title = ({width, imageContainerHeight}) => {
+    const y = imageContainerHeight + 10;
     return (
-        <View style={styles.detailContainer}>
-            <Title/>
-            <Description/>
-        </View>
+        <Rect x={0} y={y} width={width} height={35} />
     )
 };
 
-const Title = props => {
+const Description = ({width, imageContainerHeight}) => {
+    const y = imageContainerHeight + 55;
+    const descHeight = imageContainerHeight - 55;
     return (
-        <View style={styles.titleContainer}>
-
-        </View>
-    )
-};
-
-const Description = props => {
-    return (
-        <ScrollView style={styles.descriptionContainer} contentContainerStyle={styles.descriptionContentContainer}>
-
-        </ScrollView>
-    )
+        <Rect x={0} y={y} width={width} height={descHeight} />
+    );
 };
 
 export default ContentDetailLoading;
@@ -56,6 +71,9 @@ export default ContentDetailLoading;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        padding: 10,
+        borderRadius: 5,
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
     },
     detailContainer: {
         flex: 1,

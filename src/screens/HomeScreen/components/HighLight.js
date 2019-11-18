@@ -102,6 +102,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'baseline',
         marginBottom: 5,
+        overflow: 'hidden',
     },
     footerContainer: {
         width: '100%',

@@ -9,6 +9,7 @@ const mapDispatchToProps = (dispatch) => {
 const mapStateToProps = (state) => {
     return {
         activeHighlightItem: state.contents.activeHighlightItem,
+        isChangingLanguage: state.setting.isChangingLanguage,
     }
 };
 export default connect(mapStateToProps, mapDispatchToProps)(ContentDetailScreen)

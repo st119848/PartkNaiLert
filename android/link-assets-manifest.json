@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/drboran.ttf",
+      "sha1": "c92a82d5b5c9f259fe5708976585c15a13622afa"
+    },
+    {
+      "path": "src/assets/fonts/ptmono_bold.ttf",
+      "sha1": "4e715a1c8c0e48f554b5a0cf81c71312cf4bd2b6"
+    },
+    {
+      "path": "src/assets/fonts/ptmono_regular.ttf",
+      "sha1": "2661e6d25318c03722be2726ff16da992bcae72a"
+    }
+  ]
+}

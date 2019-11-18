@@ -14,6 +14,7 @@ import Share from 'react-native-share';
 import {dynamicEventLink} from './../../helpers/firebase'
 import LangSettingButton from "../../components/header/LangSettingButton";
 import BG from "../../assets/img/bg_main.png";
+import ContentDetailLoading from './components/loading/ContentDetailLoading'
 
 class ContentDetailScreen extends Component {
     static navigationOptions = ({ navigation }) => {
@@ -106,27 +107,45 @@ class ContentDetailScreen extends Component {
 
     render() {
         const {audioStatus, isCanPlay} = this.state;
-        const {activeHighlightItem={}} = this.props;
+        const {activeHighlightItem={}, isChangingLanguage} = this.props;
         const {galleryImages=[]} = activeHighlightItem;
         return (
             <ImageBackground source={BG} style={styles.outtercontainer}>
                 <SafeAreaView style={styles.container}>
                     <View style={styles.innerContainer}>
-                        <ImagesSlider images={galleryImages}/>
-                        <Detail
-                            {...activeHighlightItem}
+                        {isChangingLanguage && <ContentDetailLoading />}
+                        {!isChangingLanguage && <Content
+                            item={activeHighlightItem}
+                            images={galleryImages}
                             isCanPlay={isCanPlay}
                             audioStatus={audioStatus}
                             onFacebookShare={this.handleFacebookShare}
                             onTwitterShare={this.handleTwitterShare}
                             onPlaySound={this.handleTogglePlayAudio}
-                        />
+                        />}
                     </View>
                 </SafeAreaView>
             </ImageBackground>
         )
     }
 }
+
+const Content = props => {
+    const {images, item, isCanPlay, audioStatus, onFacebookShare, onTwitterShare, onPlaySound} = props;
+    return (
+        <React.Fragment>
+            <ImagesSlider images={images}/>
+            <Detail
+                {...item}
+                isCanPlay={isCanPlay}
+                audioStatus={audioStatus}
+                onFacebookShare={onFacebookShare}
+                onTwitterShare={onTwitterShare}
+                onPlaySound={onPlaySound}
+            />
+        </React.Fragment>
+    )
+};
 
 export default ContentDetailScreen;
 

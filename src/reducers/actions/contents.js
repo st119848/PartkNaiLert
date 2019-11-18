@@ -77,7 +77,11 @@ export const setActiveHighlightItem = (itemId) => (dispatch, getState) => {
     const {highlightList=[]} = getState().contents;
     const activeHighlightItem = highlightList.find(item => item.id === itemId);
     if(activeHighlightItem) {
-        dispatch({type: SET_ACTIVE_HIGHLIGHT_ITEM, data: activeHighlightItem});
+        const data = {
+            id: itemId,
+            item: activeHighlightItem
+        }
+        dispatch({type: SET_ACTIVE_HIGHLIGHT_ITEM, data});
     } else {
         // getHighlightItemFromApi(itemId)
     }

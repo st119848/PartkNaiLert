@@ -77,9 +77,9 @@ const styles = StyleSheet.create({
     },
     arIcon: {
         paddingHorizontal: 10,
-        height: 40,
-        width: 65,
+        height: '60%',
         marginRight: 20,
+        resizeMode: 'contain',
     },
     titleContainer: {
         flexDirection: 'row',

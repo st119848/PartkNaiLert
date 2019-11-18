@@ -68,6 +68,7 @@ const itemWidth = (width-30);
 
 const styles = StyleSheet.create({
     container: {
+        height: 320,
         width: itemWidth > 500 ? 500 : itemWidth,
         marginTop: 15,
         alignItems: 'center',
@@ -123,7 +124,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'flex-end',
-        height: 55,
-        marginTop: 5,
+        height: 50,
+        marginTop: 10,
     }
 });

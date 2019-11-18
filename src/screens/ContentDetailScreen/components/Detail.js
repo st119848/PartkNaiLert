@@ -98,9 +98,7 @@ const styles = StyleSheet.create({
     descriptionContainer: {
         flex: 1,
         paddingHorizontal: 15,
-        borderBottomWidth: 1,
         width: '100%',
-        borderColor: '#6e4f06',
     },
     description: {
         color: '#4D3606',
@@ -135,6 +133,8 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'flex-end',
+        borderColor: '#6e4f06',
+        borderTopWidth: 1,
     },
     facebookIcon: {
         color: 'rgb(74, 90, 143)'

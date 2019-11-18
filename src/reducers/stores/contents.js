@@ -18,6 +18,7 @@ const initialStste = {
     highlightList: [],
     isGettingHighlightList: false,
     isGettingHighlightListSuccess: false,
+    activeHighlightId: undefined,
     activeHighlightItem: undefined,
     isGettingHighlightItem: false,
     isGettingHighlightItemSuccess: false,
@@ -70,7 +71,8 @@ export default (state = initialStste, action) => {
         case SET_ACTIVE_HIGHLIGHT_ITEM: {
             return {
                 ...state,
-                activeHighlightItem: action.data,
+                activeHighlightId: action.data.id,
+                activeHighlightItem: action.data.item,
             }
         }
         case GETTING_HIGHLIGHT_ITEM_START:

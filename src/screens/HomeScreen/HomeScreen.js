@@ -73,14 +73,11 @@ export default class HomeScreen extends Component {
             .getInitialLink()
             .then((url) => {
                 if (url) {
-                    console.log('url');
                     // app opened from a url
                     this.goToDetailPage(url);
                 } else {
-                    console.log('test1');
                     if (Platform.OS === 'android') {
                         Linking.getInitialURL().then(url => {
-                            console.log('url', url)
                             this.goToDetailPage(url);
                         });
                     } else {

@@ -2,43 +2,80 @@ import React from 'react';
 import SvgAnimatedLinearGradient from 'react-native-svg-animated-linear-gradient'
 import {Rect} from 'react-native-svg'
 import {
-    Dimensions, Platform,
+    Dimensions,
+    Platform,
     ScrollView,
-    StyleSheet
+    StyleSheet,
+    View
 } from "react-native";
 import {getStatusBarHeight} from "react-native-status-bar-height";
 
 const {width} = Dimensions.get('window');
 
 const ContentListLoading = props => {
-    const screenWidth = width > 500 ? 500 : width;
-    const paddingHorizontal = 15;
-    const itemWidth = screenWidth - (paddingHorizontal*2);
-    const itemHeight  = 315;
-    const marginTop  = 15;
-    const marginBottom = 15;
-    const containerHeight = (itemHeight + 15) * 5;
     return (
         <ScrollView style={styles.container}>
-            <SvgAnimatedLinearGradient width={screenWidth} height={containerHeight}>
-                { [...Array(5)].map((_,key) => {
-                    const y = marginTop + (itemHeight*key) + (marginBottom * key);
-                    return (
-                        <Rect x={paddingHorizontal} rx="5" ry="5" key={key} y={y} width={itemWidth} height={itemHeight} />
-                    )
-                })}
-            </SvgAnimatedLinearGradient>
+            { [...Array(5)].map((_,key) => {
+                return (
+                    <View style={styles.itemContainer} key={key}>
+                        <ItemLoader />
+                    </View>
+                )
+            })}
         </ScrollView>
     )
 };
+
+const ItemLoader= () => {
+    const screenWidth = width > 500 ? 500 : width;
+    const paddingHorizontal = 25;
+    const itemWidth = screenWidth - (paddingHorizontal*2);
+    const containerHeight = 300;
+    return (
+        <SvgAnimatedLinearGradient width={screenWidth} height={containerHeight} duration={200}>
+            <Image x={paddingHorizontal} width={itemWidth} />
+            <Title x={paddingHorizontal} width={itemWidth} />
+            <Description x={paddingHorizontal} width={itemWidth} />
+        </SvgAnimatedLinearGradient>
+    )
+};
+
+const Image = ({x, width}) => {
+    return (
+        <Rect rx="5" ry="5"  x={x} y={0} width={width} height={200} />
+    )
+};
+
+const Title = ({x, width}) => {
+    return (
+        <Rect rx="5" ry="5"  x={x} y={210} width={width} height={22} />
+    )
+};
+
+const Description = ({x, width}) => {
+    return (
+        <Rect rx="5" ry="5"  x={x} y={242} width={width} height={55} />
+    )
+}
 
 export default ContentListLoading;
 
 const marginTop = Platform.OS === 'ios'? getStatusBarHeight() + 44: 54;
 
+const itemWidth = (width-30);
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         marginTop: marginTop,
-    }
+        paddingHorizontal: 15,
+    },
+    itemContainer: {
+        width: itemWidth > 500 ? 500 : itemWidth,
+        marginTop: 15,
+        alignItems: 'center',
+        padding: 10,
+        borderRadius: 5,
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+    },
 });

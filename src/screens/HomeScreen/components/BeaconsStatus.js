@@ -68,7 +68,9 @@ const styles = StyleSheet.create({
     innerContainer: {
         flexDirection: 'row',
         alignItems: 'center',
-        marginLeft: 10
+        marginLeft: 10,
+        height: '100%',
+        width: '100%',
     },
     imageContainer: {
         height: '100%',
@@ -76,8 +78,9 @@ const styles = StyleSheet.create({
     },
     beaconIcon: {
         paddingHorizontal: 10,
-        height: 50,
         width: 50,
+        height: '60%',
+        // resizeMode: 'contain',
     },
     beaconTitle: {
         marginRight: 10,

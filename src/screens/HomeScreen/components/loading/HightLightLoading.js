@@ -6,11 +6,11 @@ import {Dimensions} from "react-native";
 const {width} = Dimensions.get('window');
 
 const HighLightLoading = props => {
-    const itemWidth = width/3;
+    const itemWidth = (width-70)/3;
     const itemHeight  = itemWidth/4*3;
-    const marginLeft = 15;
+    const marginLeft = 5;
     const marginRight = 10;
-    const containerHeight = itemHeight + 15;
+    const containerHeight = itemHeight + 10;
     return (
         <SvgAnimatedLinearGradient width={width} height={containerHeight}>
             { [...Array(3)].map((_,key) => {
