@@ -1,0 +1,1 @@
+export thflag from './thflag.hpg';

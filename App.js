@@ -5,6 +5,7 @@ import rootReducer from './src/reducers/stores'
 import thunk from "redux-thunk";
 import AppNavigator from "./src/naivigator/AppNavigator";
 import AsyncScreens from "./src/screens/AsyncScreens";
+import 'react-native-gesture-handler'
 
 const composeEnhancers =
     typeof window === 'object' &&
