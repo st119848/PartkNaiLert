@@ -17,7 +17,7 @@ var Header = createReactClass({
                         }
                     </Column>
                     <Column>
-                        <Touch onPress={()=>{Actions.scan()}}>
+                        <Touch onPress={()=>{Actions.zone()}}>
                             <CloseArrow source={this.props.source}/>
                         </Touch>
                     </Column>

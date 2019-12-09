@@ -67,7 +67,7 @@ var MarkerDetail = createReactClass({
 					{this.props.renderText === true && typeof item3D != 'undefined' ? // check if  type of item3D not undefined so it has 3D  the bottom lines will show
 						<ThreeDBox>
 							<Touch onPress={() => {
-								Actions.scan({
+								Actions.scan2({
 									showARScene: 2, //send showARScene with not defaut value    1 is  default 
 
 								});

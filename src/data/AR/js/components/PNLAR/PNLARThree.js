@@ -4,7 +4,18 @@ import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import ARData from "../../../assets/ARData.json";
 import { Actions } from "react-native-router-flux";
-import PicTest from "../../../assets/24.jpeg";
+import Pic4 from "../../../assets/4.jpeg";
+import Pic13 from "../../../assets/13.jpeg";
+import Pic16 from "../../../assets/16.jpeg";
+import Pic19 from "../../../assets/19.jpeg";
+import Pic24 from "../../../assets/24.jpeg";
+import Pic31 from "../../../assets/31.jpeg";
+import Pic32 from "../../../assets/32.jpeg";
+import Pic39 from "../../../assets/39.jpeg";
+import Pic40 from "../../../assets/40.jpeg";
+import Pic41 from "../../../assets/41.jpeg";
+import Pic44 from "../../../assets/44.jpeg";
+import Pic49 from "../../../assets/49.jpeg";
 
 import {
 	ViroARScene,
@@ -102,7 +113,7 @@ const PNLAR = createReactClass({
 
 						<Viro3DObject
 							source={require("../../../assets/3D/LandPaper.obj")}
-							resources={[require("../../../assets/3D/LandPaper.mtl")]}
+							resources={[require("../../../assets/3D/LandPaperm.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.15, 0.15, 0.15]}
 							type='OBJ'
@@ -112,7 +123,7 @@ const PNLAR = createReactClass({
 
 						<Viro3DObject
 							source={require("../../../assets/3D/Tube.obj")}
-							resources={[require("../../../assets/3D/Tube.mtl")]}
+							resources={[require("../../../assets/3D/Tubem.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.15, 0.15, 0.15]}
 							type='OBJ'
@@ -122,7 +133,7 @@ const PNLAR = createReactClass({
 
 						<Viro3DObject
 							source={require("../../../assets/3D/Khong.obj")}
-							resources={[require("../../../assets/3D/Khong.mtl")]}
+							resources={[require("../../../assets/3D/Khongm.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.15, 0.15, 0.15]}
 							type='OBJ'
@@ -132,7 +143,7 @@ const PNLAR = createReactClass({
 
 						<Viro3DObject
 							source={require("../../../assets/3D/Picture.obj")}
-							resources={[require("../../../assets/3D/Picture.mtl")]}
+							resources={[require("../../../assets/3D/Picturem.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.15, 0.15, 0.15]}
 							type='OBJ'
@@ -142,7 +153,7 @@ const PNLAR = createReactClass({
 
 						<Viro3DObject
 							source={require("../../../assets/3D/jar.obj")}
-							resources={[require("../../../assets/3D/jar.mtl")]}
+							resources={[require("../../../assets/3D/Jarm.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.15, 0.15, 0.15]}
 							type='OBJ'
@@ -152,7 +163,7 @@ const PNLAR = createReactClass({
 
 						<Viro3DObject
 							source={require("../../../assets/3D/Drum.obj")}
-							resources={[require("../../../assets/3D/Drum.mtl")]}
+							resources={[require("../../../assets/3D/Drumm.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.15, 0.15, 0.15]}
 							type='OBJ'
@@ -162,7 +173,7 @@ const PNLAR = createReactClass({
 
 						<Viro3DObject
 							source={require("../../../assets/3D/Tank.obj")}
-							resources={[require("../../../assets/3D/Tank.mtl")]}
+							resources={[require("../../../assets/3D/Tankm.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.15, 0.15, 0.15]}
 							type='OBJ'
@@ -172,7 +183,7 @@ const PNLAR = createReactClass({
 
 						<Viro3DObject
 							source={require("../../../assets/3D/Cabinet1.obj")}
-							resources={[require("../../../assets/3D/Cabinet1.mtl")]}
+							resources={[require("../../../assets/3D/Cabinet1m.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.15, 0.15, 0.15]}
 							type='OBJ'
@@ -182,7 +193,7 @@ const PNLAR = createReactClass({
 
 						<Viro3DObject
 							source={require("../../../assets/3D/Cabinet2.obj")}
-							resources={[require("../../../assets/3D/Cabinet2.mtl")]}
+							resources={[require("../../../assets/3D/Cabinet2m.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.15, 0.15, 0.15]}
 							type='OBJ'
@@ -192,7 +203,7 @@ const PNLAR = createReactClass({
 
 						<Viro3DObject
 							source={require("../../../assets/3D/TeaPot.obj")}
-							resources={[require("../../../assets/3D/TeaPot.mtl")]}
+							resources={[require("../../../assets/3D/TeaPotm.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.15, 0.15, 0.15]}
 							type='OBJ'
@@ -202,7 +213,7 @@ const PNLAR = createReactClass({
 
 						<Viro3DObject
 							source={require("../../../assets/3D/SewingMachine.obj")}
-							resources={[require("../../../assets/3D/SewingMachine.mtl")]}
+							resources={[require("../../../assets/3D/SewingMachinem.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.15, 0.15, 0.15]}
 							type='OBJ'
@@ -212,7 +223,7 @@ const PNLAR = createReactClass({
 
 						<Viro3DObject
 							source={require("../../../assets/3D/Screen.obj")}
-							resources={[require("../../../assets/3D/Screen.mtl")]}
+							resources={[require("../../../assets/3D/Screenm.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.15, 0.15, 0.15]}
 							type='OBJ'
@@ -234,7 +245,6 @@ const PNLAR = createReactClass({
 	_onAnchorFound(marker) {
 		// Show only when isShow is all false
 		let allNotShow = true;
-		alert("3D Working");
 		this.allMarkers.forEach(marker => {
 			if (this.state["isShow" + marker]) {
 				console.log("all not show false ");
@@ -324,62 +334,62 @@ ViroMaterials.createMaterials({
 
 ViroARTrackingTargets.createTargets({
 	"4": {
-		source: require("../../../assets/4.jpeg"),
+		source: Pic4,
 		orientation: "Left",
 		physicalWidth: ARData[3].physicalWidth, // real world width in meters
 	},
 	"13": {
-		source: require("../../../assets/13.jpeg"),
+		source: Pic13,
 		orientation: "Left",
 		physicalWidth: ARData[12].physicalWidth, // real world width in meters
 	},
 	"16": {
-		source: require("../../../assets/16.jpeg"),
+		source: Pic16,
 		orientation: "Left",
 		physicalWidth: ARData[15].physicalWidth, // real world width in meters
 	},
 	"19": {
-		source: require("../../../assets/19.jpeg"),
+		source: Pic19,
 		orientation: "Left",
 		physicalWidth: ARData[18].physicalWidth, // real world width in meters
 	},
 	"24": {
-		source: PicTest,
+		source: Pic24,
 		orientation: "Left",
 		physicalWidth: ARData[23].physicalWidth, // real world width in meters
 	},
 	"31": {
-		source: require("../../../assets/31.jpeg"),
+		source: Pic31,
 		orientation: "Left",
 		physicalWidth: ARData[30].physicalWidth, // real world width in meters
 	},
 	"32": {
-		source: require("../../../assets/32.jpeg"),
+		source: Pic32,
 		orientation: "Left",
 		physicalWidth: ARData[31].physicalWidth, // real world width in meters
 	},
 	"39": {
-		source: require("../../../assets/39.jpeg"),
+		source: Pic39,
 		orientation: "Left",
 		physicalWidth: ARData[38].physicalWidth, // real world width in meters
 	},
 	"40": {
-		source: require("../../../assets/40.jpeg"),
+		source: Pic40,
 		orientation: "Left",
 		physicalWidth: ARData[39].physicalWidth, // real world width in meters
 	},
 	"41": {
-		source: require("../../../assets/41.jpeg"),
+		source: Pic41,
 		orientation: "Left",
 		physicalWidth: ARData[40].physicalWidth, // real world width in meters
 	},
 	"44": {
-		source: require("../../../assets/44.jpeg"),
+		source: Pic44,
 		orientation: "Left",
 		physicalWidth: ARData[43].physicalWidth, // real world width in meters
 	},
 	"49": {
-		source: require("../../../assets/49.jpeg"),
+		source: Pic49,
 		orientation: "Left",
 		physicalWidth: ARData[48].physicalWidth, // real world width in meters
 	}
