@@ -134,7 +134,7 @@ android {
         targetSdkVersion 28
         multiDexEnabled true
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.3"
     }
     productFlavors {
         ar {

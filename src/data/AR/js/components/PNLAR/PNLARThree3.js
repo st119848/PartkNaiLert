@@ -4,42 +4,11 @@ import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import ARData from "../../../assets/ARData.json";
 import { Actions } from "react-native-router-flux";
-import Pic4 from "../../../assets/4.jpeg";
-import Pic13 from "../../../assets/13.jpeg";
-import Pic16 from "../../../assets/16.jpeg";
-import Pic19 from "../../../assets/19.jpeg";
-import Pic24 from "../../../assets/24.jpeg";
-import Pic31 from "../../../assets/31.jpeg";
-import Pic32 from "../../../assets/32.jpeg";
 import Pic39 from "../../../assets/39.jpeg";
 import Pic40 from "../../../assets/40.jpeg";
 import Pic41 from "../../../assets/41.jpeg";
 import Pic44 from "../../../assets/44.jpeg";
 import Pic49 from "../../../assets/49.jpeg";
-import Cabinet1 from "../../../assets/3D/Cabinet1.obj";
-import Cabinet1m from "../../../assets/3D/Cabinet1m.mtl";
-import Cabinet2 from "../../../assets/3D/Cabinet2.obj";
-import Cabinet2m from "../../../assets/3D/Cabinet2m.mtl";
-import Drum from "../../../assets/3D/Drum.obj";
-import Drumm from "../../../assets/3D/Drumm.mtl";
-import Jar from "../../../assets/3D/Jar.obj";
-import Jarm from "../../../assets/3D/Jarm.mtl";
-import Khong from "../../../assets/3D/Khong.obj";
-import Khongm from "../../../assets/3D/Khongm.mtl";
-import LandPaper from "../../../assets/3D/LandPaper.obj";
-import LandPaperm from "../../../assets/3D/LandPaperm.mtl";
-import Picture from "../../../assets/3D/Picture.obj";
-import Picturem from "../../../assets/3D/Picturem.mtl";
-import Screen from "../../../assets/3D/Screen.obj";
-import Screenm from "../../../assets/3D/Screenm.mtl";
-import SewingMachine from "../../../assets/3D/SewingMachine.obj";
-import SewingMachinem from "../../../assets/3D/SewingMachinem.mtl";
-import Tank from "../../../assets/3D/Tank.obj";
-import Tankm from "../../../assets/3D/Tankm.mtl";
-import TeaPot from "../../../assets/3D/TeaPot.obj";
-import TeaPotm from "../../../assets/3D/TeaPotm.mtl";
-import Tube from "../../../assets/3D/Tube.obj";
-import Tubem from "../../../assets/3D/Tubem.mtl";
 
 import {
 	ViroARScene,
@@ -66,8 +35,8 @@ const createReactClass = require("create-react-class");
 
 export const Testing = "Hi world";
 
-const PNLAR = createReactClass({
-	allMarkers: ["4", "13", "16", "19", "24", "31", "32", "39", "40", "41", "44", "49"],
+const PNLARThree3 = createReactClass({
+	allMarkers: ["39", "40", "41", "44", "49"],
 
 	getInitialState(marker) {
 		const baseState = {
@@ -78,13 +47,6 @@ const PNLAR = createReactClass({
 			playAnim: false,
 			animateObject: true,
 			isShow: false,
-			dShow: false,
-			acShow: false,
-			afShow: false,
-			aiShow: false,
-			bdShow: false,
-			caShow: false,
-			cbShow: false,
 			ciShow: false,
 			doShow: false,
 			daShow: false,
@@ -136,122 +98,52 @@ const PNLAR = createReactClass({
 						/>
 
 						<Viro3DObject
-							source={LandPaper}
-							resources={LandPaperm}
+							source={require("../../../assets/3D/Cabinet1.obj")}
+							resources={[require("../../../assets/3D/Cabinet1m.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='OBJ'
-							rotation={[0, 0, 0]}
-							visible={this.state.dShow}
-						/>
-
-						<Viro3DObject
-							source={Tube}
-							resources={Tubem}
-							position={[0, 0, 0.03]}
-							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
-							rotation={[0, 0, 0]}
-							visible={this.state.acShow}
-						/>
-
-						<Viro3DObject
-							source={Khong}
-							resources={Khongm}
-							position={[0, 0, 0.03]}
-							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
-							rotation={[0, 0, 0]}
-							visible={this.state.afShow}
-						/>
-
-						<Viro3DObject
-							source={Picture}
-							resources={Picturem}
-							position={[0, 0, 0.03]}
-							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
-							rotation={[0, 0, 0]}
-							visible={this.state.aiShow}
-						/>
-
-						<Viro3DObject
-							source={Jar}
-							resources={Jarm}
-							position={[0, 0, 0.03]}
-							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
-							rotation={[0, 0, -180]}
-							visible={this.state.bdShow}
-						/>
-
-						<Viro3DObject
-							source={Drum}
-							resources={Drumm}
-							position={[0, 0, 0.03]}
-							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
-							rotation={[0, 0, -180]}
-							visible={this.state.caShow}
-						/>
-
-						<Viro3DObject
-							source={Tank}
-							resources={Tankm}
-							position={[0, 0, 0.03]}
-							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
-							rotation={[0, 0, 0]}
-							visible={this.state.cbShow}
-						/>
-
-						<Viro3DObject
-							source={Cabinet1}
-							resources={Cabinet1m}
-							position={[0, 0, 0.03]}
-							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
-							rotation={[0, 0, 0]}
+							rotation={[0, 0, -90]}
 							visible={this.state.ciShow}
 						/>
 
 						<Viro3DObject
-							source={Cabinet2}
-							resources={Cabinet2m}
+							source={require("../../../assets/3D/Cabinet2.obj")}
+							resources={[require("../../../assets/3D/Cabinet2m.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='OBJ'
-							rotation={[0, 0, 0]}
+							rotation={[0, 0, -90]}
 							visible={this.state.dzShow}
 						/>
 
 						<Viro3DObject
-							source={TeaPot}
-							resources={TeaPotm}
+							source={require("../../../assets/3D/TeaPot.obj")}
+							resources={[require("../../../assets/3D/TeaPotm.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='OBJ'
-							rotation={[0, 0, 0]}
+							rotation={[0, 0, -90]}
 							visible={this.state.daShow}
 						/>
 
 						<Viro3DObject
-							source={SewingMachine}
-							resources={SewingMachinem}
+							source={require("../../../assets/3D/SewingMachine.obj")}
+							resources={[require("../../../assets/3D/SewingMachinem.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='OBJ'
-							rotation={[0, 0, 0]}
+							rotation={[0, 0, -90]}
 							visible={this.state.ddShow}
 						/>
 
 						<Viro3DObject
-							source={Screen}
-							resources={Screenm}
+							source={require("../../../assets/3D/Screen.obj")}
+							resources={[require("../../../assets/3D/Screenm.mtl")]}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='OBJ'
-							rotation={[0, 0, 0]}
+							rotation={[0, 0, -90]}
 							visible={this.state.diShow}
 						/>
 
@@ -279,41 +171,6 @@ const PNLAR = createReactClass({
 			let stateForSet = { animateObject: true };
 			stateForSet["isShow" + marker] = true;
 			this.setState(stateForSet);
-		};
-		if (marker == 4) {
-			this.setState({
-				dShow: true
-			})
-		};
-		if (marker == 13) {
-			this.setState({
-				acShow: true
-			})
-		};
-		if (marker == 16) {
-			this.setState({
-				afShow: true
-			})
-		};
-		if (marker == 19) {
-			this.setState({
-				aiShow: true
-			})
-		};
-		if (marker == 24) {
-			this.setState({
-				bdShow: true
-			})
-		};
-		if (marker == 31) {
-			this.setState({
-				caShow: true
-			})
-		};
-		if (marker == 32) {
-			this.setState({
-				cbShow: true
-			})
 		};
 		if (marker == 39) {
 			this.setState({
@@ -357,41 +214,6 @@ ViroMaterials.createMaterials({
 });
 
 ViroARTrackingTargets.createTargets({
-	"4": {
-		source: Pic4,
-		orientation: "Left",
-		physicalWidth: ARData[3].physicalWidth, // real world width in meters
-	},
-	"13": {
-		source: Pic13,
-		orientation: "Left",
-		physicalWidth: ARData[12].physicalWidth, // real world width in meters
-	},
-	"16": {
-		source: Pic16,
-		orientation: "Left",
-		physicalWidth: ARData[15].physicalWidth, // real world width in meters
-	},
-	"19": {
-		source: Pic19,
-		orientation: "Left",
-		physicalWidth: ARData[18].physicalWidth, // real world width in meters
-	},
-	"24": {
-		source: Pic24,
-		orientation: "Left",
-		physicalWidth: ARData[23].physicalWidth, // real world width in meters
-	},
-	"31": {
-		source: Pic31,
-		orientation: "Left",
-		physicalWidth: ARData[30].physicalWidth, // real world width in meters
-	},
-	"32": {
-		source: Pic32,
-		orientation: "Left",
-		physicalWidth: ARData[31].physicalWidth, // real world width in meters
-	},
 	"39": {
 		source: Pic39,
 		orientation: "Left",
@@ -447,4 +269,4 @@ ViroAnimations.registerAnimations({
 	tapAnimation: [["scaleSphereUp", "scaleSphereDown"]],
 });
 
-export default PNLAR;
+export default PNLARThree3;

@@ -4,22 +4,21 @@ import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import ARData from "../../../assets/ARData.json";
 import { Actions } from "react-native-router-flux";
-import Pic35 from "../../../assets/35.jpeg";
-import Pic36 from "../../../assets/36.jpeg";
-import Pic37 from "../../../assets/37.jpeg";
-import Pic38 from "../../../assets/38.jpeg";
-import Pic39 from "../../../assets/39.jpeg";
-import Pic40 from "../../../assets/40.jpeg";
-import Pic41 from "../../../assets/41.jpeg";
-import Pic42 from "../../../assets/42.jpeg";
-import Pic43 from "../../../assets/43.jpeg";
-import Pic44 from "../../../assets/44.jpeg";
-import Pic45 from "../../../assets/45.jpeg";
-import Pic46 from "../../../assets/46.jpeg";
-import Pic47 from "../../../assets/47.jpeg";
-import Pic48 from "../../../assets/48.jpeg";
-import Pic49 from "../../../assets/49.jpeg";
-import Pic50 from "../../../assets/50.jpeg";
+import Pic20 from "../../../assets/20.jpeg";
+import Pic21 from "../../../assets/21.jpeg";
+import Pic22 from "../../../assets/22.jpeg";
+import Pic23 from "../../../assets/23.jpeg";
+import Pic24 from "../../../assets/24.jpeg";
+import Pic25 from "../../../assets/25.jpeg";
+import Pic26 from "../../../assets/26.jpeg";
+import Pic27 from "../../../assets/27.jpeg";
+import Pic28 from "../../../assets/28.jpeg";
+import Pic29 from "../../../assets/29.jpeg";
+import Pic30 from "../../../assets/30.jpeg";
+import Pic31 from "../../../assets/31.jpeg";
+import Pic32 from "../../../assets/32.jpeg";
+import Pic33 from "../../../assets/33.jpeg";
+import Pic34 from "../../../assets/34.jpeg";
 
 
 import {
@@ -31,7 +30,7 @@ import {
 const createReactClass = require("create-react-class");
 
 const PNLAR2 = createReactClass({
-	allMarkers: ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"],
+	allMarkers: ["20", "21", "22", "23", "24","25", "26", "27", "28", "29", "30", "31", "32", "33", "34"],
 
 	getInitialState(marker) {
 		const baseState = {
@@ -61,7 +60,7 @@ const PNLAR2 = createReactClass({
 						onAnchorFound={() => {
 							this.props.sceneNavigator.viroAppProps.onAnchored(marker)
 							//to navigate to detail component
-							Actions.detail({ // go to markerDetail
+							Actions.detail2({ // go to markerDetail
 								renderText: true,
 								textLangTitle: String(ARData[marker - 1].value[0].title),
 								textLangDetail: String(ARData[marker - 1].value[0].detail),
@@ -95,85 +94,80 @@ const PNLAR2 = createReactClass({
 });
 
 ViroARTrackingTargets.createTargets({
-	"35": {
-		source: Pic35,
+	"20": {
+		source: Pic20,
 		orientation: "Left",
-		physicalWidth: ARData[34].physicalWidth, // real world width in meters
+		physicalWidth: ARData[19].physicalWidth, // real world width in meters
 	},
-	"36": {
-		source: Pic36,
+	"21": {
+		source: Pic21,
 		orientation: "Left",
-		physicalWidth: ARData[35].physicalWidth, // real world width in meters
+		physicalWidth: ARData[20].physicalWidth, // real world width in meters
 	},
-	"37": {
-		source: Pic37,
+	"22": {
+		source: Pic22,
 		orientation: "Left",
-		physicalWidth: ARData[36].physicalWidth, // real world width in meters
+		physicalWidth: ARData[21].physicalWidth, // real world width in meters
 	},
-	"38": {
-		source: Pic38,
+	"23": {
+		source: Pic23,
 		orientation: "Left",
-		physicalWidth: ARData[37].physicalWidth, // real world width in meters
+		physicalWidth: ARData[22].physicalWidth, // real world width in meters
 	},
-	"39": {
-		source: Pic39,
+	"24": {
+		source: Pic24,
 		orientation: "Left",
-		physicalWidth: ARData[38].physicalWidth, // real world width in meters
+		physicalWidth: ARData[23].physicalWidth, // real world width in meters
 	},
-	"40": {
-		source: Pic40,
+	"25": {
+		source: Pic25,
 		orientation: "Left",
-		physicalWidth: ARData[39].physicalWidth, // real world width in meters
+		physicalWidth: ARData[24].physicalWidth, // real world width in meters
 	},
-	"41": {
-		source: Pic41,
+	"26": {
+		source: Pic26,
 		orientation: "Left",
-		physicalWidth: ARData[40].physicalWidth, // real world width in meters
+		physicalWidth: ARData[25].physicalWidth, // real world width in meters
 	},
-	"42": {
-		source: Pic42,
+	"27": {
+		source: Pic27,
 		orientation: "Left",
-		physicalWidth: ARData[41].physicalWidth, // real world width in meters
+		physicalWidth: ARData[26].physicalWidth, // real world width in meters
 	},
-	"43": {
-		source: Pic43,
+	"28": {
+		source: Pic28,
 		orientation: "Left",
-		physicalWidth: ARData[42].physicalWidth, // real world width in meters
+		physicalWidth: ARData[27].physicalWidth, // real world width in meters
 	},
-	"44": {
-		source: Pic44,
+	"29": {
+		source: Pic29,
 		orientation: "Left",
-		physicalWidth: ARData[43].physicalWidth, // real world width in meters
+		physicalWidth: ARData[28].physicalWidth, // real world width in meters
 	},
-	"45": {
-		source: Pic45,
+	"30": {
+		source: Pic30,
 		orientation: "Left",
-		physicalWidth: ARData[44].physicalWidth, // real world width in meters
+		physicalWidth: ARData[29].physicalWidth, // real world width in meters
 	},
-	"46": {
-		source: Pic46,
+	"31": {
+		source: Pic31,
 		orientation: "Left",
-		physicalWidth: ARData[45].physicalWidth, // real world width in meters
+		physicalWidth: ARData[30].physicalWidth, // real world width in meters
 	},
-	"47": {
-		source: Pic47,
+	"32": {
+		source: Pic32,
 		orientation: "Left",
-		physicalWidth: ARData[46].physicalWidth, // real world width in meters
+		physicalWidth: ARData[31].physicalWidth, // real world width in meters
 	},
-	"48": {
-		source: Pic48,
+	"33": {
+		source: Pic33,
 		orientation: "Left",
-		physicalWidth: ARData[47].physicalWidth, // real world width in meters
+		physicalWidth: ARData[32].physicalWidth, // real world width in meters
 	},
-	"49": {
-		source: Pic49,
+	"34": {
+		source: Pic34,
 		orientation: "Left",
-		physicalWidth: ARData[48].physicalWidth, // real world width in meters
-	},
-	"50": {
-		source: Pic50,
-		orientation: "Left",
-		physicalWidth: ARData[49].physicalWidth, // real world width in meters
+		physicalWidth: ARData[33].physicalWidth, // real world width in meters
 	}
 });
 

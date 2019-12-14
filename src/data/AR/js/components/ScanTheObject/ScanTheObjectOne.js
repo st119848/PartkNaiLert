@@ -1,12 +1,12 @@
 "use strict";
 
 import React, { Component } from "react";
-import PNLAR from "../PNLAR/PNLAR";
-import PNLARThree from "../PNLAR/PNLARThree";
+import PNLAR1 from "../PNLAR/PNLAR1";
+import PNLARThree1 from "../PNLAR/PNLARThree1";
 import ARData from "../../../assets/ARData.json";
 import { ViroARSceneNavigator } from "react-viro";
 import Header from "../Header/Header";
-import MarkerDetail from "../MarkerDetail/MarkerDetail";
+import MarkerDetail from "../MarkerDetail/MarkerDetail1";
 import { Theme, BottomText, Border } from "./style";
 import { Actions } from "react-native-router-flux";
 
@@ -35,7 +35,7 @@ var ScanTheObjectOne = createReactClass({
 					<Header source={require("../../../assets/black-cross.png")}/>
 					<Border>
 						<ViroARSceneNavigator
-							initialScene={{ scene: PNLAR }} // go to PNLAR
+							initialScene={{ scene: PNLAR1 }} // go to PNLAR
 							apiKey={apiKey}
 							viroAppProps={{ onAnchored: this.onAnchored ,showARScene:this.state.showARScene}}
 						/>
@@ -53,7 +53,7 @@ var ScanTheObjectOne = createReactClass({
 					<Header source={require("../../../assets/black-cross.png")}/>
 					<Border>
 						<ViroARSceneNavigator
-							initialScene={{ scene: PNLARThree }}
+							initialScene={{ scene: PNLARThree1 }}
 							apiKey={apiKey}
 							viroAppProps={{ onAnchored: this.onAnchored ,showARScene:this.state.showARScene}}
 						/>

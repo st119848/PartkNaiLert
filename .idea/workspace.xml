@@ -7,46 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(AR): integrate AR new version">
-      <change afterPath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree ES6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/js/components/ScanTheObject/ScanTheObjectTwo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/js/components/ZoneSelector/ZoneSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/js/components/ZoneSelector/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Jar.glb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AR/js/components/ScanTheObject/ScanTheObjectThree.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/parknailert/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/12.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Cabinet1.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Cabinet1m.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Cabinet1.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Cabinet1.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Cabinet2.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Cabinet2m.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Cabinet2.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Cabinet2.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Drum.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Drumm.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Drum.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Drum.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Khong.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Khongm.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Khong.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Khong.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/LandPaper.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/LandPaperm.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/LandPaper.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/LandPaper.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Picture.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Picturem.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Picture.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Picture.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Screen.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Screenm.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Screen.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Screen.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/SewingMachine.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/SewingMachinem.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/SewingMachine.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/SewingMachine.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Tank.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Tankm.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Tank.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Tank.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/TeaPot.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/TeaPotm.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/TeaPot.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/TeaPot.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Tube.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Tubem.mtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Tube.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Tube.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/jar.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Jarm.mtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/Jarm.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/Jar.mtl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/AR/assets/3D/jar.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/3D/jar.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/assets/45.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/assets/45.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/ScanTheObject/ScanTheObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/ScanTheObject/ScanTheObjectOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/3DModel/ModelView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/3DModel/ModelView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree ES6" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree ES6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/ScanTheObject/ScanTheObjectOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/ScanTheObject/ScanTheObjectOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/ScanTheObject/ScanTheObjectTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/ScanTheObject/ScanTheObjectTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/ZoneSelector/ZoneSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/ZoneSelector/ZoneSelector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,53 +39,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/6.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="136" column="26" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/7.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/7a.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/23359.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/23363.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/23373.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/23358.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/5b.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/3a.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/2.jpg">
+        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/24.jpeg">
           <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/27.jpeg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/48.jpeg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -170,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/header/PageSettingButton.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/Banner.js" />
         <option value="$PROJECT_DIR$/src/naivigator/MainNavigator.js" />
         <option value="$PROJECT_DIR$/src/config/translates.js" />
@@ -208,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/loading/HightLightLoading.js" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" />
         <option value="$PROJECT_DIR$/src/data/AR/assets/3D/Cabinet1.obj" />
         <option value="$PROJECT_DIR$/src/data/AR/assets/3D/Cabinet2.obj" />
         <option value="$PROJECT_DIR$/src/data/AR/assets/3D/Drum.obj" />
@@ -221,10 +191,12 @@
         <option value="$PROJECT_DIR$/src/data/AR/assets/3D/Tank.obj" />
         <option value="$PROJECT_DIR$/src/data/AR/assets/3D/TeaPot.obj" />
         <option value="$PROJECT_DIR$/src/data/AR/assets/3D/Tube.obj" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" />
+        <option value="$PROJECT_DIR$/android/app/build.gradle" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -240,6 +212,17 @@
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
@@ -280,52 +263,6 @@
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="AR" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="AR" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="AR" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="AR" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="3DModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="AR" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="PNLAR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -354,19 +291,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/img" />
-      <recent name="$PROJECT_DIR$/ios/parknailert" />
-      <recent name="$PROJECT_DIR$/src/screens/ContentDetailScreen/components" />
-      <recent name="$PROJECT_DIR$/src/screens/AsyncScreens/components" />
-      <recent name="$PROJECT_DIR$/src/components/BeaconStatusIcon" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/data/AR" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
       <recent name="$PROJECT_DIR$/src/components/header" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/ios/parknailert" />
+      <recent name="$PROJECT_DIR$/src/screens/ContentDetailScreen/components" />
+      <recent name="$PROJECT_DIR$/src/screens/AsyncScreens/components" />
+      <recent name="$PROJECT_DIR$/src/components/BeaconStatusIcon" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -475,14 +412,8 @@
       <workItem from="1575699002638" duration="325000" />
       <workItem from="1575895657514" duration="300000" />
       <workItem from="1575896214351" duration="47000" />
-      <workItem from="1575896298112" duration="2606000" />
-    </task>
-    <task id="LOCAL-00027" summary="feat(beacon): integrate beacon content in modal + test connect with api">
-      <created>1568774801883</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1568774801883</updated>
+      <workItem from="1575896298112" duration="3881000" />
+      <workItem from="1576072231728" duration="3738000" />
     </task>
     <task id="LOCAL-00028" summary="feat(beacon): remove share function">
       <created>1568808840554</created>
@@ -820,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575548043414</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="feat(AR): integrate AR new version">
+      <created>1575905467972</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1575905467973</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="437501000" />
+    <option name="totallyTimeSpent" value="442514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -943,76 +881,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat(AR): integrate AR new version" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/Picture.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/Screen.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/SewingMachine.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/Tank.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/TeaPot.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/Tube.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-453">
-          <caret line="113" column="37" lean-forward="true" selection-start-line="113" selection-start-column="37" selection-end-line="113" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/1.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/2.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/4.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/5.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/6.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/7.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/AR/assets/7.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1031,25 +899,13 @@
     <entry file="file://$PROJECT_DIR$/src/data/AR/assets/12.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/13.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/14.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/AR/assets/15.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/16.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/AR/assets/17.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/AR/assets/18.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/19.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/AR/assets/20.jpeg">
@@ -1064,9 +920,6 @@
     <entry file="file://$PROJECT_DIR$/src/data/AR/assets/23.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/24.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/AR/assets/46.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1075,12 +928,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/AR/assets/ARData.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/48.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/1.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/2a.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -1122,6 +969,86 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-929" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="95" column="37" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/3D/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/4.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/14.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/13.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/16.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/19.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/31.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/32.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/33.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/34.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/40.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/41.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/27.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/48.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="136" column="26" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/24.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
   </component>

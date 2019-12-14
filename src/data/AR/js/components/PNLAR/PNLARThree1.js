@@ -8,14 +8,6 @@ import Pic4 from "../../../assets/4.jpeg";
 import Pic13 from "../../../assets/13.jpeg";
 import Pic16 from "../../../assets/16.jpeg";
 import Pic19 from "../../../assets/19.jpeg";
-import Pic24 from "../../../assets/24.jpeg";
-import Pic31 from "../../../assets/31.jpeg";
-import Pic32 from "../../../assets/32.jpeg";
-import Pic39 from "../../../assets/39.jpeg";
-import Pic40 from "../../../assets/40.jpeg";
-import Pic41 from "../../../assets/41.jpeg";
-import Pic44 from "../../../assets/44.jpeg";
-import Pic49 from "../../../assets/49.jpeg";
 
 import {
 	ViroARScene,
@@ -42,8 +34,8 @@ const createReactClass = require("create-react-class");
 
 export const Testing = "Hi world";
 
-const PNLAR = createReactClass({
-	allMarkers: ["4", "13", "16", "19", "24", "31", "32", "39", "40", "41", "44", "49"],
+const PNLARThree1 = createReactClass({
+	allMarkers: ["4", "13", "16", "19"],
 
 	getInitialState(marker) {
 		const baseState = {
@@ -58,14 +50,6 @@ const PNLAR = createReactClass({
 			acShow: false,
 			afShow: false,
 			aiShow: false,
-			bdShow: false,
-			caShow: false,
-			cbShow: false,
-			ciShow: false,
-			doShow: false,
-			daShow: false,
-			ddShow: false,
-			diShow: false,
 		};
 		const varyState = {};
 		this.allMarkers.forEach(marker => {
@@ -115,9 +99,9 @@ const PNLAR = createReactClass({
 							source={require("../../../assets/3D/LandPaper.obj")}
 							resources={[require("../../../assets/3D/LandPaperm.mtl")]}
 							position={[0, 0, 0.03]}
-							scale={[0.15, 0.15, 0.15]}
+							scale={[0.015, 0.015, 0.015]}
 							type='OBJ'
-							rotation={[0, 0, 0]}
+							rotation={[0, 0, -90]}
 							visible={this.state.dShow}
 						/>
 
@@ -125,9 +109,9 @@ const PNLAR = createReactClass({
 							source={require("../../../assets/3D/Tube.obj")}
 							resources={[require("../../../assets/3D/Tubem.mtl")]}
 							position={[0, 0, 0.03]}
-							scale={[0.15, 0.15, 0.15]}
+							scale={[0.015, 0.015, 0.015]}
 							type='OBJ'
-							rotation={[0, 0, 0]}
+							rotation={[0, 0, -90]}
 							visible={this.state.acShow}
 						/>
 
@@ -135,9 +119,9 @@ const PNLAR = createReactClass({
 							source={require("../../../assets/3D/Khong.obj")}
 							resources={[require("../../../assets/3D/Khongm.mtl")]}
 							position={[0, 0, 0.03]}
-							scale={[0.15, 0.15, 0.15]}
+							scale={[0.015, 0.015, 0.015]}
 							type='OBJ'
-							rotation={[0, 0, 0]}
+							rotation={[0, 0, -90]}
 							visible={this.state.afShow}
 						/>
 
@@ -145,90 +129,10 @@ const PNLAR = createReactClass({
 							source={require("../../../assets/3D/Picture.obj")}
 							resources={[require("../../../assets/3D/Picturem.mtl")]}
 							position={[0, 0, 0.03]}
-							scale={[0.15, 0.15, 0.15]}
+							scale={[0.015, 0.015, 0.015]}
 							type='OBJ'
-							rotation={[0, 0, 0]}
+							rotation={[0, 0, -90]}
 							visible={this.state.aiShow}
-						/>
-
-						<Viro3DObject
-							source={require("../../../assets/3D/jar.obj")}
-							resources={[require("../../../assets/3D/Jarm.mtl")]}
-							position={[0, 0, 0.03]}
-							scale={[0.15, 0.15, 0.15]}
-							type='OBJ'
-							rotation={[0, 0, -180]}
-							visible={this.state.bdShow}
-						/>
-
-						<Viro3DObject
-							source={require("../../../assets/3D/Drum.obj")}
-							resources={[require("../../../assets/3D/Drumm.mtl")]}
-							position={[0, 0, 0.03]}
-							scale={[0.15, 0.15, 0.15]}
-							type='OBJ'
-							rotation={[0, 0, -180]}
-							visible={this.state.caShow}
-						/>
-
-						<Viro3DObject
-							source={require("../../../assets/3D/Tank.obj")}
-							resources={[require("../../../assets/3D/Tankm.mtl")]}
-							position={[0, 0, 0.03]}
-							scale={[0.15, 0.15, 0.15]}
-							type='OBJ'
-							rotation={[0, 0, 0]}
-							visible={this.state.cbShow}
-						/>
-
-						<Viro3DObject
-							source={require("../../../assets/3D/Cabinet1.obj")}
-							resources={[require("../../../assets/3D/Cabinet1m.mtl")]}
-							position={[0, 0, 0.03]}
-							scale={[0.15, 0.15, 0.15]}
-							type='OBJ'
-							rotation={[0, 0, 0]}
-							visible={this.state.ciShow}
-						/>
-
-						<Viro3DObject
-							source={require("../../../assets/3D/Cabinet2.obj")}
-							resources={[require("../../../assets/3D/Cabinet2m.mtl")]}
-							position={[0, 0, 0.03]}
-							scale={[0.15, 0.15, 0.15]}
-							type='OBJ'
-							rotation={[0, 0, 0]}
-							visible={this.state.dzShow}
-						/>
-
-						<Viro3DObject
-							source={require("../../../assets/3D/TeaPot.obj")}
-							resources={[require("../../../assets/3D/TeaPotm.mtl")]}
-							position={[0, 0, 0.03]}
-							scale={[0.15, 0.15, 0.15]}
-							type='OBJ'
-							rotation={[0, 0, 0]}
-							visible={this.state.daShow}
-						/>
-
-						<Viro3DObject
-							source={require("../../../assets/3D/SewingMachine.obj")}
-							resources={[require("../../../assets/3D/SewingMachinem.mtl")]}
-							position={[0, 0, 0.03]}
-							scale={[0.15, 0.15, 0.15]}
-							type='OBJ'
-							rotation={[0, 0, 0]}
-							visible={this.state.ddShow}
-						/>
-
-						<Viro3DObject
-							source={require("../../../assets/3D/Screen.obj")}
-							resources={[require("../../../assets/3D/Screenm.mtl")]}
-							position={[0, 0, 0.03]}
-							scale={[0.15, 0.15, 0.15]}
-							type='OBJ'
-							rotation={[0, 0, 0]}
-							visible={this.state.diShow}
 						/>
 
 						<ViroQuad
@@ -276,46 +180,6 @@ const PNLAR = createReactClass({
 				aiShow: true
 			})
 		};
-		if (marker == 24) {
-			this.setState({
-				bdShow: true
-			})
-		};
-		if (marker == 31) {
-			this.setState({
-				caShow: true
-			})
-		};
-		if (marker == 32) {
-			this.setState({
-				cbShow: true
-			})
-		};
-		if (marker == 39) {
-			this.setState({
-				ciShow: true
-			})
-		};
-		if (marker == 40) {
-			this.setState({
-				doShow: true
-			})
-		};
-		if (marker == 41) {
-			this.setState({
-				daShow: true
-			})
-		};
-		if (marker == 44) {
-			this.setState({
-				ddShow: true
-			})
-		};
-		if (marker == 49) {
-			this.setState({
-				diShow: true
-			})
-		};
 	},
 	_toggleButtons() {
 		this.setState({
@@ -352,46 +216,6 @@ ViroARTrackingTargets.createTargets({
 		source: Pic19,
 		orientation: "Left",
 		physicalWidth: ARData[18].physicalWidth, // real world width in meters
-	},
-	"24": {
-		source: Pic24,
-		orientation: "Left",
-		physicalWidth: ARData[23].physicalWidth, // real world width in meters
-	},
-	"31": {
-		source: Pic31,
-		orientation: "Left",
-		physicalWidth: ARData[30].physicalWidth, // real world width in meters
-	},
-	"32": {
-		source: Pic32,
-		orientation: "Left",
-		physicalWidth: ARData[31].physicalWidth, // real world width in meters
-	},
-	"39": {
-		source: Pic39,
-		orientation: "Left",
-		physicalWidth: ARData[38].physicalWidth, // real world width in meters
-	},
-	"40": {
-		source: Pic40,
-		orientation: "Left",
-		physicalWidth: ARData[39].physicalWidth, // real world width in meters
-	},
-	"41": {
-		source: Pic41,
-		orientation: "Left",
-		physicalWidth: ARData[40].physicalWidth, // real world width in meters
-	},
-	"44": {
-		source: Pic44,
-		orientation: "Left",
-		physicalWidth: ARData[43].physicalWidth, // real world width in meters
-	},
-	"49": {
-		source: Pic49,
-		orientation: "Left",
-		physicalWidth: ARData[48].physicalWidth, // real world width in meters
 	}
 });
 
@@ -423,4 +247,4 @@ ViroAnimations.registerAnimations({
 	tapAnimation: [["scaleSphereUp", "scaleSphereDown"]],
 });
 
-export default PNLAR;
+export default PNLARThree1;

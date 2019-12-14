@@ -17,9 +17,9 @@ import {
 } from "./style";
 import { Actions } from 'react-native-router-flux';
 import { ScrollView } from 'react-native';
-import { Testing } from "../PNLAR/PNLARThree";
+import { Testing } from "../PNLAR/PNLARThree1";
 import ARData from "../../../assets/ARData.json";
-import PNLARThree from "../PNLAR/PNLARThree";
+import PNLARThree from "../PNLAR/PNLARThree1";
 
 var createReactClass = require("create-react-class");
 
@@ -40,12 +40,22 @@ var MarkerDetail = createReactClass({
 
 								});
 							}}>
-								<ThreeDText>เรือนท่านผู้หญิง ></ThreeDText>
+								<ThreeDText>ห้องรับแขก เรื่อนท่านผู้หญฺิง ></ThreeDText>
 							</Touch>
 						</ThreeDBox>
 						<ThreeDBox>
 							<Touch onPress={() => {
 								Actions.scan2({
+									showARScene: 1, //send showARScene with not defaut value    1 is  default 
+
+								});
+							}}>
+								<ThreeDText>เรื่อนท่านผู้หญฺิง ></ThreeDText>
+							</Touch>
+						</ThreeDBox>
+						<ThreeDBox>
+							<Touch onPress={() => {
+								Actions.scan3({
 									showARScene: 1, //send showARScene with not defaut value    1 is  default 
 
 								});

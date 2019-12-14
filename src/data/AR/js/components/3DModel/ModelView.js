@@ -1,7 +1,7 @@
 "use strict";
 
 import React, { Component } from "react";
-import PNLAR from "../PNLAR/PNLAR";
+import PNLAR from "../PNLAR/PNLAR1";
 import PNLARThree from "../PNLAR/PNLARThree";
 import ARData from "../../../assets/ARData.json";
 import { ViroARSceneNavigator } from "react-viro";

@@ -17,44 +17,26 @@ import {
 } from "./style";
 import { Actions } from 'react-native-router-flux';
 import { ScrollView } from 'react-native';
-import { Testing } from "../PNLAR/PNLARThree";
+import { Testing } from "../PNLAR/PNLARThree1";
 import ARData from "../../../assets/ARData.json";
-import PNLARThree from "../PNLAR/PNLARThree";
+import PNLARThree from "../PNLAR/PNLARThree1";
 
 var createReactClass = require("create-react-class");
 
-var MarkerDetail = createReactClass({
+var MarkerDetail2 = createReactClass({
 	render: function () {
 		// if (this.props.marker == 24) {
 		// 	var icon=require("../../../assets/24.jpeg"));
 		// }
 
-		if (this.props.marker == 4) {
-			var sauce = require("../../../assets/4.jpeg");
-		} else if (this.props.marker == 13) {
-			var sauce = require("../../../assets/13.jpeg");
-		} else if (this.props.marker == 16) {
-			var sauce = require("../../../assets/16.jpeg");
-		} else if (this.props.marker == 19) {
-			var sauce = require("../../../assets/19.jpeg");
-		} else if (this.props.marker == 24) {
+		if (this.props.marker == 24) {
 			var sauce = require("../../../assets/24.jpeg");
 		} else if (this.props.marker == 31) {
 			var sauce = require("../../../assets/31.jpeg");
 		} else if (this.props.marker == 32) {
 			var sauce = require("../../../assets/32.jpeg");
-		} else if (this.props.marker == 39) {
-			var sauce = require("../../../assets/39.jpeg");
-		} else if (this.props.marker == 40) {
-			var sauce = require("../../../assets/40.jpeg");
-		} else if (this.props.marker == 41) {
-			var sauce = require("../../../assets/41.jpeg");
-		} else if (this.props.marker == 44) {
-			var sauce = require("../../../assets/44.jpeg");
-		} else if (this.props.marker == 49) {
-			var sauce = require("../../../assets/49.jpeg");
 		}
-		const has3D = [4, 13, 16, 19, 24, 31, 32, 39, 40, 41, 44, 49] // Number of picture that has 3D
+		const has3D = [24, 31, 32] // Number of picture that has 3D
 		let item3D = has3D.find(D => this.props.marker == D) // the marker from PNLAR  has in list of has3D if it exists it return id otherwise return undefined
 
 		return (
@@ -91,4 +73,4 @@ var MarkerDetail = createReactClass({
 
 });
 
-export default MarkerDetail;
+export default MarkerDetail2;

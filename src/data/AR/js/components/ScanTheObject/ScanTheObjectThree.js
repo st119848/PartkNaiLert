@@ -1,19 +1,19 @@
 "use strict";
 
 import React, { Component } from "react";
-import PNLAR2 from "../PNLAR/PNLAR2";
-import PNLARThree2 from "../PNLAR/PNLARThree2";
+import PNLAR3 from "../PNLAR/PNLAR3";
+import PNLARThree3 from "../PNLAR/PNLARThree3";
 import ARData from "../../../assets/ARData.json";
 import { ViroARSceneNavigator } from "react-viro";
 import Header from "../Header/Header";
-import MarkerDetail from "../MarkerDetail/MarkerDetail1";
+import MarkerDetail3 from "../MarkerDetail/MarkerDetail3";
 import { Theme, BottomText, Border } from "./style";
 import { Actions } from "react-native-router-flux";
 
 var createReactClass = require("create-react-class");
 var apiKey = "185779F9-FAEC-4950-BF69-454D6BDD4EC6";
 
-var ScanTheObjectTwo = createReactClass({
+var ScanTheObjectThree = createReactClass({
 	getInitialState(marker) {
 		const detailState = {
 			textLangTitle: "",
@@ -35,7 +35,7 @@ var ScanTheObjectTwo = createReactClass({
 					<Header source={require("../../../assets/black-cross.png")}/>
 					<Border>
 						<ViroARSceneNavigator
-							initialScene={{ scene: PNLAR2 }} // go to PNLAR
+							initialScene={{ scene: PNLAR3 }} // go to PNLAR
 							apiKey={apiKey}
 							viroAppProps={{ onAnchored: this.onAnchored ,showARScene:this.state.showARScene}}
 						/>
@@ -53,7 +53,7 @@ var ScanTheObjectTwo = createReactClass({
 					<Header source={require("../../../assets/black-cross.png")}/>
 					<Border>
 						<ViroARSceneNavigator
-							initialScene={{ scene: PNLARThree2 }}
+							initialScene={{ scene: PNLARThree3 }}
 							apiKey={apiKey}
 							viroAppProps={{ onAnchored: this.onAnchored ,showARScene:this.state.showARScene}}
 						/>
@@ -82,4 +82,4 @@ var ScanTheObjectTwo = createReactClass({
 // Uncomment the below line to use the ARDrivingCar Demo. Don't forget to set the apiKey variable in ARDrivingCar.js
 // ViroCodeSamplesSceneNavigator = require('./js/ARDrivingCarDemo/ARDrivingCar');
 
-module.exports = ScanTheObjectTwo;
+module.exports = ScanTheObjectThree;
