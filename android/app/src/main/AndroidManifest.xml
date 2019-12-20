@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.parknailert">
+    package="com.pnl.parknailert">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
@@ -27,7 +27,6 @@
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
             <category android:name="com.google.intent.category.CARDBOARD" />
-            <category android:name="com.google.intent.category.DAYDREAM" />
         </intent-filter>
         <intent-filter android:autoVerify="true">
             <action android:name="android.intent.action.VIEW"/>

@@ -96,41 +96,37 @@ const PNLARThree1 = createReactClass({
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/LandPaper.obj")}
-							resources={[require("../../../assets/3D/LandPaperm.mtl")]}
+							source={require("../../../assets/3D/LandPaper.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
+							type='GLB'
 							rotation={[0, 0, -90]}
 							visible={this.state.dShow}
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Tube.obj")}
-							resources={[require("../../../assets/3D/Tubem.mtl")]}
+							source={require("../../../assets/3D/Tube.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
+							type='GLB'
 							rotation={[0, 0, -90]}
 							visible={this.state.acShow}
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Khong.obj")}
-							resources={[require("../../../assets/3D/Khongm.mtl")]}
+							source={require("../../../assets/3D/Khong.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
+							type='GLB'
 							rotation={[0, 0, -90]}
 							visible={this.state.afShow}
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Picture.obj")}
-							resources={[require("../../../assets/3D/Picturem.mtl")]}
+							source={require("../../../assets/3D/Picture.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
+							type='GLB'
 							rotation={[0, 0, -90]}
 							visible={this.state.aiShow}
 						/>

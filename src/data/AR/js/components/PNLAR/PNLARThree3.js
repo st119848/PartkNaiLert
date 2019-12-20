@@ -98,51 +98,46 @@ const PNLARThree3 = createReactClass({
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Cabinet1.obj")}
-							resources={[require("../../../assets/3D/Cabinet1m.mtl")]}
+							source={require("../../../assets/3D/Cabinet1.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
+							type='GLB'
 							rotation={[0, 0, -90]}
 							visible={this.state.ciShow}
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Cabinet2.obj")}
-							resources={[require("../../../assets/3D/Cabinet2m.mtl")]}
+							source={require("../../../assets/3D/Cabinet2.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
+							type='GLB'
 							rotation={[0, 0, -90]}
 							visible={this.state.dzShow}
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/TeaPot.obj")}
-							resources={[require("../../../assets/3D/TeaPotm.mtl")]}
+							source={require("../../../assets/3D/TeaPot.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
+							type='GLB'
 							rotation={[0, 0, -90]}
 							visible={this.state.daShow}
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/SewingMachine.obj")}
-							resources={[require("../../../assets/3D/SewingMachinem.mtl")]}
+							source={require("../../../assets/3D/SewingMachine.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
+							type='GLB'
 							rotation={[0, 0, -90]}
 							visible={this.state.ddShow}
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Screen.obj")}
-							resources={[require("../../../assets/3D/Screenm.mtl")]}
+							source={require("../../../assets/3D/Screen.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
+							type='GLB'
 							rotation={[0, 0, -90]}
 							visible={this.state.diShow}
 						/>

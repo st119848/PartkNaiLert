@@ -40,7 +40,7 @@ var MarkerDetail = createReactClass({
 
 								});
 							}}>
-								<ThreeDText>ห้องรับแขก เรื่อนท่านผู้หญฺิง ></ThreeDText>
+								<ThreeDText>ห้องรับแขก เรื่อนท่านผู้หญิง ></ThreeDText>
 							</Touch>
 						</ThreeDBox>
 						<ThreeDBox>
@@ -50,7 +50,7 @@ var MarkerDetail = createReactClass({
 
 								});
 							}}>
-								<ThreeDText>เรื่อนท่านผู้หญฺิง ></ThreeDText>
+								<ThreeDText>เรื่อนท่านผู้หญิง ></ThreeDText>
 							</Touch>
 						</ThreeDBox>
 						<ThreeDBox>

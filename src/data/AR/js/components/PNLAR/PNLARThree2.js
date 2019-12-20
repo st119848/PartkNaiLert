@@ -103,21 +103,19 @@ const PNLARThree2 = createReactClass({
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Drum.obj")}
-							resources={[require("../../../assets/3D/Drumm.mtl")]}
+							source={require("../../../assets/3D/Drum.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
+							type='GLB'
 							rotation={[0, 0, -90]}
 							visible={this.state.caShow}
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Tank.obj")}
-							resources={[require("../../../assets/3D/Tankm.mtl")]}
+							source={require("../../../assets/3D/Tank.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
-							type='OBJ'
+							type='GLB'
 							rotation={[0, 0, -90]}
 							visible={this.state.cbShow}
 						/>
