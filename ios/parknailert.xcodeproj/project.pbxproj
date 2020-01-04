@@ -33,7 +33,8 @@
 		BC03E650653BD7F294DFFA3D /* libPods-parknailert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 066387CCF70D0CB5D435164F /* libPods-parknailert.a */; };
 		C2DC1D2602F14517BE3EC6E1 /* ptmono_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 918CA3055FCB4E1E86B25975 /* ptmono_regular.ttf */; };
 		D04035AF456B488AA4AFED26 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79ECF1BA1B95499D9C19964D /* Entypo.ttf */; };
-		DA1437BF233A08DD00426DCA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA1437BE233A08DD00426DCA /* GoogleService-Info.plist */; };
+		DA32B9ED23BFB44400166DB5 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA32B9EC23BFB44400166DB5 /* GameKit.framework */; };
+		DA4E8DAC23BF8C70004C0F3C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA4E8DAB23BF8C70004C0F3C /* GoogleService-Info.plist */; };
 		DAF33726230ED8DD004E6620 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF33725230ED8DD004E6620 /* libRNGestureHandler.a */; };
 		E2CFBD00CBE54416B6727333 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 922C5D5A44CA4B01B981F2AF /* FontAwesome5_Solid.ttf */; };
 /* End PBXBuildFile section */
@@ -99,8 +100,9 @@
 		C12B2D33BF47A9B375E1FD06 /* Pods-parknailertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parknailertTests.release.xcconfig"; path = "Target Support Files/Pods-parknailertTests/Pods-parknailertTests.release.xcconfig"; sourceTree = "<group>"; };
 		C1C054235DB74C05A9DAC0C1 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		C453A298D3A640C997643BEA /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
-		DA1437BE233A08DD00426DCA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA1437C0233A2BB600426DCA /* parknailert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = parknailert.entitlements; path = parknailert/parknailert.entitlements; sourceTree = "<group>"; };
+		DA32B9EC23BFB44400166DB5 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		DA4E8DAB23BF8C70004C0F3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA77C2D22309AA0200975629 /* App.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = App.js; path = ../App.js; sourceTree = "<group>"; };
 		DADCCD8A232CD32D00BAFA4B /* libAWSCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAWSCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF33723230ED8B1004E6620 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +128,7 @@
 				DAF33726230ED8DD004E6620 /* libRNGestureHandler.a in Frameworks */,
 				BC03E650653BD7F294DFFA3D /* libPods-parknailert.a in Frameworks */,
 				A793DDF6EF3B4292AF027600 /* libRNFirebase.a in Frameworks */,
+				DA32B9ED23BFB44400166DB5 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,8 +155,8 @@
 		13B07FAE1A68108700A75B9A /* parknailert */ = {
 			isa = PBXGroup;
 			children = (
+				DA4E8DAB23BF8C70004C0F3C /* GoogleService-Info.plist */,
 				DA1437C0233A2BB600426DCA /* parknailert.entitlements */,
-				DA1437BE233A08DD00426DCA /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -168,6 +171,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA32B9EC23BFB44400166DB5 /* GameKit.framework */,
 				DADCCD8A232CD32D00BAFA4B /* libAWSCore.a */,
 				DAF33725230ED8DD004E6620 /* libRNGestureHandler.a */,
 				DAF33723230ED8B1004E6620 /* libRNGestureHandler.a */,
@@ -328,13 +332,16 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 225QF6HD9U;
+						DevelopmentTeam = WC5U8D9K53;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 225QF6HD9U;
+						DevelopmentTeam = WC5U8D9K53;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.GameCenter.iOS = {
 								enabled = 1;
 							};
 							com.apple.SafariKeychain = {
@@ -403,7 +410,6 @@
 				2B6D242C9E90477FB10C196A /* FontAwesome5_Regular.ttf in Resources */,
 				E2CFBD00CBE54416B6727333 /* FontAwesome5_Solid.ttf in Resources */,
 				58188D2B118241B3A5014448 /* Fontisto.ttf in Resources */,
-				DA1437BF233A08DD00426DCA /* GoogleService-Info.plist in Resources */,
 				5ABC8CBB20134E29B4411BEE /* Foundation.ttf in Resources */,
 				B070EEC5F78244669574B53D /* Ionicons.ttf in Resources */,
 				A7C2AB45E8DA45A096F8781D /* MaterialCommunityIcons.ttf in Resources */,
@@ -412,6 +418,7 @@
 				635B629F8D454F519581B847 /* SimpleLineIcons.ttf in Resources */,
 				AF0BFF732FE94FC68B4FB9C8 /* Zocial.ttf in Resources */,
 				789F755A13FB43FAAC74BF4D /* drboran.ttf in Resources */,
+				DA4E8DAC23BF8C70004C0F3C /* GoogleService-Info.plist in Resources */,
 				48A5216219F04031A82789C8 /* ptmono_bold.ttf in Resources */,
 				C2DC1D2602F14517BE3EC6E1 /* ptmono_regular.ttf in Resources */,
 			);
@@ -615,7 +622,7 @@
 			baseConfigurationReference = 0925203077D6E0FF83273070 /* Pods-parknailertTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 225QF6HD9U;
+				DEVELOPMENT_TEAM = WC5U8D9K53;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -648,7 +655,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 225QF6HD9U;
+				DEVELOPMENT_TEAM = WC5U8D9K53;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
@@ -679,7 +686,7 @@
 				CODE_SIGN_ENTITLEMENTS = parknailert/parknailert.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 225QF6HD9U;
+				DEVELOPMENT_TEAM = WC5U8D9K53;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -692,7 +699,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.parknailert.parknailert;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnl.parknailert;
 				PRODUCT_NAME = parknailert;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -707,7 +714,7 @@
 				CODE_SIGN_ENTITLEMENTS = parknailert/parknailert.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 225QF6HD9U;
+				DEVELOPMENT_TEAM = WC5U8D9K53;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -720,7 +727,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.parknailert.parknailert;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pnl.parknailert;
 				PRODUCT_NAME = parknailert;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
