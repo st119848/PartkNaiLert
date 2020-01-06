@@ -14,15 +14,18 @@ import BG from "../../assets/img/bg_main.png";
 import HeaderTitle from "../../components/header/HeaderTitle";
 
 class ContactUsScreens extends Component {
-    static navigationOptions = {
-        headerRight: <LangSettingButton />,
-        headerBackTitle: null,
-        headerTintColor: 'white',
-        headerTransparent: true,
-        headerStyle: {
-            backgroundColor: 'rgba(70, 41, 0, 0.8)',
-        },
-        headerTitle: <HeaderTitle title='Contact Us' />,
+    static navigationOptions = ({navigation}) => {
+        const {state={}} = navigation;
+        return {
+            headerRight: <LangSettingButton routeName={state.routeName} />,
+            headerBackTitle: null,
+            headerTintColor: 'white',
+            headerTransparent: true,
+            headerStyle: {
+                backgroundColor: 'rgba(70, 41, 0, 0.8)',
+            },
+            headerTitle: <HeaderTitle title='Contact Us' />,
+        }
     };
 
     t = (key, find, replace) => {

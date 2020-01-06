@@ -24,9 +24,10 @@ import {SafeAreaView} from 'react-navigation'
 export default class HomeScreen extends Component {
 
     static navigationOptions = ({ navigation }) => {
+        const {state={}} = navigation;
         return {
             headerLeft: <PageSettingButton navigation={navigation}/>,
-            headerRight: <LangSettingButton />,
+            headerRight: <LangSettingButton routeName={state.routeName} />,
             headerBackTitle: null,
             headerTintColor: 'rgb(125, 105 , 87)',
             headerTransparent: true,

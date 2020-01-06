@@ -20,8 +20,9 @@ const { width } = Dimensions.get('window')
 
 class FindUsScreen extends Component {
     static navigationOptions = ({ navigation }) => {
+        const {state={}} = navigation;
         return {
-            headerRight: <LangSettingButton />,
+            headerRight: <LangSettingButton routeName={state.routeName} />,
             headerBackTitle: null,
             headerTintColor: 'white',
             headerTransparent: true,

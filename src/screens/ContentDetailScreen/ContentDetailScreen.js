@@ -18,8 +18,9 @@ import ContentDetailLoading from './components/loading/ContentDetailLoading'
 
 class ContentDetailScreen extends Component {
     static navigationOptions = ({ navigation }) => {
+        const {state={}} = navigation;
         return {
-            headerRight: <LangSettingButton />,
+            headerRight: <LangSettingButton routeName={state.routeName} />,
             headerBackTitle: null,
             headerTintColor: 'white',
             headerTransparent: true,
@@ -107,14 +108,14 @@ class ContentDetailScreen extends Component {
 
     render() {
         const {audioStatus, isCanPlay} = this.state;
-        const {activeHighlightItem={}, isChangingLanguage} = this.props;
+        const {activeHighlightItem={}, isGettingHighlightList} = this.props;
         const {galleryImages=[]} = activeHighlightItem;
         return (
             <ImageBackground source={BG} style={styles.outtercontainer}>
                 <SafeAreaView style={styles.container}>
                     <View style={styles.innerContainer}>
-                        {isChangingLanguage && <ContentDetailLoading />}
-                        {!isChangingLanguage && <Content
+                        {isGettingHighlightList && <ContentDetailLoading />}
+                        {!isGettingHighlightList && <Content
                             item={activeHighlightItem}
                             images={galleryImages}
                             isCanPlay={isCanPlay}

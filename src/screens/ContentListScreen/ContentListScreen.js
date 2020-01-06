@@ -16,8 +16,9 @@ import { getStatusBarHeight } from 'react-native-status-bar-height';
 class ContentListScreen extends Component {
 
     static navigationOptions = ({ navigation }) => {
+        const {state={}} = navigation;
         return {
-            headerRight: <LangSettingButton />,
+            headerRight: <LangSettingButton routeName={state.routeName} />,
             headerBackTitle: null,
             headerTintColor: 'white',
             headerTransparent: true,
