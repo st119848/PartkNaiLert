@@ -53,6 +53,11 @@ const en = {
         labels: {
             go: 'Start Navigating',
         }
+    },
+    ar: {
+        zone: {
+            title: 'Please select zone.'
+        }
     }
 };
 
@@ -110,6 +115,11 @@ const th = {
     map: {
         labels: {
             go: 'Start Navigating',
+        }
+    },
+    ar: {
+        zone: {
+            title: 'โปรดเลือกโซนของพิพิธภัณฑ์'
         }
     }
 };
@@ -169,6 +179,11 @@ const zh = {
         labels: {
             go: 'Start Navigating',
         }
+    },
+    ar: {
+        zone: {
+            title: 'โปรดเลือกโซนของพิพิธภัณฑ์'
+        }
     }
 };
 
@@ -226,6 +241,11 @@ const ja = {
     map: {
         labels: {
             go: 'Start Navigating',
+        }
+    },
+    ar: {
+        zone: {
+            title: 'โปรดเลือกโซนของพิพิธภัณฑ์'
         }
     }
 };

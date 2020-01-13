@@ -1,1 +1,1 @@
-export {default} from './ARScreen'
+export {default} from './ar_container'

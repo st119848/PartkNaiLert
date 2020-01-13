@@ -25,6 +25,8 @@ var createReactClass = require("create-react-class");
 
 var MarkerDetail = createReactClass({
 	render: function () {
+		const {t} = this.props;
+		const title = t('ar.zone.title');
 		return (
 			<Theme>
 				<Header source={require("../../../assets/white-cross.png")} />
@@ -32,7 +34,7 @@ var MarkerDetail = createReactClass({
 					{/* <ImageBox>
 						<ImageStyle source={sauce} />
 					</ImageBox> */}
-					<TitleText>โปรดเลือกโซนของพิพิธภัณฑ์</TitleText>
+					<TitleText>{title}</TitleText>
 						<ThreeDBox>
 							<Touch onPress={() => {
 								Actions.scan1({
