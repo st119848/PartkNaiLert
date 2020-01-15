@@ -32,7 +32,7 @@ var ScanTheObjectTwo = createReactClass({
 		if (this.props.showARScene == 1) { // check showARScene if  from default ==1  do and other ....
 			return (
 				<Theme>
-					<Header source={require("../../../assets/black-cross.png")}/>
+					<Header renderBackArrow={true} source={require("../../../assets/black-cross.png")}/>
 					<Border>
 						<ViroARSceneNavigator
 							initialScene={{ scene: PNLAR2 }} // go to PNLAR
