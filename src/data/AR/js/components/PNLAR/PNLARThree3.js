@@ -112,7 +112,7 @@ const PNLARThree3 = createReactClass({
 							scale={[0.015, 0.015, 0.015]}
 							type='GLB'
 							rotation={[0, 0, -90]}
-							visible={this.state.dzShow}
+							visible={this.state.doShow}
 						/>
 
 						<Viro3DObject
