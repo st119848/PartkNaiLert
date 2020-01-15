@@ -44,12 +44,12 @@ var MarkerDetail3 = createReactClass({
 
 		return (
 			<Theme>
-				<Header source={require("../../../assets/white-cross.png")} />
+				<Header renderBackArrow={true} source={require("../../../assets/white-cross.png")} />
 				<Container>
 					<ImageBox>
 						<ImageStyle source={sauce} />
 					</ImageBox>
-					{this.props.renderText === true && typeof item3D != 'undefined' ? // check if  type of item3D not undefined so it has 3D  the bottom lines will show
+					{/*this.props.renderText === true && typeof item3D != 'undefined' ? // check if  type of item3D not undefined so it has 3D  the bottom lines will show
 						<ThreeDBox>
 							<Touch onPress={() => {
 								Actions.scan3({
@@ -60,7 +60,7 @@ var MarkerDetail3 = createReactClass({
 								<ThreeDText>3D Available ></ThreeDText>
 							</Touch>
 						</ThreeDBox>
-						: null}{/* if undefined it does not show the button */}
+						: null}*/}
 					<ScrollView>
 						<TextBox>
 							<TitleText>{this.props.textLangTitle}</TitleText>
