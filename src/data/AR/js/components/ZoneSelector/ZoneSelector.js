@@ -29,7 +29,7 @@ var MarkerDetail = createReactClass({
 		const title = t('ar.zone.title');
 		return (
 			<Theme>
-				<Header source={require("../../../assets/white-cross.png")} />
+				<Header renderBackArrow={true} source={require("../../../assets/white-cross.png")} />
 				<Container>
 					{/* <ImageBox>
 						<ImageStyle source={sauce} />
