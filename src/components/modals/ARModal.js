@@ -30,7 +30,7 @@ const Header = props => {
     return (
         <SafeAreaView style={styles.headerContainer}>
             <TouchableOpacity onPress={onCloseClick}>
-                <Icon name="close" style={styles.closeButton} size={30} />
+                <Icon name="close" style={styles.closeButton} size={35} />
             </TouchableOpacity>
         </SafeAreaView>
     )
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
 
     headerContainer: {
         width: '100%',
-        height: 44,
+        height: 49,
         flexDirection: 'row',
         justifyContent: 'flex-end',
         alignItems: 'center',

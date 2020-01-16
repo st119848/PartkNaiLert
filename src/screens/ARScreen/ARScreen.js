@@ -26,7 +26,7 @@ export default class ARScreen extends Component {
                     <Scene key="detail1" component={MarkerDetail1} t={this.t} />
                     <Scene key="detail2" component={MarkerDetail2} t={this.t} />
                     <Scene key="detail3" component={MarkerDetail3} t={this.t} />
-                    <Scene key="header" component={Header} />
+                    <Scene key="header" component={Header} t={this.t}  />
                 </Stack>
             </Router>
         );

@@ -3,21 +3,21 @@ import styled from 'styled-components/native'
 export const Theme = styled.View`
 	flex: 1;
 	background-color: white;
+	position: relative;
 `;
 
 export const Border = styled.View`
 	flex: 1;
-	padding: 0 20px 20px 20px;
+	position: relative;
 `;
 
 export const BottomText = styled.Text`
 	background-color: black;
 	color: white;
-	font-size: 35px;
+	font-size: 25px;
 	font-family: Thonburi;
-	line-height: 39px;
 	text-align: center;
-	padding-bottom: 30;
+	padding: 10px 0;
 `;
 
 export const Touch = styled.TouchableOpacity``;

@@ -1,12 +1,12 @@
 import styled from 'styled-components/native';
 
-export const Theme = styled.View`
+export const Theme = styled.SafeAreaView`
 	flex: 1;
 	background-color: rgb(112,112,112);
 `;
 
 export const Container = styled.View`
-	padding: 0 28px 20px 28px;
+	padding: 60px 28px 20px 28px;
     align-items: center;
 `;
 

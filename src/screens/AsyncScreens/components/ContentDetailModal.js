@@ -32,7 +32,7 @@ const Header = props => {
     return (
         <SafeAreaView style={styles.headerContainer}>
             <TouchableOpacity onPress={onCloseClick}>
-                <Icon name="close" style={styles.closeButton} size={30} />
+                <Icon name="close" style={styles.closeButton} size={35} />
             </TouchableOpacity>
         </SafeAreaView>
     )

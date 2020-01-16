@@ -3,18 +3,14 @@
 import React, { Component } from "react";
 import PNLAR2 from "../PNLAR/PNLAR2";
 import PNLARThree2 from "../PNLAR/PNLARThree2";
-import ARData from "../../../assets/ARData.json";
 import { ViroARSceneNavigator } from "react-viro";
 import Header from "../Header/Header";
-import MarkerDetail from "../MarkerDetail/MarkerDetail1";
 import { Theme, BottomText, Border } from "./style";
 import { Actions } from "react-native-router-flux";
-
-var createReactClass = require("create-react-class");
 var apiKey = "185779F9-FAEC-4950-BF69-454D6BDD4EC6";
 
-var ScanTheObjectTwo = createReactClass({
-	getInitialState(marker) {
+export default class ScanTheObjectTwo extends Component{
+	static getInitialState(marker) {
 		const detailState = {
 			textLangTitle: "",
 			textLangDetail: "Tap to select the laguage",
@@ -23,50 +19,7 @@ var ScanTheObjectTwo = createReactClass({
 		return {
 			...detailState,
 		};
-	},
-
-	
-	
-	render: function() {
-
-		if (this.props.showARScene == 1) { // check showARScene if  from default ==1  do and other ....
-			return (
-				<Theme>
-					<Header renderBackArrow={true} source={require("../../../assets/black-cross.png")}/>
-					<Border>
-						<ViroARSceneNavigator
-							initialScene={{ scene: PNLAR2 }} // go to PNLAR
-							apiKey={apiKey}
-							viroAppProps={{ onAnchored: this.onAnchored ,showARScene:this.state.showARScene}}
-						/>
-						<BottomText>
-							Scan The Object
-							{/* {this.state.textLangTitle} */}
-						</BottomText>
-					</Border>
-				</Theme>
-			)
-		}
-		else {
-			return (
-				<Theme>
-					<Header source={require("../../../assets/black-cross.png")}/>
-					<Border>
-						<ViroARSceneNavigator
-							initialScene={{ scene: PNLARThree2 }}
-							apiKey={apiKey}
-							viroAppProps={{ onAnchored: this.onAnchored ,showARScene:this.state.showARScene}}
-						/>
-						<BottomText>
-							Hover over the Object
-							
-							{/* {this.state.textLangTitle} */}
-						</BottomText>
-					</Border>
-				</Theme>
-			)
-		}
-	},
+	}
 	onAnchored(marker) {
 		// Actions.detail({textLangTitleTest: String(ARData[marker - 1].value[0].title)});
 		// Actions.detail({textLangDetailTest: String(ARData[marker - 1].value[0].title)});
@@ -75,11 +28,25 @@ var ScanTheObjectTwo = createReactClass({
 		// 	textLangDetail: String(ARData[marker - 1].value[0].detail),
 		// 	tapJp: true,
 		// });
-	},
-	
-});
-
-// Uncomment the below line to use the ARDrivingCar Demo. Don't forget to set the apiKey variable in ARDrivingCar.js
-// ViroCodeSamplesSceneNavigator = require('./js/ARDrivingCarDemo/ARDrivingCar');
-
-module.exports = ScanTheObjectTwo;
+	}
+	render() {
+		const {showARScene} = this.props;
+		const scene = (showARScene === 1) ? PNLAR2 : PNLARThree2;
+		const bottomText = (showARScene === 1) ? 'Scan The Object' : 'Hover over the Object';
+		return (
+			<Theme>
+				<Border>
+					<Header/>
+					<ViroARSceneNavigator
+						initialScene={{ scene: scene }} // go to PNLAR
+						apiKey={apiKey}
+						viroAppProps={{ onAnchored: this.onAnchored ,showARScene: this.props.showARScene}}
+					/>
+					<BottomText>
+						{bottomText}
+					</BottomText>
+				</Border>
+			</Theme>
+		)
+	}
+}
