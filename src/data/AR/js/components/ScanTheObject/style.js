@@ -15,7 +15,7 @@ export const BottomText = styled.Text`
 	background-color: black;
 	color: white;
 	font-size: 25px;
-	font-family: Thonburi;
+	font-family: PT Mono;
 	text-align: center;
 	padding: 10px 0;
 `;

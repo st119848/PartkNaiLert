@@ -26,6 +26,7 @@ import {
 	ViroARImageMarker,
 	ViroARTrackingTargets,
 } from "react-viro";
+import {connect} from "react-redux";
 
 const createReactClass = require("create-react-class");
 
@@ -50,7 +51,17 @@ const PNLAR2 = createReactClass({
 			...varyState,
 		};
 	},
-
+	getMarkerInfo(marker) {
+		const {languageId} = this.props;
+		const arMarkerData = ARData[marker - 1].value || [];
+		const arMarkerDataByLang = arMarkerData.find((item) => item.language_id === languageId) || {};
+		const title = String(arMarkerDataByLang.title);
+		const detail = String(arMarkerDataByLang.detail);
+		return {
+			title,
+			detail,
+		}
+	},
 	render: function () {
 		return (
 			<ViroARScene>
@@ -58,12 +69,13 @@ const PNLAR2 = createReactClass({
 					<ViroARImageMarker
 						target={marker}
 						onAnchorFound={() => {
-							this.props.sceneNavigator.viroAppProps.onAnchored(marker)
+							this.props.sceneNavigator.viroAppProps.onAnchored(marker);
+							const {title, detail} = this.getMarkerInfo(marker);
 							//to navigate to detail component
 							Actions.detail2({ // go to markerDetail
 								renderText: true,
-								textLangTitle: String(ARData[marker - 1].value[0].title),
-								textLangDetail: String(ARData[marker - 1].value[0].detail),
+								textLangTitle: title,
+								textLangDetail: detail,
 								showARScene:this.props.sceneNavigator.viroAppProps.showARScene,
 								marker:marker // send marker to the markerDetail
 							});
@@ -171,4 +183,16 @@ ViroARTrackingTargets.createTargets({
 	}
 });
 
-export default PNLAR2;
+const mapDispatchToProps = (dispatch) => {
+	return {
+	}
+};
+
+const mapStateToProps = (state) => {
+	return {
+		languageId: state.setting.languageId,
+	}
+};
+export default connect(mapStateToProps, mapDispatchToProps)(PNLAR2)
+
+

@@ -57,9 +57,13 @@ const en = {
     ar: {
         zone: {
             title: 'Please select zone',
-            zone1: 'ห้องรับแขก เรื่อนท่านผู้หญิง',
-            zone2: 'เรื่อนท่านผู้หญิง',
-            zone3: 'เรือนท่านเจ้าคุณ',
+            zone1: 'Ruean Thanphuying reception room zone',
+            zone2: 'Thanphuying\'s house zone',
+            zone3: 'Than Chao Khun\'s house zone',
+        },
+        camera: {
+            scan: 'Scan The Object',
+            hover: 'Hover over the Object',
         }
     }
 };
@@ -126,6 +130,10 @@ const th = {
             zone1: 'ห้องรับแขก เรื่อนท่านผู้หญิง',
             zone2: 'เรื่อนท่านผู้หญิง',
             zone3: 'เรือนท่านเจ้าคุณ',
+        },
+        camera: {
+            scan: 'สแกนวัตถุ',
+            hover: 'สแกนวัตถุ',
         }
     }
 };
@@ -192,6 +200,10 @@ const zh = {
             zone1: 'ห้องรับแขก เรื่อนท่านผู้หญิง',
             zone2: 'เรื่อนท่านผู้หญิง',
             zone3: 'เรือนท่านเจ้าคุณ',
+        },
+        camera: {
+            scan: 'Scan The Object',
+            hover: 'Hover over the Object',
         }
     }
 };
@@ -258,6 +270,10 @@ const ja = {
             zone1: 'ห้องรับแขก เรื่อนท่านผู้หญิง',
             zone2: 'เรื่อนท่านผู้หญิง',
             zone3: 'เรือนท่านเจ้าคุณ',
+        },
+        camera: {
+            scan: 'Scan The Object',
+            hover: 'Hover over the Object',
         }
     }
 };

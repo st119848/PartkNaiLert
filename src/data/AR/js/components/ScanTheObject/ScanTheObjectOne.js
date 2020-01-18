@@ -31,9 +31,9 @@ export default class ScanTheObjectOne extends Component{
 		// });
 	}
 	render() {
-		const {showARScene} = this.props;
+		const {showARScene, t} = this.props;
 		const scene = (showARScene === 1) ? PNLAR1 : PNLARThree1;
-		const bottomText = (showARScene === 1) ? 'Scan The Object' : 'Hover over the Object';
+		const bottomText = (showARScene === 1) ? t('ar.camera.scan') : t('ar.camera.hover');
 		return (
 			<Theme>
 				<Border>

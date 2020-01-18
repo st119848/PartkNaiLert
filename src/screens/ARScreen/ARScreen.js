@@ -16,16 +16,17 @@ export default class ARScreen extends Component {
         return translate(language, key, find, replace);
     }
     render() {
+        const {languageId} = this.props;
         return (
             <Router>
                 <Stack hideNavBar>
                     <Scene key="zone" initial component={ZoneSelector} t={this.t} />
-                    <Scene key="scan1" component={ScanTheObjectOne} ThreeD={false} marker={0} showARScene={1} t={this.t} />
-                    <Scene key="scan2" component={ScanTheObjectTwo} ThreeD={false} marker={0} showARScene={1} t={this.t} />
-                    <Scene key="scan3" component={ScanTheObjectThree} ThreeD={false} marker={0} showARScene={1} t={this.t} />
-                    <Scene key="detail1" component={MarkerDetail1} t={this.t} />
-                    <Scene key="detail2" component={MarkerDetail2} t={this.t} />
-                    <Scene key="detail3" component={MarkerDetail3} t={this.t} />
+                    <Scene key="scan1" component={ScanTheObjectOne} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
+                    <Scene key="scan2" component={ScanTheObjectTwo} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
+                    <Scene key="scan3" component={ScanTheObjectThree} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
+                    <Scene key="detail1" component={MarkerDetail1} t={this.t}/>
+                    <Scene key="detail2" component={MarkerDetail2} t={this.t}/>
+                    <Scene key="detail3" component={MarkerDetail3} t={this.t}/>
                     <Scene key="header" component={Header} t={this.t}  />
                 </Stack>
             </Router>

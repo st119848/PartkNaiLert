@@ -45,16 +45,17 @@ const styles = StyleSheet.create({
     },
 
     headerContainer: {
-        width: '100%',
+        width: 49,
         height: 49,
         flexDirection: 'row',
         justifyContent: 'flex-end',
         alignItems: 'center',
         position: 'absolute',
         top: 0,
+        right: 0,
     },
     closeButton: {
         color: 'white',
-        paddingHorizontal: 10
+        paddingHorizontal: 10,
     },
 });
