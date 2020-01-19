@@ -14,7 +14,7 @@ export default class ARScreen extends Component {
     t = (key, find, replace) => {
         const {language} = this.props;
         return translate(language, key, find, replace);
-    }
+    };
     render() {
         const {languageId} = this.props;
         return (

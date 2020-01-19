@@ -6,6 +6,8 @@ import {
 	Theme,
 	ImageBox,
 	ImageStyle,
+	ThreeDBox,
+	ThreeDText,
 	TextBox,
 	TitleText,
 	DetailText,
@@ -15,7 +17,7 @@ import { ScrollView } from 'react-native';
 
 export default class MarkerDetail3 extends Component {
 	render() {
-		const {marker} = this.props;
+		const {marker, t} = this.props;
 		if (marker == 39) {
 			var sauce = require("../../../assets/39.jpeg");
 		} else if (marker == 40) {
@@ -27,6 +29,7 @@ export default class MarkerDetail3 extends Component {
 		} else if (marker == 49) {
 			var sauce = require("../../../assets/49.jpeg");
 		}
+		const threeDAvailable = t('ar.detail.threeDAvailable');
 		return (
 			<Theme>
 				<Header />
@@ -34,6 +37,18 @@ export default class MarkerDetail3 extends Component {
 					<ImageBox>
 						<ImageStyle source={sauce} />
 					</ImageBox>
+					{this.props.renderText === true && typeof item3D != 'undefined' ? // check if  type of item3D not undefined so it has 3D  the bottom lines will show
+						<ThreeDBox>
+							<Touch onPress={() => {
+								Actions.scan3({
+									showARScene: 2, //send showARScene with not defaut value    1 is  default
+
+								});
+							}}>
+								<ThreeDText>{threeDAvailable} ></ThreeDText>
+							</Touch>
+						</ThreeDBox>
+						: null}
 					<ScrollView>
 						<TextBox>
 							<TitleText>{this.props.textLangTitle}</TitleText>
