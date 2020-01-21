@@ -25,7 +25,6 @@ export default class MarkerDetail1 extends Component {
 		} else if (marker == 19) {
 			var sauce = require("../../../assets/19.jpeg");
 		}
-
 		return (
 			<Theme>
 				<Header />
