@@ -17,6 +17,7 @@ class ContentListScreen extends Component {
 
     static navigationOptions = ({ navigation }) => {
         const {state={}} = navigation;
+        const title = navigation.getParam('title');
         return {
             headerRight: <LangSettingButton routeName={state.routeName} />,
             headerBackTitle: null,
@@ -25,7 +26,7 @@ class ContentListScreen extends Component {
             headerStyle: {
                 backgroundColor: 'rgba(70, 41, 0, 0.8)',
             },
-            headerTitle: <HeaderTitle title='Highlight' />,
+            headerTitle: <HeaderTitle title={title} />,
         };
     };
 
@@ -44,6 +45,20 @@ class ContentListScreen extends Component {
         const {language} = this.props;
         return translate(language, key, find, replace);
     };
+
+    componentWillMount() {
+        const {navigation} = this.props;
+        const title = this.t('menus.highLight');
+        navigation.setParams({ title});
+    }
+
+    componentWillReceiveProps(nextProps, nextContext) {
+        const title = this.t('menus.highLight');
+        const lastTitle = nextProps.navigation.getParam('title');
+        if(lastTitle !== title) {
+            nextProps.navigation.setParams({ title});
+        }
+    }
 
     componentDidMount() {
         const {getHighlightListFromApi} = this.props;

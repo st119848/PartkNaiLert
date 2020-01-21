@@ -11,25 +11,42 @@ import thIcon from "../assets/img/language/thailand.png";
 import cnIcon from "../assets/img/language/china.png";
 import enIcon from "../assets/img/language/en.png";
 import jpIcon from "../assets/img/language/japan.png";
+import {connect} from "react-redux";
+import {translate} from "../helpers/translates";
 
 
 const LangListSetting  = props => {
     const {activeLang, onChangeLang} = props;
+    const t = (key, find, replace) => {
+        const {language} = props;
+        return translate(language, key, find, replace);
+    };
     return (
         <SafeAreaView style={styles.languageSettingContainer}>
-            <Title />
+            <Title t={t} />
             <LangList activeLang={activeLang} onChangeLang={onChangeLang} />
         </SafeAreaView>
     )
 };
 
-export default LangListSetting;
+const mapDispatchToProps = (dispatch) => {
+    return {
+    }
+};
 
-const Title = () => {
+const mapStateToProps = (state) => {
+    return {
+        language: state.setting.language,
+    }
+};
+export default connect(mapStateToProps, mapDispatchToProps)(LangListSetting)
+
+const Title = ({t}) => {
+    const title = t('home.language.select');
     return (
         <View style={styles.titleContainer}>
             <View style={styles.titleInnerContainer}>
-                <Text style={styles.titleText}>Select Language</Text>
+                <Text style={styles.titleText}>{title}</Text>
             </View>
         </View>
     )

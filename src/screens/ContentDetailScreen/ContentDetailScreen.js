@@ -15,10 +15,12 @@ import {dynamicEventLink} from './../../helpers/firebase'
 import LangSettingButton from "../../components/header/LangSettingButton";
 import BG from "../../assets/img/bg_main.png";
 import ContentDetailLoading from './components/loading/ContentDetailLoading'
+import {translate} from "../../helpers/translates";
 
 class ContentDetailScreen extends Component {
     static navigationOptions = ({ navigation }) => {
         const {state={}} = navigation;
+        const title = navigation.getParam('title');
         return {
             headerRight: <LangSettingButton routeName={state.routeName} />,
             headerBackTitle: null,
@@ -27,7 +29,7 @@ class ContentDetailScreen extends Component {
             headerStyle: {
                 backgroundColor: 'rgba(70, 41, 0, 0.8)',
             },
-            headerTitle: <HeaderTitle title='Highlight' />,
+            headerTitle: <HeaderTitle title={title} />,
         };
     };
 
@@ -87,6 +89,25 @@ class ContentDetailScreen extends Component {
             .then((res) => { console.log(res) })
             .catch((err) => { err && console.log(err); });
     };
+
+    t = (key, find, replace) => {
+        const {language} = this.props;
+        return translate(language, key, find, replace);
+    };
+
+    componentWillMount() {
+        const {navigation} = this.props;
+        const title = this.t('menus.highLight');
+        navigation.setParams({ title});
+    }
+
+    componentWillReceiveProps(nextProps, nextContext) {
+        const title = this.t('menus.highLight');
+        const lastTitle = nextProps.navigation.getParam('title');
+        if(lastTitle !== title) {
+            nextProps.navigation.setParams({ title});
+        }
+    }
 
     componentDidMount(){
         const {activeHighlightItem={}} = this.props;

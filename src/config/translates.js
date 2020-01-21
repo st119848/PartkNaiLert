@@ -4,7 +4,8 @@ const en = {
         pnl: 'Park Nai Lert',
         findUs: 'Find Us',
         contactUs: 'Contact Us',
-        home: 'Home'
+        home: 'Home',
+        highLight: 'Highlight',
     },
     home: {
         buttons: {
@@ -25,6 +26,9 @@ const en = {
         },
         labels: {
             beacons: 'Beacons Status'
+        },
+        language: {
+            select: 'Select Language'
         }
     },
     list: {
@@ -70,46 +74,50 @@ const en = {
 
 const th = {
     menus: {
-        intro: 'Introduction',
-        pnl: 'Park Nai Lert',
-        findUs: 'Find Us',
-        contactUs: 'Contact Us',
-        home: 'Home'
+        intro: 'บทนำ',
+        pnl: 'ปาร์คนายเลิศ',
+        findUs: 'แผนที่',
+        contactUs: 'ติดต่อเรา',
+        home: 'หน้าแรก',
+        highLight: 'จุดเด่น',
     },
     home: {
         buttons: {
-            intro: 'Introduction',
-            guides: 'Guides',
-            more: 'View More',
-            try: 'TRY!',
-            camera: 'CAMERA'
+            intro: 'บทนำ',
+            guides: 'แนะนำ',
+            more: 'ดูเพิ่ม',
+            try: 'ลอง!',
+            camera: 'กล้อง'
         },
         title: {
-            nailert: 'NAI LERT HERITAGE HOME',
-            location: 'BANGKOK',
-            museumHighlight: 'Museum Highlight',
+            nailert: 'ปาร์คนายเลิศ',
+            location: 'กรุงเทพฯ',
+            museumHighlight: 'จุดเด่นของพิพิธภัณฑ์',
             augmentedReality: 'Augmented Reality',
         },
         description: {
             arDesc: 'Our Museum use the AR and Beacons technology to gain your experience. Please enjoy by clicking AR camera below'
         },
         labels: {
-            beacons: 'Beacons Status'
+            beacons: 'สถานะ Beacons'
+        },
+        language: {
+            select: 'เลือกภาษา'
         }
     },
     list: {
         button: {
-            showMore : 'Show more'
+            showMore : 'ดูเพิ่ม'
         }
     },
     contact: {
         title: {
-            contactInfor: 'CONTACT INFORMATION',
-            serviceTime: 'GUIDED TOUR'
+            contactInfor: 'ข้อมูลการติดต่อ',
+            serviceTime: 'ไกด์ทัวร์'
         },
         labels: {
-            phone: 'Phone : :phone',
-            email: 'E-mail: :email'
+            phone: 'โทรศัพท์ : :phone',
+            email: 'อีเมล: :email'
         }
     },
     parkNaiLert: {
@@ -121,7 +129,7 @@ const th = {
     },
     map: {
         labels: {
-            go: 'Start Navigating',
+            go: 'เริ่มการนำทาง',
         }
     },
     ar: {
@@ -144,12 +152,13 @@ const zh = {
         pnl: '奈乐特公园',
         findUs: '地址',
         contactUs: '联系我们',
-        home: 'Home'
+        home: '主页',
+        highLight: '突出',
     },
     home: {
         buttons: {
             intro: '简介',
-            guides: 'Guides',
+            guides: '导游',
             more: '更多',
             try: '试',
             camera: '用'
@@ -165,6 +174,9 @@ const zh = {
         },
         labels: {
             beacons: 'Beacons'
+        },
+        language: {
+            select: '选择语言'
         }
     },
     list: {
@@ -191,19 +203,22 @@ const zh = {
     },
     map: {
         labels: {
-            go: 'Start Navigating',
+            go: '开始浏览',
         }
     },
     ar: {
         zone: {
-            title: 'โปรดเลือกโซนของพิพิธภัณฑ์',
-            zone1: 'ห้องรับแขก เรื่อนท่านผู้หญิง',
-            zone2: 'เรื่อนท่านผู้หญิง',
-            zone3: 'เรือนท่านเจ้าคุณ',
+            title: '请选择区域',
+            zone1: '夫人家的客厅',
+            zone2: '夫人家',
+            zone3: '贵族家',
         },
         camera: {
-            scan: 'Scan The Object',
-            hover: 'Hover over the Object',
+            scan: '扫描物体',
+            hover: '将鼠标悬停在对象上',
+        },
+        detail: {
+            threeDAvailable: '3D可用',
         }
     }
 };
@@ -214,12 +229,13 @@ const ja = {
         pnl: 'ナイラートパーク',
         findUs: 'ロケーション',
         contactUs: 'ご連絡先',
-        home: 'Home'
+        home: 'ホームページ',
+        highLight: 'ハイライト',
     },
     home: {
         buttons: {
             intro: 'イントロダクション',
-            guides: 'Guides',
+            guides: 'ガイド',
             more: 'その他',
             try: '試す!',
             camera: 'カメラを'
@@ -235,6 +251,9 @@ const ja = {
         },
         labels: {
             beacons: 'Beacons'
+        },
+        language: {
+            select: '言語を選択する'
         }
     },
     list: {
@@ -261,19 +280,22 @@ const ja = {
     },
     map: {
         labels: {
-            go: 'Start Navigating',
+            go: 'ナビを開始',
         }
     },
     ar: {
         zone: {
-            title: 'โปรดเลือกโซนของพิพิธภัณฑ์',
-            zone1: 'ห้องรับแขก เรื่อนท่านผู้หญิง',
-            zone2: 'เรื่อนท่านผู้หญิง',
-            zone3: 'เรือนท่านเจ้าคุณ',
+            title: 'ゾーンを選択してください',
+            zone1: 'タン・インの館の応接間',
+            zone2: 'タン・イン(夫人)の館',
+            zone3: 'タン・チャオクン(主人)の館',
         },
         camera: {
-            scan: 'Scan The Object',
-            hover: 'Hover over the Object',
+            scan: 'オブジェクトをスキャンする',
+            hover: 'オブジェクトにカーソルを合わせる',
+        },
+        detail: {
+            threeDAvailable: '3D利用可能',
         }
     }
 };

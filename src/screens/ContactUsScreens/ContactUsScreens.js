@@ -16,6 +16,7 @@ import HeaderTitle from "../../components/header/HeaderTitle";
 class ContactUsScreens extends Component {
     static navigationOptions = ({navigation}) => {
         const {state={}} = navigation;
+        const title = navigation.getParam('title');
         return {
             headerRight: <LangSettingButton routeName={state.routeName} />,
             headerBackTitle: null,
@@ -24,7 +25,7 @@ class ContactUsScreens extends Component {
             headerStyle: {
                 backgroundColor: 'rgba(70, 41, 0, 0.8)',
             },
-            headerTitle: <HeaderTitle title='Contact Us' />,
+            headerTitle: <HeaderTitle title={title} />,
         }
     };
 
@@ -32,6 +33,20 @@ class ContactUsScreens extends Component {
         const {language} = this.props;
         return translate(language, key, find, replace);
     };
+
+    componentWillMount() {
+        const {navigation} = this.props;
+        const title = this.t('menus.contactUs');
+        navigation.setParams({ title});
+    }
+
+    componentWillReceiveProps(nextProps, nextContext) {
+        const title = this.t('menus.contactUs');
+        const lastTitle = nextProps.navigation.getParam('title');
+        if(lastTitle !== title) {
+            nextProps.navigation.setParams({ title});
+        }
+    }
 
     componentDidMount() {
         const {getAboutUsContactFromApi} = this.props;

@@ -44,45 +44,6 @@ const Header = props => {
     )
 };
 
-const PageList = ({activeLang, onChangeLang}) => {
-    const pageList = [
-        {
-            lang: 'en',
-            label: 'English'
-        },
-        {
-            lang: 'zh',
-            label: '中文'
-        },
-        {
-            lang: 'ja',
-            label: '日本'
-        },
-        {
-            lang: 'th',
-            label: 'ไทย'
-        },
-    ];
-    return (
-        <View style={styles.pageListContainer}>
-            {pageList.map((item, index) => {
-                const handleClickItem = () => onChangeLang(item.lang);
-                const isActiveLang = (activeLang === item.lang);
-                return (
-                    <TouchableOpacity key={index} onPress={handleClickItem}>
-                        <View style={styles.pageItemContainer} >
-                            <LangIcon lang={item.lang} />
-                            <Text style={[styles.pageItemText, isActiveLang && styles.pageItemActiveText]}>{item.label}</Text>
-                        </View>
-                    </TouchableOpacity>
-                )
-            })}
-        </View>
-    );
-};
-
-
-
 const styles = StyleSheet.create({
     container: {
         flex: 1,

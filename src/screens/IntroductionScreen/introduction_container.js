@@ -12,6 +12,7 @@ const mapDispatchToProps = (dispatch) => {
 const mapStateToProps = (state) => {
     return {
         introData: state.aboutUs.introData,
+        language: state.setting.language,
     }
 };
 export default connect(mapStateToProps, mapDispatchToProps)(IntroductionScreen)

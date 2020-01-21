@@ -46,7 +46,6 @@ const styles = StyleSheet.create({
 
     headerContainer: {
         width: 49,
-        height: 49,
         flexDirection: 'row',
         justifyContent: 'flex-end',
         alignItems: 'center',
