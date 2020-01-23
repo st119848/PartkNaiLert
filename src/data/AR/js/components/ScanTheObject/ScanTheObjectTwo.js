@@ -2,7 +2,9 @@
 
 import React, { Component } from "react";
 import PNLAR2 from "../PNLAR/PNLAR2";
-import PNLARThree2 from "../PNLAR/PNLARThree2";
+import PNLARThree24 from "../PNLAR/PNLARThree24";
+import PNLARThree31 from "../PNLAR/PNLARThree31";
+import PNLARThree32 from "../PNLAR/PNLARThree32";
 import { ViroARSceneNavigator } from "react-viro";
 import Header from "../Header/Header";
 import { Theme, BottomText, Border } from "./style";
