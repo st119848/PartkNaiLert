@@ -68,6 +68,9 @@ const en = {
         camera: {
             scan: 'Scan The Object',
             hover: 'Hover over the Object',
+        },
+        detail: {
+            threeDAvailable: '3D Available'
         }
     }
 };
@@ -142,7 +145,10 @@ const th = {
         camera: {
             scan: 'สแกนวัตถุ',
             hover: 'สแกนวัตถุ',
-        }
+        },
+        detail: {
+            threeDAvailable: 'โมเดล 3D พร้อม',
+        },
     }
 };
 
@@ -219,7 +225,7 @@ const zh = {
         },
         detail: {
             threeDAvailable: '3D可用',
-        }
+        },
     }
 };
 

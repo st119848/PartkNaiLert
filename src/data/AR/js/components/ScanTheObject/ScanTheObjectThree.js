@@ -44,7 +44,7 @@ export default class ScanTheObjectThree extends Component{
 		};
 		const defaultScene = PNLAR3;
 		const scene = mapScene[showARScene] || defaultScene;
-		const bottomText = (showARScene === '1') ? t('ar.camera.scan') : t('ar.camera.hover');
+		const bottomText = (showARScene == '1') ? t('ar.camera.scan') : t('ar.camera.hover');
 		return (
 			<Theme>
 				<Border>

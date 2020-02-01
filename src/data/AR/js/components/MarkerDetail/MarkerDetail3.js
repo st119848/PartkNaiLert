@@ -15,8 +15,13 @@ import { ScrollView } from 'react-native';
 import { Actions } from "react-native-router-flux";
 
 export default class MarkerDetail3 extends Component {
+	handlerBackSuccess = () => {
+		Actions.pop({
+			showARScene: 1,
+		})
+	};
 	render() {
-		const {marker, renderText} = this.props;
+		const {marker, renderText, t} = this.props;
 		let source;
 		if (marker === "35") {
 			source = require("../../../assets/35.jpg");
@@ -53,9 +58,10 @@ export default class MarkerDetail3 extends Component {
 		}
 		const has3D = ["39", "40", "41", "44", "49"] // Number of picture that has 3D
 		const isShowModel = has3D.includes(marker);// the marker from PNLAR  has in list of has3D if it exists it return id otherwise return undefined
+		const threeDTitle = t('ar.detail.threeDAvailable');
 		return (
 			<Theme>
-				<Header />
+				<Header onBack={this.handlerBackSuccess} />
 				<Container>
 					<ImageBox>
 						<ImageStyle source={source} />
@@ -68,7 +74,7 @@ export default class MarkerDetail3 extends Component {
 
 								});
 							}}>
-								<ThreeDText>3D Available ></ThreeDText>
+								<ThreeDText>{threeDTitle} ></ThreeDText>
 							</Touch>
 						</ThreeDBox>
 						: null}{/* if undefined it does not show the button */}
