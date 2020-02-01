@@ -4,11 +4,11 @@ import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import ARData from "../../../assets/ARData.json";
 import { Actions } from "react-native-router-flux";
-import Pic39 from "../../../assets/39.jpeg";
-import Pic40 from "../../../assets/40.jpeg";
-import Pic41 from "../../../assets/41.jpeg";
-import Pic44 from "../../../assets/44.jpeg";
-import Pic49 from "../../../assets/49.jpeg";
+import Pic39 from "../../../assets/39.jpg";
+import Pic40 from "../../../assets/40.jpg";
+import Pic41 from "../../../assets/41.jpg";
+import Pic44 from "../../../assets/44.jpg";
+import Pic49 from "../../../assets/49.jpg";
 
 import {
 	ViroARScene,

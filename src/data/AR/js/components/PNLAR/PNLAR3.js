@@ -4,22 +4,22 @@ import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import ARData from "../../../assets/ARData.json";
 import { Actions } from "react-native-router-flux";
-import Pic35 from "../../../assets/35.jpeg";
-import Pic36 from "../../../assets/36.jpeg";
-import Pic37 from "../../../assets/37.jpeg";
-import Pic38 from "../../../assets/38.jpeg";
-import Pic39 from "../../../assets/39.jpeg";
-import Pic40 from "../../../assets/40.jpeg";
-import Pic41 from "../../../assets/41.jpeg";
-import Pic42 from "../../../assets/42.jpeg";
-import Pic43 from "../../../assets/43.jpeg";
-import Pic44 from "../../../assets/44.jpeg";
-import Pic45 from "../../../assets/45.jpeg";
-import Pic46 from "../../../assets/46.jpeg";
-import Pic47 from "../../../assets/47.jpeg";
-import Pic48 from "../../../assets/48.jpeg";
-import Pic49 from "../../../assets/49.jpeg";
-import Pic50 from "../../../assets/50.jpeg";
+import Pic35 from "../../../assets/35.jpg";
+import Pic36 from "../../../assets/36.jpg";
+import Pic37 from "../../../assets/37.jpg";
+import Pic38 from "../../../assets/38.jpg";
+import Pic39 from "../../../assets/39.jpg";
+import Pic40 from "../../../assets/40.jpg";
+import Pic41 from "../../../assets/41.jpg";
+import Pic42 from "../../../assets/42.jpg";
+import Pic43 from "../../../assets/43.jpg";
+import Pic44 from "../../../assets/44.jpg";
+import Pic45 from "../../../assets/45.jpg";
+import Pic46 from "../../../assets/46.jpg";
+import Pic47 from "../../../assets/47.jpg";
+import Pic48 from "../../../assets/48.jpg";
+import Pic49 from "../../../assets/49.jpg";
+import Pic50 from "../../../assets/50.jpg";
 
 
 import {

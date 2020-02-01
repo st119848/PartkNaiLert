@@ -16,37 +16,37 @@ import { ScrollView } from 'react-native';
 export default class MarkerDetail3 extends Component {
 	render() {
 		if (this.props.marker == 35) {
-			var sauce = require("../../../assets/35.jpeg");
+			var sauce = require("../../../assets/details/35.jpg");
 		} else if (this.props.marker == 36) {
-			var sauce = require("../../../assets/36.jpeg");
+			var sauce = require("../../../assets/details/36.jpg");
 		} else if (this.props.marker == 37) {
-			var sauce = require("../../../assets/37.jpeg");
+			var sauce = require("../../../assets/details/37.jpg");
 		} else if (this.props.marker == 38) {
-			var sauce = require("../../../assets/38.jpeg");
+			var sauce = require("../../../assets/details/38.jpg");
 		} else if (this.props.marker == 39) {
-			var sauce = require("../../../assets/39.jpeg");
+			var sauce = require("../../../assets/details/39.jpg");
 		} else if (this.props.marker == 40) {
-			var sauce = require("../../../assets/40.jpeg");
+			var sauce = require("../../../assets/details/40.jpg");
 		} else if (this.props.marker == 41) {
-			var sauce = require("../../../assets/41.jpeg");
+			var sauce = require("../../../assets/details/41.jpg");
 		} else if (this.props.marker == 42) {
-			var sauce = require("../../../assets/42.jpeg");
+			var sauce = require("../../../assets/details/42.jpg");
 		} else if (this.props.marker == 43) {
-			var sauce = require("../../../assets/43.jpeg");
+			var sauce = require("../../../assets/details/43.jpg");
 		} else if (this.props.marker == 44) {
-			var sauce = require("../../../assets/44.jpeg");
+			var sauce = require("../../../assets/details/44.jpg");
 		} else if (this.props.marker == 45) {
-			var sauce = require("../../../assets/45.jpeg");
+			var sauce = require("../../../assets/details/45.jpg");
 		} else if (this.props.marker == 46) {
-			var sauce = require("../../../assets/46.jpeg");
+			var sauce = require("../../../assets/details/46.jpg");
 		} else if (this.props.marker == 47) {
-			var sauce = require("../../../assets/47.jpeg");
+			var sauce = require("../../../assets/details/47.jpg");
 		} else if (this.props.marker == 48) {
-			var sauce = require("../../../assets/48.jpeg");
+			var sauce = require("../../../assets/details/48.jpg");
 		} else if (this.props.marker == 49) {
-			var sauce = require("../../../assets/49.jpeg");
+			var sauce = require("../../../assets/details/49.jpg");
 		} else if (this.props.marker == 50) {
-			var sauce = require("../../../assets/50.jpeg");
+			var sauce = require("../../../assets/details/50.jpg");
 		}
 		return (
 			<Theme>
