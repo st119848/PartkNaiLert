@@ -9,52 +9,69 @@ import {
 	TextBox,
 	TitleText,
 	DetailText,
-	Container,
+	Container, ThreeDBox, Touch, ThreeDText,
 } from "./style";
 import { ScrollView } from 'react-native';
+import { Actions } from "react-native-router-flux";
 
 export default class MarkerDetail3 extends Component {
 	render() {
-		if (this.props.marker == 35) {
-			var sauce = require("../../../assets/35.jpeg");
-		} else if (this.props.marker == 36) {
-			var sauce = require("../../../assets/36.jpeg");
-		} else if (this.props.marker == 37) {
-			var sauce = require("../../../assets/37.jpeg");
-		} else if (this.props.marker == 38) {
-			var sauce = require("../../../assets/38.jpeg");
-		} else if (this.props.marker == 39) {
-			var sauce = require("../../../assets/39.jpeg");
-		} else if (this.props.marker == 40) {
-			var sauce = require("../../../assets/40.jpeg");
-		} else if (this.props.marker == 41) {
-			var sauce = require("../../../assets/41.jpeg");
-		} else if (this.props.marker == 42) {
-			var sauce = require("../../../assets/42.jpeg");
-		} else if (this.props.marker == 43) {
-			var sauce = require("../../../assets/43.jpeg");
-		} else if (this.props.marker == 44) {
-			var sauce = require("../../../assets/44.jpeg");
-		} else if (this.props.marker == 45) {
-			var sauce = require("../../../assets/45.jpeg");
-		} else if (this.props.marker == 46) {
-			var sauce = require("../../../assets/46.jpeg");
-		} else if (this.props.marker == 47) {
-			var sauce = require("../../../assets/47.jpeg");
-		} else if (this.props.marker == 48) {
-			var sauce = require("../../../assets/48.jpeg");
-		} else if (this.props.marker == 49) {
-			var sauce = require("../../../assets/49.jpeg");
-		} else if (this.props.marker == 50) {
-			var sauce = require("../../../assets/50.jpeg");
+		const {marker, renderText} = this.props;
+		let source;
+		if (marker === "35") {
+			source = require("../../../assets/35.jpeg");
+		} else if (marker === "36") {
+			source = require("../../../assets/36.jpeg");
+		} else if (marker === "37") {
+			source = require("../../../assets/37.jpeg");
+		} else if (marker === "38") {
+			source = require("../../../assets/38.jpeg");
+		} else if (marker === "39") {
+			source = require("../../../assets/39.jpeg");
+		} else if (marker === "40") {
+			source = require("../../../assets/40.jpeg");
+		} else if (marker === "41") {
+			source = require("../../../assets/41.jpeg");
+		} else if (marker === "42") {
+			source = require("../../../assets/42.jpeg");
+		} else if (marker === "43") {
+			source = require("../../../assets/43.jpeg");
+		} else if (marker === "44") {
+			source = require("../../../assets/44.jpeg");
+		} else if (marker === "45") {
+			source = require("../../../assets/45.jpeg");
+		} else if (marker === "46") {
+			source = require("../../../assets/46.jpeg");
+		} else if (marker === "47") {
+			source = require("../../../assets/47.jpeg");
+		} else if (marker === "48") {
+			source = require("../../../assets/48.jpeg");
+		} else if (marker === "49") {
+			source = require("../../../assets/49.jpeg");
+		} else if (marker === "50") {
+			source = require("../../../assets/50.jpeg");
 		}
+		const has3D = ["39", "40", "41", "44", "49"] // Number of picture that has 3D
+		const isShowModel = has3D.includes(marker);// the marker from PNLAR  has in list of has3D if it exists it return id otherwise return undefined
 		return (
 			<Theme>
 				<Header />
 				<Container>
 					<ImageBox>
-						<ImageStyle source={sauce} />
+						<ImageStyle source={source} />
 					</ImageBox>
+					{renderText === true && isShowModel ? // check if  type of item3D not undefined so it has 3D  the bottom lines will show
+						<ThreeDBox>
+							<Touch onPress={() => {
+								Actions.scan1({
+									showARScene: marker, //send showARScene with not defaut value    1 is  default
+
+								});
+							}}>
+								<ThreeDText>3D Available ></ThreeDText>
+							</Touch>
+						</ThreeDBox>
+						: null}{/* if undefined it does not show the button */}
 					<ScrollView>
 						<TextBox>
 							<TitleText>{this.props.textLangTitle}</TitleText>

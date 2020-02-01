@@ -10,7 +10,6 @@ import PNLARThree49 from "../PNLAR/PNLARThree49";
 import { ViroARSceneNavigator } from "react-viro";
 import Header from "../Header/Header";
 import { Theme, BottomText, Border } from "./style";
-import { Actions } from "react-native-router-flux";
 var apiKey = "185779F9-FAEC-4950-BF69-454D6BDD4EC6";
 
 export default class ScanTheObjectThree extends Component{
@@ -35,8 +34,15 @@ export default class ScanTheObjectThree extends Component{
 	}
 	render() {
 		const {showARScene, t} = this.props;
-		const scene = (showARScene === 1) ? PNLAR3 : PNLARThree3;
-		const bottomText = (showARScene === 1) ? t('ar.camera.scan') : t('ar.camera.hover');
+		const mapScene = {
+			"39": PNLARThree39,
+			"40": PNLARThree40,
+			"41": PNLARThree41,
+			"44": PNLARThree44,
+			"49": PNLARThree49,
+		};
+		const scene = mapScene[showARScene] || PNLAR3;
+		const bottomText = (showARScene === '1') ? t('ar.camera.scan') : t('ar.camera.hover');
 		return (
 			<Theme>
 				<Border>
