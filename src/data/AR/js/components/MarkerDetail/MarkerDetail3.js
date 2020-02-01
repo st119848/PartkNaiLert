@@ -63,7 +63,7 @@ export default class MarkerDetail3 extends Component {
 					{renderText === true && isShowModel ? // check if  type of item3D not undefined so it has 3D  the bottom lines will show
 						<ThreeDBox>
 							<Touch onPress={() => {
-								Actions.scan1({
+								Actions.scan3({
 									showARScene: marker, //send showARScene with not defaut value    1 is  default
 
 								});

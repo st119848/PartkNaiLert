@@ -124,7 +124,6 @@ const PNLARThree24 = createReactClass({
 			this.setState(stateForSet);
 		};
 		if (marker == 24) {
-			alert("Test");
 			this.setState({
 				bdShow: true
 			})

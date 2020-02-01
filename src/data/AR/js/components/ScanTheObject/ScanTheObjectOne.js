@@ -39,13 +39,15 @@ export default class ScanTheObjectOne extends Component{
 			"13": PNLARThree13,
 			"16": PNLARThree16,
 		};
-		const scene = mapScene[showARScene] || PNLAR1;
+		const defaultScene = PNLAR1;
+		const scene = mapScene[showARScene] || defaultScene;
 		const bottomText = (showARScene === '1') ? t('ar.camera.scan') : t('ar.camera.hover');
 		return (
 			<Theme>
 				<Border>
 					<Header/>
 					<ViroARSceneNavigator
+						autofocus
 						initialScene={{ scene: scene }} // go to PNLAR
 						apiKey={apiKey}
 						viroAppProps={{ onAnchored: this.onAnchored ,showARScene: this.props.showARScene}}
