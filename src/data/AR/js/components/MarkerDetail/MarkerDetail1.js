@@ -23,43 +23,43 @@ export default class MarkerDetail1 extends Component {
 		let source;
 
 		if (marker === "1") {
-			source = require("../../../assets/1.jpeg");
+			source = require("../../../assets/1.jpg");
 		} else if (marker === "2") {
-			source = require("../../../assets/2.jpeg");
+			source = require("../../../assets/2.jpg");
 		} else if (marker === "3") {
-			source = require("../../../assets/3.jpeg");
+			source = require("../../../assets/3.jpg");
 		} else if (marker === "4") {
-			source = require("../../../assets/4.jpeg");
+			source = require("../../../assets/4.jpg");
 		} else if (marker === "5") {
-			source = require("../../../assets/5.jpeg");
+			source = require("../../../assets/5.jpg");
 		} else if (marker === "6") {
-			source = require("../../../assets/6.jpeg");
+			source = require("../../../assets/6.jpg");
 		} else if (marker === "7") {
-			source = require("../../../assets/7.jpeg");
+			source = require("../../../assets/7.jpg");
 		} else if (marker === "8") {
-			source = require("../../../assets/8.jpeg");
+			source = require("../../../assets/8.jpg");
 		} else if (marker === "9") {
-			source = require("../../../assets/9.jpeg");
+			source = require("../../../assets/9.jpg");
 		} else if (marker === "10") {
-			source = require("../../../assets/10.jpeg");
+			source = require("../../../assets/10.jpg");
 		} else if (marker === "11") {
-			source = require("../../../assets/11.jpeg");
+			source = require("../../../assets/11.jpg");
 		} else if (marker === "12") {
-			source = require("../../../assets/12.jpeg");
+			source = require("../../../assets/12.jpg");
 		} else if (marker === "13") {
-			source = require("../../../assets/13.jpeg");
+			source = require("../../../assets/13.jpg");
 		} else if (marker === "14") {
-			source = require("../../../assets/14.jpeg");
+			source = require("../../../assets/14.jpg");
 		} else if (marker === "15") {
-			source = require("../../../assets/15.jpeg");
+			source = require("../../../assets/15.jpg");
 		} else if (marker === "16") {
-			source = require("../../../assets/16.jpeg");
+			source = require("../../../assets/16.jpg");
 		} else if (marker === "17") {
-			source = require("../../../assets/17.jpeg");
+			source = require("../../../assets/17.jpg");
 		} else if (marker === "18") {
-			source = require("../../../assets/18.jpeg");
+			source = require("../../../assets/18.jpg");
 		} else if (marker === "19") {
-			source = require("../../../assets/19.jpeg");
+			source = require("../../../assets/19.jpg");
 		}
 		const has3D = ["4", "13", "16"] // Number of picture that has 3D
 		const isShowModel = has3D.includes(marker); // the marker from PNLAR  has in list of has3D if it exists it return id otherwise return undefined

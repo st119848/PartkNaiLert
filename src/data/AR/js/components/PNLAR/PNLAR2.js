@@ -4,21 +4,21 @@ import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import ARData from "../../../assets/ARData.json";
 import { Actions } from "react-native-router-flux";
-import Pic20 from "../../../assets/20.jpeg";
-import Pic21 from "../../../assets/21.jpeg";
-import Pic22 from "../../../assets/22.jpeg";
-import Pic23 from "../../../assets/23.jpeg";
-import Pic24 from "../../../assets/24.jpeg";
-import Pic25 from "../../../assets/25.jpeg";
-import Pic26 from "../../../assets/26.jpeg";
-import Pic27 from "../../../assets/27.jpeg";
-import Pic28 from "../../../assets/28.jpeg";
-import Pic29 from "../../../assets/29.jpeg";
-import Pic30 from "../../../assets/30.jpeg";
-import Pic31 from "../../../assets/31.jpeg";
-import Pic32 from "../../../assets/32.jpeg";
-import Pic33 from "../../../assets/33.jpeg";
-import Pic34 from "../../../assets/34.jpeg";
+import Pic20 from "../../../assets/20.jpg";
+import Pic21 from "../../../assets/21.jpg";
+import Pic22 from "../../../assets/22.jpg";
+import Pic23 from "../../../assets/23.jpg";
+import Pic24 from "../../../assets/24.jpg";
+import Pic25 from "../../../assets/25.jpg";
+import Pic26 from "../../../assets/26.jpg";
+import Pic27 from "../../../assets/27.jpg";
+import Pic28 from "../../../assets/28.jpg";
+import Pic29 from "../../../assets/29.jpg";
+import Pic30 from "../../../assets/30.jpg";
+import Pic31 from "../../../assets/31.jpg";
+import Pic32 from "../../../assets/32.jpg";
+import Pic33 from "../../../assets/33.jpg";
+import Pic34 from "../../../assets/34.jpg";
 
 
 import {

@@ -4,7 +4,7 @@ import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import ARData from "../../../assets/ARData.json";
 import { Actions } from "react-native-router-flux";
-import Pic4 from "../../../assets/4.jpeg";
+import Pic4 from "../../../assets/4.jpg";
 
 import {
 	ViroARScene,
