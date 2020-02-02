@@ -94,7 +94,7 @@ const PNLARThree2 = createReactClass({
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Jar.glb")}
+							source={require("../../../assets/3D/jar.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='GLB'
@@ -103,7 +103,7 @@ const PNLARThree2 = createReactClass({
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Drum.glb")}
+							source={require("../../../assets/3D/drum.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='GLB'
@@ -112,7 +112,7 @@ const PNLARThree2 = createReactClass({
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Tank.glb")}
+							source={require("../../../assets/3D/tank.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='GLB'

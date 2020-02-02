@@ -96,7 +96,7 @@ const PNLARThree1 = createReactClass({
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/LandPaper.glb")}
+							source={require("../../../assets/3D/paper_land.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='GLB'
@@ -105,7 +105,7 @@ const PNLARThree1 = createReactClass({
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Tube.glb")}
+							source={require("../../../assets/3D/tube.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='GLB'
@@ -114,7 +114,7 @@ const PNLARThree1 = createReactClass({
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Khong.glb")}
+							source={require("../../../assets/3D/khong.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='GLB'
@@ -123,7 +123,7 @@ const PNLARThree1 = createReactClass({
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/Picture.glb")}
+							source={require("../../../assets/3D/picture.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='GLB'

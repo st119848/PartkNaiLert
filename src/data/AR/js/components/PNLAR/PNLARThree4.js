@@ -90,9 +90,9 @@ const PNLARThree4 = createReactClass({
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/LandPaper.glb")}
+							source={require("../../../assets/3D/paper_land.glb")}
 							position={[0, 0, 0.03]}
-							scale={[0.015, 0.015, 0.015]}
+							scale={[1, 1, 1]}
 							type='GLB'
 							rotation={[0, 0, -90]}
 							visible={this.state.dShow}

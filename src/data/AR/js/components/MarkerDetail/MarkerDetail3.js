@@ -56,7 +56,7 @@ export default class MarkerDetail3 extends Component {
 		} else if (marker === "50") {
 			source = require("../../../assets/50.jpg");
 		}
-		const has3D = ["39", "40", "41", "44", "49"] // Number of picture that has 3D
+		const has3D = ["39", "40", "41", "44", "49"]; // Number of picture that has 3D
 		const isShowModel = has3D.includes(marker);// the marker from PNLAR  has in list of has3D if it exists it return id otherwise return undefined
 		const threeDTitle = t('ar.detail.threeDAvailable');
 		return (

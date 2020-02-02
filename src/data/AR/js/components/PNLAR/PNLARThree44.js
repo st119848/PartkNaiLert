@@ -90,7 +90,7 @@ const PNLARThree44 = createReactClass({
 						/>
 
 						<Viro3DObject
-							source={require("../../../assets/3D/SewingMachine.glb")}
+							source={require("../../../assets/3D/sewing_machine.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='GLB'
