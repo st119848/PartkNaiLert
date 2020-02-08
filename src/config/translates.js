@@ -36,6 +36,11 @@ const en = {
             showMore : 'Show more'
         }
     },
+    detail: {
+        soundLabel: 'Sound Available',
+        play: 'Play',
+        pause: 'Pause',
+    },
     contact: {
         title: {
             contactInfor: 'CONTACT INFORMATION',
@@ -112,6 +117,11 @@ const th = {
         button: {
             showMore : 'ดูเพิ่ม'
         }
+    },
+    detail: {
+        soundLabel: 'เสียงอธิบาย',
+        play: 'เล่น',
+        pause: 'หยุด',
     },
     contact: {
         title: {
@@ -190,6 +200,11 @@ const zh = {
             showMore : '阅读更多'
         }
     },
+    detail: {
+        soundLabel: '聲音可用',
+        play: '玩',
+        pause: '暫停',
+    },
     contact: {
         title: {
             contactInfor: '联系我们',
@@ -266,6 +281,11 @@ const ja = {
         button: {
             showMore : 'もっと読む'
         }
+    },
+    detail: {
+        soundLabel: '利用できる音',
+        play: 'プレー',
+        pause: '休止',
     },
     contact: {
         title: {

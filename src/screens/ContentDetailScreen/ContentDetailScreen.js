@@ -137,6 +137,7 @@ class ContentDetailScreen extends Component {
                     <View style={styles.innerContainer}>
                         {isGettingHighlightList && <ContentDetailLoading />}
                         {!isGettingHighlightList && <Content
+                            t={this.t}
                             item={activeHighlightItem}
                             images={galleryImages}
                             isCanPlay={isCanPlay}
@@ -153,12 +154,13 @@ class ContentDetailScreen extends Component {
 }
 
 const Content = props => {
-    const {images, item, isCanPlay, audioStatus, onFacebookShare, onTwitterShare, onPlaySound} = props;
+    const {images, item, isCanPlay, audioStatus, onFacebookShare, onTwitterShare, onPlaySound, t} = props;
     return (
         <React.Fragment>
             <ImagesSlider images={images}/>
             <Detail
                 {...item}
+                t={t}
                 isCanPlay={isCanPlay}
                 audioStatus={audioStatus}
                 onFacebookShare={onFacebookShare}

@@ -46,11 +46,11 @@ const Description = props => {
 };
 
 const AudioButton = props => {
-    const {onPress, audioStatus='pause'} = props;
+    const {onPress, audioStatus='pause', t} = props;
     const audioLabels = {
-        pause: 'Play',
-        playing: 'Pause',
-        playend: 'Play'
+        pause: t('detail.play'),
+        playing: t('detail.pause'),
+        playend: t('detail.play')
     };
     const audioLabel = audioLabels[audioStatus] || audioLabels.pause;
     return (
@@ -61,11 +61,12 @@ const AudioButton = props => {
 };
 
 const BottomTools = props => {
-    const {audioStatus, onPlaySound} = props
+    const {audioStatus, onPlaySound, t} = props;
+    const soundLabel = t('detail.soundLabel');
     return (
         <View style={styles.bottomToolsContainer}>
-            <Text style={styles.playTitle}>Sound Available</Text>
-            <AudioButton audioStatus={audioStatus} onPress={onPlaySound} />
+            <Text style={styles.playTitle}>{soundLabel}</Text>
+            <AudioButton audioStatus={audioStatus} onPress={onPlaySound} t={t} />
         </View>
     )
 };
