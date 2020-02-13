@@ -4,6 +4,7 @@ import {
     transformBeaconsConfig,
     transformBeaconList
 } from "../../adapter/beacon";
+import {retryAlert} from "../../helpers/actions";
 
 export const GETTING_BEACON_CONFIG_START = 'GETTING_BEACON_CONFIG_START';
 export const GETTING_BEACON_CONFIG_SUCCESS = 'GETTING_BEACON_CONFIG_SUCCESS';
@@ -15,11 +16,10 @@ export const CLOSE_BEACON_CONTENT_MODAL = 'CLOSE_BEACON_CONTENT_MODAL';
 export const SET_ENTER_BEACON_ZONE = 'SET_ENTER_BEACON_ZONE';
 export const SET_EXIT_BEACON_ZONE = 'SET_EXIT_BEACON_ZONE';
 
-export const getBeaconConfig = () => async (dispatch) =>{
+export const getBeaconConfig = () => async (dispatch, getState) =>{
     try {
         dispatch({type: GETTING_BEACON_CONFIG_START});
         const url = URLS.beacon.config;
-        console.log(url);
         const response = await postApiData(url);
         const {response: beaconsConfig=[]} = response.data;
 
@@ -34,10 +34,10 @@ export const getBeaconConfig = () => async (dispatch) =>{
 };
 
 export const getBeaconContentFromApi = (identifier) => async (dispatch, getState) => {
+    const {language} = getState().setting;
     try {
         dispatch({type: GETTING_BEACON_LIST_START});
         const url = URLS.museumContent.beaconContent;
-        const {language} = getState().setting;
         const postData = {
             code: language,
             beacons: {
@@ -57,6 +57,9 @@ export const getBeaconContentFromApi = (identifier) => async (dispatch, getState
         dispatch({type: GETTING_BEACON_LIST_SUCCESS, data});
     } catch (e) {
         dispatch({type: GETTING_BEACON_LIST_FAILED});
+        retryAlert(language, () => {
+            dispatch(getBeaconContentFromApi());
+        });
     }
 };
 

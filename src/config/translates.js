@@ -7,6 +7,11 @@ const en = {
         home: 'Home',
         highLight: 'Highlight',
     },
+    retry: {
+        title: 'Error!',
+        description: 'No Network Connection',
+        btnLabel: 'retry',
+    },
     home: {
         buttons: {
             intro: 'Introduction',
@@ -88,6 +93,11 @@ const th = {
         contactUs: 'ติดต่อเรา',
         home: 'หน้าแรก',
         highLight: 'จุดเด่น',
+    },
+    retry: {
+        title: 'ผิดพลาด!',
+        description: 'การเชื่อมต่อผิดพลาด',
+        btnLabel: 'ลองอีกครั้ง',
     },
     home: {
         buttons: {
@@ -171,6 +181,11 @@ const zh = {
         home: '主页',
         highLight: '突出',
     },
+    retry: {
+        title: '错误!',
+        description: '无网络连接',
+        btnLabel: '重试',
+    },
     home: {
         buttons: {
             intro: '简介',
@@ -252,6 +267,11 @@ const ja = {
         contactUs: 'ご連絡先',
         home: 'ホームページ',
         highLight: 'ハイライト',
+    },
+    retry: {
+        title: 'エラー!',
+        description: 'ネットワーク接続なし',
+        btnLabel: 'リトライ',
     },
     home: {
         buttons: {

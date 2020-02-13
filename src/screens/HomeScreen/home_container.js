@@ -25,6 +25,7 @@ const mapStateToProps = (state) => {
         language: state.setting.language,
         imagesHighlight: state.contents.imagesHighlight,
         isGettingImageSlider: state.contents.isGettingImageSlider,
+        isGettingImageSliderSuccess: state.contents.isGettingImageSliderSuccess,
         isInBeaconArea: state.beacons.isInBeaconArea
     }
 };

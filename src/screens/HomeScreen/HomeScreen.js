@@ -69,7 +69,6 @@ export default class HomeScreen extends Component {
     componentDidMount() {
         const {getImageSlidersFromApi} = this.props;
         getImageSlidersFromApi();
-
         firebase.links()
             .getInitialLink()
             .then((url) => {
@@ -108,7 +107,7 @@ export default class HomeScreen extends Component {
     };
 
     render() {
-        const {imagesHighlight, isGettingImageSlider, isInBeaconArea} = this.props;
+        const {imagesHighlight, isGettingImageSliderSuccess, isInBeaconArea} = this.props;
         const {isShowArScreen} = this.state;
         return (
             <ImageBackground source={BG} style={styles.container}>
@@ -118,7 +117,7 @@ export default class HomeScreen extends Component {
                     <View style={styles.contentContainer}>
                         <View style={styles.contentInnerContainer}>
                             <HighLight
-                                loading={isGettingImageSlider}
+                                loading={!isGettingImageSliderSuccess}
                                 imagesHighlight={imagesHighlight}
                                 t={this.t}
                                 onMoreItemClick={this.handleMoreItemClick}

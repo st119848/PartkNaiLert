@@ -74,10 +74,10 @@ class ContentListScreen extends Component {
     };
 
     render() {
-        const {highlightList, isGettingHighlightList, isGettingHighlightListSuccess} = this.props;
+        const {highlightList, isGettingHighlightListSuccess} = this.props;
         return (
             <ImageBackground source={BG} style={styles.container}>
-                    {isGettingHighlightList && <ContentListLoading/>}
+                    {!isGettingHighlightListSuccess && <ContentListLoading/>}
                     {isGettingHighlightListSuccess && <FlatList
                         style={styles.flatList}
                         data={highlightList}

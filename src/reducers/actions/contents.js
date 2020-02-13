@@ -4,6 +4,8 @@ import {
     transformImagesSlider,
     transformHighlightList,
 } from '../../adapter/contents'
+import {retryAlert} from "../../helpers/actions";
+
 
 export const GETTING_IMAGE_SLIDER_START = 'GETTING_IMAGE_SLIDER_START';
 export const GETTING_IMAGE_SLIDER_SUCCESS = 'GETTING_IMAGE_SLIDER_SUCCESS';
@@ -17,10 +19,10 @@ export const GETTING_HIGHLIGHT_ITEM_SUCCESS = 'GETTING_HIGHLIGHT_ITEM_SUCCESS';
 export const GETTING_HIGHLIGHT_ITEM_FAILED = 'GETTING_HIGHLIGHT_ITEM_FAILED';
 
 export const getImageSlidersFromApi = () => async (dispatch, getState) => {
+    const {language} = getState().setting;
     try {
         dispatch({type: GETTING_IMAGE_SLIDER_START});
         const url = URLS.museumContent.imageSlider;
-        const {language} = getState().setting;
         const postData = {
             code: language,
         };
@@ -31,14 +33,17 @@ export const getImageSlidersFromApi = () => async (dispatch, getState) => {
     } catch (e) {
         console.log(e.message);
         dispatch({type: GETTING_IMAGE_SLIDER_FAILED});
+        retryAlert(language, () => {
+            dispatch(getImageSlidersFromApi());
+        });
     }
 };
 
 export const getHighlightListFromApi = () => async (dispatch, getState) => {
+    const {language} = getState().setting;
     try {
         dispatch({type: GETTING_HIGHLIGHT_LIST_START});
         const url = URLS.museumContent.highlightList;
-        const {language} = getState().setting;
         const postData = {
             code: language,
         };
@@ -49,14 +54,17 @@ export const getHighlightListFromApi = () => async (dispatch, getState) => {
     } catch (e) {
         console.log(e.message);
         dispatch({type: GETTING_HIGHLIGHT_LIST_FAILED});
+        retryAlert(language, () => {
+            dispatch(getHighlightListFromApi());
+        });
     }
 };
 
 export const getHighlightItemFromApi = (itemId) => async (dispatch, getState) => {
+    const {language} = getState().setting;
     try {
         dispatch({type: GETTING_HIGHLIGHT_ITEM_START});
         const url = URLS.museumContent.highlightItem;
-        const {language} = getState().setting;
         const postData = {
             code: language,
             id: itemId
@@ -68,6 +76,9 @@ export const getHighlightItemFromApi = (itemId) => async (dispatch, getState) =>
     } catch (e) {
         console.log(e.message);
         dispatch({type: GETTING_HIGHLIGHT_ITEM_FAILED});
+        retryAlert(language, () => {
+            dispatch(getHighlightItemFromApi());
+        });
     }
 };
 
@@ -80,7 +91,7 @@ export const setActiveHighlightItem = (itemId) => (dispatch, getState) => {
         const data = {
             id: itemId,
             item: activeHighlightItem
-        }
+        };
         dispatch({type: SET_ACTIVE_HIGHLIGHT_ITEM, data});
     } else {
         // getHighlightItemFromApi(itemId)
