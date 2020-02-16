@@ -1,79 +1,56 @@
 "use strict";
 
 import React, { Component } from "react";
-import { StyleSheet, Text, View } from "react-native";
-import ARData from "../../../assets/ARData.json";
-import { Actions } from "react-native-router-flux";
-import Pic49 from "../../../assets/49.jpg";
 
 import {
 	ViroARScene,
 	ViroMaterials,
-	ViroNode,
 	ViroAnimations,
-	ViroImage,
 	Viro3DObject,
-	ViroLightingEnvironment,
 	ViroARImageMarker,
 	ViroARTrackingTargets,
-	ViroBox,
-	ViroSphere,
 	ViroSpotLight,
 	ViroQuad,
-	ViroText,
-	ViroConstants,
-	ViroFlexView,
-	ViroARSceneNavigator,
 	ViroAmbientLight,
 } from "react-viro";
+import {getMarkerByObjectId} from "../../../../../helpers/ar";
 
-const createReactClass = require("create-react-class");
-
-export const Testing = "Hi world";
-
-const PNLARThree49 = createReactClass({
-	allMarkers: ["49"],
-
-	getInitialState(marker) {
-		const baseState = {
-			texture: "white",
-			textLangTitle: "",
-			textLangDetail: "Tap to select the laguage",
-			marker: "test",
-			playAnim: false,
+class PNLARThree49 extends Component {
+	constructor(props) {
+		super(props);
+		const markers = getMarkerByObjectId(3, 49);
+		ViroARTrackingTargets.createTargets({
+			"49-0": {
+				source: require('../../../../../assets/img/markers/49/marker49.1.jpg'),
+				orientation: markers['49-0'].orientation,
+				physicalWidth: markers['49-0'].physicalWidth, // real world width in meters
+			},
+			"49-1": {
+				source: require('../../../../../assets/img/markers/49/marker49.2.jpg'),
+				orientation: markers['49-1'].orientation,
+				physicalWidth: markers['49-1'].physicalWidth, // real world width in meters
+			},
+		});
+		this.state = {
 			animateObject: true,
 			isShow: false,
-			diShow: false,
+			dShow: false,
+			markers,
 		};
-		const varyState = {};
-		this.allMarkers.forEach(marker => {
-			varyState["isShow" + marker] = false;
-		});
-		return {
-			...baseState,
-			...varyState,
-		};
-	},
+	}
 
-	render: function () {
+	render() {
+		const {markers} = this.state;
 		return (
 			<ViroARScene>
-				{this.allMarkers.map((marker, index) => (
+				{Object.keys(markers).map((marker, index) => (
 					<ViroARImageMarker
 						target={marker}
-						onAnchorFound={() => {
-							this.props.sceneNavigator.viroAppProps.onAnchored(marker)
-							// to navigate to detail component
-							// Actions.detail({
-							// 	checkThreeDim: marker, 
-							// 	renderText: true, 
-							// 	textLangTitle:String(ARData[marker - 1].value[0].title), 
-							// 	textLangDetail:String(ARData[marker - 1].value[0].detail)
-							// });
-							this._onAnchorFound(marker);
-						}
-						}
 						key={index}
+						onAnchorFound={() => {
+							this.props.sceneNavigator.viroAppProps.onAnchored('49');
+							this._onAnchorFound();
+						}}
 						pauseUpdates={this.state.pauseUpdates}>
 						<ViroAmbientLight color='#ffffff' />
 						<ViroSpotLight
@@ -88,16 +65,16 @@ const PNLARThree49 = createReactClass({
 							shadowFarZ={7}
 							shadowOpacity={.7}
 						/>
-
+						{this.state.dShow &&
 						<Viro3DObject
 							source={require("../../../assets/3D/screens.glb")}
 							position={[0, 0, 0.03]}
 							scale={[0.5, 0.5, 0.5]}
 							type='GLB'
 							rotation={[0, 0, -90]}
-							visible={this.state.diShow}
+							visible={this.state.dShow}
 						/>
-
+						}
 						<ViroQuad
 							rotation={[-90, 0, 0]}
 							position={[0, -0.001, 0]}
@@ -108,48 +85,22 @@ const PNLARThree49 = createReactClass({
 				))}
 			</ViroARScene>
 		);
-	},
-	_onAnchorFound(marker) {
-		// Show only when isShow is all false
-		let allNotShow = true;
-		this.allMarkers.forEach(marker => {
-			if (this.state["isShow" + marker]) {
-				console.log("all not show false ");
-				allNotShow = false;
-			}
-		});
-		if (allNotShow) {
-			let stateForSet = { animateObject: true };
-			stateForSet["isShow" + marker] = true;
-			this.setState(stateForSet);
-		};
-		if (marker == 49) {
+	}
+	_onAnchorFound() {
+		if(!this.state.isShow) {
 			this.setState({
-				diShow: true
+				isShow: true,
+				dShow: true
 			})
-		};
-	},
-	_toggleButtons() {
-		this.setState({
-			animName: this.state.animName == "scaleUp" ? "scaleDown" : "scaleUp",
-			playAnim: true,
-		});
-	},
-});
+		}
+	}
+};
 
 ViroMaterials.createMaterials({
 	white: {
 		shininess: 2.0,
 		lightingModel: "PBR",
 	},
-});
-
-ViroARTrackingTargets.createTargets({
-	"49": {
-		source: Pic49,
-		orientation: "Left",
-		physicalWidth: ARData[48].physicalWidth, // real world width in meters
-	}
 });
 
 ViroAnimations.registerAnimations({

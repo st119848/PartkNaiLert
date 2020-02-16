@@ -11,13 +11,15 @@ import {
 import {connect} from "react-redux";
 import {getMarkerData, getMarkers} from "../../../../../helpers/ar";
 
-const markers = getMarkers(2);
-ViroARTrackingTargets.createTargets(markers);
-
 class PNLAR2 extends Component {
-	state = {
-		markers: markers,
-	};
+	constructor(props) {
+		super(props);
+		const markers = getMarkers(2);
+		ViroARTrackingTargets.createTargets(markers);
+		this.state = {
+			markers: markers,
+		}
+	}
 
 	getMarkerInfo(marker) {
 		const {languageId} = this.props;
@@ -47,7 +49,7 @@ class PNLAR2 extends Component {
 							const markerKeys = marker.split('-');
 							const [markerKey] = markerKeys;
 							//to navigate to detail component
-							Actions.detail1({ // go to markerDetail
+							Actions.detail2({ // go to markerDetail
 								renderText: true,
 								textLangTitle: title,
 								textLangDetail: detail,

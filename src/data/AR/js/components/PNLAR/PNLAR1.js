@@ -12,14 +12,15 @@ import {
 	ViroARTrackingTargets,
 } from "react-viro";
 
-const markers = getMarkers(1);
-console.log('markers', markers)
-ViroARTrackingTargets.createTargets(markers);
-
 class PNLAR1 extends Component{
-	state = {
-		markers: markers,
-	};
+	constructor(props) {
+		super(props);
+		const markers = getMarkers(1);
+		ViroARTrackingTargets.createTargets(markers);
+		this.state = {
+			markers: markers,
+		}
+	}
 
 	getMarkerInfo(marker) {
 		const {languageId} = this.props;

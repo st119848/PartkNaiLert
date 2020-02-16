@@ -28,6 +28,21 @@ export const getMarkers = (zone) => {
     }, {});
 };
 
+export const getMarkerByObjectId = (zone, objectId) => {
+    const objectDataArr = getObjectZoneData(zone);
+    const objectData = objectDataArr.find((object) => {
+        return object.id === parseInt(objectId)
+    });
+    const {id, markers=[]} = objectData;
+    return markers.reduce((markerResult, marker, index) => {
+        const markerName = `${id}-${index}`;
+        return {
+            ...markerResult,
+            [markerName]: marker,
+        }
+    }, {});
+};
+
 export const getMarkerData = (marker, zone) => {
     const markerKeys = marker.split('-');
     const [markerKey] = markerKeys;
