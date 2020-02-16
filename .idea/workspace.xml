@@ -6,185 +6,68 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(app): add popup ask in case no have internet">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/1/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/1/marker1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/10/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/10/marker10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/11/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/11/marker11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/12/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/12/marker12.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/12/marker12.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/12/marker12.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/12/marker12.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/12/marker12.5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/13/marker13.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/13/marker13.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/14/marker14.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/14/marker14.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/14/marker14.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/15/marker15.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/15/marker15.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/15/marker15.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/15/marker15.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/16/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/16/maker16.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/16/maker16.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/16/maker16.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/16/maker16.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/17/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/17/marker17.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/17/marker17.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/17/marker17.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/17/marker17.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/18/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/18/maker18.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/18/maker18.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/18/maker18.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/19/marker19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/2/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/2/marker2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/20/marker20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/21/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/21/marker21.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/21/marker21.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/21/marker21.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/21/marker21.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/22/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/22/makre22.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/22/makre22.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/23/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/23/marker23.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/23/marker23.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/23/marker23.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/23/marker23.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/24/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/24/marker24.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/24/marker24.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/24/marker24.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/24/marker24.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/25/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/25/marker25.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/25/marker25.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/26/marker26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/27/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/27/marker27.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/27/marker27.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/27/marker27.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/27/marker27.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/28/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/28/marker28.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/28/marker28.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/28/marker28.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/28/marker28.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/29/29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/29/marker29.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/29/marker29.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/3/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/3/marker3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/30/30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/30/marker30.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/30/marker30.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/30/marker30.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/31/31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/31/marker31.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/32/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/32/marker32.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/32/marker32.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/32/marker32.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/32/marker32.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/32/marker32.5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/33/33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/33/marker33.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/33/marker33.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/33/marker33.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/34/34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/34/marker34.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/34/marker34.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/34/marker34.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/35/35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/35/marker35.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/35/marker35.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/35/marker35.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/35/marker35.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/36/36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/36/marker36.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/36/marker36.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/36/marker36.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/37/37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/37/marker37.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/37/marker37.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/37/marker37.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/37/marker37.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/38/38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/38/marker38.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/38/marker38.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/38/marker38.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/38/marker38.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/38/marker38.5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/39/39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/39/marker39.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/39/marker39.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/39/marker39.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/39/marker39.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/39/marker39.5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/4/marker4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/40/40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/40/marker40.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/40/marker40.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/40/marker40.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/40/marker40.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/41/41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/41/marker41.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/41/marker41.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/41/marker41.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/41/marker41.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/42/marker42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/43/marker43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/44/marker44.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/44/marker44.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/45/45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/45/marker45.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/45/marker45.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/46/marker46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/47/47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/47/marker47.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/47/marker47.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/47/marker47.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/47/marker47.5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/48/marker48.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/48/marker48.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/49/marker49.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/49/marker49.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/49/marker49.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/5/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/5/marker5.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/5/marker5.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/5/marker5.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/5/marker5.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/5/marker5.5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/5/marker5.6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/50/50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/50/marker50.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/50/marker50.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/6/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/6/marker6.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/6/marker6.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/6/marker6.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/7/marker7.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/7/marker7.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/7/marker7.3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/7/marker7.4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/8/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/8/marker8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/9/marker9.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/markers/9/marker9.2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/AR/assets/mark17.png" afterDir="false" />
+    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(app): add markers as config">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/ar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/xcshareddata/xcschemes/parknailert.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert.xcodeproj/xcshareddata/xcschemes/parknailert.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/translates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/translates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree3.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,78 +77,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="106" column="39" lean-forward="true" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
-              <folding>
-                <element signature="e#15#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/ARData.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="1306" column="25" selection-start-line="1306" selection-start-column="23" selection-end-line="1306" selection-end-column="25" />
-              <folding>
-                <element signature="e#69292#70137#0" />
-                <element signature="e#70141#71401#0" />
-                <element signature="e#71403#74077#0" />
-                <element signature="e#74079#75323#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/config/ar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="1916" column="10" lean-forward="true" selection-start-line="1916" selection-start-column="10" selection-end-line="1916" selection-end-column="10" />
+            <state relative-caret-position="392">
+              <caret line="390" column="26" selection-start-line="390" selection-start-column="26" selection-end-line="390" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/2/marker2.jpg">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/10/1.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/4/marker4.jpg">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/10/marker10.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/2/1.jpg">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/9/marker9.1.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/1/marker1.jpg">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/9/marker9.2.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/1/1.jpg">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/8/1.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/8/marker8.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/AR/assets/1.jpg">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/7/marker7.1.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/7/marker7.2.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/7/marker7.3.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -281,16 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>test</find>
-      <find>detailContainer</find>
-      <find>descriptionContainer</find>
-      <find>react-native-gesture-handler</find>
-      <find>daydream</find>
-      <find>com.parknailert</find>
-      <find>settingLanguage</find>
-      <find>GETTING_HIGHLIGHT_LIST_SUCCESS</find>
-      <find>closeButton</find>
-      <find>LangListSetting</find>
       <find>PNLARThree49</find>
       <find>this.props.marker</find>
       <find>sauce</find>
@@ -309,8 +161,18 @@
       <find>ViroARTrackingTargets</find>
       <find>&quot;id&quot;</find>
       <find>&quot;</find>
-      <find>allMarkers</find>
       <find>markId</find>
+      <find>markerId</find>
+      <find>allMarkers</find>
+      <find>caShow</find>
+      <find>bdShow</find>
+      <find>lo</find>
+      <find>เรื่อ</find>
+      <find>isShow</find>
+      <find>jpg'</find>
+      <find>markers</find>
+      <find>preview26</find>
+      <find>: 10</find>
     </findStrings>
     <replaceStrings>
       <replace>white</replace>
@@ -322,8 +184,9 @@
       <replace>source</replace>
       <replace>jpg</replace>
       <replace>&quot;markId&quot;</replace>
-      <replace>'</replace>
       <replace>id</replace>
+      <replace>'</replace>
+      <replace>jpg')</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/screens2</dir>
@@ -340,9 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/ar_container.js" />
-        <option value="$PROJECT_DIR$/src/components/modals/ARModal.js" />
-        <option value="$PROJECT_DIR$/src/components/modals/SetLanguageModal.js" />
         <option value="$PROJECT_DIR$/src/components/LangListSetting.js" />
         <option value="$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/IntroductionScreen/IntroductionScreen.js" />
@@ -352,7 +212,6 @@
         <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR2.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" />
         <option value="$PROJECT_DIR$/src/data/AR/js/components/ZoneSelector/ZoneSelector.js" />
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail1.js" />
         <option value="$PROJECT_DIR$/src/data/AR/js/components/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/data/AR/js/components/ScanTheObject/ScanTheObjectThree.js" />
         <option value="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail2.js" />
@@ -378,18 +237,22 @@
         <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/home_container.js" />
-        <option value="$PROJECT_DIR$/src/config/translates.js" />
         <option value="$PROJECT_DIR$/src/helpers/actions.js" />
         <option value="$PROJECT_DIR$/src/reducers/actions/contents.js" />
         <option value="$PROJECT_DIR$/src/reducers/actions/aboutUs.js" />
-        <option value="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/IntroductionScreen/introduction_container.js" />
         <option value="$PROJECT_DIR$/src/reducers/actions/beacons.js" />
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR1.js" />
         <option value="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/style.js" />
         <option value="$PROJECT_DIR$/src/data/AR/assets/ARData.json" />
+        <option value="$PROJECT_DIR$/src/config/translates.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" />
+        <option value="$PROJECT_DIR$/src/helpers/ar.js" />
+        <option value="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail1.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR1.js" />
+        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/src/config/ar.js" />
       </list>
     </option>
@@ -533,359 +396,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="15" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="16" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="17" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="18" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="19" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="20" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="21" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="22" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="23" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="24" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="25" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="26" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="27" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="28" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="29" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="30" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="31" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="32" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="33" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="34" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="35" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="36" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="37" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="38" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="39" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="40" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="41" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="42" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="43" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="44" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="45" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="46" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="47" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="48" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="49" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="markers" type="462c0819:PsiDirectoryNode" />
-              <item name="50" type="462c0819:PsiDirectoryNode" />
+              <item name="preview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
@@ -968,6 +479,13 @@
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="ARScreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="ContentListScreen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -997,18 +515,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/markers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/preview" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img/preview" />
       <recent name="$PROJECT_DIR$/src/assets/img/markers" />
       <recent name="$PROJECT_DIR$/src/data/AR/assets" />
       <recent name="$PROJECT_DIR$/src/data/AR" />
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/assets/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/img/markers/1" />
@@ -1144,14 +662,7 @@
       <workItem from="1581134971399" duration="10063000" />
       <workItem from="1581185251070" duration="243000" />
       <workItem from="1581251807898" duration="2204000" />
-      <workItem from="1581607297037" duration="19027000" />
-    </task>
-    <task id="LOCAL-00048" summary="config(ios): change build number">
-      <created>1569597734734</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1569597734734</updated>
+      <workItem from="1581607297037" duration="35865000" />
     </task>
     <task id="LOCAL-00049" summary="feat(android): install firebase dynamic link">
       <created>1569687118079</created>
@@ -1489,17 +1000,24 @@
       <option name="project" value="LOCAL" />
       <updated>1581602963438</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="feat(app): add markers as config">
+      <created>1581778141237</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1581778141238</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="567650000" />
+    <option name="totallyTimeSpent" value="584488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24472573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24472573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Captures" order="3" weight="0.25" />
@@ -1584,7 +1102,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(app): update layout for ipad" />
     <MESSAGE value="feat(app): update layout for android + fix some layout" />
     <MESSAGE value="feat(android): set font" />
     <MESSAGE value="feat(android): active ar (old one)" />
@@ -1609,144 +1126,83 @@
     <MESSAGE value="feat(AR): update AR file + update AR scale" />
     <MESSAGE value="feat(app-detail): translate for play sound button" />
     <MESSAGE value="feat(app): add popup ask in case no have internet" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(app): add popup ask in case no have internet" />
+    <MESSAGE value="feat(app): add markers as config" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(app): add markers as config" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/18.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/15/marker15.4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/17.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/15/marker15.2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/24.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/16/maker16.1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/25.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/16/maker16.2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/27.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/16/maker16.3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/29.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/16/maker16.4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/31.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/16/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/32.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/preview/preview17.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/50.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/17/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/35.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/17/marker17.1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/4.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/17/marker17.3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/20.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/17/marker17.4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/26.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/17/marker17.2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/34.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/preview/preview18.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/33.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/18/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/hand_images/arrow-down.png">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/18/maker18.2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/hand_images/arrow-left.png">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/18/maker18.3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/hand_images/arrow-right.png">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/18/maker18.1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/hand_images/hand.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/hand_images/arrow-up.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/49.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/48.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/47.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/46.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/45.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/44.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/43.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/42.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/41.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/40.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/39.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/38.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/37.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/36.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/33.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/34.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/50.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/details/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR2.js">
+    <entry file="file://$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="199">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#15#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/2/1.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/img/markers/1/marker1.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -1754,39 +1210,94 @@
     <entry file="file://$PROJECT_DIR$/src/assets/img/markers/1/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/4/marker4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/img/markers/2/marker2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="106" column="39" lean-forward="true" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
-          <folding>
-            <element signature="e#15#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/2/1.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/ARData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="1306" column="25" selection-start-line="1306" selection-start-column="23" selection-end-line="1306" selection-end-column="25" />
-          <folding>
-            <element signature="e#69292#70137#0" />
-            <element signature="e#70141#71401#0" />
-            <element signature="e#71403#74077#0" />
-            <element signature="e#74079#75323#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/3/marker3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/3/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AR/assets/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/preview/preview5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/5/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/5/marker5.1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/5/marker5.2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/5/marker5.3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/5/marker5.4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/5/marker5.5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/preview/preview6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/5/marker5.6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/6/marker6.3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/6/marker6.2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/6/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/6/marker6.1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/7/marker7.4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/7/marker7.3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/7/marker7.2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/7/marker7.1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/8/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/8/marker8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/9/marker9.2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/9/marker9.1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/10/marker10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/10/1.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/config/ar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="1916" column="10" lean-forward="true" selection-start-line="1916" selection-start-column="10" selection-end-line="1916" selection-end-column="10" />
+        <state relative-caret-position="392">
+          <caret line="390" column="26" selection-start-line="390" selection-start-column="26" selection-end-line="390" selection-end-column="26" />
         </state>
       </provider>
     </entry>
