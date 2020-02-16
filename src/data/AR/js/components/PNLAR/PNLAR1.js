@@ -46,14 +46,16 @@ class PNLAR1 extends Component{
 						onAnchorFound={() => {
 							sceneNavigator.viroAppProps.onAnchored(marker);
 							const {title, detail, preview} = this.getMarkerInfo(marker);
+							const markerKeys = marker.split('-');
+							const [markerKey] = markerKeys;
 							//to navigate to detail component
 							Actions.detail1({ // go to markerDetail
 								renderText: true,
 								textLangTitle: title,
 								textLangDetail: detail,
 								preview: preview,
-								showARScene:this.props.sceneNavigator.viroAppProps.showARScene,
-								marker:marker // send marker to the markerDetail
+								showARScene:sceneNavigator.viroAppProps.showARScene,
+								marker:markerKey // send marker to the markerDetail
 							});
 						}}
 						key={index}>
