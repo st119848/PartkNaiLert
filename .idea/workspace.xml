@@ -7,61 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(app): add markers as config">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/preview/preview9.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/helpers/ar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/xcshareddata/xcschemes/parknailert.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert.xcodeproj/xcshareddata/xcschemes/parknailert.xcscheme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/ar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config/translates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/translates.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR1.js" afterDir="false" />
@@ -80,10 +28,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/config/ar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="390" column="26" selection-start-line="390" selection-start-column="26" selection-end-line="390" selection-end-column="26" />
+            <state relative-caret-position="405">
+              <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/13/marker13.1.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/13/marker13.2.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/11/marker11.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/11/1.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -107,27 +75,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/8/1.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/img/markers/8/marker8.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/7/marker7.1.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/7/marker7.2.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/markers/7/marker7.3.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -389,6 +337,33 @@
               <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="markers" type="462c0819:PsiDirectoryNode" />
               <item name="10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="markers" type="462c0819:PsiDirectoryNode" />
+              <item name="11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="markers" type="462c0819:PsiDirectoryNode" />
+              <item name="12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="markers" type="462c0819:PsiDirectoryNode" />
+              <item name="13" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
@@ -662,21 +637,7 @@
       <workItem from="1581134971399" duration="10063000" />
       <workItem from="1581185251070" duration="243000" />
       <workItem from="1581251807898" duration="2204000" />
-      <workItem from="1581607297037" duration="35865000" />
-    </task>
-    <task id="LOCAL-00049" summary="feat(android): install firebase dynamic link">
-      <created>1569687118079</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1569687118080</updated>
-    </task>
-    <task id="LOCAL-00050" summary="feat(android): add new ar version lib">
-      <created>1569852563441</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1569852563442</updated>
+      <workItem from="1581607297037" duration="36130000" />
     </task>
     <task id="LOCAL-00051" summary="fix(android): android build cannot install">
       <created>1569938865897</created>
@@ -1007,11 +968,25 @@
       <option name="project" value="LOCAL" />
       <updated>1581778141238</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="feat(app): add preview as config">
+      <created>1581860105893</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1581860105893</updated>
+    </task>
+    <task id="LOCAL-00099" summary="feat(ar): update ar makers to show only need">
+      <created>1581860297366</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1581860297366</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="584488000" />
+    <option name="totallyTimeSpent" value="584753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1102,8 +1077,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(app): update layout for android + fix some layout" />
-    <MESSAGE value="feat(android): set font" />
     <MESSAGE value="feat(android): active ar (old one)" />
     <MESSAGE value="feat(app): add loader for list, detail, home page + fix load content when change language" />
     <MESSAGE value="feat(beacon-detail): update ui" />
@@ -1127,21 +1100,11 @@
     <MESSAGE value="feat(app-detail): translate for play sound button" />
     <MESSAGE value="feat(app): add popup ask in case no have internet" />
     <MESSAGE value="feat(app): add markers as config" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(app): add markers as config" />
+    <MESSAGE value="feat(app): add preview as config" />
+    <MESSAGE value="feat(ar): update ar makers to show only need" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ar): update ar makers to show only need" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/15/marker15.4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/15/marker15.2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/16/maker16.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/16/maker16.2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/img/markers/16/maker16.3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1294,10 +1257,22 @@
     <entry file="file://$PROJECT_DIR$/src/assets/img/markers/10/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/11/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/11/marker11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/13/marker13.1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/13/marker13.2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/config/ar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="390" column="26" selection-start-line="390" selection-start-column="26" selection-end-line="390" selection-end-column="26" />
+        <state relative-caret-position="405">
+          <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
         </state>
       </provider>
     </entry>
