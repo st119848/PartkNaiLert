@@ -21,14 +21,9 @@ class PNLARThree41 extends Component {
 		const markers = getMarkerByObjectId(6, 41);
 		ViroARTrackingTargets.createTargets({
 			"41-0": {
-				source: require('../../../../assets/img/markers/41/marker41.2.jpg'),
+				source: require('../../../../assets/img/stickers/sticker41.jpg'),
 				orientation: markers['41-0'].orientation,
 				physicalWidth: markers['41-0'].physicalWidth, // real world width in meters
-			},
-			"41-1": {
-				source: require('../../../../assets/img/markers/41/marker41.3.jpg'),
-				orientation: markers['41-1'].orientation,
-				physicalWidth: markers['41-1'].physicalWidth, // real world width in meters
 			},
 		});
 		this.state = {

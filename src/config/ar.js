@@ -5,15 +5,10 @@ export const objectZone1 = [
         'id': 1,
         'preview': require('../assets/img/preview/preview1.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/1/1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.125,
-            // },
             {
-                'source': require('../assets/img/markers/1/marker1.jpg'),
+                'source': require('../assets/img/stickers/sticker1.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.05,
+                'physicalWidth': 0.03,
             }
         ],
         'value': [
@@ -43,15 +38,10 @@ export const objectZone1 = [
         'id': 2,
         'preview': require('../assets/img/preview/preview2.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/2/1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.165,
-            // },
             {
-                'source': require('../assets/img/markers/2/marker2.jpg'),
+                'source': require('../assets/img/stickers/sticker2.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.09,
+                'physicalWidth': 0.03,
             }
         ],
         'value': [
@@ -81,15 +71,10 @@ export const objectZone1 = [
         'id': 3,
         'preview': require('../assets/img/preview/preview3.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/3/1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.10,
-            // },
             {
-                'source': require('../assets/img/markers/3/marker3.jpg'),
+                'source': require('../assets/img/stickers/sticker3.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.09,
+                'physicalWidth': 0.03,
             }
         ],
         'value': [
@@ -120,10 +105,10 @@ export const objectZone1 = [
         'preview': require('../assets/img/preview/preview4.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/4/marker4.jpg'),
+                'source': require('../assets/img/stickers/sticker4.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.2,
-            },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -152,41 +137,11 @@ export const objectZone1 = [
         'id': 5,
         'preview': require('../assets/img/preview/preview5.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/5/1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.05,
-            // },
             {
-                'source': require('../assets/img/markers/5/marker5.1.jpg'),
+                'source': require('../assets/img/stickers/sticker5.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.06,
-            },
-            // {
-            //     'source': require('../assets/img/markers/5/marker5.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.05,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/5/marker5.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.06,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/5/marker5.4.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.15,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/5/marker5.5.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.06,
-            // },
-            {
-                'source': require('../assets/img/markers/5/marker5.6.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.05,
-            },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -215,26 +170,11 @@ export const objectZone1 = [
         'id': 6,
         'preview': require('../assets/img/preview/preview6.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/6/1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.15,
-            // },
             {
-                'source': require('../assets/img/markers/6/marker6.1.jpg'),
+                'source': require('../assets/img/stickers/sticker6.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.1,
-            },
-            {
-                'source': require('../assets/img/markers/6/marker6.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.1,
-            },
-            // {
-            //     'source': require('../assets/img/markers/6/marker6.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.04,
-            // },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -264,25 +204,10 @@ export const objectZone1 = [
         'preview': require('../assets/img/preview/preview7.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/7/marker7.1.jpg'),
+                'source': require('../assets/img/stickers/sticker7.jpg'),
                 'orientation': 'Left',
                 'physicalWidth': 0.04,
-            },
-            // {
-            //     'source': require('../assets/img/markers/7/marker7.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.04,
-            // },
-            {
-                'source': require('../assets/img/markers/7/marker7.3.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.03,
-            },
-            // {
-            //     'source': require('../assets/img/markers/7/marker7.4.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.03,
-            // },
+            }
         ],
         'value': [
             {
@@ -312,14 +237,9 @@ export const objectZone1 = [
         'preview': require('../assets/img/preview/preview8.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/8/1.jpg'),
+                'source': require('../assets/img/stickers/sticker8.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.07,
-            },
-            {
-                'source': require('../assets/img/markers/8/marker8.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -350,15 +270,10 @@ export const objectZone1 = [
         'preview': require('../assets/img/preview/preview9.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/9/marker9.1.jpg'),
+                'source': require('../assets/img/stickers/sticker9.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.09,
-            },
-            {
-                'source': require('../assets/img/markers/9/marker9.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.09,
-            },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -388,15 +303,10 @@ export const objectZone1 = [
         'preview': require('../assets/img/preview/preview10.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/10/1.jpg'),
+                'source': require('../assets/img/stickers/sticker10.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.1,
-            },
-            // {
-            //     'source': require('../assets/img/markers/10/marker10.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.1,
-            // }
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -426,14 +336,9 @@ export const objectZone1 = [
         'preview': require('../assets/img/preview/preview11.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/11/1.jpg'),
+                'source': require('../assets/img/stickers/sticker11.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.08,
-            },
-            {
-                'source': require('../assets/img/markers/11/marker11.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.08,
+                'physicalWidth': 0.03,
             }
         ],
         'value': [
@@ -463,36 +368,11 @@ export const objectZone1 = [
         'id': 12,
         'preview': require('../assets/img/preview/preview12.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/12/1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.12,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/12/marker12.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.04,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/12/marker12.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.04,
-            // },
             {
-                'source': require('../assets/img/markers/12/marker12.3.jpg'),
+                'source': require('../assets/img/stickers/sticker12.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.04,
-            },
-            // {
-            //     'source': require('../assets/img/markers/12/marker12.4.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.04,
-            // },
-            {
-                'source': require('../assets/img/markers/12/marker12.5.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.04,
-            },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -522,25 +402,10 @@ export const objectZone1 = [
         'preview': require('../assets/img/preview/preview18.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/18/1.jpg'),
+                'source': require('../assets/img/stickers/sticker18.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.08,
-            },
-            {
-                'source': require('../assets/img/markers/18/maker18.1.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.06,
-            },
-            // {
-            //     'source': require('../assets/img/markers/18/maker18.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.01,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/18/maker18.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.02,
-            // },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -573,15 +438,10 @@ export const objectZone2 = [
         'id': 13,
         'preview': require('../assets/img/preview/preview13.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/13/marker13.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.20,
-            // },
             {
-                'source': require('../assets/img/markers/13/marker13.2.jpg'),
+                'source': require('../assets/img/stickers/sticker13.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.15,
+                'physicalWidth': 0.03,
             }
         ],
         'value': [
@@ -612,20 +472,10 @@ export const objectZone2 = [
         'preview': require('../assets/img/preview/preview14.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/14/marker14.1.jpg'),
+                'source': require('../assets/img/stickers/sticker14.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.41,
-            },
-            {
-                'source': require('../assets/img/markers/14/marker14.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.45,
-            },
-            // {
-            //     'source': require('../assets/img/markers/14/marker14.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.30,
-            // },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -654,25 +504,10 @@ export const objectZone2 = [
         'id': 15,
         'preview': require('../assets/img/preview/preview15.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/15/marker15.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.10,
-            // },
             {
-                'source': require('../assets/img/markers/15/marker15.2.jpg'),
+                'source': require('../assets/img/stickers/sticker15.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.8,
-            },
-            // {
-            //     'source': require('../assets/img/markers/15/marker15.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.10,
-            // },
-            {
-                'source': require('../assets/img/markers/15/marker15.4.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.3,
+                'physicalWidth': 0.03,
             }
         ],
         'value': [
@@ -702,31 +537,11 @@ export const objectZone2 = [
         'id': 16,
         'preview': require('../assets/img/preview/preview16.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/16/1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.15,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/16/maker16.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.33,
-            // },
             {
-                'source': require('../assets/img/markers/16/maker16.2.jpg'),
+                'source': require('../assets/img/stickers/sticker16.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.5,
-            },
-            // {
-            //     'source': require('../assets/img/markers/16/maker16.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.8,
-            // },
-            {
-                'source': require('../assets/img/markers/16/maker16.4.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.6,
-            },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -755,31 +570,11 @@ export const objectZone2 = [
         'id': 17,
         'preview': require('../assets/img/preview/preview17.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/17/1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.20,
-            // },
             {
-                'source': require('../assets/img/markers/17/marker17.1.jpg'),
+                'source': require('../assets/img/stickers/sticker17.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.35,
-            },
-            // {
-            //     'source': require('../assets/img/markers/17/marker17.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.35,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/17/marker17.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.35,
-            // },
-            {
-                'source': require('../assets/img/markers/17/marker17.4.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.35,
-            },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -809,9 +604,9 @@ export const objectZone2 = [
         'preview': require('../assets/img/preview/preview19.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/19/marker19.jpg'),
+                'source': require('../assets/img/stickers/sticker19.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.25,
+                'physicalWidth': 0.03,
             }
         ],
         'value': [
@@ -877,31 +672,11 @@ export const objectZone3 = [
         'id': 21,
         'preview': require('../assets/img/preview/preview21.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/21/1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.08,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/21/marker21.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.05,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/21/marker21.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.05,
-            // },
             {
-                'source': require('../assets/img/markers/21/marker21.3.jpg'),
+                'source': require('../assets/img/stickers/sticker21.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.06,
-            },
-            {
-                'source': require('../assets/img/markers/21/marker21.4.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.05,
-            },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -931,20 +706,10 @@ export const objectZone3 = [
         'preview': require('../assets/img/preview/preview22.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/22/1.jpg'),
+                'source': require('../assets/img/stickers/sticker22.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.09,
-            },
-            // {
-            //     'source': require('../assets/img/markers/22/makre22.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.10,
-            // },
-            {
-                'source': require('../assets/img/markers/22/makre22.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.06,
-            },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -974,30 +739,10 @@ export const objectZone3 = [
         'preview': require('../assets/img/preview/preview23.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/23/1.jpg'),
+                'source': require('../assets/img/stickers/sticker23.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.08,
-            },
-            // {
-            //     'source': require('../assets/img/markers/23/marker23.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.10,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/23/marker23.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.08,
-            // },
-            {
-                'source': require('../assets/img/markers/23/marker23.3.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.08,
-            },
-            // {
-            //     'source': require('../assets/img/markers/23/marker23.4.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.10,
-            // },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -1026,31 +771,11 @@ export const objectZone3 = [
         'id': 24,
         'preview': require('../assets/img/preview/preview24.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/24/24.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.10,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/24/marker24.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.08,
-            // },
             {
-                'source': require('../assets/img/markers/24/marker24.2.jpg'),
+                'source': require('../assets/img/stickers/sticker24.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.08,
-            },
-            {
-                'source': require('../assets/img/markers/24/marker24.3.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.08,
-            },
-            // {
-            //     'source': require('../assets/img/markers/24/marker24.4.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.15,
-            // },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -1079,21 +804,11 @@ export const objectZone3 = [
         'id': 25,
         'preview': require('../assets/img/preview/preview25.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/25/25.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.08,
-            // },
             {
-                'source': require('../assets/img/markers/25/marker25.1.jpg'),
+                'source': require('../assets/img/stickers/sticker25.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.06,
-            },
-            {
-                'source': require('../assets/img/markers/25/marker25.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.06,
-            },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -1155,31 +870,11 @@ export const objectZone3 = [
         'id': 27,
         'preview': require('../assets/img/preview/preview27.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/27/27.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.15,
-            // },
             {
-                'source': require('../assets/img/markers/27/marker27.1.jpg'),
+                'source': require('../assets/img/stickers/sticker27.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.10,
-            },
-            {
-                'source': require('../assets/img/markers/27/marker27.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.10,
-            },
-            // {
-            //     'source': require('../assets/img/markers/27/marker27.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.30,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/27/marker27.4.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.8,
-            // },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -1208,31 +903,11 @@ export const objectZone3 = [
         'id': 28,
         'preview': require('../assets/img/preview/preview28.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/28/28.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.30,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/28/marker28.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.23,
-            // },
             {
-                'source': require('../assets/img/markers/28/marker28.2.jpg'),
+                'source': require('../assets/img/stickers/sticker28.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.23,
-            },
-            // {
-            //     'source': require('../assets/img/markers/28/marker28.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.10,
-            // },
-            {
-                'source': require('../assets/img/markers/28/marker28.4.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.10,
-            },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -1262,20 +937,10 @@ export const objectZone3 = [
         'preview': require('../assets/img/preview/preview29.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/29/29.jpg'),
+                'source': require('../assets/img/stickers/sticker29.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.08,
-            },
-            // {
-            //     'source': require('../assets/img/markers/29/marker29.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.21,
-            // },
-            {
-                'source': require('../assets/img/markers/29/marker29.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.15,
-            },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -1304,26 +969,11 @@ export const objectZone3 = [
         'id': 30,
         'preview': require('../assets/img/preview/preview30.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/30/30.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.12,
-            // },
             {
-                'source': require('../assets/img/markers/30/marker30.1.jpg'),
+                'source': require('../assets/img/stickers/sticker30.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.08,
-            },
-            {
-                'source': require('../assets/img/markers/30/marker30.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.06,
-            },
-            // {
-            //     'source': require('../assets/img/markers/30/marker30.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.08,
-            // },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -1353,15 +1003,10 @@ export const objectZone3 = [
         'preview': require('../assets/img/preview/preview31.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/31/31.jpg'),
+                'source': require('../assets/img/stickers/sticker31.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.30,
-            },
-            {
-                'source': require('../assets/img/markers/31/marker31.1.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.13,
-            },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -1390,36 +1035,11 @@ export const objectZone3 = [
         'id': 32,
         'preview': require('../assets/img/preview/preview32.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/32/32.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.16,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/32/marker32.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.20,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/32/marker32.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.25,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/32/marker32.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.20,
-            // },
             {
-                'source': require('../assets/img/markers/32/marker32.4.jpg'),
+                'source': require('../assets/img/stickers/sticker32.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.20,
-            },
-            {
-                'source': require('../assets/img/markers/32/marker32.5.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.20,
-            },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -1449,25 +1069,10 @@ export const objectZone3 = [
         'preview': require('../assets/img/preview/preview33.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/33/33.jpg'),
+                'source': require('../assets/img/stickers/sticker33.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.15,
-            },
-            // {
-            //     'source': require('../assets/img/markers/33/marker33.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.15,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/33/marker33.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.15,
-            // },
-            {
-                'source': require('../assets/img/markers/33/marker33.3.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.05,
-            },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -1496,26 +1101,11 @@ export const objectZone3 = [
         'id': 34,
         'preview': require('../assets/img/preview/preview34.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/34/34.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.165,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/34/marker34.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.06,
-            // },
             {
-                'source': require('../assets/img/markers/34/marker34.2.jpg'),
+                'source': require('../assets/img/stickers/sticker34.jpg'),
                 'orientation': 'Left',
                 'physicalWidth': 0.04,
-            },
-            {
-                'source': require('../assets/img/markers/34/marker34.3.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.10,
-            },
+            }
         ],
         'value': [
             {
@@ -1547,31 +1137,11 @@ export const objectZone4 = [
         'id': 35,
         'preview': require('../assets/img/preview/preview35.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/35/35.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.25,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/35/marker35.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.40,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/35/marker35.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.20,
-            // },
             {
-                'source': require('../assets/img/markers/35/marker35.3.jpg'),
+                'source': require('../assets/img/stickers/sticker35.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.10,
-            },
-            // {
-            //     'source': require('../assets/img/markers/35/marker35.4.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.15,
-            // },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -1600,36 +1170,11 @@ export const objectZone4 = [
         'id': 38,
         'preview': require('../assets/img/preview/preview38.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/38/38.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.18,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/38/marker38.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.10,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/38/marker38.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.10,
-            // },
             {
-                'source': require('../assets/img/markers/38/marker38.3.jpg'),
+                'source': require('../assets/img/stickers/sticker38.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.10,
-            },
-            // {
-            //     'source': require('../assets/img/markers/38/marker38.4.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.08,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/38/marker38.5.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.10,
-            // },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -1658,36 +1203,11 @@ export const objectZone4 = [
         'id': 39,
         'preview': require('../assets/img/preview/preview39.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/39/39.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.25,
-            // },
             {
-                'source': require('../assets/img/markers/39/marker39.1.jpg'),
+                'source': require('../assets/img/stickers/sticker39.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.22,
-            },
-            {
-                'source': require('../assets/img/markers/39/marker39.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.20,
-            },
-            // {
-            //     'source': require('../assets/img/markers/39/marker39.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.25,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/39/marker39.4.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.25,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/39/marker39.5.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.75,
-            // },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -1716,31 +1236,11 @@ export const objectZone4 = [
         'id': 40,
         'preview': require('../assets/img/preview/preview40.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/40/40.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.3,
-            // },
             {
-                'source': require('../assets/img/markers/40/marker40.1.jpg'),
+                'source': require('../assets/img/stickers/sticker40.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.18,
-            },
-            // {
-            //     'source': require('../assets/img/markers/40/marker40.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.28,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/40/marker40.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.32,
-            // },
-            {
-                'source': require('../assets/img/markers/40/marker40.4.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.28,
-            },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -1770,9 +1270,9 @@ export const objectZone4 = [
         'preview': require('../assets/img/preview/preview46.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/46/marker46.jpg'),
+                'source': require('../assets/img/stickers/sticker46.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.18,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -1802,31 +1302,11 @@ export const objectZone4 = [
         'id': 47,
         'preview': require('../assets/img/preview/preview47.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/47/47.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.1,
-            // },
             {
-                'source': require('../assets/img/markers/47/marker47.1.jpg'),
+                'source': require('../assets/img/stickers/sticker47.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.11,
-            },
-            {
-                'source': require('../assets/img/markers/47/marker47.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.08,
-            },
-            // {
-            //     'source': require('../assets/img/markers/47/marker47.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.02,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/47/marker47.5.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.01,
-            // },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -1855,16 +1335,11 @@ export const objectZone4 = [
         'id': 48,
         'preview': require('../assets/img/preview/preview48.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/48/marker48.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.23,
-            // },
             {
-                'source': require('../assets/img/markers/48/marker48.2.jpg'),
+                'source': require('../assets/img/stickers/sticker48.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.14,
-            },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -1894,20 +1369,10 @@ export const objectZone4 = [
         'preview': require('../assets/img/preview/preview49.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/49/marker49.1.jpg'),
+                'source': require('../assets/img/stickers/sticker49.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.30,
-            },
-            {
-                'source': require('../assets/img/markers/49/marker49.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.28,
-            },
-            // {
-            //     'source': require('../assets/img/markers/49/marker49.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.25,
-            // },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -1937,20 +1402,10 @@ export const objectZone4 = [
         'preview': require('../assets/img/preview/preview50.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/50/50.jpg'),
+                'source': require('../assets/img/stickers/sticker50.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.125,
-            },
-            {
-                'source': require('../assets/img/markers/50/marker50.1.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.25,
-            },
-            // {
-            //     'source': require('../assets/img/markers/50/marker50.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.8,
-            // },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -1983,26 +1438,11 @@ export const objectZone5 = [
         'id': 36,
         'preview': require('../assets/img/preview/preview36.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/36/36.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.165,
-            // },
             {
-                'source': require('../assets/img/markers/36/marker36.1.jpg'),
+                'source': require('../assets/img/stickers/sticker36.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.25,
-            },
-            // {
-            //     'source': require('../assets/img/markers/36/marker36.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.12,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/36/marker36.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.15,
-            // },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -2031,31 +1471,11 @@ export const objectZone5 = [
         'id': 37,
         'preview': require('../assets/img/preview/preview37.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/37/37.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.13,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/37/marker37.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.06,
-            // },
             {
-                'source': require('../assets/img/markers/37/marker37.2.jpg'),
-                    'orientation': 'Left',
-                'physicalWidth': 0.06,
-            },
-            // {
-            //     'source': require('../assets/img/markers/37/marker37.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.05,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/37/marker37.4.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.06,
-            // },
+                'source': require('../assets/img/stickers/sticker37.jpg'),
+                'orientation': 'Left',
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {
@@ -2087,31 +1507,11 @@ export const objectZone6 = [
         'id': 41,
         'preview': require('../assets/img/preview/preview41.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/41/41.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.08,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/41/marker41.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.11,
-            // },
             {
-                'source': require('../assets/img/markers/41/marker41.2.jpg'),
+                'source': require('../assets/img/stickers/sticker41.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.05,
-            },
-            {
-                'source': require('../assets/img/markers/41/marker41.3.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.08,
-            },
-            // {
-            //     'source': require('../assets/img/markers/41/marker41.4.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.04,
-            // },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -2141,9 +1541,9 @@ export const objectZone6 = [
         'preview': require('../assets/img/preview/preview42.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/42/marker42.jpg'),
+                'source': require('../assets/img/stickers/sticker42.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.08,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -2174,9 +1574,9 @@ export const objectZone6 = [
         'preview': require('../assets/img/preview/preview43.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/43/marker43.jpg'),
+                'source': require('../assets/img/stickers/sticker43.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.29,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -2206,16 +1606,11 @@ export const objectZone6 = [
         'id': 44,
         'preview': require('../assets/img/preview/preview44.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/44/marker44.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.02,
-            // },
             {
-                'source': require('../assets/img/markers/44/marker44.2.jpg'),
+                'source': require('../assets/img/stickers/sticker44.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.09,
-            },
+                'physicalWidth': 0.04,
+            }
         ],
         'value': [
             {
@@ -2244,21 +1639,11 @@ export const objectZone6 = [
         'id': 45,
         'preview': require('../assets/img/preview/preview45.jpg'),
         'markers': [
-            // {
-            //     'source': require('../assets/img/markers/45/45.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.165,
-            // },
             {
-                'source': require('../assets/img/markers/45/marker45.1.jpg'),
+                'source': require('../assets/img/stickers/sticker45.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.05,
-            },
-            {
-                'source': require('../assets/img/markers/45/marker45.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.06,
-            },
+                'physicalWidth': 0.03,
+            }
         ],
         'value': [
             {

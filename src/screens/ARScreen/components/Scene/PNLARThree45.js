@@ -21,15 +21,10 @@ class PNLARThree45 extends Component {
 		const markers = getMarkerByObjectId(6, 45);
 		ViroARTrackingTargets.createTargets({
 			"45-0": {
-				source: require('../../../../assets/img/markers/45/marker45.1.jpg'),
+				source: require('../../../../assets/img/stickers/sticker45.jpg'),
 				orientation: markers['45-0'].orientation,
 				physicalWidth: markers['45-0'].physicalWidth, // real world width in meters
 			},
-			// "44-1": {
-			// 	source: require('../../../../../assets/img/markers/44/marker44.2.jpg'),
-			// 	orientation: markers['44-1'].orientation,
-			// 	physicalWidth: markers['44-1'].physicalWidth, // real world width in meters
-			// },
 		});
 		this.state = {
 			animateObject: true,
