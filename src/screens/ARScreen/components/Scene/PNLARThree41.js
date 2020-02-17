@@ -18,7 +18,7 @@ import {getMarkerByObjectId} from "../../../../helpers/ar";
 class PNLARThree41 extends Component {
 	constructor(props) {
 		super(props);
-		const markers = getMarkerByObjectId(3, 41);
+		const markers = getMarkerByObjectId(6, 41);
 		ViroARTrackingTargets.createTargets({
 			"41-0": {
 				source: require('../../../../assets/img/markers/41/marker41.2.jpg'),

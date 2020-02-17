@@ -518,6 +518,58 @@ export const objectZone1 = [
         ]
     },
     {
+        'id': 18,
+        'preview': require('../assets/img/preview/preview18.jpg'),
+        'markers': [
+            {
+                'source': require('../assets/img/markers/18/1.jpg'),
+                'orientation': 'Left',
+                'physicalWidth': 0.08,
+            },
+            {
+                'source': require('../assets/img/markers/18/maker18.1.jpg'),
+                'orientation': 'Left',
+                'physicalWidth': 0.06,
+            },
+            // {
+            //     'source': require('../assets/img/markers/18/maker18.2.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.01,
+            // },
+            // {
+            //     'source': require('../assets/img/markers/18/maker18.3.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.02,
+            // },
+        ],
+        'value': [
+            {
+                'language_id': 1,
+                'title': 'ตู้ถ้วยเบญจรงค์ชั้น 1',
+                'detail': 'ภายในตู้จัดแสดงเครื่องถ้วยเบญจรงค์และลายน้ำทอง ศิลปะไทยผสมผสานกับศิลปะจีน   ประกอบด้วยเครื่องถ้วยลายน้ำทองลายก้านต่อดอก ลายสิงโต และ ลายลูกเรือสำเภาจีน  เครื่องเบญจรงค์คือเครื่องปั้นดินเผาเคลือบ เขียนลายแล้วลงยาด้วยสีต่างๆ นอกจากสีหลักทั้ง 5 อันมีสีดำ ขาว เหลือง แดง และเขียว(หรือคราม) ยังมีสีรองอย่างชมพู ม่วง น้ำตาล แสด มาเสริม เป็นเครื่องถ้วยที่ต้องใช้ความละเอียดและประณีต  ส่วนเครื่องถ้วยลายน้ำทอง เป็นเครื่องปั้นดินเผาที่เขียนลายด้วยวิธีลงยาเช่นเดียวกันกับเครื่องเบญจรงค์ แต่มีการเพิ่มสีทอง หรือแต้มสีทอง ระหว่างสีเบญจรงค์ หรือเขียนตัดเส้นด้วยสีทองเริ่มใช้มาตั้งแต่สมัยรัชกาลที่ 1 แต่ได้รับความนิยมมากในสมัยรัชกาลที่ 2'
+            },
+            {
+                'language_id': 2,
+                'title': 'Benjarong Bowl Cabinet',
+                'detail': 'Inside the cabinet is displayed Benjarong bowls with gold watermarks, which is a mixture of Thai and Chinese art. The bowls have gold, floral, lions, and Chinese junk watermark patterns. Benjarong is glazed pottery with sketched patterns and then enamelled with various colours. Besides the 5 main colours of black, white, yellow, red and green (or indigo), there are also secondary colours like pink, purple, and brown. The bowls were used for their fineness and delicacy. Bowls with a gold watermark pattern are etched with a design from the enamel with the Benjarong, but with increased gold colour, or painted with gold between the Benjarong colours or as bold lines. This began in the reign of King Rama I the Great, but became very popular during the reign of King Rama II.'
+            },
+            {
+                'language_id': 3,
+                'title': '五彩瓷器',
+                'detail': '柜子里面展示了泰国五彩瓷器和金线纹瓷器。五彩瓷器上面绘画了各种各样的精美纹饰，例如花纹、狮子纹、中国帆船等等。除了黑色，白色，黄色，共色，青绿色的五个主题颜色，还会有粉色，紫色，棕色，橙色，有的时候还会画了金线纹。这种瓷器在泰王拉玛一世时代就开始用，可在泰王拉玛二世时代非常受欢迎的。'
+            },
+            {
+                'language_id': 4,
+                'title': 'ベンジャロン焼き１の戸棚',
+                'detail': 'ベンジャロン焼き磁器とラーイ・ナム・トーン文様（金の縁取りを施した模様）の磁器は棚に装飾され、タイ・中国の美術で、ガン・トー・ドーク文様（花と茎を題材にした格子状の文様で、小さな花の持つ、可憐なイメージを表現した文様)、ライオン文様、ジャンク船の乗組員文様。ベンジャロン焼きはタイの伝統的磁器です。模様をつけ、様々な色で塗りつぶします。 5原色、黒、白、黄色、赤、緑（または藍）に加えて、ピンク、紫、茶色、赤みがかったオレンジ色などの等和色もあります。ラーイ・ナム・トーン文様の磁器は金彩を施し、絵付けがされている。ラマ1世より存在しますが、ラマ２世の時代に人気が出始めた。'
+            }
+        ]
+    },
+
+];
+
+export const objectZone2 = [
+    {
         'id': 13,
         'preview': require('../assets/img/preview/preview13.jpg'),
         'markers': [
@@ -753,54 +805,6 @@ export const objectZone1 = [
         ]
     },
     {
-        'id': 18,
-        'preview': require('../assets/img/preview/preview18.jpg'),
-        'markers': [
-            {
-                'source': require('../assets/img/markers/18/1.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.08,
-            },
-            {
-                'source': require('../assets/img/markers/18/maker18.1.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.06,
-            },
-            // {
-            //     'source': require('../assets/img/markers/18/maker18.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.01,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/18/maker18.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.02,
-            // },
-        ],
-        'value': [
-            {
-                'language_id': 1,
-                'title': 'ตู้ถ้วยเบญจรงค์ชั้น 1',
-                'detail': 'ภายในตู้จัดแสดงเครื่องถ้วยเบญจรงค์และลายน้ำทอง ศิลปะไทยผสมผสานกับศิลปะจีน   ประกอบด้วยเครื่องถ้วยลายน้ำทองลายก้านต่อดอก ลายสิงโต และ ลายลูกเรือสำเภาจีน  เครื่องเบญจรงค์คือเครื่องปั้นดินเผาเคลือบ เขียนลายแล้วลงยาด้วยสีต่างๆ นอกจากสีหลักทั้ง 5 อันมีสีดำ ขาว เหลือง แดง และเขียว(หรือคราม) ยังมีสีรองอย่างชมพู ม่วง น้ำตาล แสด มาเสริม เป็นเครื่องถ้วยที่ต้องใช้ความละเอียดและประณีต  ส่วนเครื่องถ้วยลายน้ำทอง เป็นเครื่องปั้นดินเผาที่เขียนลายด้วยวิธีลงยาเช่นเดียวกันกับเครื่องเบญจรงค์ แต่มีการเพิ่มสีทอง หรือแต้มสีทอง ระหว่างสีเบญจรงค์ หรือเขียนตัดเส้นด้วยสีทองเริ่มใช้มาตั้งแต่สมัยรัชกาลที่ 1 แต่ได้รับความนิยมมากในสมัยรัชกาลที่ 2'
-            },
-            {
-                'language_id': 2,
-                'title': 'Benjarong Bowl Cabinet',
-                'detail': 'Inside the cabinet is displayed Benjarong bowls with gold watermarks, which is a mixture of Thai and Chinese art. The bowls have gold, floral, lions, and Chinese junk watermark patterns. Benjarong is glazed pottery with sketched patterns and then enamelled with various colours. Besides the 5 main colours of black, white, yellow, red and green (or indigo), there are also secondary colours like pink, purple, and brown. The bowls were used for their fineness and delicacy. Bowls with a gold watermark pattern are etched with a design from the enamel with the Benjarong, but with increased gold colour, or painted with gold between the Benjarong colours or as bold lines. This began in the reign of King Rama I the Great, but became very popular during the reign of King Rama II.'
-            },
-            {
-                'language_id': 3,
-                'title': '五彩瓷器',
-                'detail': '柜子里面展示了泰国五彩瓷器和金线纹瓷器。五彩瓷器上面绘画了各种各样的精美纹饰，例如花纹、狮子纹、中国帆船等等。除了黑色，白色，黄色，共色，青绿色的五个主题颜色，还会有粉色，紫色，棕色，橙色，有的时候还会画了金线纹。这种瓷器在泰王拉玛一世时代就开始用，可在泰王拉玛二世时代非常受欢迎的。'
-            },
-            {
-                'language_id': 4,
-                'title': 'ベンジャロン焼き１の戸棚',
-                'detail': 'ベンジャロン焼き磁器とラーイ・ナム・トーン文様（金の縁取りを施した模様）の磁器は棚に装飾され、タイ・中国の美術で、ガン・トー・ドーク文様（花と茎を題材にした格子状の文様で、小さな花の持つ、可憐なイメージを表現した文様)、ライオン文様、ジャンク船の乗組員文様。ベンジャロン焼きはタイの伝統的磁器です。模様をつけ、様々な色で塗りつぶします。 5原色、黒、白、黄色、赤、緑（または藍）に加えて、ピンク、紫、茶色、赤みがかったオレンジ色などの等和色もあります。ラーイ・ナム・トーン文様の磁器は金彩を施し、絵付けがされている。ラマ1世より存在しますが、ラマ２世の時代に人気が出始めた。'
-            }
-        ]
-    },
-    {
         'id': 19,
         'preview': require('../assets/img/preview/preview19.jpg'),
         'markers': [
@@ -835,7 +839,7 @@ export const objectZone1 = [
     },
 ];
 
-export const objectZone2 = [
+export const objectZone3 = [
     {
         'id': 20,
         'preview': require('../assets/img/preview/preview20.jpg'),
@@ -1538,7 +1542,7 @@ export const objectZone2 = [
     },
 ];
 
-export const objectZone3 = [
+export const objectZone4 = [
     {
         'id': 35,
         'preview': require('../assets/img/preview/preview35.jpg'),
@@ -1589,107 +1593,6 @@ export const objectZone3 = [
                 'language_id': 4,
                 'title': '仏陀の教えのテンペラの木製本棚',
                 'detail': 'この仏陀の教えの木製本棚はテンペラ技法により背景が緑、本棚の端は赤褐色。本棚の扉に左右の天使文様がある。タイ・中国の美術で、ラタナコーシン王朝の初頭に作られた。'
-            }
-        ]
-    },
-    {
-        'id': 36,
-        'preview': require('../assets/img/preview/preview36.jpg'),
-        'markers': [
-            // {
-            //     'source': require('../assets/img/markers/36/36.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.165,
-            // },
-            {
-                'source': require('../assets/img/markers/36/marker36.1.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.25,
-            },
-            // {
-            //     'source': require('../assets/img/markers/36/marker36.2.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.12,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/36/marker36.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.15,
-            // },
-        ],
-        'value': [
-            {
-                'language_id': 1,
-                'title': 'ตู้เครื่องลายคราม ตู้ซ้ายมือ แจกัน จปร',
-                'detail': 'คนโทลายคราม เขียนลายฮ่อเครื่องมงคล เป็นลายหนึ่งในสิบลายของเครื่องถ้วยชุดอักษรพระนาม จปร. ในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว รัชกาลที่ 5 มีพระราชประสงค์ให้ออกแบบสั่งทำจากประเทศจีนเมื่อปีพ.ศ.2431(ค.ศ.1888)  ลายฮ่อเครื่องมงคลประกอบด้วย ลายกระแปะ เหรียญอัฐ 2 เหรียญ ตกแต่งลายริบบิ้น ล้อมลายค้างคาวด้านบนมีอักษร จปร. อยู่แนวตั้ง เป็นการเขียนเรียงตามแบบอักษรจีน'
-            },
-            {
-                'language_id': 2,
-                'title': 'Porcelain and Vase Cabinet',
-                'detail': 'The indigo water pot with auspicious Chinese Haw inscriptions is one of 10 cup sets with the initials of Cho Po Ro. King Rama V the Great had the royal intention to design and order these to be made in China in 1888. The auspicious Chinese Haw design comprise stripes, 2 coins, decorated with ribbon and surrounded by bats. On the top is the initials Cho Po Ro written in the Chinese style.'
-            },
-            {
-                'language_id': 3,
-                'title': '泰王拉玛五世时代的瓷器',
-                'detail': '泰王拉玛五世的这套陶瓷是在1888年从中国定做的。陶瓷扎上面画了蝙蝠纹——泰王拉玛五世名字的简称的纹饰，该纹饰是泰王拉玛五世的重要名字纹饰之一。'
-            },
-            {
-                'language_id': 4,
-                'title': '磁器の収納棚　左側の収納棚　チュラーロンコーン大王（ラーマ5世）瓶',
-                'detail': '陶器製の水差しにホー・クルン・モンコン模様(赤、茶色などのリボンに似ているような模様)(チュラーロンコーン大王の略名の10模様のうちの1つの模様)が装飾されている。チュラーロンコーン大王、又は、ラマ5世が仏暦2431年(西暦1888年)に中国で作られた。ホー・クルン・モンコン模様はクラーペァ模様、又は、二つのアット硬貨(タイの古銭)、リボン、蝙蝠模様が装飾され、上には中国語の並べ方である縦書きでチュラーロンコーン大王の略名が書かれている。'
-            }
-        ]
-    },
-    {
-        'id': 37,
-        'preview': require('../assets/img/preview/preview37.jpg'),
-        'markers': [
-            // {
-            //     'source': require('../assets/img/markers/37/37.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.13,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/37/marker37.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.06,
-            // },
-            {
-                'source': require('../assets/img/markers/37/marker37.2.jpg'),
-                    'orientation': 'Left',
-                'physicalWidth': 0.06,
-            },
-            // {
-            //     'source': require('../assets/img/markers/37/marker37.3.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.05,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/37/marker37.4.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.06,
-            // },
-        ],
-        'value': [
-            {
-                'language_id': 1,
-                'title': 'เครื่องชามบนโต๊ะอาหาร เครื่องชามลายญี่ปุ่น',
-                'detail': 'ชุดภาชนะ อิมาริ (Imari porcelain) เป็นศิลปะแบบญี่ปุ่น ภาชนะอิมาริ(Imari) เป็นพอร์ซเลน มีชื่อเสียงมาก ผลิตมาตั้งแต่สมัย ต้นศตวรรษที่ 17 สมัยเมจิ ปัจจุบันถูกส่งออกไปยัง ยุโรป และประเทศต่างๆทั่วโลก ตกแต่งด้วยสีแดง ทอง คราม หรูหราและงดงาม'
-            },
-            {
-                'language_id': 2,
-                'title': 'Japanese Dining Set',
-                'detail': 'This Imari porcelain dining set is a Japanese art style that is very renowned and has been produced since the early 17th century. At present, it is exported to Europe and various other countries around the world. It is decorated in red, gold, and indigo, and is elegant and attractive.'
-            },
-            {
-                'language_id': 3,
-                'title': '日本伊万里餐具',
-                'detail': '日本伊万里瓷器在17世纪初时非常有名。日本瓷器的釉色有青釉、白釉、大红釉、蓝釉、金色釉、珊瑚釉等。目前这种餐具都发货到世界各国。'
-            },
-            {
-                'language_id': 4,
-                'title': '食卓食器類　日本の磁器',
-                'detail': '伊万里(Imari porcelain) という食器類は日本の陶磁器文化である。この伊万里磁器 (Imari) はとても有名で、明治時代の17世紀初頭から製造し、ヨーロッパをはじめ世界中に輸出しました。赤、金、藍色で装飾し、豪華絢爛な様式の磁器。'
             }
         ]
     },
@@ -1859,206 +1762,6 @@ export const objectZone3 = [
                 'language_id': 4,
                 'title': 'ロッド・ナム模様（漆塗り）の仏陀の教え本棚',
                 'detail': '引き出し付き、本棚の脚はシンハの足と思われる獣足が付き、ブッダの物語の漆塗り。ブッダの教え本棚を作り始めたばかりの頃は中国文化の影響を受けたと思われます。次第にタイの独特な形に変わってきた。立方形の本棚、底面が広く上面が狭い、前面と背面が左右側の底面より広い、タイの芸術家は古代から自由に自分の芸術を創造することができるのでブッダの教え本棚の大きさと装飾が芸術家によって違いますが、用途は一緒。バイラーン（シュロの葉）・バイコイ（ざら紙）で作られた手書きの本またはタイの仏教寺院の仏教教えに関する本を保管するための本棚'
-            }
-        ]
-    },
-    {
-        'id': 41,
-        'preview': require('../assets/img/preview/preview41.jpg'),
-        'markers': [
-            // {
-            //     'source': require('../assets/img/markers/41/41.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.08,
-            // },
-            // {
-            //     'source': require('../assets/img/markers/41/marker41.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.11,
-            // },
-            {
-                'source': require('../assets/img/markers/41/marker41.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.05,
-            },
-            {
-                'source': require('../assets/img/markers/41/marker41.3.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.08,
-            },
-            // {
-            //     'source': require('../assets/img/markers/41/marker41.4.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.04,
-            // },
-        ],
-        'value': [
-            {
-                'language_id': 1,
-                'title': 'กาน้ำชาลายคราม',
-                'detail': 'กาน้ำชาหรือป้านน้ำชาลายครามจีนโบราณ  ศิลปะจีน สมัยราชวงศ์ชิง ศตวรรษที่ 19 กาน้ำชา พร้อมไส้กรองกระเบื้องเคลือบน้ำเงินขาว  รูปทรงกระบอก พวยกาโค้ง ปากตัดเฉียง มีฝาปิด เป็นลายพลรบ  มีภาพวาดเกี่ยวกับ การล่องเรือสำเภาในมหาสมุทร หรือการล่าสัตว์'
-            },
-            {
-                'language_id': 2,
-                'title': 'Porcelain Teapot',
-                'detail': 'This ancient porcelain teapot is in the Chinese art style of the Qing Dynasty of the 19th century. The teapot with its blue white glazed tile filter is a cylindrical shape with a curved spout, oblique mouth, and lid with a battle pattern. It had a picture of being onboard a Chinese junk in the sea or hunting.'
-            },
-            {
-                'language_id': 3,
-                'title': '中国清朝时期的茶壶',
-                'detail': '中国清朝时期的茶壶表现了19世纪的中国艺术。茶壶里有蓝白色的陶瓷过滤，还带着茶壶盖子。茶壶上面画了大海中的帆船或者狩猎。'
-            },
-            {
-                'language_id': 4,
-                'title': '陶磁器の急須',
-                'detail': '19世紀中国清王朝時代の中国陶磁器の急須、又はティーポット、蓋が青と白の施釉タイルで作られたフィルター付きの円筒、斜めに切られている湾曲した注ぎ口、ジャンク船で船旅又は狩猟等の戦争文様のティーポット。'
-            }
-        ]
-    },
-    {
-        'id': 42,
-        'preview': require('../assets/img/preview/preview42.jpg'),
-        'markers': [
-            {
-                'source': require('../assets/img/markers/42/marker42.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.08,
-            }
-        ],
-        'value': [
-            {
-                'language_id': 1,
-                'title': 'ตู้ยา',
-                'detail': 'ตู้ยาสามัญประจำบ้านตรานายเลิศ ในอดีตโรคภัยไข้เจ็บเป็นสิ่งคู่กันกับสังคมไทย การแพทย์ยังไม่เจริญก้าวหน้าดังเช่นปัจจุบัน นอกจากการใช้ยาสมุนไพรในการบำบัดโรคแล้ว ยังมียาแผนปัจจุบันหรือยาฝรั่ง ตู้ยานี้จัดแสดงยาที่ใช้ในอดีต'
-            },
-            {
-                'language_id': 2,
-                'title': 'Medicine Cabinet',
-                'detail': 'This is a common household medicine cabinet. In the past, illnesses were common in Thai society, and medical science was not as developed like at present. Besides using herbal medicine for the treatment of disease, there was modern medicine or foreign medicine. This cabinet displays medicines used in the past.'
-            },
-            {
-                'language_id': 3,
-                'title': '医药箱',
-                'detail': '奈乐特家的医药箱。生病是每个人的生命过程中都会遇到的事情。在古代史除了使用草药治疗病痛，还会用西药的。这个医药箱展示人们以前用过的各种药品。'
-            },
-            {
-                'language_id': 4,
-                'title': '薬箱',
-                'detail': 'ナイラートブランドの薬箱。昔、病気はタイの社会で一般的なものでした。医学は現在ほど進歩していなかった。病気の治療について植物薬に加えて、従来の薬や西洋薬があります。この薬箱には、過去に使用された薬が展示されています。'
-            }
-        ]
-    },
-    {
-        'id': 43,
-        'preview': require('../assets/img/preview/preview43.jpg'),
-        'markers': [
-            {
-                'source': require('../assets/img/markers/43/marker43.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.29,
-            }
-        ],
-        'value': [
-            {
-                'language_id': 1,
-                'title': 'ภาพ \'สองพี่น้อง\'',
-                'detail': 'ภาพพิมพ์แกะไม้ พิมพ์สีด้วยวิธีพิมพ์ลายฉลุ ผลงานของ ศาสตราจารย์เกียรติคุณประหยัด พงษ์ดำ ศิลปินแห่งชาติ สาขาทัศนศิลป์ (ภาพพิมพ์) ประจำปีพุทธศักราช 2541  เทคนิคพิมพ์ภาพลงบนกระดาษ แล้วนำแผ่นไม้ไปแกะลายเส้น เพื่อทำเป็นส่วนละเอียดต่างๆ เช่น ลายเสื้อที่ปรากฏอยู่ในภาพนี้'
-            },
-            {
-                'language_id': 2,
-                'title': '\'Song Phi Nong\' Print',
-                'detail': 'This woodcut colour print by stencil is the work of Professor Prayat Pongdam, a Thai national artist in the category of fine art (prints) in 1998.  The techniques for printing images on paper used wood to be carved with lined patterns, so to make it detailed; e.g., shirts that appear in this print.'
-            },
-            {
-                'language_id': 3,
-                'title': '兄弟的图片',
-                'detail': '这张套色木刻画是泰国艺术家Prayad Pongdam（巴亚德·泼搭教授）的作品。木刻版画的独特的刀味与木味使它在泰国文化艺术史上具有独立的艺术价值与地位。'
-            },
-            {
-                'language_id': 4,
-                'title': '「二人兄弟」の絵',
-                'detail': 'この絵は木版画で、ステンシル印刷法によるカラー印刷。仏暦2541年（西暦1998年）のタイ王国国家芸術家プラヤット ・ポンダム教授（版画の視覚芸術部門）の作品。紙にイメージを印刷し、この絵のシャツの文様等の細かいところを作るため、木を素材として彫刻する。'
-            }
-        ]
-    },
-    {
-        'id': 44,
-        'preview': require('../assets/img/preview/preview44.jpg'),
-        'markers': [
-            // {
-            //     'source': require('../assets/img/markers/44/marker44.1.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.02,
-            // },
-            {
-                'source': require('../assets/img/markers/44/marker44.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.09,
-            },
-        ],
-        'value': [
-            {
-                'language_id': 1,
-                'title': 'ชุดเครื่องแก้วใส่หมากพลู',
-                'detail': 'ชุดเชี่ยนหมากแก้ว ฝาครอบทำจากทองเหลืองตกแต่งด้วยลวดลายจีน ใช้สำหรับใสหมากพลู การกินหมาก ถือได้ว่าเป็นวัฒนธรรมของคนเอเชียตะวันออกเชียงใต้ในสมัยก่อน'
-            },
-            {
-                'language_id': 2,
-                'title': 'Glassware Set for Betel Nut',
-                'detail': 'The glass betel nut set with a lid made from brass is beautifully decorated with Chinese patterns. It was used for containing betel nut that was chewed. It was considered as the culture of Southeast Asians in the past.'
-            },
-            {
-                'language_id': 3,
-                'title': '槟榔盒',
-                'detail': '这些盒里放了槟榔，盖子是黄铜制作的。黑齿习俗在东南亚地区自古就有，古时没有牙膏清洁牙刷并且热带地区喜爱嚼槟榔，经过年月及一些迷信的缘由，均以乌牙作为一种传统习。'
-            },
-            {
-                'language_id': 4,
-                'title': 'ビンロウの実・キンマの葉入れのグラス器セット',
-                'detail': 'ビンロウの実（檳榔）・キンマの葉（コショウ科の植物）入れのグラス器セットの蓋は真鍮製で、中国文様で装飾されています。キンマは昔の東南アジアの人の伝統的な文化です。'
-            }
-        ]
-    },
-    {
-        'id': 45,
-        'preview': require('../assets/img/preview/preview45.jpg'),
-        'markers': [
-            // {
-            //     'source': require('../assets/img/markers/45/45.jpg'),
-            //     'orientation': 'Left',
-            //     'physicalWidth': 0.165,
-            // },
-            {
-                'source': require('../assets/img/markers/45/marker45.1.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.05,
-            },
-            {
-                'source': require('../assets/img/markers/45/marker45.2.jpg'),
-                'orientation': 'Left',
-                'physicalWidth': 0.06,
-            },
-        ],
-        'value': [
-            {
-                'language_id': 1,
-                'title': 'จักรเย็บผ้าซิงเกอร์',
-                'detail': 'จักรเย็บผ้าซิงเกอร์อันนี้เป็นรุ่นแรกๆที่นายเลิศเคยนำเข้ามาขายในห้างนายเลิศ  จักรเย็บผ้าซิงเกอร์ถือกำเนิดขึ้นในสหรัฐ อเมริกา ในปี พ.ศ.2394 โดย ไอแซค เมอร์ริทท์ ซิงเกอร์ การเข้ามาของกิจการซิงเกอร์ครั้งแรกในเมืองไทย นำเข้ามาโดยชาวตะวันตกที่มาทำการค้าขายในเมืองไทย'
-            },
-            {
-                'language_id': 2,
-                'title': 'Singer Sewing Machine',
-                'detail': 'This Singer sewing machine was the first model that Nai Lert brought to sell in the Nai Lert Store.  It was produced in the USA in 1851 by Isaac Merritt Singer. The sewing machines were first brought into Thailand by Westerners who came to trade with Thailand.'
-            },
-            {
-                'language_id': 3,
-                'title': '胜家缝纫机',
-                'detail': '这款胜家缝纫机以前在奈乐特商场销售。胜家缝纫机是一位名叫列察克·梅里瑟·胜家的美国人在1851年发明了一种代替手工缝纫的机器。'
-            },
-            {
-                'language_id': 4,
-                'title': 'シンガーミシン',
-                'detail': 'このシンガーミシンはナイラートがナイラートデパートで販売するために輸入した最初のモデルです。 シンガーミシンは仏暦2394年(西暦1851年)にアメリカ合衆国のアイザック・メリット・シンガー（Isaac Merritt Singer）が発明。タイで最初のシンガーミシン事業の始まり、タイで貿易する欧米人によって輸入された。'
             }
         ]
     },
@@ -2272,4 +1975,321 @@ export const objectZone3 = [
             }
         ]
     }
+]
+
+export const objectZone5 = [
+
+    {
+        'id': 36,
+        'preview': require('../assets/img/preview/preview36.jpg'),
+        'markers': [
+            // {
+            //     'source': require('../assets/img/markers/36/36.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.165,
+            // },
+            {
+                'source': require('../assets/img/markers/36/marker36.1.jpg'),
+                'orientation': 'Left',
+                'physicalWidth': 0.25,
+            },
+            // {
+            //     'source': require('../assets/img/markers/36/marker36.2.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.12,
+            // },
+            // {
+            //     'source': require('../assets/img/markers/36/marker36.3.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.15,
+            // },
+        ],
+        'value': [
+            {
+                'language_id': 1,
+                'title': 'ตู้เครื่องลายคราม ตู้ซ้ายมือ แจกัน จปร',
+                'detail': 'คนโทลายคราม เขียนลายฮ่อเครื่องมงคล เป็นลายหนึ่งในสิบลายของเครื่องถ้วยชุดอักษรพระนาม จปร. ในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว รัชกาลที่ 5 มีพระราชประสงค์ให้ออกแบบสั่งทำจากประเทศจีนเมื่อปีพ.ศ.2431(ค.ศ.1888)  ลายฮ่อเครื่องมงคลประกอบด้วย ลายกระแปะ เหรียญอัฐ 2 เหรียญ ตกแต่งลายริบบิ้น ล้อมลายค้างคาวด้านบนมีอักษร จปร. อยู่แนวตั้ง เป็นการเขียนเรียงตามแบบอักษรจีน'
+            },
+            {
+                'language_id': 2,
+                'title': 'Porcelain and Vase Cabinet',
+                'detail': 'The indigo water pot with auspicious Chinese Haw inscriptions is one of 10 cup sets with the initials of Cho Po Ro. King Rama V the Great had the royal intention to design and order these to be made in China in 1888. The auspicious Chinese Haw design comprise stripes, 2 coins, decorated with ribbon and surrounded by bats. On the top is the initials Cho Po Ro written in the Chinese style.'
+            },
+            {
+                'language_id': 3,
+                'title': '泰王拉玛五世时代的瓷器',
+                'detail': '泰王拉玛五世的这套陶瓷是在1888年从中国定做的。陶瓷扎上面画了蝙蝠纹——泰王拉玛五世名字的简称的纹饰，该纹饰是泰王拉玛五世的重要名字纹饰之一。'
+            },
+            {
+                'language_id': 4,
+                'title': '磁器の収納棚　左側の収納棚　チュラーロンコーン大王（ラーマ5世）瓶',
+                'detail': '陶器製の水差しにホー・クルン・モンコン模様(赤、茶色などのリボンに似ているような模様)(チュラーロンコーン大王の略名の10模様のうちの1つの模様)が装飾されている。チュラーロンコーン大王、又は、ラマ5世が仏暦2431年(西暦1888年)に中国で作られた。ホー・クルン・モンコン模様はクラーペァ模様、又は、二つのアット硬貨(タイの古銭)、リボン、蝙蝠模様が装飾され、上には中国語の並べ方である縦書きでチュラーロンコーン大王の略名が書かれている。'
+            }
+        ]
+    },
+    {
+        'id': 37,
+        'preview': require('../assets/img/preview/preview37.jpg'),
+        'markers': [
+            // {
+            //     'source': require('../assets/img/markers/37/37.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.13,
+            // },
+            // {
+            //     'source': require('../assets/img/markers/37/marker37.1.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.06,
+            // },
+            {
+                'source': require('../assets/img/markers/37/marker37.2.jpg'),
+                    'orientation': 'Left',
+                'physicalWidth': 0.06,
+            },
+            // {
+            //     'source': require('../assets/img/markers/37/marker37.3.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.05,
+            // },
+            // {
+            //     'source': require('../assets/img/markers/37/marker37.4.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.06,
+            // },
+        ],
+        'value': [
+            {
+                'language_id': 1,
+                'title': 'เครื่องชามบนโต๊ะอาหาร เครื่องชามลายญี่ปุ่น',
+                'detail': 'ชุดภาชนะ อิมาริ (Imari porcelain) เป็นศิลปะแบบญี่ปุ่น ภาชนะอิมาริ(Imari) เป็นพอร์ซเลน มีชื่อเสียงมาก ผลิตมาตั้งแต่สมัย ต้นศตวรรษที่ 17 สมัยเมจิ ปัจจุบันถูกส่งออกไปยัง ยุโรป และประเทศต่างๆทั่วโลก ตกแต่งด้วยสีแดง ทอง คราม หรูหราและงดงาม'
+            },
+            {
+                'language_id': 2,
+                'title': 'Japanese Dining Set',
+                'detail': 'This Imari porcelain dining set is a Japanese art style that is very renowned and has been produced since the early 17th century. At present, it is exported to Europe and various other countries around the world. It is decorated in red, gold, and indigo, and is elegant and attractive.'
+            },
+            {
+                'language_id': 3,
+                'title': '日本伊万里餐具',
+                'detail': '日本伊万里瓷器在17世纪初时非常有名。日本瓷器的釉色有青釉、白釉、大红釉、蓝釉、金色釉、珊瑚釉等。目前这种餐具都发货到世界各国。'
+            },
+            {
+                'language_id': 4,
+                'title': '食卓食器類　日本の磁器',
+                'detail': '伊万里(Imari porcelain) という食器類は日本の陶磁器文化である。この伊万里磁器 (Imari) はとても有名で、明治時代の17世紀初頭から製造し、ヨーロッパをはじめ世界中に輸出しました。赤、金、藍色で装飾し、豪華絢爛な様式の磁器。'
+            }
+        ]
+    },
 ];
+
+export const objectZone6 = [
+    {
+        'id': 41,
+        'preview': require('../assets/img/preview/preview41.jpg'),
+        'markers': [
+            // {
+            //     'source': require('../assets/img/markers/41/41.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.08,
+            // },
+            // {
+            //     'source': require('../assets/img/markers/41/marker41.1.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.11,
+            // },
+            {
+                'source': require('../assets/img/markers/41/marker41.2.jpg'),
+                'orientation': 'Left',
+                'physicalWidth': 0.05,
+            },
+            {
+                'source': require('../assets/img/markers/41/marker41.3.jpg'),
+                'orientation': 'Left',
+                'physicalWidth': 0.08,
+            },
+            // {
+            //     'source': require('../assets/img/markers/41/marker41.4.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.04,
+            // },
+        ],
+        'value': [
+            {
+                'language_id': 1,
+                'title': 'กาน้ำชาลายคราม',
+                'detail': 'กาน้ำชาหรือป้านน้ำชาลายครามจีนโบราณ  ศิลปะจีน สมัยราชวงศ์ชิง ศตวรรษที่ 19 กาน้ำชา พร้อมไส้กรองกระเบื้องเคลือบน้ำเงินขาว  รูปทรงกระบอก พวยกาโค้ง ปากตัดเฉียง มีฝาปิด เป็นลายพลรบ  มีภาพวาดเกี่ยวกับ การล่องเรือสำเภาในมหาสมุทร หรือการล่าสัตว์'
+            },
+            {
+                'language_id': 2,
+                'title': 'Porcelain Teapot',
+                'detail': 'This ancient porcelain teapot is in the Chinese art style of the Qing Dynasty of the 19th century. The teapot with its blue white glazed tile filter is a cylindrical shape with a curved spout, oblique mouth, and lid with a battle pattern. It had a picture of being onboard a Chinese junk in the sea or hunting.'
+            },
+            {
+                'language_id': 3,
+                'title': '中国清朝时期的茶壶',
+                'detail': '中国清朝时期的茶壶表现了19世纪的中国艺术。茶壶里有蓝白色的陶瓷过滤，还带着茶壶盖子。茶壶上面画了大海中的帆船或者狩猎。'
+            },
+            {
+                'language_id': 4,
+                'title': '陶磁器の急須',
+                'detail': '19世紀中国清王朝時代の中国陶磁器の急須、又はティーポット、蓋が青と白の施釉タイルで作られたフィルター付きの円筒、斜めに切られている湾曲した注ぎ口、ジャンク船で船旅又は狩猟等の戦争文様のティーポット。'
+            }
+        ]
+    },
+    {
+        'id': 42,
+        'preview': require('../assets/img/preview/preview42.jpg'),
+        'markers': [
+            {
+                'source': require('../assets/img/markers/42/marker42.jpg'),
+                'orientation': 'Left',
+                'physicalWidth': 0.08,
+            }
+        ],
+        'value': [
+            {
+                'language_id': 1,
+                'title': 'ตู้ยา',
+                'detail': 'ตู้ยาสามัญประจำบ้านตรานายเลิศ ในอดีตโรคภัยไข้เจ็บเป็นสิ่งคู่กันกับสังคมไทย การแพทย์ยังไม่เจริญก้าวหน้าดังเช่นปัจจุบัน นอกจากการใช้ยาสมุนไพรในการบำบัดโรคแล้ว ยังมียาแผนปัจจุบันหรือยาฝรั่ง ตู้ยานี้จัดแสดงยาที่ใช้ในอดีต'
+            },
+            {
+                'language_id': 2,
+                'title': 'Medicine Cabinet',
+                'detail': 'This is a common household medicine cabinet. In the past, illnesses were common in Thai society, and medical science was not as developed like at present. Besides using herbal medicine for the treatment of disease, there was modern medicine or foreign medicine. This cabinet displays medicines used in the past.'
+            },
+            {
+                'language_id': 3,
+                'title': '医药箱',
+                'detail': '奈乐特家的医药箱。生病是每个人的生命过程中都会遇到的事情。在古代史除了使用草药治疗病痛，还会用西药的。这个医药箱展示人们以前用过的各种药品。'
+            },
+            {
+                'language_id': 4,
+                'title': '薬箱',
+                'detail': 'ナイラートブランドの薬箱。昔、病気はタイの社会で一般的なものでした。医学は現在ほど進歩していなかった。病気の治療について植物薬に加えて、従来の薬や西洋薬があります。この薬箱には、過去に使用された薬が展示されています。'
+            }
+        ]
+    },
+    {
+        'id': 43,
+        'preview': require('../assets/img/preview/preview43.jpg'),
+        'markers': [
+            {
+                'source': require('../assets/img/markers/43/marker43.jpg'),
+                'orientation': 'Left',
+                'physicalWidth': 0.29,
+            }
+        ],
+        'value': [
+            {
+                'language_id': 1,
+                'title': 'ภาพ \'สองพี่น้อง\'',
+                'detail': 'ภาพพิมพ์แกะไม้ พิมพ์สีด้วยวิธีพิมพ์ลายฉลุ ผลงานของ ศาสตราจารย์เกียรติคุณประหยัด พงษ์ดำ ศิลปินแห่งชาติ สาขาทัศนศิลป์ (ภาพพิมพ์) ประจำปีพุทธศักราช 2541  เทคนิคพิมพ์ภาพลงบนกระดาษ แล้วนำแผ่นไม้ไปแกะลายเส้น เพื่อทำเป็นส่วนละเอียดต่างๆ เช่น ลายเสื้อที่ปรากฏอยู่ในภาพนี้'
+            },
+            {
+                'language_id': 2,
+                'title': '\'Song Phi Nong\' Print',
+                'detail': 'This woodcut colour print by stencil is the work of Professor Prayat Pongdam, a Thai national artist in the category of fine art (prints) in 1998.  The techniques for printing images on paper used wood to be carved with lined patterns, so to make it detailed; e.g., shirts that appear in this print.'
+            },
+            {
+                'language_id': 3,
+                'title': '兄弟的图片',
+                'detail': '这张套色木刻画是泰国艺术家Prayad Pongdam（巴亚德·泼搭教授）的作品。木刻版画的独特的刀味与木味使它在泰国文化艺术史上具有独立的艺术价值与地位。'
+            },
+            {
+                'language_id': 4,
+                'title': '「二人兄弟」の絵',
+                'detail': 'この絵は木版画で、ステンシル印刷法によるカラー印刷。仏暦2541年（西暦1998年）のタイ王国国家芸術家プラヤット ・ポンダム教授（版画の視覚芸術部門）の作品。紙にイメージを印刷し、この絵のシャツの文様等の細かいところを作るため、木を素材として彫刻する。'
+            }
+        ]
+    },
+    {
+        'id': 44,
+        'preview': require('../assets/img/preview/preview44.jpg'),
+        'markers': [
+            // {
+            //     'source': require('../assets/img/markers/44/marker44.1.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.02,
+            // },
+            {
+                'source': require('../assets/img/markers/44/marker44.2.jpg'),
+                'orientation': 'Left',
+                'physicalWidth': 0.09,
+            },
+        ],
+        'value': [
+            {
+                'language_id': 1,
+                'title': 'ชุดเครื่องแก้วใส่หมากพลู',
+                'detail': 'ชุดเชี่ยนหมากแก้ว ฝาครอบทำจากทองเหลืองตกแต่งด้วยลวดลายจีน ใช้สำหรับใสหมากพลู การกินหมาก ถือได้ว่าเป็นวัฒนธรรมของคนเอเชียตะวันออกเชียงใต้ในสมัยก่อน'
+            },
+            {
+                'language_id': 2,
+                'title': 'Glassware Set for Betel Nut',
+                'detail': 'The glass betel nut set with a lid made from brass is beautifully decorated with Chinese patterns. It was used for containing betel nut that was chewed. It was considered as the culture of Southeast Asians in the past.'
+            },
+            {
+                'language_id': 3,
+                'title': '槟榔盒',
+                'detail': '这些盒里放了槟榔，盖子是黄铜制作的。黑齿习俗在东南亚地区自古就有，古时没有牙膏清洁牙刷并且热带地区喜爱嚼槟榔，经过年月及一些迷信的缘由，均以乌牙作为一种传统习。'
+            },
+            {
+                'language_id': 4,
+                'title': 'ビンロウの実・キンマの葉入れのグラス器セット',
+                'detail': 'ビンロウの実（檳榔）・キンマの葉（コショウ科の植物）入れのグラス器セットの蓋は真鍮製で、中国文様で装飾されています。キンマは昔の東南アジアの人の伝統的な文化です。'
+            }
+        ]
+    },
+    {
+        'id': 45,
+        'preview': require('../assets/img/preview/preview45.jpg'),
+        'markers': [
+            // {
+            //     'source': require('../assets/img/markers/45/45.jpg'),
+            //     'orientation': 'Left',
+            //     'physicalWidth': 0.165,
+            // },
+            {
+                'source': require('../assets/img/markers/45/marker45.1.jpg'),
+                'orientation': 'Left',
+                'physicalWidth': 0.05,
+            },
+            {
+                'source': require('../assets/img/markers/45/marker45.2.jpg'),
+                'orientation': 'Left',
+                'physicalWidth': 0.06,
+            },
+        ],
+        'value': [
+            {
+                'language_id': 1,
+                'title': 'จักรเย็บผ้าซิงเกอร์',
+                'detail': 'จักรเย็บผ้าซิงเกอร์อันนี้เป็นรุ่นแรกๆที่นายเลิศเคยนำเข้ามาขายในห้างนายเลิศ  จักรเย็บผ้าซิงเกอร์ถือกำเนิดขึ้นในสหรัฐ อเมริกา ในปี พ.ศ.2394 โดย ไอแซค เมอร์ริทท์ ซิงเกอร์ การเข้ามาของกิจการซิงเกอร์ครั้งแรกในเมืองไทย นำเข้ามาโดยชาวตะวันตกที่มาทำการค้าขายในเมืองไทย'
+            },
+            {
+                'language_id': 2,
+                'title': 'Singer Sewing Machine',
+                'detail': 'This Singer sewing machine was the first model that Nai Lert brought to sell in the Nai Lert Store.  It was produced in the USA in 1851 by Isaac Merritt Singer. The sewing machines were first brought into Thailand by Westerners who came to trade with Thailand.'
+            },
+            {
+                'language_id': 3,
+                'title': '胜家缝纫机',
+                'detail': '这款胜家缝纫机以前在奈乐特商场销售。胜家缝纫机是一位名叫列察克·梅里瑟·胜家的美国人在1851年发明了一种代替手工缝纫的机器。'
+            },
+            {
+                'language_id': 4,
+                'title': 'シンガーミシン',
+                'detail': 'このシンガーミシンはナイラートがナイラートデパートで販売するために輸入した最初のモデルです。 シンガーミシンは仏暦2394年(西暦1851年)にアメリカ合衆国のアイザック・メリット・シンガー（Isaac Merritt Singer）が発明。タイで最初のシンガーミシン事業の始まり、タイで貿易する欧米人によって輸入された。'
+            }
+        ]
+    },
+];
+
+export const models = {
+    1: ["4"],
+    2: ["13", "16", "19"],
+    3: ["24", "31", "32"],
+    4: ["39", "40", "49"],
+    5: [],
+    6: ["41", "45", ],
+};

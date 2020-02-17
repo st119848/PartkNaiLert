@@ -71,9 +71,12 @@ const en = {
     ar: {
         zone: {
             title: 'Please select zone',
-            zone1: 'Ruean Thanphuying reception room zone',
-            zone2: 'Thanphuying\'s house zone',
-            zone3: 'Than Chao Khun\'s house zone',
+            zone1: 'Ruean Thanphuying reception room zone (in glass cabinet)',
+            zone2: 'Ruean Thanphuying reception room zone (outside glass cabinet)',
+            zone3: 'Outside Ruean Thanphuying reception room zone ',
+            zone4: 'Outside Ruean ThanChaoKhun reception room zone',
+            zone5: 'Ruean ThanChaoKhun reception room zone',
+            zone6: 'Backside Ruean ThanChaoKhun\'s house zone',
         },
         camera: {
             scan: 'Scan The Object',
@@ -158,9 +161,12 @@ const th = {
     ar: {
         zone: {
             title: 'โปรดเลือกโซนของพิพิธภัณฑ์',
-            zone1: 'ห้องรับแขก เรือนท่านผู้หญิง',
-            zone2: 'เรือนท่านผู้หญิง',
-            zone3: 'เรือนท่านเจ้าคุณ',
+            zone1: 'ห้องรับแขก เรือนท่านผู้หญิง (ด้านในตู้กระจก)',
+            zone2: 'ห้องรับแขก เรือนท่านผู้หญิง (ด้านนอกตู้กระจก)',
+            zone3: 'นอกห้องรับแขกเรือนท่านผู้หญิง',
+            zone4: 'นอกห้องรับแขกเรือนท่านเจ้าคุณ',
+            zone5: 'ห้องรับแขก เรือนท่านเจ้าคุณ',
+            zone6: 'ด้านหลังเรือนท่านเจ้าคุณ',
         },
         camera: {
             scan: 'สแกนวัตถุ',
@@ -245,9 +251,12 @@ const zh = {
     ar: {
         zone: {
             title: '请选择区域',
-            zone1: '夫人家的客厅',
-            zone2: '夫人家',
-            zone3: '贵族家',
+            zone1: '女士夫人的客廳（玻璃櫃內）',
+            zone2: '女士夫人的客廳（玻璃櫃外）',
+            zone3: '女人家客廳外面',
+            zone4: '昭坤府客廳外',
+            zone5: '昭坤樓客廳',
+            zone6: '趙坤坤的房子後面',
         },
         camera: {
             scan: '扫描物体',
@@ -332,9 +341,12 @@ const ja = {
     ar: {
         zone: {
             title: 'ゾーンを選択してください',
-            zone1: 'タン・インの館の応接間',
-            zone2: 'タン・イン(夫人)の館',
-            zone3: 'タン・チャオクン(主人)の館',
+            zone1: 'レディマダムのリビングルーム（ガラスキャビネット内）',
+            zone2: 'レディマダムのリビングルーム（ガラスキャビネットの外側）',
+            zone3: '女性の家のリビングルームの外',
+            zone4: 'チャオクンハウスのリビングルームの外',
+            zone5: 'チャオクンハウスのリビングルーム',
+            zone6: 'チャオクンクンの家の後ろ',
         },
         camera: {
             scan: 'オブジェクトをスキャンする',

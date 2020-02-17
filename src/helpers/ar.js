@@ -1,10 +1,24 @@
-import {objectZone1, objectZone2, objectZone3} from "../config/ar";
+import {
+    objectZone1,
+    objectZone2,
+    objectZone3,
+    objectZone4,
+    objectZone5,
+    objectZone6,
+    models
+} from "../config/ar";
 
 export const getObjectZoneData = (zone) => {
     if (zone === 2) {
         return objectZone2 || [];
     } else if (zone === 3) {
         return objectZone3 || [];
+    } else if (zone === 4) {
+        return objectZone4 || [];
+    } else if (zone === 5) {
+        return objectZone5 || [];
+    } else if (zone === 6) {
+        return objectZone6 || [];
     } else {
         return objectZone1 || [];
     }
@@ -50,4 +64,8 @@ export const getMarkerData = (marker, zone) => {
     return objectDataArr.find((object) => {
         return object.id === parseInt(markerKey)
     })
+};
+
+export const getMarkersHasModel = (zone) => {
+    return models[zone] || [];
 };

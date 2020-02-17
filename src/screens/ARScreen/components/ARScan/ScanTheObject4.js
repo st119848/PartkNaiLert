@@ -1,16 +1,18 @@
 "use strict";
 
 import React, { Component } from "react";
-import PNLAR2 from "../Scene/PNLAR2";
-import PNLARThree24 from "../Scene/PNLARThree24";
-import PNLARThree31 from "../Scene/PNLARThree31";
-import PNLARThree32 from "../Scene/PNLARThree32";
+import PNLAR4 from "../Scene/PNLAR4";
+import PNLARThree39 from "../Scene/PNLARThree39";
+import PNLARThree40 from "../Scene/PNLARThree40";
+import PNLARThree41 from "../Scene/PNLARThree41";
+import PNLARThree45 from "../Scene/PNLARThree45";
+import PNLARThree49 from "../Scene/PNLARThree49";
 import { ViroARSceneNavigator } from "react-viro";
 import Header from "../Header/Header";
 import { Theme, BottomText, Border } from "./style";
 var apiKey = "185779F9-FAEC-4950-BF69-454D6BDD4EC6";
 
-export default class ScanTheObjectTwo extends Component{
+export default class ScanTheObject4 extends Component{
 	static getInitialState(marker) {
 		const detailState = {
 			textLangTitle: "",
@@ -33,11 +35,13 @@ export default class ScanTheObjectTwo extends Component{
 	render() {
 		const {showARScene, t} = this.props;
 		const mapScene = {
-			"24": PNLARThree24,
-			"31": PNLARThree31,
-			"32": PNLARThree32,
+			"39": PNLARThree39,
+			"40": PNLARThree40,
+			"41": PNLARThree41,
+			"45": PNLARThree45,
+			"49": PNLARThree49,
 		};
-		const defaultScene = PNLAR2;
+		const defaultScene = PNLAR4;
 		const scene = mapScene[showARScene] || defaultScene;
 		const bottomText = (showARScene == '1') ? t('ar.camera.scan') : t('ar.camera.hover');
 		return (

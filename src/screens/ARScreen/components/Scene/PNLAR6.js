@@ -11,10 +11,10 @@ import {
 import {connect} from "react-redux";
 import {getMarkerData, getMarkers} from "../../../../helpers/ar";
 
-class PNLAR3 extends Component {
+class PNLAR6 extends Component {
 	constructor(props) {
 		super(props);
-		const markers = getMarkers(3);
+		const markers = getMarkers(6);
 		console.log('markers count', Object.keys(markers).length);
 		ViroARTrackingTargets.createTargets(markers);
 		this.state = {
@@ -24,7 +24,7 @@ class PNLAR3 extends Component {
 
 	getMarkerInfo(marker) {
 		const {languageId} = this.props;
-		const arData = getMarkerData(marker, 3) || {};
+		const arData = getMarkerData(marker, 6) || {};
 		const {value: arTranslates=[], preview} = arData;
 		const arMarkerDataByLang = arTranslates.find((item) => item.language_id === languageId) || {};
 		const title = String(arMarkerDataByLang.title);
@@ -56,8 +56,8 @@ class PNLAR3 extends Component {
 								textLangDetail: detail,
 								preview: preview,
 								showARScene:sceneNavigator.viroAppProps.showARScene,
-								marker:markerKey, // send marker to the markerDetail
-								zone: 3,
+								marker:markerKey,// send marker to the markerDetail
+								zone: 6,
 							});
 						}}
 						key={index}>
@@ -78,5 +78,5 @@ const mapStateToProps = (state) => {
 		languageId: state.setting.languageId,
 	}
 };
-export default connect(mapStateToProps, mapDispatchToProps)(PNLAR3)
+export default connect(mapStateToProps, mapDispatchToProps)(PNLAR6)
 

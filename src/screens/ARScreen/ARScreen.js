@@ -1,10 +1,11 @@
 import React, {Component} from "react";
-import ScanTheObjectOne from "./components/ARScan/ScanTheObjectOne"
-import ScanTheObjectTwo from "./components/ARScan/ScanTheObjectTwo"
-import ScanTheObjectThree from "./components/ARScan/ScanTheObjectThree"
-import MarkerDetail1 from "./components/MarkerDetail/MarkerDetail1";
-import MarkerDetail2 from "./components/MarkerDetail/MarkerDetail2";
-import MarkerDetail3 from "./components/MarkerDetail/MarkerDetail3";
+import ScanTheObject1 from "./components/ARScan/ScanTheObject1"
+import ScanTheObject2 from "./components/ARScan/ScanTheObject2"
+import ScanTheObject3 from "./components/ARScan/ScanTheObject3"
+import ScanTheObject4 from "./components/ARScan/ScanTheObject4"
+import ScanTheObject5 from "./components/ARScan/ScanTheObject5"
+import ScanTheObject6 from "./components/ARScan/ScanTheObject6"
+import Index from "./components/MarkerDetail";
 import Header from "./components/Header/Header"
 import ZoneSelector from "./components/ZoneSelector/ZoneSelector";
 import {Router, Stack, Scene} from "react-native-router-flux"
@@ -21,12 +22,13 @@ export default class ARScreen extends Component {
             <Router>
                 <Stack hideNavBar>
                     <Scene key="zone" initial component={ZoneSelector} t={this.t} />
-                    <Scene key="scan1" component={ScanTheObjectOne} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
-                    <Scene key="scan2" component={ScanTheObjectTwo} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
-                    <Scene key="scan3" component={ScanTheObjectThree} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
-                    <Scene key="detail1" component={MarkerDetail1} t={this.t}/>
-                    <Scene key="detail2" component={MarkerDetail2} t={this.t}/>
-                    <Scene key="detail3" component={MarkerDetail3} t={this.t}/>
+                    <Scene key="scan1" component={ScanTheObject1} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
+                    <Scene key="scan2" component={ScanTheObject2} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
+                    <Scene key="scan3" component={ScanTheObject3} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
+                    <Scene key="scan4" component={ScanTheObject4} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
+                    <Scene key="scan5" component={ScanTheObject5} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
+                    <Scene key="scan6" component={ScanTheObject6} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
+                    <Scene key="detail" component={Index} t={this.t}/>
                     <Scene key="header" component={Header} t={this.t}  />
                 </Stack>
             </Router>

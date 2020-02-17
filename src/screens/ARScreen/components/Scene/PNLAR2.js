@@ -50,13 +50,14 @@ class PNLAR2 extends Component {
 							const markerKeys = marker.split('-');
 							const [markerKey] = markerKeys;
 							//to navigate to detail component
-							Actions.detail2({ // go to markerDetail
+							Actions.detail({ // go to markerDetail
 								renderText: true,
 								textLangTitle: title,
 								textLangDetail: detail,
 								preview: preview,
 								showARScene:sceneNavigator.viroAppProps.showARScene,
-								marker:markerKey // send marker to the markerDetail
+								marker:markerKey, // send marker to the markerDetail
+								zone: 2,
 							});
 						}}
 						key={index}>

@@ -16,8 +16,9 @@ import {
 } from "./style";
 import { ScrollView } from 'react-native';
 import { Actions } from "react-native-router-flux";
+import {getMarkersHasModel} from "../../../../helpers/ar";
 
-export default class MarkerDetail1 extends Component {
+export default class Index extends Component {
 	handlerBackSuccess = () => {
 		Actions.pop({
 			showARScene: 1,
@@ -25,8 +26,8 @@ export default class MarkerDetail1 extends Component {
 	};
 
 	render() {
-		const {marker, renderText, t, preview, textLangTitle, textLangDetail} = this.props;
-		const has3D = ["4", "13", "16"] // Number of picture that has 3D
+		const {marker, renderText, t, preview, textLangTitle, textLangDetail, zone} = this.props;
+		const has3D = getMarkersHasModel(zone); // Number of picture that has 3D
 		const isShowModel = has3D.includes(marker); // the marker from PNLAR  has in list of has3D if it exists it return id otherwise return undefined
 		const threeDTitle = t('ar.detail.threeDAvailable');
 		return (
