@@ -1,12 +1,12 @@
 import React, {Component} from "react";
-import ScanTheObjectOne from "./../../data/AR/js/components/ScanTheObject/ScanTheObjectOne"
-import ScanTheObjectTwo from "./../../data/AR/js/components/ScanTheObject/ScanTheObjectTwo"
-import ScanTheObjectThree from "./../../data/AR/js/components/ScanTheObject/ScanTheObjectThree"
-import MarkerDetail1 from "./../../data/AR/js/components/MarkerDetail/MarkerDetail1";
-import MarkerDetail2 from "./../../data/AR/js/components/MarkerDetail/MarkerDetail2";
-import MarkerDetail3 from "./../../data/AR/js/components/MarkerDetail/MarkerDetail3";
-import Header from "./../../data/AR/js/components/Header/Header"
-import ZoneSelector from "./../../data/AR/js/components/ZoneSelector/ZoneSelector";
+import ScanTheObjectOne from "./components/ARScan/ScanTheObjectOne"
+import ScanTheObjectTwo from "./components/ARScan/ScanTheObjectTwo"
+import ScanTheObjectThree from "./components/ARScan/ScanTheObjectThree"
+import MarkerDetail1 from "./components/MarkerDetail/MarkerDetail1";
+import MarkerDetail2 from "./components/MarkerDetail/MarkerDetail2";
+import MarkerDetail3 from "./components/MarkerDetail/MarkerDetail3";
+import Header from "./components/Header/Header"
+import ZoneSelector from "./components/ZoneSelector/ZoneSelector";
 import {Router, Stack, Scene} from "react-native-router-flux"
 import {translate} from "../../helpers/translates";
 
