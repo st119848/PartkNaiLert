@@ -15,21 +15,21 @@ import {
 } from "react-viro";
 import {getMarkerByObjectId} from "../../../../../helpers/ar";
 
-class PNLARThree44 extends Component {
+class PNLARThree45 extends Component {
 	constructor(props) {
 		super(props);
-		const markers = getMarkerByObjectId(3, 44);
+		const markers = getMarkerByObjectId(3, 45);
 		ViroARTrackingTargets.createTargets({
-			"44-0": {
-				source: require('../../../../../assets/img/markers/44/marker44.1.jpg'),
-				orientation: markers['44-0'].orientation,
-				physicalWidth: markers['44-0'].physicalWidth, // real world width in meters
+			"45-0": {
+				source: require('../../../../../assets/img/markers/45/marker45.1.jpg'),
+				orientation: markers['45-0'].orientation,
+				physicalWidth: markers['45-0'].physicalWidth, // real world width in meters
 			},
-			"44-1": {
-				source: require('../../../../../assets/img/markers/44/marker44.2.jpg'),
-				orientation: markers['44-1'].orientation,
-				physicalWidth: markers['44-1'].physicalWidth, // real world width in meters
-			},
+			// "44-1": {
+			// 	source: require('../../../../../assets/img/markers/44/marker44.2.jpg'),
+			// 	orientation: markers['44-1'].orientation,
+			// 	physicalWidth: markers['44-1'].physicalWidth, // real world width in meters
+			// },
 		});
 		this.state = {
 			animateObject: true,
@@ -48,7 +48,7 @@ class PNLARThree44 extends Component {
 						target={marker}
 						key={index}
 						onAnchorFound={() => {
-							this.props.sceneNavigator.viroAppProps.onAnchored('44');
+							this.props.sceneNavigator.viroAppProps.onAnchored('45');
 							this._onAnchorFound();
 						}}
 						pauseUpdates={this.state.pauseUpdates}>
@@ -131,4 +131,4 @@ ViroAnimations.registerAnimations({
 	tapAnimation: [["scaleSphereUp", "scaleSphereDown"]],
 });
 
-export default PNLARThree44;
+export default PNLARThree45;

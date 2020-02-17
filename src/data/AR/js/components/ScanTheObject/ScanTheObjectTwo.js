@@ -8,7 +8,6 @@ import PNLARThree32 from "../PNLAR/PNLARThree32";
 import { ViroARSceneNavigator } from "react-viro";
 import Header from "../Header/Header";
 import { Theme, BottomText, Border } from "./style";
-import PNLAR1 from "../PNLAR/PNLAR1";
 var apiKey = "185779F9-FAEC-4950-BF69-454D6BDD4EC6";
 
 export default class ScanTheObjectTwo extends Component{

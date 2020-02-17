@@ -15,6 +15,7 @@ class PNLAR2 extends Component {
 	constructor(props) {
 		super(props);
 		const markers = getMarkers(2);
+		console.log('markers count', Object.keys(markers).length);
 		ViroARTrackingTargets.createTargets(markers);
 		this.state = {
 			markers: markers,

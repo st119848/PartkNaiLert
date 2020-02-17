@@ -5,12 +5,11 @@ import PNLAR3 from "../PNLAR/PNLAR3";
 import PNLARThree39 from "../PNLAR/PNLARThree39";
 import PNLARThree40 from "../PNLAR/PNLARThree40";
 import PNLARThree41 from "../PNLAR/PNLARThree41";
-import PNLARThree44 from "../PNLAR/PNLARThree44";
+import PNLARThree45 from "../PNLAR/PNLARThree45";
 import PNLARThree49 from "../PNLAR/PNLARThree49";
 import { ViroARSceneNavigator } from "react-viro";
 import Header from "../Header/Header";
 import { Theme, BottomText, Border } from "./style";
-import PNLAR2 from "../PNLAR/PNLAR2";
 var apiKey = "185779F9-FAEC-4950-BF69-454D6BDD4EC6";
 
 export default class ScanTheObjectThree extends Component{
@@ -39,7 +38,7 @@ export default class ScanTheObjectThree extends Component{
 			"39": PNLARThree39,
 			"40": PNLARThree40,
 			"41": PNLARThree41,
-			"44": PNLARThree44,
+			"45": PNLARThree45,
 			"49": PNLARThree49,
 		};
 		const defaultScene = PNLAR3;

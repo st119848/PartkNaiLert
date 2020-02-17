@@ -25,7 +25,7 @@ export default class MarkerDetail3 extends Component {
 	};
 	render() {
 		const {marker, renderText, t, preview, textLangTitle, textLangDetail} = this.props;
-		const has3D = ["39", "40", "41", "44", "49"]; // Number of picture that has 3D
+		const has3D = ["39", "40", "41", "45", "49"]; // Number of picture that has 3D
 		const isShowModel = has3D.includes(marker); // the marker from PNLAR  has in list of has3D if it exists it return id otherwise return undefined
 		const threeDTitle = t('ar.detail.threeDAvailable');
 		return (
@@ -38,7 +38,7 @@ export default class MarkerDetail3 extends Component {
 					{renderText === true && isShowModel ? // check if  type of item3D not undefined so it has 3D  the bottom lines will show
 						<ThreeDBox>
 							<Touch onPress={() => {
-								Actions.scan1({
+								Actions.scan3({
 									showARScene: marker, //send showARScene with not defaut value    1 is  default
 
 								});

@@ -30,11 +30,11 @@ class PNLARThree39 extends Component {
 				orientation: markers['39-1'].orientation,
 				physicalWidth: markers['39-1'].physicalWidth, // real world width in meters
 			},
-			"39-2": {
-				source: require('../../../../../assets/img/markers/39/marker39.4.jpg'),
-				orientation: markers['39-2'].orientation,
-				physicalWidth: markers['39-2'].physicalWidth, // real world width in meters
-			},
+			// "39-2": {
+			// 	source: require('../../../../../assets/img/markers/39/marker39.4.jpg'),
+			// 	orientation: markers['39-2'].orientation,
+			// 	physicalWidth: markers['39-2'].physicalWidth, // real world width in meters
+			// },
 		});
 		this.state = {
 			animateObject: true,
