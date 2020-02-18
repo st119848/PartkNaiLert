@@ -21,7 +21,7 @@ class PNLARThree19 extends Component {
 		const markers = getMarkerByObjectId(2, 19);
 		ViroARTrackingTargets.createTargets({
 			"19-0": {
-				source: require('../../../../assets/img/stickers/sticker19.jpg'),
+				source: require('../../../../assets/img/stickers/19.jpg'),
 				orientation: markers['19-0'].orientation,
 				physicalWidth: markers['19-0'].physicalWidth, // real world width in meters
 			},

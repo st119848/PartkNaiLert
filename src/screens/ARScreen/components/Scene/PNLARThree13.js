@@ -21,7 +21,7 @@ class PNLARThree13 extends Component {
 		const markers = getMarkerByObjectId(2, 13);
 		ViroARTrackingTargets.createTargets({
 			"13-0": {
-				source: require('../../../../assets/img/stickers/sticker13.jpg'),
+				source: require('../../../../assets/img/stickers/13.jpg'),
 				orientation: markers['13-0'].orientation,
 				physicalWidth: markers['13-0'].physicalWidth, // real world width in meters
 			},
@@ -63,7 +63,7 @@ class PNLARThree13 extends Component {
 						{this.state.dShow && <Viro3DObject
 							source={require("../../../../assets/3D/tube.glb")}
 							position={[0, 0, 0.03]}
-							scale={[0.5, 0.5, 0.5]}
+							scale={[0.25, 0.25, 0.25]}
 							type='GLB'
 							rotation={[0, 0, -90]}
 							visible={this.state.dShow}

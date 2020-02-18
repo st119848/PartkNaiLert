@@ -2,11 +2,6 @@
 
 import React, { Component } from "react";
 import PNLAR5 from "../Scene/PNLAR5";
-import PNLARThree39 from "../Scene/PNLARThree39";
-import PNLARThree40 from "../Scene/PNLARThree40";
-import PNLARThree41 from "../Scene/PNLARThree41";
-import PNLARThree45 from "../Scene/PNLARThree45";
-import PNLARThree49 from "../Scene/PNLARThree49";
 import { ViroARSceneNavigator } from "react-viro";
 import Header from "../Header/Header";
 import { Theme, BottomText, Border } from "./style";
@@ -34,13 +29,7 @@ export default class ScanTheObject5 extends Component{
 	}
 	render() {
 		const {showARScene, t} = this.props;
-		const mapScene = {
-			"39": PNLARThree39,
-			"40": PNLARThree40,
-			"41": PNLARThree41,
-			"45": PNLARThree45,
-			"49": PNLARThree49,
-		};
+		const mapScene = {};
 		const defaultScene = PNLAR5;
 		const scene = mapScene[showARScene] || defaultScene;
 		const bottomText = (showARScene == '1') ? t('ar.camera.scan') : t('ar.camera.hover');

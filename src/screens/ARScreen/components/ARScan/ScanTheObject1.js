@@ -29,8 +29,6 @@ export default class ScanTheObject1 extends Component{
 		const {showARScene, t} = this.props;
 		const mapScene = {
 			"4": PNLARThree4,
-			"13": PNLARThree13,
-			"16": PNLARThree16,
 		};
 		const defaultScene = PNLAR1;
 		const scene = mapScene[showARScene] || defaultScene;

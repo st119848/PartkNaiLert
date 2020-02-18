@@ -37,8 +37,6 @@ export default class ScanTheObject4 extends Component{
 		const mapScene = {
 			"39": PNLARThree39,
 			"40": PNLARThree40,
-			"41": PNLARThree41,
-			"45": PNLARThree45,
 			"49": PNLARThree49,
 		};
 		const defaultScene = PNLAR4;

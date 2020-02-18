@@ -7,7 +7,115 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(AR): change all markers to use sticker instead">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/32.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/stickers/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/sticker9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject6.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/MarkerDetail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/MarkerDetail/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree13.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree13.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree16.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree16.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree19.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree19.js" afterDir="false" />
@@ -29,11 +137,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/config/ar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3805">
+              <caret line="1371" column="60" selection-start-line="1371" selection-start-column="60" selection-end-line="1371" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/49.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree4.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree13.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree16.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="642">
+              <caret line="68" column="54" lean-forward="true" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -41,80 +181,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree19.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+            <state relative-caret-position="390">
+              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree24.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/assets/img/preview/preview8.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree31.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/6.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree32.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/1.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree39.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree40.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree41.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree45.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree49.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+            <state relative-caret-position="119">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -131,36 +223,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lo</find>
-      <find>เรื่อ</find>
-      <find>jpg'</find>
-      <find>markers</find>
-      <find>preview26</find>
-      <find>: 10</find>
-      <find>texture</find>
-      <find>textLangTitle</find>
-      <find>_toggleButtons</find>
-      <find>playAnim</find>
-      <find>Testing</find>
-      <find>source</find>
-      <find>isShow</find>
-      <find>: 13</find>
-      <find>: 19</find>
-      <find>: 31</find>
-      <find>: 32</find>
-      <find>: 39</find>
-      <find>: 40</find>
-      <find>: 41</find>
-      <find>: 44</find>
-      <find>49</find>
-      <find>: 16</find>
-      <find>: 24</find>
-      <find>1</find>
-      <find>24-1</find>
-      <find>24.1</find>
-      <find>39</find>
-      <find>44</find>
-      <find>3</find>
+      <find>'id': 22,</find>
+      <find>'id': 23,</find>
+      <find>'id': 24,</find>
+      <find>'id': 25,</find>
+      <find>'id': 26,</find>
+      <find>'id': 28,</find>
+      <find>'id': 29,</find>
+      <find>'id': 30,</find>
+      <find>'id': 31,</find>
+      <find>'id': 32,</find>
+      <find>'id': 33,</find>
+      <find>'id': 34,</find>
+      <find>'id': 35,</find>
+      <find>'id': 36,</find>
+      <find>'id': 37,</find>
+      <find>'id': 38,</find>
+      <find>'id': 39,</find>
+      <find>'id': 40,</find>
+      <find>'id': 41,</find>
+      <find>'id': 42,</find>
+      <find>'id': 43,</find>
+      <find>'id': 44,</find>
+      <find>'id': 45,</find>
+      <find>'id': 46,</find>
+      <find>'id': 47,</find>
+      <find>'id': 48,</find>
+      <find>'id': 50,</find>
+      <find>marker</find>
+      <find>s/sticker</find>
+      <find>'id': 49,</find>
     </findStrings>
     <replaceStrings>
       <replace>white</replace>
@@ -177,6 +269,7 @@
       <replace>jpg')</replace>
       <replace>3</replace>
       <replace>4</replace>
+      <replace>s/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/screens2</dir>
@@ -193,10 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree13.js" />
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree16.js" />
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree19.js" />
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree24.js" />
         <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree31.js" />
         <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree32.js" />
         <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree40.js" />
@@ -220,30 +309,34 @@
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR1.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR2.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR3.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject1.js" />
         <option value="$PROJECT_DIR$/src/helpers/ar.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/style.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/ZoneSelector.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject4.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject5.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject6.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR4.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR5.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR6.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" />
-        <option value="$PROJECT_DIR$/src/config/ar.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree4.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree13.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree16.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree19.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree24.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree31.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree24.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree32.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree39.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree40.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree41.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree45.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree49.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree45.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject1.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject2.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject4.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject3.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject5.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject6.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/MarkerDetail/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree41.js" />
+        <option value="$PROJECT_DIR$/android/app/build.gradle" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree4.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree19.js" />
+        <option value="$PROJECT_DIR$/src/config/ar.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree13.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree16.js" />
       </list>
     </option>
   </component>
@@ -266,6 +359,17 @@
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,6 +384,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="preview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
@@ -338,6 +450,15 @@
               <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="ARScreen" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="MarkerDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="ARScreen" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Scene" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -384,25 +505,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img/stickers" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan" />
-      <recent name="$PROJECT_DIR$/src/screens/ARScreen/components/Scene" />
-      <recent name="$PROJECT_DIR$/src/screens/ARScreen/components" />
-      <recent name="$PROJECT_DIR$/src/assets/img/preview" />
-      <recent name="$PROJECT_DIR$/src/assets/img/markers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/screens/ARScreen/components" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/assets/img/markers/1" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/ios/parknailert" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img/stickers" />
+      <recent name="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan" />
+      <recent name="$PROJECT_DIR$/src/screens/ARScreen/components/Scene" />
+      <recent name="$PROJECT_DIR$/src/screens/ARScreen/components" />
+      <recent name="$PROJECT_DIR$/src/assets/img/preview" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -532,14 +653,8 @@
       <workItem from="1581185251070" duration="243000" />
       <workItem from="1581251807898" duration="2204000" />
       <workItem from="1581607297037" duration="70953000" />
-      <workItem from="1581935311085" duration="5574000" />
-    </task>
-    <task id="LOCAL-00059" summary="feat(list-screen): update ui">
-      <created>1573497549607</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1573497549608</updated>
+      <workItem from="1581935311085" duration="14787000" />
+      <workItem from="1581962908923" duration="3752000" />
     </task>
     <task id="LOCAL-00060" summary="feat(detail-screen): update ui">
       <created>1573499217571</created>
@@ -877,17 +992,24 @@
       <option name="project" value="LOCAL" />
       <updated>1581951049059</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="feat(AR): change all markers to use sticker instead">
+      <created>1581951347366</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1581951347367</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="625150000" />
+    <option name="totallyTimeSpent" value="638115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24472573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17420132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Captures" order="3" weight="0.25" />
@@ -1000,151 +1122,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat(AR): change all markers to use sticker instead" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/35/marker35.3.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR1.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/35/marker35.4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/35/marker35.2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/ZoneSelector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-397" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/38/marker38.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/38/marker38.2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/38/marker38.3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/38/marker38.4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/38/marker38.5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/38/38.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/39/marker39.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/39/marker39.2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/40/40.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/40/marker40.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/40/marker40.3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/40/marker40.4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/47/47.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/47/marker47.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/48/marker48.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/48/marker48.2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/49/marker49.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/50/50.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/36/36.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/36/marker36.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/36/marker36.2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/36/marker36.3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/37/marker37.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/41/marker41.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/41/marker41.2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/41/marker41.3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/42/marker42.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/43/marker43.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/44/marker44.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/44/marker44.2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/45/45.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/45/marker45.1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/markers/46/marker46.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/ar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="1650" column="47" lean-forward="true" selection-start-line="1650" selection-start-column="47" selection-end-line="1650" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree13.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="82" lean-forward="true" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree16.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree19.js">
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree31.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
@@ -1158,45 +1139,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree31.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree32.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree39.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+        <state relative-caret-position="105">
+          <caret line="20" selection-start-line="20" selection-end-line="27" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree40.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree41.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree45.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="105">
+          <caret line="20" selection-start-line="20" selection-end-line="27" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1204,6 +1157,217 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/preview/preview41.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/preview/preview42.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/preview/preview50.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker42.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker43.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker44.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker46.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker47.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker48.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker50.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker38.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker37.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree45.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#15#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#15#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <element signature="e#15#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="e#15#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/MarkerDetail/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree41.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker13.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker16.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker19.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker24.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker41.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker45.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker40.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker49.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker39.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker31.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/sticker32.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1384">
+          <caret line="162" column="15" selection-start-line="162" selection-start-column="15" selection-end-line="162" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree39.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree19.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/preview/preview8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree13.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree16.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="68" column="54" lean-forward="true" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/49.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/ar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3805">
+          <caret line="1371" column="60" selection-start-line="1371" selection-start-column="60" selection-end-line="1371" selection-end-column="60" />
         </state>
       </provider>
     </entry>

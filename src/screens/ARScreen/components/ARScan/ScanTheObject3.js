@@ -10,6 +10,9 @@ import PNLARThree49 from "../Scene/PNLARThree49";
 import { ViroARSceneNavigator } from "react-viro";
 import Header from "../Header/Header";
 import { Theme, BottomText, Border } from "./style";
+import PNLARThree24 from "../Scene/PNLARThree24";
+import PNLARThree31 from "../Scene/PNLARThree31";
+import PNLARThree32 from "../Scene/PNLARThree32";
 var apiKey = "185779F9-FAEC-4950-BF69-454D6BDD4EC6";
 
 export default class ScanTheObject3 extends Component{
@@ -35,11 +38,9 @@ export default class ScanTheObject3 extends Component{
 	render() {
 		const {showARScene, t} = this.props;
 		const mapScene = {
-			"39": PNLARThree39,
-			"40": PNLARThree40,
-			"41": PNLARThree41,
-			"45": PNLARThree45,
-			"49": PNLARThree49,
+			"24": PNLARThree24,
+			"31": PNLARThree31,
+			"32": PNLARThree32,
 		};
 		const defaultScene = PNLAR3;
 		const scene = mapScene[showARScene] || defaultScene;

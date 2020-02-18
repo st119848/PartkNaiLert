@@ -40,10 +40,38 @@ export default class Index extends Component {
 					{renderText === true && isShowModel ? // check if  type of item3D not undefined so it has 3D  the bottom lines will show
 						<ThreeDBox>
 							<Touch onPress={() => {
-								Actions.scan1({
-									showARScene: marker, //send showARScene with not defaut value    1 is  default
+								if (zone === 1) {
+									Actions.scan1({
+										showARScene: marker, //send showARScene with not defaut value    1 is  default
 
-								});
+									});
+								} else if (zone === 2) {
+									Actions.scan2({
+										showARScene: marker, //send showARScene with not defaut value    1 is  default
+
+									});
+								} else if (zone === 3) {
+									Actions.scan3({
+										showARScene: marker, //send showARScene with not defaut value    1 is  default
+
+									});
+								} else if (zone === 4) {
+									Actions.scan4({
+										showARScene: marker, //send showARScene with not defaut value    1 is  default
+
+									});
+								} else if (zone === 5) {
+									Actions.scan5({
+										showARScene: marker, //send showARScene with not defaut value    1 is  default
+
+									});
+								} else if (zone === 6) {
+									Actions.scan6({
+										showARScene: marker, //send showARScene with not defaut value    1 is  default
+
+									});
+								}
+
 							}}>
 								<ThreeDText>{threeDTitle} ></ThreeDText>
 							</Touch>
