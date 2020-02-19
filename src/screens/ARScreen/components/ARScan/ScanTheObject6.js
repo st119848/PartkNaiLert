@@ -7,9 +7,11 @@ import PNLARThree45 from "../Scene/PNLARThree45";
 import { ViroARSceneNavigator } from "react-viro";
 import Header from "../Header/Header";
 import { Theme, BottomText, Border } from "./style";
+import {connect} from "react-redux";
+import {translate} from "../../../../helpers/translates";
 var apiKey = "185779F9-FAEC-4950-BF69-454D6BDD4EC6";
 
-export default class ScanTheObject6 extends Component{
+class ScanTheObject6 extends Component{
 	static getInitialState(marker) {
 		const detailState = {
 			textLangTitle: "",
@@ -20,24 +22,21 @@ export default class ScanTheObject6 extends Component{
 			...detailState,
 		};
 	}
+	t = (key, find, replace) => {
+		const {language} = this.props;
+		return translate(language, key, find, replace);
+	};
 	onAnchored(marker) {
-		// Actions.detail({textLangTitleTest: String(ARData[marker - 1].value[0].title)});
-		// Actions.detail({textLangDetailTest: String(ARData[marker - 1].value[0].title)});
-		// this.setState({
-		// 	textLangTitle: String(ARData[marker - 1].value[0].title),
-		// 	textLangDetail: String(ARData[marker - 1].value[0].detail),
-		// 	tapJp: true,
-		// });
 	}
 	render() {
-		const {showARScene, t} = this.props;
+		const {showARScene} = this.props;
 		const mapScene = {
 			"41": PNLARThree41,
 			"45": PNLARThree45,
 		};
 		const defaultScene = PNLAR6;
 		const scene = mapScene[showARScene] || defaultScene;
-		const bottomText = (showARScene == '1') ? t('ar.camera.scan') : t('ar.camera.hover');
+		const bottomText = (showARScene == '1') ? this.t('ar.camera.scan') : this.t('ar.camera.hover');
 		return (
 			<Theme>
 				<Border>
@@ -56,3 +55,16 @@ export default class ScanTheObject6 extends Component{
 		)
 	}
 }
+
+const mapDispatchToProps = (dispatch) => {
+	return {
+	}
+};
+
+const mapStateToProps = (state) => {
+	return {
+		language: state.setting.language,
+		languageId: state.setting.languageId,
+	}
+};
+export default connect(mapStateToProps, mapDispatchToProps)(ScanTheObject6)

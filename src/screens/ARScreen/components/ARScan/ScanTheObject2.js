@@ -2,18 +2,17 @@
 
 import React, { Component } from "react";
 import PNLAR2 from "../Scene/PNLAR2";
-import PNLARThree24 from "../Scene/PNLARThree24";
-import PNLARThree31 from "../Scene/PNLARThree31";
-import PNLARThree32 from "../Scene/PNLARThree32";
 import { ViroARSceneNavigator } from "react-viro";
 import Header from "../Header/Header";
 import { Theme, BottomText, Border } from "./style";
 import PNLARThree13 from "../Scene/PNLARThree13";
 import PNLARThree16 from "../Scene/PNLARThree16";
 import PNLARThree19 from "../Scene/PNLARThree19";
+import {connect} from "react-redux";
+import {translate} from "../../../../helpers/translates";
 var apiKey = "185779F9-FAEC-4950-BF69-454D6BDD4EC6";
 
-export default class ScanTheObject2 extends Component{
+class ScanTheObject2 extends Component{
 	static getInitialState(marker) {
 		const detailState = {
 			textLangTitle: "",
@@ -24,17 +23,14 @@ export default class ScanTheObject2 extends Component{
 			...detailState,
 		};
 	}
+	t = (key, find, replace) => {
+		const {language} = this.props;
+		return translate(language, key, find, replace);
+	};
 	onAnchored(marker) {
-		// Actions.detail({textLangTitleTest: String(ARData[marker - 1].value[0].title)});
-		// Actions.detail({textLangDetailTest: String(ARData[marker - 1].value[0].title)});
-		// this.setState({
-		// 	textLangTitle: String(ARData[marker - 1].value[0].title),
-		// 	textLangDetail: String(ARData[marker - 1].value[0].detail),
-		// 	tapJp: true,
-		// });
 	}
 	render() {
-		const {showARScene, t} = this.props;
+		const {showARScene} = this.props;
 		const mapScene = {
 			"13": PNLARThree13,
 			"16": PNLARThree16,
@@ -42,7 +38,7 @@ export default class ScanTheObject2 extends Component{
 		};
 		const defaultScene = PNLAR2;
 		const scene = mapScene[showARScene] || defaultScene;
-		const bottomText = (showARScene == '1') ? t('ar.camera.scan') : t('ar.camera.hover');
+		const bottomText = (showARScene == '1') ? this.t('ar.camera.scan') : this.t('ar.camera.hover');
 		return (
 			<Theme>
 				<Border>
@@ -61,3 +57,16 @@ export default class ScanTheObject2 extends Component{
 		)
 	}
 }
+
+const mapDispatchToProps = (dispatch) => {
+	return {
+	}
+};
+
+const mapStateToProps = (state) => {
+	return {
+		language: state.setting.language,
+		languageId: state.setting.languageId,
+	}
+};
+export default connect(mapStateToProps, mapDispatchToProps)(ScanTheObject2)

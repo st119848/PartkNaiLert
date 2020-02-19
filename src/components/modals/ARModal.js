@@ -16,7 +16,7 @@ const ARModal = props => {
                visible={visible}
                type="fullScreen">
             <View style={styles.container}>
-                <ARScreen scene={scene} />
+                {visible && <ARScreen scene={scene} />}
             </View>
             <Header onCloseClick={onClose}/>
         </Modal>
