@@ -17,19 +17,24 @@ import {
 import { ScrollView } from 'react-native';
 import { Actions } from "react-native-router-flux";
 import {getMarkersHasModel} from "../../../../helpers/ar";
+import {connect} from "react-redux";
+import {translate} from "../../../../helpers/translates";
 
-export default class Index extends Component {
+class MarkerDetail extends Component {
 	handlerBackSuccess = () => {
 		Actions.pop({
 			showARScene: 1,
 		})
 	};
-
+	t = (key, find, replace) => {
+		const {language} = this.props;
+		return translate(language, key, find, replace);
+	};
 	render() {
-		const {marker, renderText, t, preview, textLangTitle, textLangDetail, zone} = this.props;
+		const {marker, renderText, preview, textLangTitle, textLangDetail, zone} = this.props;
 		const has3D = getMarkersHasModel(zone); // Number of picture that has 3D
 		const isShowModel = has3D.includes(marker); // the marker from PNLAR  has in list of has3D if it exists it return id otherwise return undefined
-		const threeDTitle = t('ar.detail.threeDAvailable');
+		const threeDTitle = this.t('ar.detail.threeDAvailable');
 		return (
 			<Theme>
 				<Header onBack={this.handlerBackSuccess} />
@@ -71,7 +76,6 @@ export default class Index extends Component {
 
 									});
 								}
-
 							}}>
 								<ThreeDText>{threeDTitle} ></ThreeDText>
 							</Touch>
@@ -90,3 +94,16 @@ export default class Index extends Component {
 		);
 	}
 }
+
+const mapDispatchToProps = (dispatch) => {
+	return {
+	}
+};
+
+const mapStateToProps = (state) => {
+	return {
+		language: state.setting.language,
+		languageId: state.setting.languageId,
+	}
+};
+export default connect(mapStateToProps, mapDispatchToProps)(MarkerDetail);
