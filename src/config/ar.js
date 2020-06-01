@@ -8,7 +8,7 @@ export const objectZone1 = [
             {
                 'source': require('../assets/img/stickers/1.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -41,7 +41,7 @@ export const objectZone1 = [
             {
                 'source': require('../assets/img/stickers/2.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -74,7 +74,7 @@ export const objectZone1 = [
             {
                 'source': require('../assets/img/stickers/3.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -305,7 +305,7 @@ export const objectZone1 = [
             {
                 'source': require('../assets/img/stickers/10.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -338,7 +338,7 @@ export const objectZone1 = [
             {
                 'source': require('../assets/img/stickers/11.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -441,7 +441,7 @@ export const objectZone2 = [
             {
                 'source': require('../assets/img/stickers/13.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -474,7 +474,7 @@ export const objectZone2 = [
             {
                 'source': require('../assets/img/stickers/14.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -640,9 +640,9 @@ export const objectZone3 = [
         'preview': require('../assets/img/preview/preview20.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/20/marker20.jpg'),
+                'source': require('../assets/img/stickers/20.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.45,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -774,7 +774,7 @@ export const objectZone3 = [
             {
                 'source': require('../assets/img/stickers/24.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -838,9 +838,9 @@ export const objectZone3 = [
         'preview': require('../assets/img/preview/preview26.jpg'),
         'markers': [
             {
-                'source': require('../assets/img/markers/26/marker26.jpg'),
+                'source': require('../assets/img/stickers/26.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.165,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -873,7 +873,7 @@ export const objectZone3 = [
             {
                 'source': require('../assets/img/stickers/27.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -906,7 +906,7 @@ export const objectZone3 = [
             {
                 'source': require('../assets/img/stickers/28.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -972,7 +972,7 @@ export const objectZone3 = [
             {
                 'source': require('../assets/img/stickers/30.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -1071,7 +1071,7 @@ export const objectZone3 = [
             {
                 'source': require('../assets/img/stickers/33.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -1104,7 +1104,7 @@ export const objectZone3 = [
             {
                 'source': require('../assets/img/stickers/34.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -1272,7 +1272,7 @@ export const objectZone4 = [
             {
                 'source': require('../assets/img/stickers/46.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -1371,7 +1371,7 @@ export const objectZone4 = [
             {
                 'source': require('../assets/img/stickers/49.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -1404,7 +1404,7 @@ export const objectZone4 = [
             {
                 'source': require('../assets/img/stickers/50.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -1474,7 +1474,7 @@ export const objectZone5 = [
             {
                 'source': require('../assets/img/stickers/37.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -1510,7 +1510,7 @@ export const objectZone6 = [
             {
                 'source': require('../assets/img/stickers/41.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -1609,7 +1609,7 @@ export const objectZone6 = [
             {
                 'source': require('../assets/img/stickers/44.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
@@ -1642,7 +1642,7 @@ export const objectZone6 = [
             {
                 'source': require('../assets/img/stickers/45.jpg'),
                 'orientation': 'Left',
-                'physicalWidth': 0.03,
+                'physicalWidth': 0.04,
             }
         ],
         'value': [
