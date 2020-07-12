@@ -29,7 +29,6 @@ class BeaconScan extends Component {
             };
             zone.onChangeAction = contexts => {
                 const [context] = contexts;
-                context && console.log('change', context.deviceIdentifier,);
                 context && getBeaconContentFromApi(context.deviceIdentifier);
             };
 
@@ -38,7 +37,6 @@ class BeaconScan extends Component {
 
         RNEP.locationPermission.request().then(
             permission => {
-                console.log(`location permission: ${permission}`);
                 if (permission !== RNEP.locationPermission.DENIED) {
                     const credentials = new RNEP.CloudCredentials(
                         ESTIMOTE_APP_ID,

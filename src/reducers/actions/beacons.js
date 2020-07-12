@@ -34,7 +34,7 @@ export const getBeaconConfig = () => async (dispatch, getState) =>{
 };
 
 export const getBeaconContentFromApi = (identifier) => async (dispatch, getState) => {
-    const {language} = getState().setting;
+    const {language='th'} = getState().setting;
     try {
         dispatch({type: GETTING_BEACON_LIST_START});
         const url = URLS.museumContent.beaconContent;
@@ -56,6 +56,7 @@ export const getBeaconContentFromApi = (identifier) => async (dispatch, getState
         };
         dispatch({type: GETTING_BEACON_LIST_SUCCESS, data});
     } catch (e) {
+        console.log('error',e.message)
         dispatch({type: GETTING_BEACON_LIST_FAILED});
         retryAlert(language, () => {
             dispatch(getBeaconContentFromApi());

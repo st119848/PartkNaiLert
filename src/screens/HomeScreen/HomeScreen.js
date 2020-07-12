@@ -20,6 +20,7 @@ import PageSettingButton from "../../components/header/PageSettingButton";
 import BG from "../../assets/img/bg_main.png";
 import logoName from "../../assets/img/logoName.png";
 import {SafeAreaView} from 'react-navigation'
+import ImagesPreviewModal from "../../components/modals/ImagesPreviewModal";
 
 export default class HomeScreen extends Component {
 
@@ -38,7 +39,8 @@ export default class HomeScreen extends Component {
     };
 
     state = {
-        isShowArScreen: false
+        isShowPreview: false,
+        previewIndex: 0,
     };
 
     handleARButtonClick = () => {
@@ -95,6 +97,17 @@ export default class HomeScreen extends Component {
         this.goToDetailPage(event.url);
     };
 
+    handlePreviewOpen = (index=0) => {
+        this.setState({
+            isShowPreview: true,
+            previewIndex: index
+        })
+    };
+
+    handlePreviewClose = () => {
+        this.setState({isShowPreview: false})
+    };
+
     goToDetailPage = async (url) => {
         const resUrl = await fetch(url).then(res => res.url);
         const params = getParamsFromUrl(resUrl);
@@ -107,8 +120,13 @@ export default class HomeScreen extends Component {
     };
 
     render() {
-        const {imagesHighlight, isGettingImageSliderSuccess, isInBeaconArea} = this.props;
-        const {isShowArScreen} = this.state;
+        const {imagesHighlight=[], isGettingImageSliderSuccess, isInBeaconArea} = this.props;
+        const {isShowPreview, previewIndex} = this.state;
+        const imagesPreview = imagesHighlight.map((image) => {
+            return {
+                url: image.path
+            }
+        })
         return (
             <ImageBackground source={BG} style={styles.container}>
                 <StatusBar barStyle="light-content" />
@@ -121,7 +139,9 @@ export default class HomeScreen extends Component {
                                 imagesHighlight={imagesHighlight}
                                 t={this.t}
                                 onMoreItemClick={this.handleMoreItemClick}
+                                onImagePress={this.handlePreviewOpen}
                             />
+                            <ImagesPreviewModal initIndex={previewIndex} visible={isShowPreview} images={imagesPreview} onClose={this.handlePreviewClose} />
                             <ButtonsGroup t={this.t} isInBeaconArea={isInBeaconArea} onArPress={this.handleARButtonClick} />
                         </View>
                     </View>

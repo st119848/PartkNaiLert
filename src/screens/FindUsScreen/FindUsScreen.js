@@ -6,6 +6,7 @@ import {
     Image,
     Dimensions,
     TouchableOpacity,
+    TouchableWithoutFeedback,
     Linking,
     Platform,
     SafeAreaView,
@@ -15,6 +16,7 @@ import {translate} from "../../helpers/translates";
 import LangSettingButton from "../../components/header/LangSettingButton";
 import HeaderTitle from "../../components/header/HeaderTitle";
 import BG from "../../assets/img/bg_main.png";
+import ImagesPreviewModal from "../../components/modals/ImagesPreviewModal";
 
 const { width } = Dimensions.get('window')
 
@@ -32,6 +34,10 @@ class FindUsScreen extends Component {
             },
             headerTitle: <HeaderTitle title={title} />,
         };
+    };
+
+    state = {
+        isShowPreview: false
     };
 
     t = (key, find, replace) => {
@@ -64,6 +70,14 @@ class FindUsScreen extends Component {
         Linking.openURL(url);
     };
 
+    handlePreviewOpen = () => {
+        this.setState({isShowPreview: true})
+    };
+
+    handlePreviewClose = () => {
+        this.setState({isShowPreview: false})
+    };
+
     componentDidMount() {
         const {getAboutUsFindFromApi} = this.props;
         getAboutUsFindFromApi();
@@ -71,15 +85,17 @@ class FindUsScreen extends Component {
 
     render() {
         const {findData={}} = this.props;
+        const {isShowPreview} = this.state;
         const {mapUrl} = findData;
         return (
             <ImageBackground source={BG} style={styles.outtercontainer}>
                 <SafeAreaView style={styles.container}>
                     <View style={styles.contentContainer}>
-                        <Map mapUrl={mapUrl} />
+                        <Map mapUrl={mapUrl} onPress={this.handlePreviewOpen} />
                     </View>
                     <GoButton onPress={this.handleClickMap} t={this.t} />
                 </SafeAreaView>
+                {mapUrl && <ImagesPreviewModal visible={isShowPreview} images={[{url: mapUrl}]} onClose={this.handlePreviewClose} />}
             </ImageBackground>
         )
     }
@@ -88,11 +104,13 @@ class FindUsScreen extends Component {
 export default FindUsScreen;
 
 const Map = props => {
-    const {mapUrl} = props;
+    const {mapUrl, onPress} = props;
     return (
-        <View style={styles.mapContainer}>
-            <Image style={styles.map} source={{uri: mapUrl}} />
-        </View>
+        <TouchableWithoutFeedback onPress={onPress}>
+            <View style={styles.mapContainer}>
+                <Image style={styles.map} source={{uri: mapUrl}} />
+            </View>
+        </TouchableWithoutFeedback>
     )
 };
 

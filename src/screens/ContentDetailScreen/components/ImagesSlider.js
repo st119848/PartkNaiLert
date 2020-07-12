@@ -4,11 +4,12 @@ import {
     Image,
     StyleSheet,
     View,
+    TouchableWithoutFeedback
 } from 'react-native';
 
 class ImagesSlider extends Component {
     render() {
-        const {images} = this.props;
+        const {images, onImagePress} = this.props;
         return (
             <View style={styles.container}>
                 <Swiper
@@ -21,9 +22,11 @@ class ImagesSlider extends Component {
                     activeDot={<View style={styles.activeDot} />}
                 >
                     {images.map((image, key) => (
-                        <View style={styles.slide} key={key}>
-                            <Image  style={styles.image} source={{ uri: image }} />
-                        </View>
+                        <TouchableWithoutFeedback onPress={() => onImagePress(key)} key={key}>
+                            <View style={styles.slide}>
+                                <Image  style={styles.image} source={{ uri: image }} />
+                            </View>
+                        </TouchableWithoutFeedback>
                     ))}
                 </Swiper>
             </View>

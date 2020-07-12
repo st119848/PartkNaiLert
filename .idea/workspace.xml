@@ -7,59 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="fix(AR): translate not change on derail screen">
+      <change afterPath="$PROJECT_DIR$/src/components/modals/ImagesPreviewModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/23.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/25.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/27.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/28.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/29.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/30.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/31.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/32.1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/32.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/33.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/34.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/35.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/36.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/37.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/38.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/39.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/40.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/41.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/41.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/42.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/43.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/44.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/45.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/45.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/46.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/47.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/47.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/48.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/49.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/49.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/50.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/stickers/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/stickers/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/parknailert/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/actions/beacons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/actions/beacons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,69 +30,114 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/ar.js">
+        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/MarkerDetail/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24555">
-              <caret line="1637" column="5" selection-start-line="1637" selection-start-column="5" selection-end-line="1637" selection-end-column="5" />
+            <state relative-caret-position="277">
+              <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/translates.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/modals/ImagesPreviewModal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/modals/ARModal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="133" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/config/urls.js">
+        <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="189">
+              <caret line="149" column="26" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/2.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/MarkerDetail/index.js">
+        <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+            <state relative-caret-position="338">
+              <caret line="26" column="81" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="81" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="136" column="27" selection-start-line="136" selection-start-column="27" selection-end-line="136" selection-end-column="27" />
+            <state relative-caret-position="248">
+              <caret line="141" column="32" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/5.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/6.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/7.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/8.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/reducers/stores/setting.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -147,11 +152,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>'id': 26,</find>
-      <find>'id': 28,</find>
-      <find>'id': 29,</find>
-      <find>'id': 30,</find>
-      <find>'id': 31,</find>
       <find>'id': 32,</find>
       <find>'id': 33,</find>
       <find>'id': 34,</find>
@@ -177,6 +177,11 @@
       <find>physicalWidth</find>
       <find>stickers</find>
       <find>0.04</find>
+      <find>viro</find>
+      <find>onContextChange</find>
+      <find>getBeaconContentFromApi</find>
+      <find>GETTING_BEACON_LIST_FAILED</find>
+      <find>TimeInformation</find>
     </findStrings>
     <replaceStrings>
       <replace>white</replace>
@@ -212,15 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree32.js" />
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree40.js" />
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree41.js" />
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree49.js" />
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail1.js" />
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/MarkerDetail/MarkerDetail2.js" />
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR3.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/data/AR/js/components/ScanTheObject/ScanTheObjectTwo.js" />
         <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR2.js" />
         <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLAR1.js" />
         <option value="$PROJECT_DIR$/src/data/AR/js/components/PNLAR/PNLARThree39.js" />
@@ -263,6 +259,15 @@
         <option value="$PROJECT_DIR$/src/config/ar.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/MarkerDetail/index.js" />
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/reducers/actions/beacons.js" />
+        <option value="$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js" />
+        <option value="$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js" />
+        <option value="$PROJECT_DIR$/src/components/modals/ImagesPreviewModal.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" />
+        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" />
+        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" />
       </list>
     </option>
   </component>
@@ -275,7 +280,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,17 +296,51 @@
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="modals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="ContentDetailScreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeScreen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="BeaconScan" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -469,6 +507,12 @@
       <workItem from="1590128869590" duration="122000" />
       <workItem from="1590133768094" duration="52000" />
       <workItem from="1591026526504" duration="243000" />
+      <workItem from="1591792598309" duration="1224000" />
+      <workItem from="1592916431939" duration="840000" />
+      <workItem from="1593438449273" duration="114000" />
+      <workItem from="1593446376083" duration="9000" />
+      <workItem from="1593954743487" duration="733000" />
+      <workItem from="1594528874923" duration="7901000" />
     </task>
     <task id="LOCAL-00063" summary="feat(contact, find): update ui">
       <created>1573573485138</created>
@@ -817,7 +861,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="649785000" />
+    <option name="totallyTimeSpent" value="664778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -838,7 +882,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.56938773" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28163266" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.37653062" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -936,99 +980,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix(AR): translate not change on derail screen" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/16.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/17.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/18.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/19.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/20.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/21.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/22.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/23.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/24.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/25.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/26.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/27.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/28.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/29.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/30.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree13.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree16.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/31.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/32.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/33.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/34.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/35.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/38.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/40.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/39.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/46.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/47.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1078,18 +1029,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/translates.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/img/stickers/2.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/MarkerDetail/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -1112,8 +1053,237 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/config/urls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="270">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/AsyncScreens/async_container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/translates.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/AsyncScreens/AsyncScreens.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/actions/beacons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContactUsScreens/ContactUsScreens.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="61" column="52" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/aboutUs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/beacon_content_container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/BeaconContentScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#15#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree4.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/actions/setting.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/stores/beacons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/stores/setting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/MarkerDetail/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/modals/ARModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/modals/ImagesPreviewModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="133" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="141" column="32" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="26" column="81" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="149" column="26" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

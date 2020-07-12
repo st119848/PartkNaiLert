@@ -67,22 +67,24 @@ const MoreButton = props => {
 };
 
 const ItemsList = props => {
-    const {imagesHighlight=[]} = props;
+    const {imagesHighlight=[], onImagePress} = props;
     return (
         <ScrollView horizontal contentContainerStyle={{paddingRight: 20}} style={styles.itemListContainer}>
             {imagesHighlight.map((item, index) => item.path && (
-                <ItemImage source={item.path} key={index}/>
+                <ItemImage source={item.path} key={index} onPress={() => onImagePress(index)}/>
             ))}
         </ScrollView>
     )
 };
 
 const ItemImage = props => {
-    const {source} = props
+    const {source, onPress} = props
     return (
-        <View style={styles.itemImageContainer}>
-            <Image style={styles.itemImage} source={{uri: source}} />
-        </View>
+        <TouchableOpacity onPress={onPress}>
+            <View style={styles.itemImageContainer}>
+                <Image style={styles.itemImage} source={{uri: source}} />
+            </View>
+        </TouchableOpacity>
     )
 };
 

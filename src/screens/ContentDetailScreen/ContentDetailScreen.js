@@ -16,6 +16,7 @@ import LangSettingButton from "../../components/header/LangSettingButton";
 import BG from "../../assets/img/bg_main.png";
 import ContentDetailLoading from './components/loading/ContentDetailLoading'
 import {translate} from "../../helpers/translates";
+import ImagesPreviewModal from "../../components/modals/ImagesPreviewModal";
 
 class ContentDetailScreen extends Component {
     static navigationOptions = ({ navigation }) => {
@@ -37,6 +38,8 @@ class ContentDetailScreen extends Component {
         audioStatus: 'pause',
         isCanPlay: false,
         isPlayingAudio: false,
+        isShowPreview: false,
+        previewIndex: 0,
     };
 
     handleTogglePlayAudio = () => {
@@ -127,10 +130,26 @@ class ContentDetailScreen extends Component {
         this.player && this.player.stop();
     }
 
+    handlePreviewOpen = (index=0) => {
+        this.setState({
+            isShowPreview: true,
+            previewIndex: index
+        })
+    };
+
+    handlePreviewClose = () => {
+        this.setState({isShowPreview: false})
+    };
+
     render() {
-        const {audioStatus, isCanPlay} = this.state;
+        const {audioStatus, isCanPlay, isShowPreview, previewIndex} = this.state;
         const {activeHighlightItem={}, isGettingHighlightList} = this.props;
         const {galleryImages=[]} = activeHighlightItem;
+        const imagesPreview = galleryImages.map((image) => {
+            return {
+                url: image
+            }
+        })
         return (
             <ImageBackground source={BG} style={styles.outtercontainer}>
                 <SafeAreaView style={styles.container}>
@@ -145,19 +164,21 @@ class ContentDetailScreen extends Component {
                             onFacebookShare={this.handleFacebookShare}
                             onTwitterShare={this.handleTwitterShare}
                             onPlaySound={this.handleTogglePlayAudio}
+                            onImagePress={this.handlePreviewOpen}
                         />}
                     </View>
                 </SafeAreaView>
+                {(imagesPreview.length > 0) && <ImagesPreviewModal visible={isShowPreview} initIndex={previewIndex} images={imagesPreview} onClose={this.handlePreviewClose} />}
             </ImageBackground>
         )
     }
 }
 
 const Content = props => {
-    const {images, item, isCanPlay, audioStatus, onFacebookShare, onTwitterShare, onPlaySound, t} = props;
+    const {images, item, isCanPlay, audioStatus, onFacebookShare, onTwitterShare, onPlaySound, t, onImagePress} = props;
     return (
         <React.Fragment>
-            <ImagesSlider images={images}/>
+            <ImagesSlider images={images} onImagePress={onImagePress}/>
             <Detail
                 {...item}
                 t={t}
