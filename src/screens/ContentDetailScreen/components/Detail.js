@@ -8,7 +8,6 @@ import {
     Platform
 } from 'react-native'
 import IconButton from "../../../components/IconButton";
-import Icon from "../../../components/Icon";
 
 const Detail = props => {
     const {title, description, isCanPlay} = props
@@ -61,15 +60,25 @@ const AudioButton = props => {
 };
 
 const BottomTools = props => {
-    const {audioStatus, onPlaySound, t} = props;
+    const {audioStatus, onPlaySound, onShare, t} = props;
     const soundLabel = t('detail.soundLabel');
     return (
         <View style={styles.bottomToolsContainer}>
-            <Text style={styles.playTitle}>{soundLabel}</Text>
-            <AudioButton audioStatus={audioStatus} onPress={onPlaySound} t={t} />
+            <ShareButton onShare={onShare} />
+            <View style={styles.audioContainer}>
+                <Text style={styles.playTitle}>{soundLabel}</Text>
+                <AudioButton audioStatus={audioStatus} onPress={onPlaySound} t={t} />
+            </View>
         </View>
     )
 };
+
+const ShareButton = props => {
+    const {onShare} = props;
+    return (
+        <IconButton style={styles.shareIcon} iconName="sharealt" size={25} onPress={onShare}/>
+    )
+}
 
 const styles = StyleSheet.create({
     container: {
@@ -133,14 +142,20 @@ const styles = StyleSheet.create({
         width: '100%',
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'flex-end',
+        justifyContent: 'space-between',
         borderColor: '#6e4f06',
         borderTopWidth: 1,
+    },
+    audioContainer: {
+        flexDirection: 'row',
     },
     facebookIcon: {
         color: 'rgb(74, 90, 143)'
     },
     twitterIcon: {
         color: 'rgb(73, 168, 238)'
+    },
+    shareIcon: {
+        color: '#6e4f06'
     }
 });

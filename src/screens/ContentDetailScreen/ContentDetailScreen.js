@@ -17,6 +17,7 @@ import BG from "../../assets/img/bg_main.png";
 import ContentDetailLoading from './components/loading/ContentDetailLoading'
 import {translate} from "../../helpers/translates";
 import ImagesPreviewModal from "../../components/modals/ImagesPreviewModal";
+import IconButton from "../../components/IconButton";
 
 class ContentDetailScreen extends Component {
     static navigationOptions = ({ navigation }) => {
@@ -61,34 +62,18 @@ class ContentDetailScreen extends Component {
         }
     };
 
-    handleFacebookShare = async () => {
+    handleShare = async () => {
         const {activeHighlightItem={}} = this.props;
         const {id, title, coverImage, description} = activeHighlightItem;
         const shareLink = await dynamicEventLink(id, title, coverImage, description);
-        const shareOptions = {
-            title: title,
-            url: shareLink,
-            message: title,
-            social: Share.Social.FACEBOOK,
-            failOnCancel: false,
-        };
-        Share.shareSingle(shareOptions)
-            .then((res) => { console.log(res) })
-            .catch((err) => { err && console.log(err); });
-    };
 
-    handleTwitterShare = async () => {
-        const {activeHighlightItem={}} = this.props;
-        const {id, title, coverImage, description} = activeHighlightItem;
-        const shareLink = await dynamicEventLink(id, title, coverImage, description);
         const shareOptions = {
             title: title,
             url: shareLink,
             message: title,
-            social: Share.Social.TWITTER,
             failOnCancel: false,
         };
-        Share.shareSingle(shareOptions)
+        Share.open(shareOptions)
             .then((res) => { console.log(res) })
             .catch((err) => { err && console.log(err); });
     };
@@ -161,8 +146,7 @@ class ContentDetailScreen extends Component {
                             images={galleryImages}
                             isCanPlay={isCanPlay}
                             audioStatus={audioStatus}
-                            onFacebookShare={this.handleFacebookShare}
-                            onTwitterShare={this.handleTwitterShare}
+                            onShare={this.handleShare}
                             onPlaySound={this.handleTogglePlayAudio}
                             onImagePress={this.handlePreviewOpen}
                         />}
@@ -175,22 +159,31 @@ class ContentDetailScreen extends Component {
 }
 
 const Content = props => {
-    const {images, item, isCanPlay, audioStatus, onFacebookShare, onTwitterShare, onPlaySound, t, onImagePress} = props;
+    const {images, item, isCanPlay, audioStatus, onShare, onPlaySound, t, onImagePress, } = props;
     return (
         <React.Fragment>
+            <ShareButton onShare={onShare} />
             <ImagesSlider images={images} onImagePress={onImagePress}/>
             <Detail
                 {...item}
                 t={t}
                 isCanPlay={isCanPlay}
                 audioStatus={audioStatus}
-                onFacebookShare={onFacebookShare}
-                onTwitterShare={onTwitterShare}
+                onShare={onShare}
                 onPlaySound={onPlaySound}
             />
         </React.Fragment>
     )
 };
+
+const ShareButton = props => {
+    const {onShare} = props;
+    return (
+        <View style={styles.shareIconContainer}>
+            <IconButton style={styles.shareIcon} iconName="sharealt" size={35} onPress={onShare}/>
+        </View>
+    )
+}
 
 export default ContentDetailScreen;
 
@@ -206,5 +199,13 @@ const styles = StyleSheet.create({
         flex: 1,
         marginTop: Platform.OS === 'ios'? 44 : 54,
         padding: 15,
+    },
+    shareIconContainer: {
+        position: 'relative'
+    },
+    shareIcon: {
+        position: 'absolute',
+        top: 10,
+        right: 10,
     }
 });

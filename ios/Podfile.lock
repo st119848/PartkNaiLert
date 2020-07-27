@@ -183,7 +183,7 @@ PODS:
     - React
   - RNReanimated (1.4.0):
     - React
-  - RNShare (2.0.0):
+  - RNShare (3.7.0):
     - React
   - RNSound (0.11.0):
     - React
@@ -194,7 +194,8 @@ PODS:
     - React
   - RNVectorIcons (6.6.0):
     - React
-  - ViroKit_static_lib (1.0)
+  - ViroKit_static_lib (1.0):
+    - React
   - ViroReact (1.0)
   - yoga (0.60.5.React)
 
@@ -376,11 +377,11 @@ SPEC CHECKSUMS:
   RNFirebase: 37daa9a346d070f9f6ee1f3b4aaf4c8e3b1d5d1c
   RNGestureHandler: 02905abe54e1f6e59c081a10b4bd689721e17aa6
   RNReanimated: b2ab0b693dddd2339bd2f300e770f6302d2e960c
-  RNShare: 8b171d4b43c1d886917fdd303bf7a4b87167b05c
+  RNShare: a1d5064df7a0ebe778d001869b3f0a124bf0a491
   RNSound: c980916b596cc15c8dcd2f6ecd3b13c4881dbe20
   RNSVG: 8ba35cbeb385a52fd960fd28db9d7d18b4c2974f
   RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
-  ViroKit_static_lib: ae9c112ac4b128f8d4466fc581c7b07a0264754d
+  ViroKit_static_lib: 9478afb77ad4cd642a82c4ec6ca9c3bae4e13496
   ViroReact: 7ec32276dcd1883662b4587eaedfff67f7fc3625
   yoga: 312528f5bbbba37b4dcea5ef00e8b4033fdd9411
 
