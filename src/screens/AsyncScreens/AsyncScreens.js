@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import ContentDetailModal from "./components/ContentDetailModal";
 import ARModal from "../../components/modals/ARModal";
 
@@ -17,7 +17,7 @@ class AsyncScreens extends Component {
     render() {
         const {isShowBeaconContentModal, isShowARModal} = this.props;
         return (
-            <Fragment>
+            <>
                 <ContentDetailModal
                     visible={isShowBeaconContentModal}
                     onClose={this.handleCloseBeaconModal}
@@ -27,7 +27,7 @@ class AsyncScreens extends Component {
                     visible={isShowARModal}
                     onClose={this.handleCloseARModal}
                 />
-            </Fragment>
+            </>
         )
     }
 }

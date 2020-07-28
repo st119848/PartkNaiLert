@@ -43,7 +43,6 @@ const styles = StyleSheet.create({
         opacity: 0.9,
         position: 'relative',
     },
-
     headerContainer: {
         width: 49,
         flexDirection: 'row',

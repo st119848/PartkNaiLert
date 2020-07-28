@@ -36,11 +36,11 @@ class ContentDetailLoading extends React.Component {
 const Content = ({width, containerHeight}) => {
     const imageContainerHeight= ((containerHeight)/2) - 20;
     return (
-        <React.Fragment>
+        <>
             <Image width={width} containerHeight={containerHeight}/>
             <Title width={width} imageContainerHeight={imageContainerHeight}/>
             <Description width={width} containerHeight={containerHeight} imageContainerHeight={imageContainerHeight} />
-        </React.Fragment>
+        </>
     )
 };
 

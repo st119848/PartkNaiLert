@@ -1,11 +1,9 @@
-import React from "react";
+import React, {Component} from "react";
 import {Container} from "./style"
 import { Actions } from 'react-native-router-flux';
 import BackButton from "../../../../components/header/BackButton";
 
-var createReactClass = require("create-react-class");
-
-var Header = createReactClass({
+class Header extends Component{
     handleBackClick() {
         const {onBack} = this.props;
         if(onBack) {
@@ -13,15 +11,15 @@ var Header = createReactClass({
         } else {
             Actions.pop()
         }
-    },
-	render: function() {
+    }
+    render() {
 
         return (
             <Container>
                 <BackButton onPress={this.handleBackClick} />
             </Container>
         )
-	},
-});
+    }
+}
 
-module.exports = Header;
+export default Header;

@@ -10,9 +10,10 @@ import {connect} from "react-redux";
 
 class InitialScreen extends React.Component{
     handleChangeLang = (lang) => {
-        const {settingLanguage, navigation} = this.props;
+        const {settingLanguage, route} = this.props;
         settingLanguage(lang);
-        navigation.navigate('Main')
+        const setIniting = route.params?.setIniting;
+        setIniting && setIniting(false)
     };
     render() {
         const {language} = this.props;

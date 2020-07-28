@@ -70,7 +70,7 @@ class ContentDetailScreen extends Component {
         const shareOptions = {
             title: title,
             url: shareLink,
-            message: title,
+            message: shareLink,
             failOnCancel: false,
         };
         Share.open(shareOptions)
@@ -82,20 +82,6 @@ class ContentDetailScreen extends Component {
         const {language} = this.props;
         return translate(language, key, find, replace);
     };
-
-    componentWillMount() {
-        const {navigation} = this.props;
-        const title = this.t('menus.highLight');
-        navigation.setParams({ title});
-    }
-
-    componentWillReceiveProps(nextProps, nextContext) {
-        const title = this.t('menus.highLight');
-        const lastTitle = nextProps.navigation.getParam('title');
-        if(lastTitle !== title) {
-            nextProps.navigation.setParams({ title});
-        }
-    }
 
     componentDidMount(){
         const {activeHighlightItem={}} = this.props;
@@ -161,7 +147,7 @@ class ContentDetailScreen extends Component {
 const Content = props => {
     const {images, item, isCanPlay, audioStatus, onShare, onPlaySound, t, onImagePress, } = props;
     return (
-        <React.Fragment>
+        <>
             <ShareButton onShare={onShare} />
             <ImagesSlider images={images} onImagePress={onImagePress}/>
             <Detail
@@ -172,7 +158,7 @@ const Content = props => {
                 onShare={onShare}
                 onPlaySound={onPlaySound}
             />
-        </React.Fragment>
+        </>
     )
 };
 

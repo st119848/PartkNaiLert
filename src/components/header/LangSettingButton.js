@@ -29,6 +29,7 @@ class LangSettingButton extends React.Component{
         } = this.props;
         this.handleCloseModal();
         const handlerOnChangeLangSuccess = async () => {
+            console.log('routeName', routeName);
             switch (routeName) {
                 case 'Home':
                     getImageSlidersFromApi();
@@ -58,6 +59,10 @@ class LangSettingButton extends React.Component{
             isShowSetLang: false,
         })
     };
+    componentDidMount() {
+        console.log('test', this.props)
+    }
+
     render() {
         const {language} = this.props;
         const {isShowSetLang} = this.state;

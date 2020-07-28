@@ -13,30 +13,15 @@ import HighLight from "./components/HighLight";
 import BeaconsStatus from "./components/BeaconsStatus";
 import ARButton from "./components/ARButton";
 import {translate} from "../../helpers/translates";
-import firebase from 'react-native-firebase'
+import dynamicLinks from '@react-native-firebase/dynamic-links';
 import {getParamsFromUrl} from '../../helpers/url'
-import LangSettingButton from "../../components/header/LangSettingButton";
-import PageSettingButton from "../../components/header/PageSettingButton";
 import BG from "../../assets/img/bg_main.png";
 import logoName from "../../assets/img/logoName.png";
-import {SafeAreaView} from 'react-navigation'
+import {SafeAreaView} from 'react-native-safe-area-context'
 import ImagesPreviewModal from "../../components/modals/ImagesPreviewModal";
+import BeaconScan from "../../../tools/BeaconScan";
 
 export default class HomeScreen extends Component {
-
-    static navigationOptions = ({ navigation }) => {
-        const {state={}} = navigation;
-        return {
-            headerLeft: <PageSettingButton navigation={navigation}/>,
-            headerRight: <LangSettingButton routeName={state.routeName} />,
-            headerBackTitle: null,
-            headerTintColor: 'rgb(125, 105 , 87)',
-            headerTransparent: true,
-            headerStyle: {
-                backgroundColor: 'rgba(70, 41, 0, 0.8)',
-            },
-        };
-    };
 
     state = {
         isShowPreview: false,
@@ -44,8 +29,8 @@ export default class HomeScreen extends Component {
     };
 
     handleARButtonClick = () => {
-        const {showARModal} = this.props;
-        showARModal();
+        const {navigation} = this.props;
+        navigation.navigate('AR');
     };
 
     handleMoreItemClick = () => {
@@ -71,12 +56,13 @@ export default class HomeScreen extends Component {
     componentDidMount() {
         const {getImageSlidersFromApi} = this.props;
         getImageSlidersFromApi();
-        firebase.links()
+
+        dynamicLinks()
             .getInitialLink()
-            .then((url) => {
-                if (url) {
+            .then(link => {
+                if (link.url) {
                     // app opened from a url
-                    this.goToDetailPage(url);
+                    this.goToDetailPage(link.url);
                 } else {
                     if (Platform.OS === 'android') {
                         Linking.getInitialURL().then(url => {
@@ -120,7 +106,7 @@ export default class HomeScreen extends Component {
     };
 
     render() {
-        const {imagesHighlight=[], isGettingImageSliderSuccess, isInBeaconArea} = this.props;
+        const {imagesHighlight=[], isGettingImageSliderSuccess, isInBeaconArea, navigation} = this.props;
         const {isShowPreview, previewIndex} = this.state;
         const imagesPreview = imagesHighlight.map((image) => {
             return {
@@ -146,6 +132,7 @@ export default class HomeScreen extends Component {
                         </View>
                     </View>
                 </SafeAreaView>
+                <BeaconScan navigation={navigation}/>
             </ImageBackground>
         )
     }

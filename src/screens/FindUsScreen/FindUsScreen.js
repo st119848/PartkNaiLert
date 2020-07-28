@@ -21,20 +21,6 @@ import ImagesPreviewModal from "../../components/modals/ImagesPreviewModal";
 const { width } = Dimensions.get('window')
 
 class FindUsScreen extends Component {
-    static navigationOptions = ({ navigation }) => {
-        const {state={}} = navigation;
-        const title = navigation.getParam('title');
-        return {
-            headerRight: <LangSettingButton routeName={state.routeName} />,
-            headerBackTitle: null,
-            headerTintColor: 'white',
-            headerTransparent: true,
-            headerStyle: {
-                backgroundColor: 'rgba(70, 41, 0, 0.8)',
-            },
-            headerTitle: <HeaderTitle title={title} />,
-        };
-    };
 
     state = {
         isShowPreview: false
@@ -44,20 +30,6 @@ class FindUsScreen extends Component {
         const {language} = this.props;
         return translate(language, key, find, replace);
     };
-
-    componentWillMount() {
-        const {navigation} = this.props;
-        const title = this.t('menus.findUs');
-        navigation.setParams({ title});
-    }
-
-    componentWillReceiveProps(nextProps, nextContext) {
-        const title = this.t('menus.findUs');
-        const lastTitle = nextProps.navigation.getParam('title');
-        if(lastTitle !== title) {
-            nextProps.navigation.setParams({ title});
-        }
-    }
 
     handleClickMap = () => {
         const scheme = Platform.select({ ios: 'maps:0,0?q=', android: 'geo:0,0?q=' });

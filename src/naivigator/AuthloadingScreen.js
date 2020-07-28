@@ -8,30 +8,11 @@ import {
     StyleSheet,
     Platform,
 } from 'react-native';
-import AsyncStorage from '@react-native-community/async-storage';
 import BeaconScan from '../../tools/BeaconScan'
 import icon from './../assets/img/logo.png'
-
-import { connect } from 'react-redux'
-import { settingLanguage } from "../reducers/actions/setting";
 import BG from "../assets/img/bg_main.png";
 
- class AuthLoadingScreen extends React.Component {
-  constructor() {
-    super()
-    this._LoadApp()
-  }
-  _LoadApp = async () => {
-      const selectedLanguage = await AsyncStorage.getItem('selectedLanguage');
-      if(selectedLanguage && (selectedLanguage !== null)) {
-          this.props.settingLanguage(selectedLanguage)
-          this.props.navigation.navigate('Main')
-      } else {
-          this.props.navigation.navigate('Init')
-      }
-  };
-
-  render() {
+const AuthLoadingScreen = () =>  {
     return (
         <ImageBackground source={BG} style={styles.container}>
             <View style={styles.logoContainer}>
@@ -41,31 +22,17 @@ import BG from "../assets/img/bg_main.png";
                     <ActivityIndicator />
                 </View>
             </View>
-            <BeaconScan/>
         </ImageBackground>
     )
-  }
 }
+
+export default AuthLoadingScreen;
 
 const Title = props => {
      return (
          <Text style={styles.title}>PARK OF NAI LERT</Text>
      )
 };
-
-
-const mapDispatchToProps = (dispatch) => {
-    return {
-        settingLanguage: (lang) => dispatch(settingLanguage(lang))
-    }
-};
-
-const mapStateToProps = (state) => {
-  return {
-    language: state.setting.language
-  }
-}
-export default connect(mapStateToProps, mapDispatchToProps)(AuthLoadingScreen)
 
 const styles = StyleSheet.create({
     container: {

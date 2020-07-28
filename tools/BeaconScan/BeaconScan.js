@@ -17,7 +17,7 @@ class BeaconScan extends Component {
     }
 
     beaconScanZone = (beaconsConfig) => {
-        const {getBeaconContentFromApi, setEnterBeaconZone, setExitBeaconZone} = this.props;
+        const {getBeaconContentFromApi, setEnterBeaconZone, setExitBeaconZone, navigation} = this.props;
         const zones = beaconsConfig.map(config => {
             const {tag, distance} = config;
             const zone = new RNEP.ProximityZone(distance, tag);
@@ -29,7 +29,11 @@ class BeaconScan extends Component {
             };
             zone.onChangeAction = contexts => {
                 const [context] = contexts;
-                context && getBeaconContentFromApi(context.deviceIdentifier);
+                if(context) {
+                    getBeaconContentFromApi(context.deviceIdentifier);
+                    navigation.navigate('BeaconDetail');
+                }
+
             };
 
             return zone;

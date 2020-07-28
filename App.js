@@ -24,7 +24,7 @@ export default class App extends Component {
     return (
       <Provider store={store}>
         <AppNavigator/>
-        <AsyncScreens />
+        {/*<AsyncScreens />*/}
       </Provider>
     )
   }

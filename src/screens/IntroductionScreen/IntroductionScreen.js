@@ -8,47 +8,16 @@ import {
     Image,
     Platform,
 } from 'react-native'
-import LangSettingButton from "../../components/header/LangSettingButton";
-import HeaderTitle from "../../components/header/HeaderTitle";
 import BG from "../../assets/img/bg_main.png";
 import {getStatusBarHeight} from "react-native-status-bar-height";
 import {translate} from "../../helpers/translates";
 
 class IntroductionScreen extends Component {
 
-    static navigationOptions = ({ navigation }) => {
-        const {state={}} = navigation;
-        const title = navigation.getParam('title');
-        return {
-            headerRight: <LangSettingButton routeName={state.routeName} />,
-            headerBackTitle: null,
-            headerTintColor: 'white',
-            headerTransparent: true,
-            headerStyle: {
-                backgroundColor: 'rgba(70, 41, 0, 0.8)',
-            },
-            headerTitle: <HeaderTitle title={title} />,
-        };
-    };
-
     t = (key, find, replace) => {
         const {language} = this.props;
         return translate(language, key, find, replace);
     };
-
-    componentWillMount() {
-        const {navigation} = this.props;
-        const title = this.t('menus.intro');
-        navigation.setParams({ title});
-    }
-
-    componentWillReceiveProps(nextProps, nextContext) {
-        const title = this.t('menus.intro');
-        const lastTitle = nextProps.navigation.getParam('title');
-        if(lastTitle !== title) {
-            nextProps.navigation.setParams({ title});
-        }
-    }
 
     componentDidMount() {
         const {getAboutUsIntroFromApi} = this.props;

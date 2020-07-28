@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
 import {
-    StyleSheet,
+    SafeAreaView,
+    StyleSheet, TouchableOpacity,
     View
 } from 'react-native'
 import ImagesSlider from "./components/ImagesSlider";
 import Detail from "./components/Detail";
 import Sound from 'react-native-sound';
+import Icon from "../../components/Icon";
 
 class BeaconContentScreen extends Component {
     state={
@@ -13,6 +15,11 @@ class BeaconContentScreen extends Component {
         isCanPlay: false,
         isPlayingAudio: false,
     };
+
+    handleClose = () => {
+        const {navigation} = this.props;
+        navigation.goBack();
+    }
 
     handleTogglePlayAudio = () => {
         const {isPlayingAudio, isCanPlay} = this.state;
@@ -57,13 +64,16 @@ class BeaconContentScreen extends Component {
         const {galleryImages=[]} = beaconContent;
         return (
             <View style={styles.container}>
-                <ImagesSlider images={galleryImages}/>
-                <Detail
-                    {...beaconContent}
-                    isCanPlay={isCanPlay}
-                    audioStatus={audioStatus}
-                    onPlaySound={this.handleTogglePlayAudio}
-                />
+                <View style={styles.innerContainer}>
+                    <ImagesSlider images={galleryImages}/>
+                    <Detail
+                        {...beaconContent}
+                        isCanPlay={isCanPlay}
+                        audioStatus={audioStatus}
+                        onPlaySound={this.handleTogglePlayAudio}
+                    />
+                </View>
+                <Header onCloseClick={this.handleClose}/>
             </View>
         )
     }
@@ -71,8 +81,39 @@ class BeaconContentScreen extends Component {
 
 export default BeaconContentScreen;
 
+const Header = props => {
+    const {onCloseClick} = props
+    return (
+        <SafeAreaView style={styles.headerContainer}>
+            <TouchableOpacity onPress={onCloseClick}>
+                <Icon name="close" style={styles.closeButton} size={35} />
+            </TouchableOpacity>
+        </SafeAreaView>
+    )
+};
+
 const styles = StyleSheet.create({
     container: {
-        flex: 1
+        flex: 1,
+    },
+    innerContainer: {
+        flex: 1,
+        backgroundColor: 'black',
+        opacity: 0.9,
+        position: 'relative',
+    },
+
+    headerContainer: {
+        width: 49,
+        flexDirection: 'row',
+        justifyContent: 'flex-end',
+        alignItems: 'center',
+        position: 'absolute',
+        top: 0,
+        right: 0,
+    },
+    closeButton: {
+        color: 'white',
+        paddingHorizontal: 10,
     },
 });
