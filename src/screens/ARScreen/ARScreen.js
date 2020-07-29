@@ -6,10 +6,11 @@ import ScanTheObject3 from "./components/ARScan/ScanTheObject3"
 import ScanTheObject4 from "./components/ARScan/ScanTheObject4"
 import ScanTheObject5 from "./components/ARScan/ScanTheObject5"
 import ScanTheObject6 from "./components/ARScan/ScanTheObject6"
-import Index from "./components/MarkerDetail";
+import MarkerDetail from "./components/MarkerDetail";
 import ZoneSelector from "./components/ZoneSelector/ZoneSelector";
 import {Router, Stack, Scene} from "react-native-router-flux"
 import {translate} from "../../helpers/translates";
+import Header from "./components/Header/Header"
 import Icon from "../../components/Icon";
 
 export default class ARScreen extends Component {
@@ -38,18 +39,18 @@ export default class ARScreen extends Component {
                             <Scene key="scan4" component={ScanTheObject4} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
                             <Scene key="scan5" component={ScanTheObject5} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
                             <Scene key="scan6" component={ScanTheObject6} ThreeD={false} marker={0} showARScene={1} t={this.t} languageId={languageId} />
-                            <Scene key="detail" component={Index} t={this.t}/>
+                            <Scene key="detail" component={MarkerDetail} t={this.t}/>
                             <Scene key="header" component={Header} t={this.t}  />
                         </Stack>
                     </Router>
                 </View>
-                <Header onCloseClick={this.handleClose}/>
+                <ARHeader onCloseClick={this.handleClose}/>
             </View>
         );
     }
 };
 
-const Header = props => {
+const ARHeader = props => {
     const {onCloseClick} = props
     return (
         <SafeAreaView style={styles.headerContainer}>

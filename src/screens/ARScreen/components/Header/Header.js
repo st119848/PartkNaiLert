@@ -3,9 +3,9 @@ import {Container} from "./style"
 import { Actions } from 'react-native-router-flux';
 import BackButton from "../../../../components/header/BackButton";
 
-class Header extends Component{
-    handleBackClick() {
-        const {onBack} = this.props;
+class Header extends Component {
+    handleBackClick = () => {
+        const onBack = this.props?.onBack;
         if(onBack) {
             onBack();
         } else {
@@ -13,7 +13,6 @@ class Header extends Component{
         }
     }
     render() {
-
         return (
             <Container>
                 <BackButton onPress={this.handleBackClick} />
