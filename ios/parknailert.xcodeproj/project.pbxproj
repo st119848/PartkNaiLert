@@ -19,10 +19,10 @@
 		79A54705E6518915D6C42BA4 /* libPods-parknailert-parknailertTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DCA0ADDFD18DC69BD900DA /* libPods-parknailert-parknailertTests.a */; };
 		ABAD79A2EA3F9D82D880998C /* libPods-parknailert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 936A07E593405F01D422CFF6 /* libPods-parknailert.a */; };
 		DA3922D324D04AC600C475F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA3922D224D04AC600C475F8 /* LaunchScreen.xib */; };
-		DA3922D524D0555000C475F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3922D424D0555000C475F8 /* GoogleService-Info.plist */; };
 		DA3922E924D059BB00C475F8 /* drboran.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB5BA1253D284B0D8A0B759B /* drboran.ttf */; };
 		DA3922EA24D059BB00C475F8 /* ptmono_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EF1251D46104E93AB25D137 /* ptmono_bold.ttf */; };
 		DA3922EB24D059BB00C475F8 /* ptmono_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6A25B6FD74527B5C71DBA /* ptmono_regular.ttf */; };
+		DA39230124D0BC6A00C475F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA39230024D0BC6A00C475F8 /* GoogleService-Info.plist */; };
 		E467A95CB646C0F08B3681DE /* libPods-parknailert-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE06AD2D3F03B44ADE6FF0AA /* libPods-parknailert-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -83,7 +83,8 @@
 		C9465609CCF14D419B11680C /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		D35963B1718328BB38D84717 /* Pods-parknailert-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parknailert-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-parknailert-tvOSTests/Pods-parknailert-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		DA3922D224D04AC600C475F8 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = parknailert/LaunchScreen.xib; sourceTree = "<group>"; };
-		DA3922D424D0555000C475F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA39230024D0BC6A00C475F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "parknailert/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA39230224D0C1F300C475F8 /* parknailert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = parknailert.entitlements; path = parknailert/parknailert.entitlements; sourceTree = "<group>"; };
 		E11614CFF53D4C1B8C3078D4 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		EB5BA1253D284B0D8A0B759B /* drboran.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = drboran.ttf; path = ../src/assets/fonts/drboran.ttf; sourceTree = "<group>"; };
 		EB86E7763DA0428FBA5030A8 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
@@ -149,7 +150,8 @@
 		13B07FAE1A68108700A75B9A /* parknailert */ = {
 			isa = PBXGroup;
 			children = (
-				DA3922D424D0555000C475F8 /* GoogleService-Info.plist */,
+				DA39230224D0C1F300C475F8 /* parknailert.entitlements */,
+				DA39230024D0BC6A00C475F8 /* GoogleService-Info.plist */,
 				DA3922D224D04AC600C475F8 /* LaunchScreen.xib */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -400,7 +402,7 @@
 				DA3922EB24D059BB00C475F8 /* ptmono_regular.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				DA3922D324D04AC600C475F8 /* LaunchScreen.xib in Resources */,
-				DA3922D524D0555000C475F8 /* GoogleService-Info.plist in Resources */,
+				DA39230124D0BC6A00C475F8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -832,6 +834,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = parknailert/parknailert.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WC5U8D9K53;
 				ENABLE_BITCODE = NO;
@@ -858,6 +861,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = parknailert/parknailert.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WC5U8D9K53;
 				INFOPLIST_FILE = parknailert/Info.plist;

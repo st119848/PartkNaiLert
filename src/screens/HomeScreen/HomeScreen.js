@@ -56,27 +56,24 @@ export default class HomeScreen extends Component {
     componentDidMount() {
         const {getImageSlidersFromApi} = this.props;
         getImageSlidersFromApi();
-
-        dynamicLinks()
-            .getInitialLink()
-            .then(link => {
-                if (link.url) {
-                    // app opened from a url
-                    this.goToDetailPage(link.url);
+        this.unsubscribe = dynamicLinks().onLink(data => {
+            const {url} = data;
+            if (url) {
+                this.goToDetailPage(url);
+            } else {
+                if (Platform.OS === 'android') {
+                    Linking.getInitialURL().then(url => {
+                        this.goToDetailPage(url);
+                    });
                 } else {
-                    if (Platform.OS === 'android') {
-                        Linking.getInitialURL().then(url => {
-                            this.goToDetailPage(url);
-                        });
-                    } else {
-                        Linking.addEventListener('url', this.handleOpenURL);
-                    }
+                    Linking.addEventListener('url', this.handleOpenURL);
                 }
-            });
+            }
+        });
     }
 
-    componentWillUnmount() { // C
-        Linking.removeEventListener('url', this.handleOpenURL);
+    componentWillUnmount() {
+        this.unsubscribe && this.unsubscribe()
     }
 
     handleOpenURL = async (event) => {
@@ -95,9 +92,8 @@ export default class HomeScreen extends Component {
     };
 
     goToDetailPage = async (url) => {
-        const resUrl = await fetch(url).then(res => res.url);
-        const params = getParamsFromUrl(resUrl);
-        const {id} = params;
+        console.log('test url', url)
+        const {id} = getParamsFromUrl(url);
         const {navigation, setActiveHighlightItem, getHighlightListFromApi} = this.props;
         await getHighlightListFromApi();
         const itemId = parseInt(id);

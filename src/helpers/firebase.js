@@ -2,20 +2,19 @@ import dynamicLinks from '@react-native-firebase/dynamic-links';
 
 export const dynamicEventLink = async (id, title, image, description='') => {
 
-    const link = await dynamicLinks().buildLink({
-        link: encodeURI(`https://parknailertapp.page.link/content/${id}`),
-        // domainUriPrefix is created in your Firebase console
+    const link = await dynamicLinks().buildShortLink({
+        link: `https://nailertapp.com/content?id=${id}`,
         domainUriPrefix: 'https://parknailertapp.page.link',
-        // optional set up which updates Firebase analytics campaign
-        // "banner". This also needs setting up before hand
+        social: {
+            title: title,
+            descriptionText: description,
+            imageUrl: image
+        },
+        ios: {
+            bundleId: 'com.pnl.parknailert',
+            appStoreId: '1492670944',
+        }
     });
-    link.android.setPackageName('com.parknailert');
-    link.ios.setBundleId('com.pnl.parknailert');
-    link.social.setDescriptionText(description);
-    link.social.setImageUrl(image);
-    link.social.setTitle(title);
 
-    return dynamicLinks()
-        .createShortDynamicLink(link, `UNGUESSABLE`)
-        .then((url) => decodeURIComponent(url));
+    return link;
 };
