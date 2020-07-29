@@ -64,9 +64,9 @@ class PNLARThree41 extends Component {
 						<Viro3DObject
 							source={require("../../../../assets/3D/tea_pot.glb")}
 							position={[0, 0, 0.03]}
-							scale={[0.3, 0.3, 0.3]}
+							scale={[0.1, 0.1, 0.1]}
 							type='GLB'
-							rotation={[0, 0, -90]}
+							rotation={[0, -90, -90]}
 							visible={this.state.dShow}
 						/>
 						}

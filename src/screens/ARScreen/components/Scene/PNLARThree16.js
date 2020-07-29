@@ -64,7 +64,7 @@ class PNLARThree16 extends Component {
 							<Viro3DObject
 								source={require("../../../../assets/3D/khong.glb")}
 								position={[0, 0, 0.03]}
-								scale={[0.5, 0.5, 0.5]}
+								scale={[0.2, 0.2, 0.2]}
 								type='GLB'
 								rotation={[0, 0, -90]}
 								visible={this.state.dShow}

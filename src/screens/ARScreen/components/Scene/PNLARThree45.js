@@ -67,7 +67,7 @@ class PNLARThree45 extends Component {
 							position={[0, 0, 0.03]}
 							scale={[0.015, 0.015, 0.015]}
 							type='GLB'
-							rotation={[0, 0, -90]}
+							rotation={[0, -90, -90]}
 							visible={this.state.dShow}
 						/>
 						}
