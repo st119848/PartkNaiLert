@@ -1,4 +1,5 @@
 apply plugin: "com.android.application"
+apply plugin: 'com.google.gms.google-services'
 
 import com.android.build.OutputFile
 
@@ -121,6 +122,11 @@ def jscFlavor = 'org.webkit:android-jsc:+'
 def enableHermes = project.ext.react.get("enableHermes", false);
 
 android {
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     compileOptions {
@@ -129,11 +135,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.parknailert"
-        minSdkVersion rootProject.ext.minSdkVersion
+        applicationId "com.pnl.parknailert"
+        minSdkVersion 23
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode 14
+        versionName "1.0.11"
     }
     splits {
         abi {
@@ -150,6 +156,13 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+
+        release {
+            storeFile file('my-upload-key.keystore')
+            storePassword 'ooaakk'
+            keyAlias 'my-key-alias'
+            keyPassword 'ooaakk'
+        }
     }
     buildTypes {
         debug {
@@ -158,9 +171,10 @@ android {
         release {
             // Caution! In production, you need to generate your own keystore file.
             // see https://reactnative.dev/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+
         }
     }
 
@@ -186,6 +200,19 @@ dependencies {
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':arcore_client')
+      implementation project(':gvr_common')
+      implementation project(path: ':viro_renderer')
+      implementation project(path: ':react_viro')
+      implementation 'com.google.android.exoplayer:exoplayer:2.7.1'
+      implementation 'com.google.protobuf.nano:protobuf-javanano:3.0.0-alpha-7'
+      implementation 'com.amazonaws:aws-android-sdk-core:2.7.7'
+      implementation 'com.amazonaws:aws-android-sdk-ddb:2.7.7'
+      implementation 'com.amazonaws:aws-android-sdk-ddb-mapper:2.7.7'
+      implementation 'com.amazonaws:aws-android-sdk-cognito:2.7.7'
+      implementation 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.7.7'
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
       exclude group:'com.facebook.fbjni'
