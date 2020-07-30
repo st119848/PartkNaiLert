@@ -13,6 +13,9 @@ export const dynamicEventLink = async (id, title, image, description='') => {
         ios: {
             bundleId: 'com.pnl.parknailert',
             appStoreId: '1492670944',
+        },
+        android: {
+            packageName: 'com.pnl.parknailert',
         }
     });
 
