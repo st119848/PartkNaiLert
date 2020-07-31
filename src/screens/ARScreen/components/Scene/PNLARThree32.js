@@ -12,7 +12,7 @@ import {
 	ViroSpotLight,
 	ViroQuad,
 	ViroAmbientLight,
-} from "react-viro";
+} from "@citychallenge/react-viro";
 import {getMarkerByObjectId} from "../../../../helpers/ar";
 
 class PNLARThree32 extends Component {

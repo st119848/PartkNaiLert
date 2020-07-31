@@ -599,7 +599,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-parknailert/Pods-parknailert-frameworks.sh",
 				"${PODS_ROOT}/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework",
 				"${PODS_ROOT}/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework",
-				"${PODS_ROOT}/../../node_modules/react-viro/ios/dist/ViroRenderer/static_lib/ViroKit_static_lib.framework",
+				"${PODS_ROOT}/../../node_modules/@citychallenge/react-viro/ios/dist/ViroRenderer/static_lib/ViroKit_static_lib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -681,7 +681,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-parknailert-parknailertTests/Pods-parknailert-parknailertTests-frameworks.sh",
 				"${PODS_ROOT}/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework",
 				"${PODS_ROOT}/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework",
-				"${PODS_ROOT}/../../node_modules/react-viro/ios/dist/ViroRenderer/static_lib/ViroKit_static_lib.framework",
+				"${PODS_ROOT}/../../node_modules/@citychallenge/react-viro/ios/dist/ViroRenderer/static_lib/ViroKit_static_lib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

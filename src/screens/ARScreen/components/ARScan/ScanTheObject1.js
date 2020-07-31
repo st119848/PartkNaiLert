@@ -3,7 +3,7 @@
 import React, { Component } from "react";
 import PNLAR1 from "../Scene/PNLAR1";
 import PNLARThree4 from "../Scene/PNLARThree4";
-import { ViroARSceneNavigator } from "react-viro";
+import { ViroARSceneNavigator } from "@citychallenge/react-viro";
 import Header from "../Header/Header";
 import { Theme, BottomText, Border } from "./style";
 import {connect} from "react-redux";

@@ -26,7 +26,8 @@ const MenuNavigator = () => {
             fontWeight: 'bold',
             color: 'white'
         },
-        headerTransparent: true
+        headerTransparent: true,
+        headerBackTitleVisible: false
     });
     return (
         <MenuStack.Navigator>

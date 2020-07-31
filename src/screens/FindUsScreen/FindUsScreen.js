@@ -15,11 +15,6 @@ import {
 import {translate} from "../../helpers/translates";
 import BG from "../../assets/img/bg_main.png";
 import ImagesPreviewModal from "../../components/modals/ImagesPreviewModal";
-import Swiper from "react-native-swiper";
-import map1 from '../../assets/img/map-1.png'
-import map2 from '../../assets/img/map-2.png'
-
-const { width } = Dimensions.get('window')
 
 class FindUsScreen extends Component {
 
@@ -57,25 +52,18 @@ class FindUsScreen extends Component {
     }
 
     render() {
+        const {findData={}} = this.props;
         const {isShowPreview} = this.state;
-        const mapUrls = [map1, map2];
-        const imagesPreview = mapUrls.map((image) => {
-            return {
-                url: '',
-                props: {
-                    source: image
-                }
-            }
-        })
+        const {mapUrl} = findData;
         return (
             <ImageBackground source={BG} style={styles.outtercontainer}>
                 <SafeAreaView style={styles.container}>
                     <View style={styles.contentContainer}>
-                        <Map mapUrls={mapUrls} onPress={this.handlePreviewOpen} />
+                        <Map mapUrl={mapUrl} onPress={this.handlePreviewOpen} />
                     </View>
                     <GoButton onPress={this.handleClickMap} t={this.t} />
                 </SafeAreaView>
-                {mapUrls && <ImagesPreviewModal visible={isShowPreview} images={imagesPreview} onClose={this.handlePreviewClose} />}
+                {mapUrl && <ImagesPreviewModal visible={isShowPreview} images={[{url: mapUrl}]} onClose={this.handlePreviewClose} />}
             </ImageBackground>
         )
     }
@@ -84,26 +72,13 @@ class FindUsScreen extends Component {
 export default FindUsScreen;
 
 const Map = props => {
-    const {mapUrls, onPress} = props;
+    const {mapUrl, onPress} = props;
     return (
-        <Swiper
-            style={styles.wrapper}
-            containerStyle={styles.itemContainer}
-            autoplay
-            loop
-            autoplayTimeout={5}
-            dot={<View style={styles.dot} />}
-            activeDot={<View style={styles.activeDot} />}
-        >
-            {mapUrls.map((image, key) => (
-                <TouchableWithoutFeedback key={key} onPress={onPress}>
-                    <View style={styles.mapContainer}>
-                        <Image style={styles.map} source={image} />
-                    </View>
-                </TouchableWithoutFeedback>
-            ))}
-        </Swiper>
-
+        <TouchableWithoutFeedback onPress={onPress}>
+            <View style={styles.mapContainer}>
+                <Image style={styles.map} source={{uri: mapUrl}} />
+            </View>
+        </TouchableWithoutFeedback>
     )
 };
 
@@ -187,28 +162,5 @@ const styles = StyleSheet.create({
         fontWeight: '500',
         color: 'white',
         fontFamily: Platform.OS === 'ios'? 'PT Mono' : 'ptmono_regular',
-    },
-    itemContainer: {
-        overflow: 'hidden',
-    },
-    dot: {
-        backgroundColor: 'white',
-        width: 8,
-        height: 8,
-        borderRadius: 4,
-        marginLeft: 3,
-        marginRight: 3,
-        marginTop: 3,
-        marginBottom: 3
-    },
-    activeDot: {
-        backgroundColor: '#4D3606',
-        width: 10,
-        height: 10,
-        borderRadius: 5,
-        marginLeft: 3,
-        marginRight: 3,
-        marginTop: 3,
-        marginBottom: 3
     }
 });

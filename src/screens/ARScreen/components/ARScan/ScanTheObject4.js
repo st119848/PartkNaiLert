@@ -5,7 +5,7 @@ import PNLAR4 from "../Scene/PNLAR4";
 import PNLARThree39 from "../Scene/PNLARThree39";
 import PNLARThree40 from "../Scene/PNLARThree40";
 import PNLARThree49 from "../Scene/PNLARThree49";
-import { ViroARSceneNavigator } from "react-viro";
+import { ViroARSceneNavigator } from "@citychallenge/react-viro";
 import Header from "../Header/Header";
 import { Theme, BottomText, Border } from "./style";
 import {connect} from "react-redux";

@@ -10,7 +10,7 @@ import {
 	ViroARScene,
 	ViroARImageMarker,
 	ViroARTrackingTargets,
-} from "react-viro";
+} from "@citychallenge/react-viro";
 
 class PNLAR1 extends Component{
 	constructor(props) {

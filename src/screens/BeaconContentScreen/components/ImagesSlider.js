@@ -16,6 +16,7 @@ class ImagesSlider extends Component {
                     autoplay
                     loop
                     autoplayTimeout={5}
+                    removeClippedSubviews={false}
                     dot={<View style={styles.dot} />}
                     activeDot={<View style={styles.activeDot} />}
                 >

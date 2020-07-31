@@ -7,7 +7,7 @@ import {
 	ViroARScene,
 	ViroARImageMarker,
 	ViroARTrackingTargets,
-} from "react-viro";
+} from "@citychallenge/react-viro";
 import {connect} from "react-redux";
 import {getMarkerData, getMarkers} from "../../../../helpers/ar";
 

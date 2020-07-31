@@ -2,7 +2,7 @@
 
 import React, { Component } from "react";
 import PNLAR5 from "../Scene/PNLAR5";
-import { ViroARSceneNavigator } from "react-viro";
+import { ViroARSceneNavigator } from "@citychallenge/react-viro";
 import Header from "../Header/Header";
 import { Theme, BottomText, Border } from "./style";
 import {connect} from "react-redux";

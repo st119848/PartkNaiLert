@@ -6,42 +6,48 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="feat(findUs): update map images">
-      <change afterPath="$PROJECT_DIR$/android/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/ic_launcher-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+    <list default="true" id="bc916426-a10b-4ab3-ae9b-5ed080efcaef" name="Default" comment="fix(app): change viro repo + add map to select zone screen">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/map-0.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_android/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/_android/app/google-services.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/parknailert/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/parknailert/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/parknailert.xcodeproj/xcshareddata/xcschemes/parknailert.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert.xcodeproj/xcshareddata/xcschemes/parknailert.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/parknailert/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/parknailert/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/parknailert/Info.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/map-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/map-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/map-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/map-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/naivigator/MenuNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/naivigator/MenuNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject6.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR6.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree13.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree16.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree16.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree19.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree19.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree24.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree24.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree31.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree31.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree32.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree32.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree39.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree39.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree40.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree40.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree41.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree41.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree45.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree45.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree49.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree49.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/ZoneSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/ZoneSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/BeaconContentScreen/components/ImagesSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/BeaconContentScreen/components/ImagesSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,12 +56,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/naivigator/AppNavigator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="70" column="63" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
+            <state relative-caret-position="525">
+              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -64,39 +70,88 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/modals/ARModal.js">
+        <entry file="file://$PROJECT_DIR$/src/naivigator/MenuNavigator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="105">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/AsyncScreens/AsyncScreens.js">
+        <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="1980">
+              <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App.js">
+        <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+            <state relative-caret-position="165">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/components/ImagesSlider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            <state relative-caret-position="315">
+              <caret line="27" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/map-2.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1009">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/ZoneSelector.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="165" column="34" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="34" />
+              <folding>
+                <element signature="e#15#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/style.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/img/map-1.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -111,11 +166,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>s/sticker</find>
-      <find>'id': 49,</find>
-      <find>/marker</find>
-      <find>physicalWidth</find>
-      <find>stickers</find>
       <find>0.04</find>
       <find>viro</find>
       <find>onContextChange</find>
@@ -141,6 +191,11 @@
       <find>ARScreen</find>
       <find>&lt;ARModal</find>
       <find>AsyncScreens</find>
+      <find>@citychallenge/react-viro</find>
+      <find>&quot;react-viro&quot;</find>
+      <find>activeHighlightItem</find>
+      <find>SET_ACTIVE_HIGHLIGHT_ITEM</find>
+      <find>&lt;Swiper</find>
     </findStrings>
     <replaceStrings>
       <replace>white</replace>
@@ -160,6 +215,7 @@
       <replace>s/</replace>
       <replace>0.04</replace>
       <replace>0.02</replace>
+      <replace>&quot;@citychallenge/react-viro&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/screens2</dir>
@@ -176,18 +232,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject2.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject3.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject4.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject6.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject5.js" />
         <option value="$PROJECT_DIR$/src/config/ar.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/MarkerDetail/index.js" />
-        <option value="$PROJECT_DIR$/android/app/build.gradle" />
         <option value="$PROJECT_DIR$/src/reducers/actions/beacons.js" />
         <option value="$PROJECT_DIR$/src/components/modals/ImagesPreviewModal.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/components/HighLight.js" />
-        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/Detail.js" />
         <option value="$PROJECT_DIR$/.gitattributes" />
         <option value="$PROJECT_DIR$/.flowconfig" />
@@ -195,7 +244,6 @@
         <option value="$PROJECT_DIR$/src/screens/AsyncScreens/AsyncScreens.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/loading/ContentDetailLoading.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/ios/Podfile" />
         <option value="$PROJECT_DIR$/ios/parknailert/AppDelegate.m" />
         <option value="$PROJECT_DIR$/src/components/header/HeaderBackground.js" />
         <option value="$PROJECT_DIR$/src/screens/ContactUsScreens/ContactUsScreens.js" />
@@ -207,11 +255,8 @@
         <option value="$PROJECT_DIR$/src/screens/BeaconContentScreen/BeaconContentScreen.js" />
         <option value="$PROJECT_DIR$/tools/BeaconScan/BeaconScan.js" />
         <option value="$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js" />
-        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ContentListScreen/ContentListScreen.js" />
         <option value="$PROJECT_DIR$/src/components/header/LangSettingButton.js" />
-        <option value="$PROJECT_DIR$/src/naivigator/MenuNavigator.js" />
-        <option value="$PROJECT_DIR$/src/helpers/firebase.js" />
         <option value="$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree45.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree4.js" />
@@ -221,16 +266,27 @@
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree39.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree40.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree41.js" />
-        <option value="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/ARScreen/components/Header/Header.js" />
-        <option value="$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js" />
         <option value="$PROJECT_DIR$/android/gradle.properties" />
         <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/src/helpers/firebase.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject1.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js" />
         <option value="$PROJECT_DIR$/src/naivigator/AppNavigator.js" />
+        <option value="$PROJECT_DIR$/node_modules/react-viro/package.json" />
+        <option value="$PROJECT_DIR$/android/app/build.gradle" />
+        <option value="$PROJECT_DIR$/ios/Podfile" />
+        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js" />
+        <option value="$PROJECT_DIR$/src/screens/BeaconContentScreen/components/ImagesSlider.js" />
+        <option value="$PROJECT_DIR$/src/naivigator/MenuNavigator.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/style.js" />
+        <option value="$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/ZoneSelector.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -249,30 +305,49 @@
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
               <item name="parknailert" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="naivigator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="ARScreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="ARScreen" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parknailert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parknailert" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="ARScreen" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ZoneSelector" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,25 +363,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_android/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_android/app" />
-      <recent name="$PROJECT_DIR$/src/assets/img" />
-      <recent name="$PROJECT_DIR$/src/assets/3D" />
-      <recent name="$PROJECT_DIR$/ios" />
-      <recent name="$PROJECT_DIR$/src/assets/img/stickers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/src/screens/ARScreen/components" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/assets/img/markers/1" />
-      <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/ios/parknailert" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/_android/app" />
+      <recent name="$PROJECT_DIR$/src/assets/3D" />
+      <recent name="$PROJECT_DIR$/ios" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -457,21 +532,10 @@
       <workItem from="1595916998314" duration="12874000" />
       <workItem from="1595934388509" duration="32651000" />
       <workItem from="1596084786254" duration="1764000" />
-      <workItem from="1596099079681" duration="2300000" />
-    </task>
-    <task id="LOCAL-00069" summary="feat(android): set font">
-      <created>1573757794006</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1573757794006</updated>
-    </task>
-    <task id="LOCAL-00070" summary="feat(android): set font">
-      <created>1573758051916</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1573758051916</updated>
+      <workItem from="1596099079681" duration="8694000" />
+      <workItem from="1596125579474" duration="287000" />
+      <workItem from="1596157265087" duration="3893000" />
+      <workItem from="1596184130686" duration="2198000" />
     </task>
     <task id="LOCAL-00071" summary="feat(android): active ar (old one)">
       <created>1573760018348</created>
@@ -802,17 +866,31 @@
       <option name="project" value="LOCAL" />
       <updated>1596037935991</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="fix(android): fix android crash">
+      <created>1596105650641</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1596105650642</updated>
+    </task>
+    <task id="LOCAL-00119" summary="fix(android): fix android dynamic link">
+      <created>1596114773180</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1596114773181</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="737492000" />
+    <option name="totallyTimeSpent" value="750264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17420132" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17420132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Captures" order="3" weight="0.25" />
@@ -827,7 +905,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4996986" visible="true" weight="0.5214286" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4996986" visible="true" weight="0.5214286" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50030136" side_tool="true" weight="0.5214286" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4996986" weight="0.35918367" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -897,8 +975,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="merge(app): merge conflict" />
-    <MESSAGE value="fix(AR): AR not show" />
     <MESSAGE value="fix(AR): translate + back button" />
     <MESSAGE value="feat(AR): update AR file + update AR scale" />
     <MESSAGE value="feat(app-detail): translate for play sound button" />
@@ -922,119 +998,11 @@
     <MESSAGE value="feat(share): integrate share function for ios" />
     <MESSAGE value="fix(AR): fix cannot go back on ar" />
     <MESSAGE value="feat(findUs): update map images" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(findUs): update map images" />
+    <MESSAGE value="fix(android): fix android crash" />
+    <MESSAGE value="fix(android): fix android dynamic link" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(android): fix android dynamic link" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/naivigator/AuthloadingScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/LangSettingButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/naivigator/MenuNavigator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#16#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/Podfile.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@react-native-firebase/dynamic-links/lib/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="458" column="32" selection-start-line="458" selection-start-column="32" selection-end-line="458" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/firebase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen/HomeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/ar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24711" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree45.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
-          <folding>
-            <element signature="e#15#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree49.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-599" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree32.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLAR3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree31.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/Scene/PNLARThree19.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
@@ -1110,40 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/ar_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="64" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/ZoneSelector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-349">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/MarkerDetail/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1161,29 +1095,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/modals/ImagesPreviewModal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="115" column="39" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1210,16 +1127,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_android/app/google-services.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -1262,19 +1169,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/node_modules/react-viro/package.json" />
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/ar_container.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        <state relative-caret-position="195">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/ARScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ARScan/ScanTheObject1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="e#15#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/firebase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_android/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@citychallenge/react-viro/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/stores/contents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="73" column="50" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/actions/contents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/contents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/map-0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/naivigator/AppNavigator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="70" column="63" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
+        <state relative-caret-position="525">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/naivigator/MenuNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/ContentDetailScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ContentDetailScreen/components/ImagesSlider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/BeaconContentScreen/components/ImagesSlider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/map-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/map-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/FindUsScreen/FindUsScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1009">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ARScreen/components/ZoneSelector/ZoneSelector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="165" column="34" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="34" />
+          <folding>
+            <element signature="e#15#54#0" expanded="true" />
           </folding>
         </state>
       </provider>

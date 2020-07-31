@@ -6,7 +6,8 @@ export const Theme = styled.SafeAreaView`
 `;
 
 export const Container = styled.View`
-	padding: 60px 28px 20px 28px;
+    flex: 1;
+	padding: 0 28px 20px 28px;
     align-items: center;
 `;
 
@@ -50,7 +51,7 @@ export const TitleText = styled.Text`
     line-height: 19px;
     text-align: left;
     color: white;
-    margin-bottom: 25px;
+    margin-bottom: 0;
 `;
 
 export const DetailText = styled.Text`
