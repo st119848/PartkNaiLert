@@ -30,7 +30,7 @@ export default class HomeScreen extends Component {
 
     handleARButtonClick = () => {
         const {navigation} = this.props;
-        navigation.navigate('AR');
+        navigation.navigate('ARZoneSelector');
     };
 
     handleMoreItemClick = () => {

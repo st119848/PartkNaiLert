@@ -6,13 +6,11 @@ import {
     ImageBackground,
     Platform
 } from 'react-native'
-import HeaderTitle from "../../components/header/HeaderTitle";
 import ImagesSlider from "./components/ImagesSlider";
 import Detail from "./components/Detail";
 import Sound from 'react-native-sound';
 import Share from 'react-native-share';
 import {dynamicEventLink} from './../../helpers/firebase'
-import LangSettingButton from "../../components/header/LangSettingButton";
 import BG from "../../assets/img/bg_main.png";
 import ContentDetailLoading from './components/loading/ContentDetailLoading'
 import {translate} from "../../helpers/translates";
@@ -20,20 +18,6 @@ import ImagesPreviewModal from "../../components/modals/ImagesPreviewModal";
 import IconButton from "../../components/IconButton";
 
 class ContentDetailScreen extends Component {
-    static navigationOptions = ({ navigation }) => {
-        const {state={}} = navigation;
-        const title = navigation.getParam('title');
-        return {
-            headerRight: <LangSettingButton routeName={state.routeName} />,
-            headerBackTitle: null,
-            headerTintColor: 'white',
-            headerTransparent: true,
-            headerStyle: {
-                backgroundColor: 'rgba(70, 41, 0, 0.8)',
-            },
-            headerTitle: <HeaderTitle title={title} />,
-        };
-    };
 
     state={
         audioStatus: 'pause',
@@ -82,6 +66,30 @@ class ContentDetailScreen extends Component {
         const {language} = this.props;
         return translate(language, key, find, replace);
     };
+
+    componentWillReceiveProps(nextProps, nextContext) {
+        const {activeHighlightItem={}} = nextProps;
+
+
+        if(activeHighlightItem !== this.props.activeHighlightItem) {
+            const {sound} = activeHighlightItem;
+            if(sound) {
+                this.player && this.player.stop();
+                this.setState({
+                    isPlayingAudio: false,
+                    audioStatus: 'pause',
+                    isCanPlay: false,
+                })
+                this.player = new Sound(sound, '', (error) => {
+                    if (error) {
+                        this.setState({isCanPlay: false});
+                    } else {
+                        this.setState({isCanPlay: true});
+                    }
+                });
+            }
+        }
+    }
 
     componentDidMount(){
         const {activeHighlightItem={}} = this.props;
@@ -148,7 +156,6 @@ const Content = props => {
     const {images, item, isCanPlay, audioStatus, onShare, onPlaySound, t, onImagePress, } = props;
     return (
         <>
-            <ShareButton onShare={onShare} />
             <ImagesSlider images={images} onImagePress={onImagePress}/>
             <Detail
                 {...item}
@@ -161,15 +168,6 @@ const Content = props => {
         </>
     )
 };
-
-const ShareButton = props => {
-    const {onShare} = props;
-    return (
-        <View style={styles.shareIconContainer}>
-            <IconButton style={styles.shareIcon} iconName="sharealt" size={35} onPress={onShare}/>
-        </View>
-    )
-}
 
 export default ContentDetailScreen;
 

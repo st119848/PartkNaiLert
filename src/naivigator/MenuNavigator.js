@@ -12,6 +12,8 @@ import LangSettingButton from "../components/header/LangSettingButton";
 import HeaderBackground from "../components/header/HeaderBackground";
 import {translate} from "../helpers/translates";
 import HeaderTitle from "../components/header/HeaderTitle";
+import ARZoneSelector from "../screens/ARZoneSelector";
+import ARMarkerDetail from "../screens/ARMarkerDetail";
 
 const MenuStack = createStackNavigator();
 
@@ -79,6 +81,26 @@ const MenuNavigator = () => {
                     ...getDefaultOptions({ navigation, route }),
                     headerTitle: () => <HeaderTitle title={t('menus.contactUs')} />,
                 })}
+            />
+            <MenuStack.Screen
+                name="ARZoneSelector"
+                component={ARZoneSelector}
+                options={{
+                    headerTitle: null,
+                    headerTransparent: true,
+                    headerBackTitleVisible: false,
+                    headerTintColor: 'white',
+                }}
+            />
+            <MenuStack.Screen
+                name="ARMarkerDetail"
+                component={ARMarkerDetail}
+                options={{
+                    headerTitle: null,
+                    headerTransparent: true,
+                    headerBackTitleVisible: false,
+                    headerTintColor: 'white',
+                }}
             />
         </MenuStack.Navigator>
     )

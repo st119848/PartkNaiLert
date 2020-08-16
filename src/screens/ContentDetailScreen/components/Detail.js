@@ -10,12 +10,12 @@ import {
 import IconButton from "../../../components/IconButton";
 
 const Detail = props => {
-    const {title, description, isCanPlay} = props
+    const {title, description} = props
     return (
         <View style={styles.container}>
             <Title title={title} />
             <Description description={description}/>
-            {isCanPlay && <BottomTools {...props}/>}
+            <BottomTools {...props}/>
         </View>
     )
 };
@@ -60,18 +60,25 @@ const AudioButton = props => {
 };
 
 const BottomTools = props => {
-    const {audioStatus, onPlaySound, onShare, t} = props;
-    const soundLabel = t('detail.soundLabel');
+    const {onShare, isCanPlay} = props;
     return (
         <View style={styles.bottomToolsContainer}>
             <ShareButton onShare={onShare} />
-            <View style={styles.audioContainer}>
-                <Text style={styles.playTitle}>{soundLabel}</Text>
-                <AudioButton audioStatus={audioStatus} onPress={onPlaySound} t={t} />
-            </View>
+            {isCanPlay && <AudioSection {...props} />}
         </View>
     )
 };
+
+const AudioSection = props => {
+    const {audioStatus, onPlaySound, t} = props;
+    const soundLabel = t('detail.soundLabel');
+    return (
+        <View style={styles.audioContainer}>
+            <Text style={styles.playTitle}>{soundLabel}</Text>
+            <AudioButton audioStatus={audioStatus} onPress={onPlaySound} t={t} />
+        </View>
+    )
+}
 
 const ShareButton = props => {
     const {onShare} = props;

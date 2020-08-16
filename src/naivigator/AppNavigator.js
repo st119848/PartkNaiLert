@@ -8,7 +8,7 @@ import MenuNavigator from "./MenuNavigator"
 import InitialScreen from "./InitialScreen"
 import AsyncStorage from "@react-native-community/async-storage";
 import {settingLanguage} from "../reducers/actions/setting";
-import ARScreen from "../screens/ARScreen";
+import ARNavigator from "./ARNavigator";
 import BeaconContentScreen from "../screens/BeaconContentScreen";
 
 const RootStack = createStackNavigator();
@@ -66,9 +66,9 @@ const InitNavigator = ({setIniting}) => {
 const MainNavigator = () => {
     return (
         <MainStack.Navigator mode="modal" headerMode="none">
-            <RootStack.Screen name="Main" component={MenuNavigator} />
-            <RootStack.Screen name="AR" component={ARScreen} />
-            <RootStack.Screen name="BeaconDetail" component={BeaconContentScreen} />
+            <MainStack.Screen name="Main" component={MenuNavigator} />
+            <MainStack.Screen name="ARScanner" component={ARNavigator} />
+            <MainStack.Screen name="BeaconDetail" component={BeaconContentScreen} />
         </MainStack.Navigator>
     )
 }
