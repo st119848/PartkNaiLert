@@ -5,9 +5,9 @@ import {
     StatusBar,
     Image,
     Linking,
-    // SafeAreaView,
     Platform,
-    ImageBackground
+    ImageBackground,
+    Alert
 } from "react-native";
 import HighLight from "./components/HighLight";
 import BeaconsStatus from "./components/BeaconsStatus";
@@ -20,6 +20,11 @@ import logoName from "../../assets/img/logoName.png";
 import {SafeAreaView} from 'react-native-safe-area-context'
 import ImagesPreviewModal from "../../components/modals/ImagesPreviewModal";
 import BeaconScan from "../../../tools/BeaconScan";
+import {
+    ViroUtils,
+} from "@citychallenge/react-viro";
+
+const isARSupportedOnDevice = ViroUtils.isARSupportedOnDevice;
 
 export default class HomeScreen extends Component {
 
@@ -29,8 +34,17 @@ export default class HomeScreen extends Component {
     };
 
     handleARButtonClick = () => {
-        const {navigation} = this.props;
-        navigation.navigate('ARZoneSelector');
+        const supported = () => {
+            const {navigation} = this.props;
+            navigation.navigate('ARZoneSelector');
+        };
+        const notSupported = () => {
+            Alert.alert(
+                this.t('home.arNotSupported.title'),
+                this.t('home.arNotSupported.detail'),
+            );
+        };
+        isARSupportedOnDevice(notSupported, supported);
     };
 
     handleMoreItemClick = () => {
@@ -92,7 +106,6 @@ export default class HomeScreen extends Component {
     };
 
     goToDetailPage = async (url) => {
-        console.log('test url', url)
         const {id} = getParamsFromUrl(url);
         const {navigation, setActiveHighlightItem, getHighlightListFromApi} = this.props;
         await getHighlightListFromApi();

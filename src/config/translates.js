@@ -34,6 +34,10 @@ const en = {
         },
         language: {
             select: 'Select Language'
+        },
+        arNotSupported: {
+            title: 'Notice',
+            detail: 'AR not supported on this device'
         }
     },
     list: {
@@ -124,6 +128,10 @@ const th = {
         },
         language: {
             select: 'เลือกภาษา'
+        },
+        arNotSupported: {
+            title: 'แจ้งเพื่อทราบ',
+            detail: 'อุปกรณ์นี้ไม่รอง AR'
         }
     },
     list: {
@@ -214,6 +222,10 @@ const zh = {
         },
         language: {
             select: '选择语言'
+        },
+        arNotSupported: {
+            title: '注意',
+            detail: '该设备不支持AR'
         }
     },
     list: {
@@ -304,6 +316,10 @@ const ja = {
         },
         language: {
             select: '言語を選択する'
+        },
+        arNotSupported: {
+            title: '通知',
+            detail: 'このデバイスではARはサポートされていません'
         }
     },
     list: {
