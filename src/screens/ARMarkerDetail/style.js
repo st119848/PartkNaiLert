@@ -25,7 +25,7 @@ export const Touch = styled.TouchableOpacity``;
 export const ThreeDText = styled.Text`
     font-size: 20px;
     font-family: PT Mono;
-    line-height: 22px;
+    line-height: 26px;
     text-align: center;
     padding: 20px 10px 16px 10px;
     color: white;
@@ -39,6 +39,7 @@ export const ImageBox = styled.View`
 export const ImageStyle = styled.Image`
     height: 196px;
     width: 289px;
+    resize-mode: cover;
 `;
 
 export const TextBox = styled.View`

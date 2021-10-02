@@ -334,7 +334,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = WC5U8D9K53;
+						DevelopmentTeam = 225QF6HD9U;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -614,7 +614,7 @@
 				CODE_SIGN_ENTITLEMENTS = parknailert/parknailert.entitlements;
 				CURRENT_PROJECT_VERSION = 0.0.1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = WC5U8D9K53;
+				DEVELOPMENT_TEAM = 225QF6HD9U;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -629,7 +629,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pnl.parknailert;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.parknailert;
 				PRODUCT_NAME = parknailert;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -644,7 +644,7 @@
 				CODE_SIGN_ENTITLEMENTS = parknailert/parknailert.entitlements;
 				CURRENT_PROJECT_VERSION = 0.0.1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = WC5U8D9K53;
+				DEVELOPMENT_TEAM = 225QF6HD9U;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -659,7 +659,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pnl.parknailert;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.parknailert;
 				PRODUCT_NAME = parknailert;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
